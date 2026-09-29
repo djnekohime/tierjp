@@ -55,6 +55,9 @@ tiers:
     - name: For Youth（2022）
       emoji: "🌠"
       reason: アルバム『Proof』収録。ファンとの思い出や歓声も入った、デビューからの日々への感謝の曲。長く応援してきた人ほど泣ける。
+    - name: 'Film out（2021）'
+      emoji: "🎞️"
+      reason: '日本の映画のために作られた日本語オリジナル曲で、back numberの清水依与吏が制作に参加。会えない人への切ない思いを歌う。'
   C:
     - name: Sea（2017）
       emoji: "🌊"

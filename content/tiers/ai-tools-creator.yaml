@@ -29,6 +29,9 @@ tiers:
     - name: Midjourney
       emoji: "🎨"
       reason: 絵の雰囲気・質感の美しさは今もトップクラス。ただし細かい指示どおりに描かせるのは少しコツが要る。
+    - name: 'DeepL'
+      emoji: "🌐"
+      reason: '自然な翻訳で定評のある翻訳ツール。海外向けのSNS投稿や英語の資料を読むときに、作業時間を大きく減らしてくれる。'
   B:
     - name: Canva（AI機能）
       emoji: "🖼️"
@@ -36,10 +39,28 @@ tiers:
     - name: NotebookLM
       emoji: "📓"
       reason: 資料やPDF、動画を読み込ませて、出典つきで要約・質問ができる。調べものの「整理係」として優秀だが、創作そのものは担当外。
+    - name: 'Runway'
+      emoji: "🎬"
+      reason: '動画生成・編集のAIツール。短い映像素材を作ったり、動画を加工したりできる。映像クリエイターの試作に強い。'
+    - name: 'Kling'
+      emoji: "🎞️"
+      reason: 'テキストや画像から動画を作れる動画生成AI。人物の動きが自然と評判で、ショート動画の素材作りに使われている。'
+    - name: 'ElevenLabs'
+      emoji: "🗣️"
+      reason: '自然な読み上げ音声を作れる音声AI。ナレーションや多言語の音声づくりに便利。声の権利には注意して使いたい。'
+    - name: 'Adobe Firefly'
+      emoji: "🔥"
+      reason: 'Adobeの画像生成AI。PhotoshopなどAdobeのソフトと連携しやすく、商用利用を意識した設計が安心材料。'
   C:
     - name: Perplexity
       emoji: "🔎"
       reason: 検索しながら出典つきで答えてくれるリサーチ特化型。調べもの以外の用途は少ないので、使いどころを選ぶ。
+    - name: 'Genspark'
+      emoji: "🔍"
+      reason: '調べものをまとめてくれるAI検索ツール。トレンド調査などに便利だが、創作そのものは担当外なのでC。'
+    - name: 'GitHub Copilot'
+      emoji: "👩‍💻"
+      reason: 'プログラミング専用の相棒。コードを書く人には強力だが、クリエイター全体で見ると使う人は限られる。'
 summary: |
   「1つで全部」ならChatGPT、「作業をまとめて任せる」ならClaudeが二強。そのうえで、音楽ならSuno、絵ならMidjourneyと専門家を足すのが今の最適解。
   AIは組み合わせて使うもの。ランクの低いツールも、得意な場面ではS級の働きをする。

@@ -49,7 +49,7 @@ RANKS = ["S", "A", "B", "C", "D"]
 # ランク帯の小さな一言。推しジャンルなど、Tier表ごとに labels: で上書きできる
 DEFAULT_LABELS = {"S": "最強", "A": "優秀", "B": "ふつう", "C": "微妙", "D": "うーん"}
 RELATED_MAX = 6
-MIN_ITEMS = 5          # これ未満は「中身が薄い」警告
+MIN_ITEMS = 15         # これ未満は「少ない」警告（比べて楽しい表にするため。さくら指定 2026-09-29）
 PORT = 8010
 
 warnings: list[str] = []

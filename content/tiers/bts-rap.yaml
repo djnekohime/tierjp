@@ -44,6 +44,10 @@ tiers:
       short: Silver Spoon
       emoji: "🥄"
       reason: 『花様年華 pt.2』収録。生まれた環境の差を「タカとスズメ」にたとえて皮肉る曲。ノリの良さと社会へのメッセージが両立している。
+    - name: 'Intro: Persona（2019）'
+      short: 'Intro Persona'
+      emoji: "🪞"
+      reason: '『MAP OF THE SOUL : PERSONA』の幕開けを飾るRMのソロラップ。「自分とは何か」を問いかける言葉の勢いが圧巻。'
   B:
     - name: Danger（2014）
       emoji: "⚠️"
@@ -54,6 +58,9 @@ tiers:
     - name: No More Dream（2013）
       emoji: "💭"
       reason: デビュー曲。「お前の夢は何だ」と問いかける、ヒップホップアイドルとしての出発点。
+    - name: 'Dionysus（2019）'
+      emoji: "🍇"
+      reason: '『MAP OF THE SOUL : PERSONA』収録。酒の神ディオニュソスにたとえて、芸術への熱狂を歌う。ラップとパフォーマンスの迫力がすごい。'
   C:
     - name: 'BTS Cypher Pt.2: Triptych（2014）'
       short: Cypher Pt.2
@@ -63,6 +70,10 @@ tiers:
       short: 方言ラップ
       emoji: "🗺️"
       reason: 韓国各地の方言でラップする、デビュー年のユニークな曲。メンバーの出身地の個性が楽しく、BTSを深く知るほど好きになる。
+    - name: 'BTS Cypher Pt.1（2013）'
+      short: 'Cypher Pt.1'
+      emoji: "🎙️"
+      reason: 'デビュー年の『O!RUL8,2?』収録。Cypherシリーズの始まりで、若く荒々しいラップラインの原点が聴ける。'
 summary: |
   BTSの原点はヒップホップ。S〜Aの曲を聴くと、世界的なポップスターになった今も、その根っこが変わっていないことが分かる。
   ラップラインの3人（RM・SUGA・j-hope）のスタイルの違いに注目して聴くと、同じ曲が何倍も面白くなる。
