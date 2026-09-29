@@ -1,16 +1,6 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="hero">
-  <svg class="hero-art" viewBox="0 0 200 180" aria-hidden="true">
-    <defs><radialGradient id="moon" cx="40%" cy="35%"><stop offset="0" stop-color="#fff7fc"/><stop offset="1" stop-color="#ffc4e6"/></radialGradient></defs>
-    <circle cx="100" cy="78" r="70" fill="url(#moon)"/>
-    <circle cx="70" cy="60" r="7" fill="#f7b3da" opacity=".5"/><circle cx="128" cy="96" r="10" fill="#f7b3da" opacity=".4"/>
-    <path d="M132 168 C170 166 172 128 150 118" stroke="#0d0b1f" stroke-width="9" fill="none" stroke-linecap="round"/>
-    <ellipse cx="100" cy="148" rx="36" ry="30" fill="#0d0b1f"/>
-    <circle cx="100" cy="108" r="24" fill="#0d0b1f"/>
-    <polygon points="80,98 81,72 98,88" fill="#0d0b1f"/><polygon points="120,98 119,72 102,88" fill="#0d0b1f"/>
-    <ellipse cx="91" cy="108" rx="3.5" ry="5" fill="#ff5fb8"/><ellipse cx="109" cy="108" rx="3.5" ry="5" fill="#ff5fb8"/>
-  </svg>
   <h1>{{ site.name }}</h1>
   <p>{{ site.tagline }}</p>
   <form class="hero-search" action="/search/"><input name="q" placeholder="Tier表を検索（例：猫、韓国ドラマ、AI）"><button>検索</button></form>

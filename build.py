@@ -298,9 +298,10 @@ def build(include_drafts: bool) -> None:
     featured = [by_slug[s] for s in site.get("featured") or [] if s in by_slug]
 
     # 出力
-    if DIST.exists():
-        shutil.rmtree(DIST)
-    DIST.mkdir()
+    # dist/ の中身だけ消す（プレビュー用サーバーが dist/ を開いていても失敗しないように）
+    DIST.mkdir(exist_ok=True)
+    for child in DIST.iterdir():
+        shutil.rmtree(child) if child.is_dir() else child.unlink()
     shutil.copytree(STATIC, DIST / "static")
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape())

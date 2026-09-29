@@ -19,6 +19,11 @@
 {% block head %}{% endblock %}
 </head>
 <body>
+<div class="bg-video" aria-hidden="true">
+  <video autoplay muted loop playsinline preload="auto" poster="/static/bg-poster.jpg">
+    <source src="/static/bg.mp4" type="video/mp4">
+  </video>
+</div>
 <header class="site-head">
   <div class="wrap head-in">
     <a class="logo" href="/"><span class="logo-mark">🐈‍⬛</span>{{ site.name }}</a>
