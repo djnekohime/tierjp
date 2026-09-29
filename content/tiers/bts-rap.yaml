@@ -12,7 +12,7 @@ criteria: |
   ① ラップそのもののかっこよさ（技術・勢い・言葉の強さ）
   ② ヒップホップグループとしてのBTSらしさが出ているか
   ③ 何度聴いても鳥肌が立つか
-  ※ 2025年までに発表された曲が対象。年は発表年。歌詞は掲載していません
+  ※ 2026年3月のアルバム『ARIRANG』までに発表された曲が対象。年は発表年。歌詞は掲載していません
 rank_notes:
   S: ラップラインの本気が詰まった3曲
   C: 初期のBTSを知るほど好きになる
@@ -48,6 +48,10 @@ tiers:
       short: 'Intro Persona'
       emoji: "🪞"
       reason: '『MAP OF THE SOUL : PERSONA』の幕開けを飾るRMのソロラップ。「自分とは何か」を問いかける言葉の勢いが圧巻。'
+    - name: 'Aliens（2026）'
+      short: 'Aliens'
+      emoji: "👽"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録のラップ曲。80年代のヒップホップの香りがするトラックで、世界に広がった韓国文化とBTS自身の歩みを重ねる。'
   B:
     - name: Danger（2014）
       emoji: "⚠️"
@@ -61,6 +65,14 @@ tiers:
     - name: 'Dionysus（2019）'
       emoji: "🍇"
       reason: '『MAP OF THE SOUL : PERSONA』収録。酒の神ディオニュソスにたとえて、芸術への熱狂を歌う。ラップとパフォーマンスの迫力がすごい。'
+    - name: '2.0（2026）'
+      short: '2.0'
+      emoji: "🔄"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録。ラップを中心に、グループが「アップデート」して新しい段階へ進んだことを宣言する曲。'
+    - name: 'they don''t know ''bout us（2026）'
+      short: 'they don''t know ''bout us'
+      emoji: "🤫"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録。オールドスクールなヒップホップとトラップを混ぜたサウンドで、周りからの見られ方に言い返すラップが聴きどころ。'
   C:
     - name: 'BTS Cypher Pt.2: Triptych（2014）'
       short: Cypher Pt.2

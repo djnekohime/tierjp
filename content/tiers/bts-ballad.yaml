@@ -12,7 +12,7 @@ criteria: |
   ① 聴いていて胸がいっぱいになるか（泣ける度）
   ② 聴き終わったあとも心に残るか
   ③ 歌声の美しさ・表現力
-  ※ 2025年までに発表された曲が対象。年は発表年。歌詞は掲載していません
+  ※ 2026年3月のアルバム『ARIRANG』までに発表された曲が対象。年は発表年。歌詞は掲載していません
 rank_notes:
   S: 夜中にひとりで聴いてはいけない
   C: アルバムの奥に眠る宝物
@@ -42,6 +42,10 @@ tiers:
       short: You Never Walk Alone
       emoji: "🚶"
       reason: 『YOU NEVER WALK ALONE』収録。「君はひとりで歩いているんじゃない」というメッセージが、つらいときの支えになる。
+    - name: 'Please（2026）'
+      short: 'Please'
+      emoji: "🫶"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録。「一緒にいること」をテーマにしたラブソングで、ボーカルラインの歌声が中心。'
   B:
     - name: Life Goes On（2020）
       emoji: "🌱"
@@ -58,6 +62,14 @@ tiers:
     - name: 'Film out（2021）'
       emoji: "🎞️"
       reason: '日本の映画のために作られた日本語オリジナル曲で、back numberの清水依与吏が制作に参加。会えない人への切ない思いを歌う。'
+    - name: 'Like Animals（2026）'
+      short: 'Like Animals'
+      emoji: "🐾"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録。生楽器の温かさが際立つポップロックのバラード。アルバムの後半へと空気を変える一曲。'
+    - name: 'Into the Sun（2026）'
+      short: 'Into the Sun'
+      emoji: "🌅"
+      reason: '5thアルバム『ARIRANG』（2026年3月）の最後を飾る曲。ボコーダーを使ったオルタナティブR&Bで、静かな余韻を残してアルバムが終わる。'
   C:
     - name: Sea（2017）
       emoji: "🌊"
