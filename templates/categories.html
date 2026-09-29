@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}カテゴリー・タグ一覧｜{{ site.name }}{% endblock %}
+{% block main %}
+<h1 class="page-h">カテゴリー</h1>
+<div class="cat-grid">
+{% for c in categories %}<a class="cat {{ '' if c.tiers else 'empty' }}" href="{{ c.url }}"><span>{{ c.emoji }}</span>{{ c.name }}<small>{{ c.tiers|length if c.tiers else '準備中' }}</small></a>{% endfor %}
+</div>
+<h2>タグ</h2>
+<div class="tag-cloud">{% for e in tag_list %}<a href="{{ e.url }}">#{{ e.name }} <small>{{ e.tiers|length }}</small></a>{% endfor %}</div>
+{% endblock %}

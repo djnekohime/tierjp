@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}{{ t.title }}｜{{ site.name }}{% endblock %}
+{% block desc %}{{ t.description }}{% endblock %}
+{% block og %}<meta property="og:type" content="article">
+{% if og %}<meta property="og:image" content="{{ site.base_url.rstrip('/') }}{{ og }}">{% endif %}{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": t.title,
+  "description": t.description,
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "numberOfItems": t.items|length,
+  "itemListElement": t.items|map(attribute='name')|list
+}|tojson }}
+</script>
+{% endblock %}
+{% block main %}
+<nav class="crumb"><a href="/">トップ</a> › <a href="/c/{{ cat.slug }}/">{{ cat.emoji }} {{ cat.name }}</a> › {{ t.title }}</nav>
+
+<article class="tier-page">
+  <h1 class="page-h">{{ t.title }}</h1>
+  <p class="lead">{{ t.description }}</p>
+  <p class="meta">
+    <span>ランク付け：{{ site.ranker }}</span>
+    <span>公開 {{ t.published }}</span>
+    {% if t.updated != t.published %}<span>更新 {{ t.updated }}</span>{% endif %}
+  </p>
+  <p class="tags">{% for g in t.tags %}<a href="{{ tags[g].url }}">#{{ g }}</a>{% endfor %}</p>
+
+  <table class="tier-table">
+    {% for r in RANKS %}
+    <tr>
+      <th class="r-{{ r }}">{{ r }}</th>
+      <td>{% for i in t.rows[r] %}<a class="chip" href="#item-{{ loop.index }}-{{ r }}">{% if i.image %}<img src="{{ i.image }}" alt="">{% endif %}{{ i.name }}</a>{% else %}<span class="none">―</span>{% endfor %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  {% if t.criteria %}
+  <section class="box">
+    <h2>📏 評価基準</h2>
+    <p>{{ t.criteria|replace('\n', '<br>'|safe) }}</p>
+  </section>
+  {% endif %}
+
+  <section>
+    <h2>🤔 なぜこのランク？</h2>
+    {% for r in RANKS %}{% if t.rows[r] %}
+    <div class="rank-block">
+      <h3><span class="badge r-{{ r }}">{{ r }}</span>{% if t.rank_notes[r] %} {{ t.rank_notes[r] }}{% endif %}</h3>
+      {% for i in t.rows[r] %}
+      <div class="reason" id="item-{{ loop.index }}-{{ r }}">
+        <h4>{{ i.name }}
+          {% if t.type == 'challenge' %}
+            {% if i.after %}<span class="move">挑戦前 {{ r }} → 挑戦後 <b class="r-{{ i.after }}">{{ i.after }}</b></span>
+            {% else %}<span class="move muted">未挑戦</span>{% endif %}
+          {% endif %}
+        </h4>
+        <p>{{ i.reason }}</p>
+        {% if i.after_comment %}<p class="after">🗒 やってみた結果：{{ i.after_comment }}</p>{% endif %}
+        {% if i.link %}<p><a class="link-btn" href="{{ i.link }}" rel="sponsored noopener" target="_blank">詳しく見る →</a></p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}{% endfor %}
+  </section>
+
+  {% if t.summary %}
+  <section class="box summary">
+    <h2>📝 総評</h2>
+    <p>{{ t.summary|replace('\n', '<br>'|safe) }}</p>
+  </section>
+  {% endif %}
+
+  <p class="disclaimer">※ このTier表は、AI（{{ site.ranker }}）が上の評価基準に沿って決めたものです。好みや状況によって順位は変わります。</p>
+</article>
+
+{% if t.related %}
+<section>
+  <h2>🔗 関連Tier</h2>
+  <div class="card-grid">{% for t in t.related %}{% include "_card.html" %}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

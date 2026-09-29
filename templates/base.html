@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}｜{{ site.tagline }}{% endblock %}</title>
+<meta name="description" content="{% block desc %}{{ site.tagline }}{% endblock %}">
+<link rel="canonical" href="{{ site.base_url.rstrip('/') }}{{ canonical }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.desc() }}">
+{% block og %}{% endblock %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="logo" href="/"><span class="logo-mark">S</span>{{ site.name }}</a>
+    <nav>
+      <a href="/categories/">カテゴリー</a>
+      <a href="/search/">🔍 検索</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p>{{ site.name }} — {{ site.tagline }}</p>
+    <p class="small">このサイトのランクと理由は、すべてAI（{{ site.ranker }}）が評価基準に沿って決めています。ツッコミ歓迎。</p>
+    <p class="small">© {{ year }} {{ site.name }}</p>
+  </div>
+</footer>
+</body>
+</html>

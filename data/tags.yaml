@@ -1,0 +1,30 @@
+# タグ → URL用の英字（日本語タグはここに追加。無いとビルド時に警告が出る）
+tags:
+  猫: neko
+  犬: inu
+  動物: doubutsu
+  メダカ: medaka
+  多頭飼い: tatougai
+  韓国ドラマ: kandrama
+  韓国語: kankokugo
+  英語: eigo
+  英検: eiken
+  BTS: bts
+  AI: ai
+  画像生成: gazou-seisei
+  動画: douga
+  音楽制作: ongaku-seisaku
+  SNS: sns
+  ショート動画: short
+  昭和: showa
+  レトロ: retro
+  節約: setsuyaku
+  固定費: koteihi
+  世界: sekai
+  旅行: ryokou
+  挑戦: chousen
+  勉強法: benkyouhou
+  初心者: shoshinsha
+  あるある: aruaru
+  家電: kaden
+  2026: "2026"

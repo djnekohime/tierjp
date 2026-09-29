@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <h1>{{ site.name }}</h1>
+  <p>{{ site.tagline }}</p>
+  <form class="hero-search" action="/search/"><input name="q" placeholder="Tier表を検索（例：猫、韓国ドラマ、AI）"><button>検索</button></form>
+  <p class="count">いま <b>{{ tiers|length }}</b> 個のTier表</p>
+</section>
+
+<section>
+  <h2>📂 カテゴリー</h2>
+  <div class="cat-grid">
+  {% for c in categories %}
+    <a class="cat {{ '' if c.tiers else 'empty' }}" href="{{ c.url }}"><span>{{ c.emoji }}</span>{{ c.name }}<small>{{ c.tiers|length if c.tiers else '準備中' }}</small></a>
+  {% endfor %}
+  </div>
+</section>
+
+{% if featured %}
+<section>
+  <h2>🔥 おすすめのTier表</h2>
+  <div class="card-grid">{% for t in featured %}{% include "_card.html" %}{% endfor %}</div>
+</section>
+{% endif %}
+
+<section>
+  <h2>🆕 新着のTier表</h2>
+  <div class="card-grid">{% for t in latest %}{% include "_card.html" %}{% endfor %}</div>
+</section>
+
+<section>
+  <h2># タグから探す</h2>
+  <div class="tag-cloud">{% for e in tag_list %}<a href="{{ e.url }}">#{{ e.name }} <small>{{ e.tiers|length }}</small></a>{% endfor %}</div>
+</section>
+{% endblock %}

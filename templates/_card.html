@@ -1,0 +1,10 @@
+<a class="card" href="{{ t.url }}">
+  <div class="card-mini">
+    {% for r in RANKS %}{% if t.rows[r] %}<span class="mini-row"><b class="r-{{ r }}">{{ r }}</b>{{ t.rows[r]|map(attribute='name')|join('・')|truncate(26, True, '…') }}</span>{% endif %}{% endfor %}
+  </div>
+  <div class="card-body">
+    <span class="card-cat">{{ cat_by_slug[t.category].emoji }} {{ cat_by_slug[t.category].name }}</span>
+    <h3>{{ t.title }}</h3>
+    <p>{{ t.description|truncate(60, True, '…') }}</p>
+  </div>
+</a>

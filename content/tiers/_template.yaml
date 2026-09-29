@@ -1,0 +1,28 @@
+# ▼ Tier表のひな形（このファイルは公開されない）。コピーして「英字のファイル名.yaml」で保存 → URL /tier/ファイル名/
+title: ○○ Tier表
+description: 検索結果に出る1〜2文の説明
+category: animals           # data/categories.yaml の slug
+tags: [猫, 初心者]            # 日本語タグは data/tags.yaml にも登録
+published: 2026-09-29
+# updated: 2026-10-01
+# type: challenge           # やってみたい系だけ（挑戦前→挑戦後を表示）
+# draft: true               # 書きかけ（公開されない）
+criteria: |
+  何を基準にランクを決めたか
+rank_notes:                 # ランクごとの一言（省略OK）
+  S: 迷ったらこれ
+tiers:
+  S:
+    - name: 項目名
+      reason: なぜこのランクか（必須）
+      # image: /static/img/xxx.png
+      # link: https://アフィリエイトURL
+      # after: B                # challengeのみ：挑戦後のランク
+      # after_comment: やってみた感想
+  A: []
+  B: []
+  C: []
+  D: []
+summary: |
+  総評
+related: []                 # 関連Tierのファイル名（書かなくても自動で補う）

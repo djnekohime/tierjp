@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Tier表を検索｜{{ site.name }}{% endblock %}
+{% block main %}
+<h1 class="page-h">🔍 Tier表を検索</h1>
+<input id="q" class="search-box" placeholder="キーワード（タイトル・タグ・ランクに入っている名前）" autofocus>
+<p id="info" class="small"></p>
+<div id="results" class="search-results"></div>
+<script src="/static/search.js"></script>
+{% endblock %}
