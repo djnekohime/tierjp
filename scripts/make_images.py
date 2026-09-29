@@ -216,7 +216,7 @@ def make(slug: str, data: dict) -> None:
         for x in data["tiers"].get(r) or []:
             x = x if isinstance(x, dict) else {"name": x}
             rows[r].append((str(x.get("short") or short_name(str(x["name"]))), str(x.get("emoji") or "")))
-    title = data["title"].replace(" Tier表", "")
+    title = data["title"].replace(" Tier表", "").replace("Tier表", "").strip()
 
     # 横長 1200x630（OG）
     img = night_bg(1200, 630, slug)
