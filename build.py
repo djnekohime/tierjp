@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Tier World（仮） — Tier表の巨大サイト用 静的サイトジェネレーター
+TierJP — Tier表の巨大サイト用 静的サイトジェネレーター
 
 使い方:
     python build.py            # dist/ に書き出し

@@ -1,7 +1,7 @@
 # サイト全体の設定
-name: Tier World
+name: TierJP
 tagline: AIが本気でS〜Dを決める、Tier表の図鑑
-base_url: https://example.com   # 公開ドメインが決まったら書き換える
+base_url: https://tierjp.com
 ranker: AIくろ                  # ランクを決めている担当（AI）
 # トップの「おすすめ」に出すTier（ファイル名）
 featured:
