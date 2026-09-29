@@ -1,0 +1,73 @@
+title: 格闘技団体 Tier表【二次団体・登竜門】
+description: DEEP、修斗、パンクラス、Krush、Road to UFC…未来のスターが育つ登竜門の格闘技団体を、AIが「スター輩出力×試合の熱さ」でランク付け。
+category: kakutougi
+tags: [格闘技, 団体, MMA, キックボクシング]
+published: 2026-09-29
+labels:
+  S: 名門
+  A: スターの登竜門
+  B: 実力派
+  C: 通好み
+criteria: |
+  ① トップ団体（RIZIN・UFC・K-1など）へ選手を送り出しているか
+  ② 団体の歴史・格闘技界での役割
+  ③ 試合の熱さ（若い選手の必死さが見られるか）
+  ※ ここでの「二次団体」は、メジャー団体へ上がる前の選手が戦う登竜門の団体のこと
+rank_notes:
+  S: 日本の格闘技を作ってきた名門
+  C: 未来のスターを先取りできる
+tiers:
+  S:
+    - name: 修斗
+      emoji: "🥋"
+      reason: 1989年に佐山聡が作った、日本のMMAの元祖といえる団体。数多くの名選手を育て、今もRIZINやUFCで戦う選手を送り出している。
+    - name: パンクラス
+      emoji: "🌊"
+      reason: 1993年に船木誠勝・鈴木みのるらが旗揚げした歴史ある団体。ケージ（金網）での試合で、UFCを目指す選手も多い。
+    - name: DEEP
+      emoji: "🌀"
+      reason: 2001年に始まった団体で、RIZINへの登竜門として知られる。DEEPの王者がRIZINで活躍する流れが定着している。
+  A:
+    - name: Krush
+      emoji: "💢"
+      reason: K-1グループの登竜門となる立ち技の大会。Krushで結果を出した選手がK-1のリングへ上がっていく。
+    - name: DEEP JEWELS
+      emoji: "💎"
+      reason: 女子選手だけのMMA大会。RIZINで活躍する女子選手の多くがここから育った、女子格闘技の中心。
+    - name: GRACHAN
+      emoji: "🌱"
+      reason: 若手選手に試合の場を多く提供する団体。ここで経験を積んでRIZINに上がる選手が増えている。
+    - name: Road to UFC
+      emoji: "🛣️"
+      reason: アジアの若手選手がトーナメントで戦い、優勝者がUFCと契約できる大会。日本人選手がUFCへ上がる大きなチャンスになっている。
+    - name: Dana White's Contender Series
+      short: Contender Series
+      emoji: "📝"
+      reason: UFCの代表ダナ・ホワイトの目の前で戦い、勝てばその場でUFC契約をもらえることもある「公開オーディション」。
+  B:
+    - name: LFA
+      emoji: "🗽"
+      reason: アメリカの登竜門団体。LFAの王者からUFCに上がる選手が非常に多く、「UFCへの一番の近道」とも言われる。
+    - name: Cage Warriors
+      emoji: "⚔️"
+      reason: イギリスを中心とした団体で、ヨーロッパの若手の登竜門。ここからUFCのスターになった選手も多い。
+    - name: HEAT
+      emoji: "🌡️"
+      reason: 名古屋を拠点とする総合格闘技とキックの大会。東海地方の選手が上を目指す舞台。
+  C:
+    - name: Fighting NEXUS
+      emoji: "🔗"
+      reason: 若手中心の総合格闘技大会。無名の選手が経験を積み、次の舞台へ進むための場所。
+    - name: GLADIATOR
+      emoji: "🛡️"
+      reason: 大阪を拠点とするMMA大会。関西の若手選手が腕を磨く舞台。
+    - name: Eternal MMA
+      emoji: "🦘"
+      reason: オーストラリアの有力な登竜門団体。オセアニアの選手がUFCを目指す通り道になっている。
+    - name: Jungle Fight
+      emoji: "🌴"
+      reason: ブラジルの登竜門団体。格闘技大国ブラジルから、多くの強豪がここを経て世界へ羽ばたいた。
+summary: |
+  日本の格闘技の土台は、修斗・パンクラス・DEEPの「御三家」。RIZINで活躍する選手の多くが、この3つのどれかで育っている。
+  登竜門の大会は、チケットが安く会場も小さいので、選手を間近で見られるのが魅力。今日の無名の若手が、数年後の大晦日の主役になっているかもしれない。
+related: [kakutougi-dantai-1ji, kakutougi-genre]

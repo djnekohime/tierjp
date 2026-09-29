@@ -1,0 +1,74 @@
+title: 格闘技団体 Tier表【一次団体・メジャー】
+description: UFC、RIZIN、ONE、PFL、K-1、RISE、GLORY…世界と日本のメジャー格闘技団体を、AIが「選手層×大会の規模×見やすさ」でランク付け。
+category: kakutougi
+tags: [格闘技, 団体, MMA, キックボクシング]
+published: 2026-09-29
+labels:
+  S: 世界の頂点
+  A: トップ団体
+  B: 実力派
+  C: 注目団体
+criteria: |
+  ① 所属選手のレベル（世界のトップ選手がいるか）
+  ② 大会の規模・注目度
+  ③ 日本からの見やすさ（配信・放送・日本人選手の出場）
+  ※ ここでの「一次団体」は、トップ選手が集まるメジャー団体のこと。登竜門の団体は「二次団体」のTier表にあります
+rank_notes:
+  S: 世界中の格闘家が目指す舞台
+  C: 地域で絶大な人気を持つ団体
+tiers:
+  S:
+    - name: UFC
+      emoji: "🏆"
+      reason: アメリカに本拠地を置く、世界最高峰のMMA団体。世界中のトップ選手が集まり、「UFCのベルト」は格闘家の最終目標。日本人選手の挑戦も続いている。
+    - name: RIZIN
+      emoji: "🔥"
+      reason: 2015年に旗揚げした日本最大の格闘技イベント。大晦日の大会は年末の風物詩。日本人スターと海外の強豪が戦い、大会ごとのドラマが魅力。
+    - name: ONE Championship
+      short: ONE
+      emoji: "🌏"
+      reason: シンガポールを拠点とするアジア最大の団体。MMAだけでなく、キックボクシング・ムエタイ・グラップリングの世界王者も抱える。
+  A:
+    - name: PFL
+      emoji: "🗓️"
+      reason: アメリカの団体で、1年を通したシーズン制のトーナメントが特徴。2023年にBellatorを買収し、UFCに次ぐ規模に成長した。RIZINとの交流も多い。
+    - name: GLORY
+      emoji: "⚡"
+      reason: オランダを中心に活動する、キックボクシングの世界最高峰の団体。重量級の迫力ある打ち合いが見どころ。
+    - name: K-1
+      emoji: "🥋"
+      reason: 1993年に始まった、日本の立ち技格闘技の代名詞。一時代を築いたブランドで、今も若いスター選手を生み続けている。
+    - name: RISE
+      emoji: "🌅"
+      reason: 那須川天心を生んだ日本の立ち技団体。軽量級の技術レベルが高く、世界の強豪との対抗戦も盛り上がる。
+  B:
+    - name: Bellator
+      emoji: "🔔"
+      reason: 長年UFCに次ぐアメリカ第2の団体として活躍した。2023年にPFLに買収され、RIZINとの対抗戦でも日本のファンに知られる。
+    - name: KSW
+      emoji: "🏟️"
+      reason: ポーランドの大人気MMA団体。スタジアムを満員にする集客力と、豪華な演出で知られる。
+    - name: OKTAGON MMA
+      short: OKTAGON
+      emoji: "🎪"
+      reason: チェコ・スロバキアを中心に急成長した団体。サッカースタジアムでの大会も開くほどの人気を持つ。
+    - name: ACA
+      emoji: "🦅"
+      reason: ロシアの有力MMA団体。レスリングやサンボ出身の強豪選手が多く、実力派がそろう。
+  C:
+    - name: KNOCK OUT
+      emoji: "💥"
+      reason: 日本の立ち技団体。倒し合いを重視したルールで、KOの多いスリリングな試合が見られる。
+    - name: ROAD FC
+      emoji: "🛣️"
+      reason: 韓国を代表するMMA団体。韓国の人気選手が多く出場し、日本人選手との交流戦もある。
+    - name: BRAVE CF
+      emoji: "🦁"
+      reason: 中東のバーレーンを拠点に、世界中で大会を開く団体。さまざまな国の選手が出場する国際色の豊かさが特徴。
+    - name: UAE Warriors
+      emoji: "🏜️"
+      reason: アラブ首長国連邦の団体。中東の格闘技ブームを支え、世界の舞台への足がかりとなる大会を開いている。
+summary: |
+  世界の頂点はUFC。ただ日本から見る楽しさでは、日本人スターが主役になるRIZINが一番。ONEはMMAと立ち技の両方の世界王者がいる、アジアの巨大団体。
+  立ち技（キック）を見るならK-1・RISE・GLORY。団体ごとにルールや雰囲気が違うので、好きな団体を見つけると格闘技観戦が何倍も楽しくなる。
+related: [kakutougi-dantai-2ji, kakutougi-genre, kakutougi-betsuwaku]
