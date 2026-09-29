@@ -14,6 +14,7 @@ rank_notes:                 # ランクごとの一言（省略OK）
 tiers:
   S:
     - name: 項目名
+      emoji: "🐈"                # アイコン（絵文字1つ）
       reason: なぜこのランクか（必須）
       # image: /static/img/xxx.png
       # link: https://アフィリエイトURL

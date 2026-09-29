@@ -77,6 +77,7 @@ class Item:
     name: str
     rank: str
     reason: str = ""
+    emoji: str = ""
     image: str = ""
     link: str = ""
     after: str = ""       # やってみたい系：挑戦後のランク（未挑戦なら空）
@@ -150,6 +151,7 @@ def parse_tier(path: Path) -> Tier | None:
                 name=str(x["name"]),
                 rank=r,
                 reason=str(x.get("reason") or "").strip(),
+                emoji=str(x.get("emoji") or ""),
                 image=x.get("image") or "",
                 link=x.get("link") or "",
                 after=after,
