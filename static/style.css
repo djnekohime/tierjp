@@ -158,3 +158,14 @@ h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--li
 .genre-nav a.empty{opacity:.45;pointer-events:none}
 .genre-nav small{color:var(--muted);font-weight:400;margin-left:4px}
 h2[id^="g-"]{scroll-margin-top:80px}
+/* サイトポリシー系ページ */
+.policy{max-width:760px}
+.policy h2{font-size:1.15rem}
+.policy ul{padding-left:1.3em}
+.policy li{margin:6px 0}
+.policy a{color:var(--pink2)}
+.info-table{border-collapse:collapse;width:100%;margin:10px 0}
+.info-table th,.info-table td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+.info-table th{width:9em;color:var(--muted);font-weight:700}
+.foot-links a{margin:0 10px;font-size:.85rem;color:var(--pink2);text-decoration:none}
+.foot-links a:hover{color:#fff}

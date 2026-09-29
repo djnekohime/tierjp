@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}このサイトについて（運営者情報）｜{{ site.name }}{% endblock %}
+{% block desc %}{{ site.name }}の運営者情報と、AIによるランク付けの方法について。{% endblock %}
+{% block main %}
+<nav class="crumb"><a href="/">トップ</a> › このサイトについて</nav>
+<article class="policy">
+<h1 class="page-h">このサイトについて</h1>
+
+<h2>{{ site.name }}とは</h2>
+<p>{{ site.name }}は、身近な食べ物から、韓国ドラマ、音楽、住みたい街、格闘技まで、あらゆるものを「S・A・B・C・D」のTier表（ランク表）で比べて楽しむサイトです。</p>
+<p>すべてのTier表で、ランクとその理由はAI（{{ site.ranker }}）が決めています。「このランクはおかしい！」というツッコミも含めて、楽しんでいただけたらうれしいです。</p>
+
+<h2>ランクの決め方</h2>
+<ul>
+  <li>各Tier表の「評価基準」に書いた基準に沿って、AIがランクを決めています。</li>
+  <li>実在の作品・人物・お店・街などを扱うTier表は、公開されているランキングや記録、報道などを調べたうえで判断しています。参考にした情報は、各ページに記載しています。</li>
+  <li>AIは実際に食べたり、行ったり、見たりすることはできません。お店や作品の評価は、公開されている評判や実績をもとにした判断です。</li>
+  <li>好みや状況によって評価は変わります。ランクは「一つの見方」としてお楽しみください。</li>
+</ul>
+
+<h2>情報の訂正について</h2>
+<p>内容には十分注意していますが、間違いや古い情報が含まれている可能性があります。事実の誤りや、掲載内容についてのご意見・ご要望（お店や作品の関係者の方からの掲載に関するご相談を含みます）は、<a href="/contact/">お問い合わせ</a>からご連絡ください。確認のうえ、できるだけ早く対応します。</p>
+
+<h2>運営者情報</h2>
+<table class="info-table">
+  <tr><th>サイト名</th><td>{{ site.name }}</td></tr>
+  <tr><th>URL</th><td>{{ site.base_url }}</td></tr>
+  <tr><th>運営者</th><td>{{ site.operator }}</td></tr>
+  <tr><th>開設</th><td>2026年9月</td></tr>
+  <tr><th>ランク付け</th><td>AI（{{ site.ranker }}）</td></tr>
+  <tr><th>お問い合わせ</th><td><a href="/contact/">お問い合わせページ</a></td></tr>
+</table>
+
+<p class="small">関連ページ：<a href="/privacy/">プライバシーポリシー・免責事項</a></p>
+</article>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}お問い合わせ｜{{ site.name }}{% endblock %}
+{% block desc %}{{ site.name }}へのお問い合わせ・情報の訂正依頼・掲載に関するご相談はこちら。{% endblock %}
+{% block main %}
+<nav class="crumb"><a href="/">トップ</a> › お問い合わせ</nav>
+<article class="policy">
+<h1 class="page-h">お問い合わせ</h1>
+<p>{{ site.name }}へのご意見・ご感想、情報の間違いのご指摘、掲載内容に関するご相談（お店・作品などの関係者の方を含みます）は、以下からお送りください。</p>
+
+{% if site.contact_form %}
+<p><a class="link-btn" href="{{ site.contact_form }}" rel="noopener" target="_blank">お問い合わせフォームを開く →</a></p>
+{% elif site.contact_email %}
+<p>メール：<strong>{{ site.contact_email }}</strong></p>
+{% else %}
+<p class="box">お問い合わせ窓口は現在準備中です。準備ができしだい、このページでお知らせします。</p>
+{% endif %}
+
+<h2>お問い合わせの前に</h2>
+<ul>
+  <li>ランクや理由は、AI（{{ site.ranker }}）が評価基準に沿って決めたものです。「このランクは違う！」というご意見も歓迎しますが、すべてを反映できるとは限りません。</li>
+  <li>事実の誤り（年号・名前・閉店など）は、確認のうえ優先して修正します。どのページのどの部分かを書いていただけると助かります。</li>
+  <li>お返事には数日かかる場合があります。内容によってはお返事できないこともありますので、ご了承ください。</li>
+</ul>
+
+<p class="small">いただいた個人情報の取り扱いは、<a href="/privacy/">プライバシーポリシー</a>をご覧ください。</p>
+</article>
+{% endblock %}

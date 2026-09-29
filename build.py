@@ -338,6 +338,8 @@ def build(include_drafts: bool) -> None:
                lead="", items=e["tiers"], groups=[], canonical=e["url"])
     render("categories.html", "categories/index.html", tag_list=tag_list, canonical="/categories/")
     render("search.html", "search/index.html", canonical="/search/")
+    for page in ("about", "privacy", "contact"):   # サイトポリシー系の固定ページ
+        render(f"{page}.html", f"{page}/index.html", canonical=f"/{page}/")
     render("404.html", "404.html", canonical="/404.html")
 
     # 画像（scripts/make_images.py が作ったもの）
@@ -354,7 +356,7 @@ def build(include_drafts: bool) -> None:
 
     # sitemap / robots
     base = site["base_url"].rstrip("/")
-    urls = ["/", "/categories/"] + [t.url for t in tiers] \
+    urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + [t.url for t in tiers] \
         + [c["url"] for c in categories if c["tiers"]] + [e["url"] for e in tags.values()]
     lastmod = {t.url: t.updated.isoformat() for t in tiers}
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
