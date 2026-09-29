@@ -1,6 +1,6 @@
 # サイト全体の設定
-name: TierJP
-tagline: AIが本気でS〜Dを決める、Tier表の図鑑
+name: ティアる。
+tagline: AIが本気で、なんでもTierに。
 base_url: https://tierjp.com
 ranker: AIくろ                  # ランクを決めている担当（AI）
 # トップの「おすすめ」に出すTier（ファイル名）

@@ -109,7 +109,7 @@ def make(slug: str, data: dict) -> None:
     d = ImageDraw.Draw(img)
     d.text((48, 36), title, font=fit_text(d, title, 1104, 48), fill=INK)
     draw_tier(img, (48, 112, 1152, 570), rows, 22)
-    d.text((1152, 600), f"{SITE['name']}｜ランク付け：{SITE['ranker']}", font=font(20, False),
+    d.text((1152, 600), f"{SITE['name']}  tierjp.com｜ランク付け：{SITE['ranker']}", font=font(20, False),
            fill=MUTED, anchor="rm")
     OG_DIR.mkdir(exist_ok=True)
     img.save(OG_DIR / f"{slug}.png", optimize=True)
@@ -126,7 +126,7 @@ def make(slug: str, data: dict) -> None:
         ty += f.size + 16
     d.text((540, ty + 10), "Tier表", font=font(56), fill=COLORS["S"], anchor="mt")
     draw_tier(img, (60, ty + 110, 1020, 1620), rows, 34)
-    d.text((540, 1680), "理由はサイトで → " + SITE["name"], font=font(34, False), fill=MUTED, anchor="mm")
+    d.text((540, 1680), "理由はサイトで → " + SITE["name"] + "  tierjp.com", font=font(34, False), fill=MUTED, anchor="mm")
     SNS_DIR.mkdir(exist_ok=True)
     img.save(SNS_DIR / f"{slug}_9x16.png", optimize=True)
 
