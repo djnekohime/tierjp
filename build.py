@@ -127,6 +127,7 @@ class Tier:
     eyecatch: str
     draft: bool
     related: list["Tier"] = field(default_factory=list)
+    genre: str = ""                    # カテゴリーの中のジャンル（例：食べ物 > ラーメン）
 
     @property
     def ranks(self) -> list[str]:
@@ -207,6 +208,7 @@ def parse_tier(path: Path) -> Tier | None:
         related_slugs=d.get("related") or [],
         eyecatch=d.get("eyecatch") or "",
         draft=bool(d.get("draft")),
+        genre=str(d.get("genre") or ""),
     )
 
     # 薄いページ対策のチェック
@@ -317,11 +319,23 @@ def build(include_drafts: bool) -> None:
         render("tier.html", f"tier/{t.slug}/index.html", t=t,
                cat=cat_by_slug[t.category], og=t.eyecatch or og, canonical=t.url)
     for c in categories:
+        # ジャンルがあるカテゴリーは、ジャンルごとにまとめて表示（categories.yaml の genres の順）
+        groups = []
+        if c.get("genres"):
+            known = [g["name"] for g in c["genres"]]
+            for g in c["genres"]:
+                groups.append({**g, "tiers": [t for t in c["tiers"] if t.genre == g["name"]]})
+            rest = [t for t in c["tiers"] if t.genre not in known]
+            if rest:
+                groups.append({"name": "その他", "emoji": "📦", "tiers": rest})
+            for t in c["tiers"]:
+                if t.genre and t.genre not in known:
+                    warn(f"{t.slug}: ジャンル「{t.genre}」が categories.yaml の {c['slug']} にありません")
         render("list.html", f"c/{c['slug']}/index.html", heading=f"{c['emoji']} {c['name']}のTier表",
-               lead=c.get("description", ""), items=c["tiers"], canonical=c["url"])
+               lead=c.get("description", ""), items=c["tiers"], groups=groups, canonical=c["url"])
     for e in tags.values():
         render("list.html", f"tag/{e['slug']}/index.html", heading=f"#{e['name']} のTier表",
-               lead="", items=e["tiers"], canonical=e["url"])
+               lead="", items=e["tiers"], groups=[], canonical=e["url"])
     render("categories.html", "categories/index.html", tag_list=tag_list, canonical="/categories/")
     render("search.html", "search/index.html", canonical="/search/")
     render("404.html", "404.html", canonical="/404.html")

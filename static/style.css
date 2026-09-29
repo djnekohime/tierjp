@@ -151,3 +151,10 @@ h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--li
   .tile{width:84px;min-height:76px}.tile-emoji{font-size:1.6rem}.tile-name{font-size:.66rem}
   .reason{gap:10px;padding:10px 12px}.reason-emoji{font-size:1.6rem}
 }
+/* カテゴリー内のジャンル目次 */
+.genre-nav{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px}
+.genre-nav a{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:5px 14px;text-decoration:none;font-weight:700;font-size:.9rem}
+.genre-nav a:hover{border-color:var(--pink)}
+.genre-nav a.empty{opacity:.45;pointer-events:none}
+.genre-nav small{color:var(--muted);font-weight:400;margin-left:4px}
+h2[id^="g-"]{scroll-margin-top:80px}

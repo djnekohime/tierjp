@@ -17,7 +17,7 @@
 </script>
 {% endblock %}
 {% block main %}
-<nav class="crumb"><a href="/">トップ</a> › <a href="/c/{{ cat.slug }}/">{{ cat.emoji }} {{ cat.name }}</a> › {{ t.title }}</nav>
+<nav class="crumb"><a href="/">トップ</a> › <a href="/c/{{ cat.slug }}/">{{ cat.emoji }} {{ cat.name }}</a>{% if t.genre %} › <a href="/c/{{ cat.slug }}/#g-{{ t.genre }}">{{ t.genre }}</a>{% endif %} › {{ t.title }}</nav>
 
 <article class="tier-page">
   <h1 class="page-h">{{ t.title }}</h1>

@@ -13,5 +13,24 @@ categories:
   - {slug: kurashi, name: 暮らし, emoji: "🏠", description: 家電・道具・生活の知恵。}
   - {slug: sns, name: SNS・発信, emoji: "📱", description: YouTube・Instagram・TikTokなど発信まわり。}
   - {slug: travel, name: 旅行・世界, emoji: "✈️", description: 世界の国・行ってみたい場所。}
-  - {slug: food, name: 食べ物, emoji: "🍜", description: 食べ物・飲み物。}
+  - slug: food
+    name: 食べ物
+    emoji: "🍜"
+    description: 食べ物・飲み物を、ジャンルごとのお題でランク付け。「あなたなら何をSに置く？」
+    genres:
+      - {name: ラーメン, emoji: "🍜"}
+      - {name: 寿司・海鮮, emoji: "🍣"}
+      - {name: 肉料理, emoji: "🍖"}
+      - {name: ご飯もの, emoji: "🍙"}
+      - {name: カレー, emoji: "🍛"}
+      - {name: 麺・粉もの, emoji: "🍝"}
+      - {name: パン・朝食, emoji: "🍞"}
+      - {name: ファストフード・外食, emoji: "🍔"}
+      - {name: コンビニ・スーパー, emoji: "🏪"}
+      - {name: お菓子・スナック, emoji: "🍪"}
+      - {name: スイーツ, emoji: "🍰"}
+      - {name: 飲み物, emoji: "🥤"}
+      - {name: 野菜・果物, emoji: "🥕"}
+      - {name: 鍋・季節の食べ物, emoji: "🍲"}
+      - {name: 食べ方・食のあるある, emoji: "🥢"}
   - {slug: kakutougi, name: 格闘技, emoji: "🥊", description: RIZIN・UFC・MMAなど。}
