@@ -1,6 +1,8 @@
 # カテゴリー（Tier表は必ずどれか1つに入る）。上から順にトップへ並ぶ。
 # 横断的な分類は tags（複数OK）を使う。
 categories:
+  - {slug: kanryu, name: 韓流, emoji: "🫰", description: 韓国ドラマ・俳優・韓ドラグルメなど、韓流まわりのTier表。}
+  - {slug: bts, name: BTS, emoji: "💜", description: BTS（防弾少年団）の曲やメンバーまわりのTier表。}
   - {slug: yattemitai, name: やってみたい, emoji: "🎯", description: 人生で一度はやってみたいことを、ワクワク度でランク付け。}
   - {slug: animals, name: 猫・動物, emoji: "🐈", description: 猫・犬・小さな生き物まわりのTier表。}
   - {slug: entame, name: エンタメ, emoji: "🎬", description: 韓国ドラマ・映画・芸能など。}
