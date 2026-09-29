@@ -46,6 +46,10 @@ tiers:
       short: 'Please'
       emoji: "🫶"
       reason: '5thアルバム『ARIRANG』（2026年3月）収録。「一緒にいること」をテーマにしたラブソングで、ボーカルラインの歌声が中心。'
+    - name: 'Merry Go Round（2026）'
+      short: 'Merry Go Round'
+      emoji: "🎠"
+      reason: '5thアルバム『ARIRANG』（2026年3月）収録。テーム・インパラのケヴィン・パーカーが制作に参加した、ゆったりと揺れるサイケデリックなサウンド。内と外からのプレッシャーの中で回り続ける気持ちを、しっとりと歌う。'
   B:
     - name: Life Goes On（2020）
       emoji: "🌱"
