@@ -15,6 +15,7 @@ tiers:
   S:
     - name: 項目名
       emoji: "🐈"                # アイコン（絵文字1つ）
+      # short: 短い名前          # タイルに出す名前（長い正式名のとき）
       reason: なぜこのランクか（必須）
       # image: /static/img/xxx.png
       # link: https://アフィリエイトURL

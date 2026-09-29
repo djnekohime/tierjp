@@ -70,6 +70,13 @@ def to_date(v) -> date | None:
     return date.fromisoformat(str(v))
 
 
+def short_name(name: str) -> str:
+    import re
+    n = re.sub(r"（\d{4}）$", "", name)
+    n = re.split(r"〜|〈| -", n)[0]
+    return n.strip() or name
+
+
 # ---------------------------------------------------------------- データ構造
 
 @dataclass
@@ -83,6 +90,13 @@ class Item:
     after: str = ""       # やってみたい系：挑戦後のランク（未挑戦なら空）
     done: date | None = None
     after_comment: str = ""
+
+    short_name: str = ""
+
+    @property
+    def short(self) -> str:
+        """タイル用の短い名前：副題（〜…〜・〈…〉・ -…）と末尾の（年）を省く。YAMLの short: が優先"""
+        return self.short_name or short_name(self.name)
 
     @property
     def moved(self) -> int:
@@ -152,6 +166,7 @@ def parse_tier(path: Path) -> Tier | None:
                 rank=r,
                 reason=str(x.get("reason") or "").strip(),
                 emoji=str(x.get("emoji") or ""),
+                short_name=str(x.get("short") or ""),
                 image=x.get("image") or "",
                 link=x.get("link") or "",
                 after=after,

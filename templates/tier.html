@@ -34,7 +34,7 @@
     {% for r in RANKS %}
     <div class="tier-row{{ ' top' if r == 'S' }}">
       <div class="tier-label r-{{ r }}">{{ r }}<small>{{ labels[r] }}</small></div>
-      <div class="tier-items">{% for i in t.rows[r] %}<a class="tile" href="#item-{{ loop.index }}-{{ r }}" title="{{ i.name }}">{% if i.image %}<img src="{{ i.image }}" alt="">{% elif i.emoji %}<span class="tile-emoji">{{ i.emoji }}</span>{% endif %}<span class="tile-name">{{ i.name }}</span></a>{% else %}<span class="none">―</span>{% endfor %}</div>
+      <div class="tier-items">{% for i in t.rows[r] %}<a class="tile" href="#item-{{ loop.index }}-{{ r }}" title="{{ i.name }}">{% if i.image %}<img src="{{ i.image }}" alt="">{% elif i.emoji %}<span class="tile-emoji">{{ i.emoji }}</span>{% endif %}<span class="tile-name">{{ i.short }}</span></a>{% else %}<span class="none">―</span>{% endfor %}</div>
     </div>
     {% endfor %}
   </div>

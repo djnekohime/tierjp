@@ -14,6 +14,7 @@ Tier表の画像を自動で作る（夜空×ピンクのネオン）。
 from __future__ import annotations
 
 import random
+import re
 import sys
 from pathlib import Path
 
@@ -80,6 +81,13 @@ def rounded_mask(w, h, r):
     return m
 
 
+def short_name(name: str) -> str:
+    """build.py と同じ規則：副題と末尾の（年）を省く"""
+    n = re.sub(r"（\d{4}）$", "", name)
+    n = re.split(r"〜|〈| -", n)[0]
+    return n.strip() or name
+
+
 def emoji_text(e: str) -> str:
     """Pillowは合成絵文字（🐈‍⬛など）をつなげられないので、先頭の1文字にする"""
     return e.split("\u200d")[0] if e else ""
@@ -112,7 +120,16 @@ def wrap2(draw, text, max_w, size):
         lines.append(cur)
         if len(lines) <= 2:
             return lines, f
-    return [text[:8] + "…"], font(12)
+    f = font(12)   # それでも入らなければ3行まで
+    lines, cur = [], ""
+    for ch in text:
+        if draw.textlength(cur + ch, font=f) > max_w:
+            lines.append(cur)
+            cur = ch
+        else:
+            cur += ch
+    lines.append(cur)
+    return lines[:3], f
 
 
 def draw_board(img, box, rows, tile):
@@ -182,7 +199,7 @@ def make(slug: str, data: dict) -> None:
     for r in RANKS:
         for x in data["tiers"].get(r) or []:
             x = x if isinstance(x, dict) else {"name": x}
-            rows[r].append((str(x["name"]), str(x.get("emoji") or "")))
+            rows[r].append((str(x.get("short") or short_name(str(x["name"]))), str(x.get("emoji") or "")))
     title = data["title"].replace(" Tier表", "")
 
     # 横長 1200x630（OG）
