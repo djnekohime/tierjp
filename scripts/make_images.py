@@ -108,6 +108,20 @@ def wrap2(draw, text, max_w, size):
         f = font(s)
         if draw.textlength(text, font=f) <= max_w:
             return [text], f
+    if " " in text:   # 英語は単語の途中で切らない
+        for s in range(size, 11, -1):
+            f = font(s)
+            lines, cur = [], ""
+            for w in text.split(" "):
+                t = (cur + " " + w).strip()
+                if cur and draw.textlength(t, font=f) > max_w:
+                    lines.append(cur)
+                    cur = w
+                else:
+                    cur = t
+            lines.append(cur)
+            if len(lines) <= 2 and all(draw.textlength(l, font=f) <= max_w for l in lines):
+                return lines, f
     for s in range(size, 11, -1):
         f = font(s)
         lines, cur = [], ""
@@ -132,22 +146,24 @@ def wrap2(draw, text, max_w, size):
     return lines[:3], f
 
 
-def draw_board(img, box, rows, tile):
+def draw_board(img, box, rows, tile, labels=None):
     """box内にTier表を描く。tile=タイルの基準サイズ（溢れたら自動で小さくする）"""
     x0, y0, x1, y1 = box
+    last = max((i for i, r in enumerate(RANKS) if rows[r]), default=len(RANKS) - 1)
+    ranks = RANKS[:last + 1]   # 最後の空っぽの行は描かない
     d = ImageDraw.Draw(img)
     while True:
         gap = max(6, tile // 12)
         label_w = int(tile * 0.95)
         per_row = max(1, (x1 - x0 - label_w - gap * 2) // (tile + gap))
-        heights = {r: max(1, -(-len(rows[r]) // per_row)) * (tile + gap) + gap for r in RANKS}
-        total = sum(heights.values()) + gap * 4
+        heights = {r: max(1, -(-len(rows[r]) // per_row)) * (tile + gap) + gap for r in ranks}
+        total = sum(heights.values()) + gap * (len(ranks) - 1)
         if total <= y1 - y0 or tile <= 60:
             break
         tile -= 4
-    extra = max(0, (y1 - y0) - total) // 5
-    y = y0
-    for r in RANKS:
+    extra = min(tile, max(0, (y1 - y0) - total) // len(ranks))
+    y = y0 + max(0, (y1 - y0) - total - extra * len(ranks)) // 2
+    for r in ranks:
         h = heights[r] + extra
         img.paste(Image.new("RGB", (x1 - x0, h), PANEL), (x0, y), rounded_mask(x1 - x0, h, 18))
         if r == "S":

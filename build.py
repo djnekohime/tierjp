@@ -46,6 +46,8 @@ STATIC = ROOT / "static"
 TEMPLATES = ROOT / "templates"
 
 RANKS = ["S", "A", "B", "C", "D"]
+# ランク帯の小さな一言。推しジャンルなど、Tier表ごとに labels: で上書きできる
+DEFAULT_LABELS = {"S": "最強", "A": "優秀", "B": "ふつう", "C": "微妙", "D": "うーん"}
 RELATED_MAX = 6
 MIN_ITEMS = 5          # これ未満は「中身が薄い」警告
 PORT = 8010
@@ -119,11 +121,18 @@ class Tier:
     criteria: str
     summary: str
     rank_notes: dict[str, str]
+    labels: dict[str, str]
     rows: dict[str, list[Item]]
     related_slugs: list[str]
     eyecatch: str
     draft: bool
     related: list["Tier"] = field(default_factory=list)
+
+    @property
+    def ranks(self) -> list[str]:
+        """表に出すランク：最後の空っぽの行（DやC）は省く"""
+        last = max((i for i, r in enumerate(RANKS) if self.rows[r]), default=len(RANKS) - 1)
+        return RANKS[:last + 1]
 
     @property
     def items(self) -> list[Item]:
@@ -140,8 +149,14 @@ class Tier:
 
 def parse_tier(path: Path) -> Tier | None:
     slug = path.stem
-    d = load_yaml(path)
     where = f"content/tiers/{path.name}"
+    try:
+        d = load_yaml(path)
+    except yaml.YAMLError as e:
+        mark = getattr(e, "problem_mark", None)
+        warn(f"{where}: YAMLの書き方エラー（{mark.line + 1 if mark else '?'}行目）→ スキップ。"
+             "文中に「: 」があるなら行全体を ' ' で囲む")
+        return None
     for key in ("title", "category", "tiers"):
         if not d.get(key):
             warn(f"{where}: 「{key}」がありません → スキップ")
@@ -187,6 +202,7 @@ def parse_tier(path: Path) -> Tier | None:
         criteria=str(d.get("criteria") or "").strip(),
         summary=str(d.get("summary") or "").strip(),
         rank_notes={str(k): str(v).strip() for k, v in (d.get("rank_notes") or {}).items()},
+        labels={**DEFAULT_LABELS, **{str(k): str(v) for k, v in (d.get("labels") or {}).items()}},
         rows=rows,
         related_slugs=d.get("related") or [],
         eyecatch=d.get("eyecatch") or "",

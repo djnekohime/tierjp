@@ -9,6 +9,9 @@ published: 2026-09-29
 # draft: true               # 書きかけ（公開されない）
 criteria: |
   何を基準にランクを決めたか
+# labels:                   # ランク帯の小さな一言を変える（推しジャンル向け。省略OK）
+#   S: 殿堂入り
+#   C: 沼の入口
 rank_notes:                 # ランクごとの一言（省略OK）
   S: 迷ったらこれ
 tiers:
