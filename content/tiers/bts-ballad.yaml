@@ -1,0 +1,71 @@
+title: BTSのバラード・エモーショナル曲 Tier表
+description: Spring Day、The Truth Untold、Butterfly、Blue & Grey…BTSの泣ける曲・心にしみる曲を、AIが「泣ける度×心に残る度」でランク付け。
+category: bts
+tags: [BTS, K-POP, バラード]
+published: 2026-09-29
+labels:
+  S: 殿堂入り
+  A: 名曲
+  B: 大好き
+  C: 沼の入口
+criteria: |
+  ① 聴いていて胸がいっぱいになるか（泣ける度）
+  ② 聴き終わったあとも心に残るか
+  ③ 歌声の美しさ・表現力
+  ※ 2025年までに発表された曲が対象。年は発表年。歌詞は掲載していません
+rank_notes:
+  S: 夜中にひとりで聴いてはいけない
+  C: アルバムの奥に眠る宝物
+tiers:
+  S:
+    - name: Spring Day（봄날）（2017）
+      short: Spring Day
+      emoji: "🌸"
+      reason: 会いたい人への思いを、冬から春への季節に重ねた曲。何年たっても聴かれ続ける、BTSのエモーショナルな曲の頂点。
+    - name: The Truth Untold（2018）
+      emoji: "🎭"
+      reason: 『LOVE YOURSELF 轉 Tear』収録、スティーヴ・アオキが参加。本当の自分を見せられない切なさを、ボーカルラインが静かに歌い上げる。
+    - name: Butterfly（2015）
+      emoji: "🦋"
+      reason: 『花様年華 pt.2』収録。今の幸せが蝶のように消えてしまいそうな不安を歌う。はかなく美しいメロディーは、初期の名曲として今も愛されている。
+  A:
+    - name: Blue & Grey（2020）
+      emoji: "🩶"
+      reason: アルバム『BE』収録。Vが中心になって作った曲で、コロナ禍の不安や憂うつをそのまま包み込むように歌う。
+    - name: 2! 3!（2016）
+      emoji: "🤝"
+      reason: ファンに向けて「いい日だけ約束はできないけど、一緒に笑おう」という思いを込めた曲。コンサートで一緒に歌う場面が特別。
+    - name: Zero O'Clock（2020）
+      emoji: "🕛"
+      reason: '『MAP OF THE SOUL : 7』収録のボーカルライン曲。つらい一日が終わって0時になれば、また新しく始まる。疲れた夜に寄り添う優しさ。'
+    - name: 'A Supplementary Story: You Never Walk Alone（2016）'
+      short: You Never Walk Alone
+      emoji: "🚶"
+      reason: 『YOU NEVER WALK ALONE』収録。「君はひとりで歩いているんじゃない」というメッセージが、つらいときの支えになる。
+  B:
+    - name: Life Goes On（2020）
+      emoji: "🌱"
+      reason: 止まった日常の中で「それでも人生は続く」と静かに寄り添う。韓国語の曲として初めてBillboard Hot 100に1位で初登場した。
+    - name: Magic Shop（2018）
+      emoji: "🪄"
+      reason: JUNG KOOKが制作に参加した、ファンのための曲。心がしんどいときに開ける「魔法のお店」というやさしい世界観。
+    - name: Jamais Vu（2020）
+      emoji: "🎮"
+      reason: '『MAP OF THE SOUL : 7』収録、Jin・j-hope・JUNG KOOKのユニット曲。何度傷ついても立ち上がる気持ちを歌う。'
+    - name: For Youth（2022）
+      emoji: "🌠"
+      reason: アルバム『Proof』収録。ファンとの思い出や歓声も入った、デビューからの日々への感謝の曲。長く応援してきた人ほど泣ける。
+  C:
+    - name: Sea（2017）
+      emoji: "🌊"
+      reason: 『LOVE YOURSELF 承 Her』の隠しトラック。デビュー当時の不安な日々を振り返る曲で、知る人ぞ知る名曲。
+    - name: Tomorrow（2014）
+      emoji: "🌄"
+      reason: 『Skool Luv Affair』収録。明日が見えない不安の中でも前に進もうとする、初期の隠れた名曲。
+    - name: Heartbeat（2019）
+      emoji: "💓"
+      reason: ゲーム『BTS WORLD』のために作られた曲。ファンとの出会いを運命にたとえた、優しく温かい一曲。
+summary: |
+  BTSのエモーショナルな曲の多くは、「ファン」や「支え合い」がテーマになっている。だから、ARMYにとってはただのバラードではなく、自分たちの物語でもある。
+  泣きたい夜はSの3曲、元気を出したい朝はZero O'ClockやLife Goes Onがおすすめ。
+related: [bts-songs, bts-dance, bts-solo]

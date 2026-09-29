@@ -1,0 +1,69 @@
+title: BTSのラップ曲 Tier表
+description: Ddaeng、Cypher、UGH!、MIC Drop…BTSのラップ・ヒップホップ曲を、AIが「ラップのかっこよさ×BTSらしさ」でランク付け。
+category: bts
+tags: [BTS, K-POP, ラップ]
+published: 2026-09-29
+labels:
+  S: 殿堂入り
+  A: 名曲
+  B: 大好き
+  C: 沼の入口
+criteria: |
+  ① ラップそのもののかっこよさ（技術・勢い・言葉の強さ）
+  ② ヒップホップグループとしてのBTSらしさが出ているか
+  ③ 何度聴いても鳥肌が立つか
+  ※ 2025年までに発表された曲が対象。年は発表年。歌詞は掲載していません
+rank_notes:
+  S: ラップラインの本気が詰まった3曲
+  C: 初期のBTSを知るほど好きになる
+tiers:
+  S:
+    - name: Ddaeng（2018）
+      emoji: "🔔"
+      reason: デビュー記念のお祭り期間「FESTA」で公開されたラップライン（RM・SUGA・j-hope）の曲。韓国の花札やことわざを使った言葉遊びが見事で、3人のスタイルの違いが一番はっきり分かる。
+    - name: 'BTS Cypher PT.3: KILLER（2014）'
+      short: Cypher PT.3
+      emoji: "🗡️"
+      reason: アルバム『DARK&WILD』収録。ラップラインが実力を見せつけるCypher（サイファー）シリーズの中でも、スピードと攻撃力が別格の一曲。
+    - name: 'Outro: Tear（2018）'
+      short: Outro Tear
+      emoji: "💧"
+      reason: 『LOVE YOURSELF 轉 Tear』の最後を飾るラップライン曲。別れをテーマにした激しくも悲しいラップで、3人の感情が爆発する。ライブでも伝説の一曲。
+  A:
+    - name: UGH!（2020）
+      emoji: "😤"
+      reason: '『MAP OF THE SOUL : 7』収録のラップライン曲。怒りをテーマに、3人が畳みかけるように言葉をぶつける。成長したラップラインの完成形。'
+    - name: BTS Cypher 4（2016）
+      short: Cypher 4
+      emoji: "🔄"
+      reason: アルバム『WINGS』収録。自分を愛することをテーマにした、Cypherシリーズの締めくくり。攻撃的なのにメッセージは前向き。
+    - name: MIC Drop（2017）
+      emoji: "🎤"
+      reason: 『LOVE YOURSELF 承 Her』収録。成功を疑った人たちへの痛快な返事。スティーヴ・アオキのリミックスでアメリカでもヒットした。
+    - name: Silver Spoon（뱁새）（2015）
+      short: Silver Spoon
+      emoji: "🥄"
+      reason: 『花様年華 pt.2』収録。生まれた環境の差を「タカとスズメ」にたとえて皮肉る曲。ノリの良さと社会へのメッセージが両立している。
+  B:
+    - name: Danger（2014）
+      emoji: "⚠️"
+      reason: 『DARK&WILD』のタイトル曲。荒々しいギターとラップで、初期の「ワイルドなBTS」を代表する。
+    - name: N.O（2014）
+      emoji: "🙅"
+      reason: 『O!RUL8,2?』のタイトル曲。大人が決めた道に「NO」と言う、学校3部作の中心の曲。10代の怒りがまっすぐ届く。
+    - name: No More Dream（2013）
+      emoji: "💭"
+      reason: デビュー曲。「お前の夢は何だ」と問いかける、ヒップホップアイドルとしての出発点。
+  C:
+    - name: 'BTS Cypher Pt.2: Triptych（2014）'
+      short: Cypher Pt.2
+      emoji: "🎙️"
+      reason: 『Skool Luv Affair』収録。3部構成でラップラインが次々と登場する。若さゆえの荒さも含めて、成長の記録として聴くと面白い。
+    - name: Paldogangsan（팔도강산）（2013）
+      short: 方言ラップ
+      emoji: "🗺️"
+      reason: 韓国各地の方言でラップする、デビュー年のユニークな曲。メンバーの出身地の個性が楽しく、BTSを深く知るほど好きになる。
+summary: |
+  BTSの原点はヒップホップ。S〜Aの曲を聴くと、世界的なポップスターになった今も、その根っこが変わっていないことが分かる。
+  ラップラインの3人（RM・SUGA・j-hope）のスタイルの違いに注目して聴くと、同じ曲が何倍も面白くなる。
+related: [bts-songs, bts-dance, bts-solo]

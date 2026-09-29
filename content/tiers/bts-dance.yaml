@@ -1,0 +1,65 @@
+title: BTSのダンス曲 Tier表
+description: ON、Not Today、Dope、FIRE、IDOL…BTSのパフォーマンスがすごい曲を、AIが「ダンスの迫力×見て楽しい度」でランク付け。
+category: bts
+tags: [BTS, K-POP, ダンス]
+published: 2026-09-29
+labels:
+  S: 殿堂入り
+  A: 名曲
+  B: 大好き
+  C: 沼の入口
+criteria: |
+  ① ダンス・パフォーマンスの迫力と完成度
+  ② MVやステージを「見て」楽しいか
+  ③ 真似して踊りたくなるか
+  ※ 2025年までに発表された曲が対象。年は発表年
+rank_notes:
+  S: 7人のシンクロ率に鳥肌
+tiers:
+  S:
+    - name: ON（2020）
+      emoji: "🎺"
+      reason: '『MAP OF THE SOUL : 7』のタイトル曲。マーチングバンドのような壮大な音と、大人数のダンサーを従えたパフォーマンスは、BTSのダンスの最高到達点のひとつ。'
+    - name: Not Today（2017）
+      emoji: "✊"
+      reason: 『YOU NEVER WALK ALONE』収録。「今日じゃない、負けない」という戦いの歌。たくさんのダンサーと一緒に隊列を組む群舞は圧巻。
+    - name: Dope（쩔어）（2015）
+      short: Dope
+      emoji: "👮"
+      reason: 『花様年華 pt.1』収録。警察官や医者などいろいろな職業の衣装で踊るMVが有名。休む間もない激しい振り付けで、「ダンスのBTS」を世に知らしめた。
+  A:
+    - name: FIRE（불타오르네）（2016）
+      short: FIRE
+      emoji: "🔥"
+      reason: 『花様年華 Young Forever』のタイトル曲。大勢のダンサーとの群舞と爆発的なエネルギーで、ライブで一番盛り上がる曲のひとつ。
+    - name: IDOL（2018）
+      emoji: "🥁"
+      reason: 韓国の伝統的なリズムと動きを取り入れたダンス。お祭りのような振り付けで、見ているだけで楽しくなる。
+    - name: Blood Sweat & Tears（피 땀 눈물）（2016）
+      short: 血、汗、涙
+      emoji: "🥀"
+      reason: 『WINGS』のタイトル曲。力強さより、しなやかで色っぽい動きが特徴。BTSの表現の幅を大きく広げた。
+    - name: Black Swan（2020）
+      emoji: "🦢"
+      reason: コンテンポラリーダンスを取り入れた、芸術作品のようなパフォーマンス。ダンスで感情を語るBTSの真骨頂。
+  B:
+    - name: DNA（2017）
+      emoji: "🧬"
+      reason: 爽やかな曲に合わせた、キレのあるフォーメーション移動が見どころ。細かい振り付けがぴったりそろう気持ちよさ。
+    - name: Boy In Luv（상남자）（2014）
+      short: Boy In Luv
+      emoji: "🏫"
+      reason: 『Skool Luv Affair』のタイトル曲。制服姿の荒々しいダンスで、初期の「学校3部作」のエネルギーがはじける。
+    - name: Save ME（2016）
+      emoji: "🆘"
+      reason: 草原で踊るMVが印象的。切ないメロディーに合わせた、流れるような振り付けが美しい。
+    - name: Butter（2021）
+      emoji: "🧈"
+      reason: なめらかでおしゃれな振り付け。激しさより、余裕のあるかっこよさで魅せるダンス。
+    - name: Dynamite（2020）
+      emoji: "🧨"
+      reason: ディスコ風の明るく楽しい振り付けで、誰でも真似しやすい。世界中でダンスカバーされた。
+summary: |
+  BTSのダンスの魅力は「7人がひとつの生き物のように動く」こと。Sの3曲は、MVよりもライブ映像で見ると迫力が何倍にもなる。
+  初期のDope・FIREの激しさから、Black Swanの芸術性まで、ダンスの進化を追いかけるのもおすすめ。
+related: [bts-songs, bts-rap, bts-ballad]

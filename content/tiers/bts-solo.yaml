@@ -1,0 +1,136 @@
+title: BTSメンバーのソロ曲 Tier表
+description: Seven、Like Crazy、The Astronaut、Daechwita、Wild Flower…BTSメンバー7人のソロ曲を、AIがランク付け。殿堂入りは1人1曲の代表曲。
+category: bts
+tags: [BTS, K-POP, ソロ]
+published: 2026-09-29
+labels:
+  S: 代表曲
+  A: 名曲
+  B: 大好き
+  C: 沼の入口
+criteria: |
+  ① 曲そのものの完成度
+  ② そのメンバーらしさが一番出ているか
+  ③ 世界での話題性・影響力
+  ※ Sは「メンバーごとの代表曲」として1人1曲。A以下は曲ごとに評価
+  ※ 2025年までに発表された曲が対象。年は発表年
+rank_notes:
+  S: 7人それぞれの「これを聴いて」という1曲
+  C: グループ時代のソロ曲や、ファンへの贈り物
+tiers:
+  S:
+    - name: Wild Flower（RM・2022）
+      short: Wild Flower
+      emoji: "🌼"
+      reason: RMの初のソロアルバム『Indigo』のタイトル曲。華やかな花火より、野に咲く花のように生きたいという思いを歌う。リーダーの内面が一番よく分かる曲。
+    - name: The Astronaut（Jin・2022）
+      short: The Astronaut
+      emoji: "🚀"
+      reason: Coldplayが制作に参加した、Jinからファンへの贈り物のような曲。ファンを自分の宇宙にたとえた優しいメッセージと、伸びやかな歌声。
+    - name: Daechwita（Agust D・2020）
+      short: Daechwita
+      emoji: "👑"
+      reason: SUGAの別名義Agust Dのミックステープ『D-2』のタイトル曲。朝鮮時代の王の行進曲を取り入れた大胆な曲で、時代劇のようなMVも話題に。
+    - name: Arson（j-hope・2022）
+      short: Arson
+      emoji: "🔥"
+      reason: 初のソロアルバム『Jack In The Box』のタイトル曲。明るい「希望」のイメージとは違う、燃えるような情熱と葛藤をぶつけたロック寄りの一曲。
+    - name: Like Crazy（Jimin・2023）
+      short: Like Crazy
+      emoji: "🌀"
+      reason: ソロアルバム『FACE』のタイトル曲。韓国のソロ歌手として初めてBillboard Hot 100で1位を獲得した。夢と現実の間をさまようような切ないシンセポップ。
+    - name: Slow Dancing（V・2023）
+      short: Slow Dancing
+      emoji: "🎷"
+      reason: ソロアルバム『Layover』のタイトル曲。力を抜いたジャジーな曲で、Vの低く甘い声が一番生きる。のんびり聴ける大人の一曲。
+    - name: Seven（JUNG KOOK・2023）
+      short: Seven
+      emoji: "🗓️"
+      reason: Lattoが参加した英語のデビューシングル。Billboard Hot 100で1位を獲得し、世界中で大ヒットした。軽快で誰でも口ずさめる。
+  A:
+    - name: Who（Jimin・2024）
+      short: Who
+      emoji: "🔍"
+      reason: アルバム『MUSE』収録。運命の人を探す思いを歌ったポップで、Billboard Hot 100に長く入り続けるロングヒットになった。
+    - name: Standing Next to You（JUNG KOOK・2023）
+      short: Standing Next to You
+      emoji: "🕺"
+      reason: アルバム『GOLDEN』のタイトル曲。80年代風のファンキーな曲で、ダンスのうまさが最大限に生きている。
+    - name: Haegeum（Agust D・2023）
+      short: Haegeum
+      emoji: "🎻"
+      reason: アルバム『D-DAY』のタイトル曲。韓国の伝統楽器ヘグムの音色を取り入れ、「自由」を縛るものを問う。Daechwitaに続く伝統×ヒップホップの第2弾。
+    - name: Love Me Again（V・2023）
+      short: Love Me Again
+      emoji: "💙"
+      reason: アルバム『Layover』の先行曲。静かでメロウなR&Bで、Vの声の魅力がたっぷり味わえる。
+    - name: Running Wild（Jin・2024）
+      short: Running Wild
+      emoji: "🏃"
+      reason: 除隊後に出したソロアルバム『Happy』のタイトル曲。爽やかなバンドサウンドで、Jinの明るさがそのまま伝わる。
+    - name: Lost!（RM・2024）
+      short: Lost!
+      emoji: "🧭"
+      reason: アルバム『Right Place, Wrong Person』収録。迷うこと自体を肯定する、軽やかで少し不思議な曲。
+    - name: MORE（j-hope・2022）
+      short: MORE
+      emoji: "📦"
+      reason: 『Jack In The Box』の先行曲。もっと上へという渇望をむき出しにした、ヒップホップの一曲。
+  B:
+    - name: People Pt.2（Agust D・2023）
+      short: People Pt.2
+      emoji: "🌙"
+      reason: IUが参加した曲。人と人の関係の難しさを、2人の声が静かに語り合う。
+    - name: 'on the street（j-hope・2023）'
+      short: on the street
+      emoji: "🚶"
+      reason: J. Coleが参加した曲。入隊前にファンへ残した、ヒップホップを始めた頃の原点を思わせる落ち着いた一曲。
+    - name: Set Me Free Pt.2（Jimin・2023）
+      short: Set Me Free Pt.2
+      emoji: "🕊️"
+      reason: アルバム『FACE』の先行曲。激しいダンスとともに、苦しみから抜け出す意志を歌う。
+    - name: 3D（JUNG KOOK・2023）
+      short: 3D
+      emoji: "📱"
+      reason: Jack Harlowが参加した英語曲。遠距離の恋を「3D」にたとえた、ポップでおしゃれな一曲。
+    - name: FRI(END)S（V・2024）
+      short: FRI(END)S
+      emoji: "🫂"
+      reason: 友達以上になりたい気持ちを歌う、軽やかなR&B。Vの柔らかい声が心地いい。
+    - name: Come back to me（RM・2024）
+      short: Come back to me
+      emoji: "🔁"
+      reason: 『Right Place, Wrong Person』のタイトル曲。静かに繰り返すメロディーが、じわじわ心にしみる。
+    - name: Epiphany（Jin・2018）
+      short: Epiphany
+      emoji: "🎹"
+      reason: 『LOVE YOURSELF』シリーズのJinのソロ曲。「自分を愛すること」を歌い上げる、シリーズのテーマそのものの曲。
+  C:
+    - name: Winter Bear（V・2019）
+      short: Winter Bear
+      emoji: "🐻"
+      reason: Vが自分で作り、ファンに無料で公開した曲。冬の日の優しいぬくもりのような歌声で、今も大切にされている贈り物。
+    - name: Still With You（JUNG KOOK・2020）
+      short: Still With You
+      emoji: "🌧️"
+      reason: デビュー記念の「FESTA」で公開した曲。雨の日のように静かで、会えないファンへの思いがこもっている。
+    - name: Filter（Jimin・2020）
+      short: Filter
+      emoji: "🎨"
+      reason: '『MAP OF THE SOUL : 7』のJiminのソロ曲。ラテン風のリズムで、相手に合わせて姿を変える魅力を歌う。'
+    - name: Christmas Tree（V・2021）
+      short: Christmas Tree
+      emoji: "🎄"
+      reason: 韓国ドラマ『その年、私たちは』のために歌ったOST。ドラマファンの間でも愛されている、冬に聴きたい一曲。
+    - name: Serendipity（Jimin・2017）
+      short: Serendipity
+      emoji: "🍬"
+      reason: 『LOVE YOURSELF 承 Her』のJiminのソロ曲。甘く夢のような歌声で、シリーズの幕開けを飾った。
+    - name: Euphoria（JUNG KOOK・2018）
+      short: Euphoria
+      emoji: "🌈"
+      reason: 『LOVE YOURSELF』シリーズのJUNG KOOKのソロ曲。キラキラしたサウンドで、「幸せ」そのものを音にしたような曲。
+summary: |
+  ソロ曲を聴くと、7人がまったく違う音楽性を持っていることに驚く。RMの内省、Jinのまっすぐさ、SUGAの伝統×ヒップホップ、j-hopeの情熱、Jiminの繊細さ、Vの低音の甘さ、JUNG KOOKのポップさ。
+  そのバラバラな7人がひとつになるから、BTSは特別。推しのソロから聴いて、他のメンバーのソロにも手を伸ばしてみて。
+related: [bts-songs, bts-ballad, bts-rap]
