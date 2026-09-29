@@ -5,6 +5,8 @@
   <p>{{ site.tagline }}</p>
   <form class="hero-search" action="/search/"><input name="q" placeholder="Tier表を検索（例：猫、韓国ドラマ、AI）"><button>検索</button></form>
   <p class="count">いま <b>{{ tiers|length }}</b> 個のTier表</p>
+  {% set milestone = (tiers|length // 100) * 100 %}
+  {% if milestone >= 100 %}<p class="milestone">🎉 Tier表が{{ milestone }}本を突破しました！ ご覧いただきありがとうございます。これからも毎日ふえていきます</p>{% endif %}
 </section>
 
 <section>
