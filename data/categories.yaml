@@ -33,4 +33,5 @@ categories:
       - {name: 野菜・果物, emoji: "🥕"}
       - {name: 鍋・季節の食べ物, emoji: "🍲"}
       - {name: 食べ方・食のあるある, emoji: "🥢"}
+      - {name: 世界の料理, emoji: "🌏"}
   - {slug: kakutougi, name: 格闘技, emoji: "🥊", description: RIZIN・UFC・MMAなど。}

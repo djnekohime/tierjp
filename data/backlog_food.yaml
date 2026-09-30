@@ -1,0 +1,197 @@
+# 食べ物カテゴリー 完全版ロードマップ（2026-09-30 作成）
+# ここに無いものは作らない・ここに有るものは作る前に python scripts/backlog.py で重複チェック。
+# 公開済みは content/tiers/ にファイルがあれば自動で「済」になる（ここを手で消さなくてよい）。
+#
+# kind（Tierの3種類）
+#   dish  … 料理・種類そのもの（商品名や商標は避けて「種類」で書く）
+#   chain … チェーン店（実在企業。ランク帯は全部ほめ言葉にして、公開情報で調べる）
+#   shop  … 地域×実店舗（ラーメン店と同じ作り方。AIは食べていない旨を明記）
+# step（作る順番。ChatGPT案の STEP1〜5 に対応）
+#   1 = 全国共通の料理Tier／2 = チェーン店Tier／3 = 都道府県・地域の店／4 = 市区町村の店（厚木で実験）
+
+genres:
+  ラーメン:
+    - {slug: food-ramen-futosa, title: 麺の太さ, kind: dish, step: 1}
+    - {slug: food-ramen-katasa, title: 麺の硬さ, kind: dish, step: 1}
+    - {slug: food-chashu, title: チャーシューの種類, kind: dish, step: 1}
+    - {slug: food-ramen-soup-nomu, title: 飲み干したくなるスープ, kind: dish, step: 1}
+    - {slug: food-ramen-shinya, title: 深夜に食べたいラーメン, kind: dish, step: 1}
+    - {slug: food-tsukemen, title: つけ麺のつけ汁, kind: dish, step: 1}
+    - {slug: food-mazesoba, title: まぜそば・油そばのトッピング, kind: dish, step: 1}
+    - {slug: food-fukuromen, title: 袋麺のアレンジ, kind: dish, step: 1}
+    - {slug: chain-ramen, title: ラーメンチェーン, kind: chain, step: 2}
+    - {slug: chain-iekei, title: 家系ラーメンのチェーン, kind: chain, step: 2}
+    - {slug: shop-ramen-shoyu-tokyo, title: 醤油ラーメンの名店【東京】, kind: shop, step: 3}
+    - {slug: shop-ramen-miso-sapporo, title: 味噌ラーメンの名店【札幌】, kind: shop, step: 3}
+    - {slug: shop-ramen-atsugi, title: ラーメンの名店【厚木】, kind: shop, step: 4}
+  寿司・海鮮:
+    - {slug: food-sushi-saisho, title: 最初に食べる寿司ネタ, kind: dish, step: 1}
+    - {slug: food-sushi-saigo, title: 最後に食べる寿司ネタ, kind: dish, step: 1}
+    - {slug: food-sashimi-yakumi, title: 刺身に合う薬味, kind: dish, step: 1}
+    - {slug: food-temaki, title: 手巻き寿司の具, kind: dish, step: 1}
+    - {slug: food-kai, title: 貝の種類, kind: dish, step: 1}
+    - {slug: food-sakana-tabekata, title: 魚の食べ方, kind: dish, step: 1}
+    - {slug: food-himono, title: 干物の種類, kind: dish, step: 1}
+    - {slug: chain-kaitenzushi, title: 回転寿司チェーン, kind: chain, step: 2}
+    - {slug: shop-sushi-atsugi, title: 寿司の名店【厚木】, kind: shop, step: 4}
+  肉料理:
+    - {slug: food-yakiniku-tare, title: 焼肉のタレ・つけるもの, kind: dish, step: 1}
+    - {slug: food-steak-yakikagen, title: ステーキの焼き加減, kind: dish, step: 1}
+    - {slug: food-steak-bui, title: ステーキの部位, kind: dish, step: 1}
+    - {slug: food-horumon, title: ホルモンの種類, kind: dish, step: 1}
+    - {slug: food-niku-issho, title: 一生食べ続けたい肉料理, kind: dish, step: 1}
+    - {slug: food-butaniku, title: 豚肉料理, kind: dish, step: 1}
+    - {slug: food-toriniku, title: 鶏肉料理, kind: dish, step: 1}
+    - {slug: food-tonkatsu-tsukeru, title: とんかつにつけるもの, kind: dish, step: 1}
+    - {slug: food-sausage, title: ソーセージ・ハムの種類, kind: dish, step: 1}
+    - {slug: chain-yakiniku, title: 焼肉チェーン, kind: chain, step: 2}
+    - {slug: shop-yakiniku-atsugi, title: 焼肉の名店【厚木】, kind: shop, step: 4}
+  ご飯もの:
+    - {slug: food-furikake, title: ふりかけ, kind: dish, step: 1}
+    - {slug: food-omurice-sauce, title: オムライスのソース, kind: dish, step: 1}
+    - {slug: food-zosui, title: 雑炊・おじやの具, kind: dish, step: 1}
+    - {slug: food-teishoku, title: 定食のおかず, kind: dish, step: 1}
+    - {slug: food-tendon, title: 天丼・天ぷらの具, kind: dish, step: 1}
+    - {slug: food-mazegohan, title: 混ぜご飯, kind: dish, step: 1}
+    - {slug: chain-gyudon, title: 牛丼チェーン, kind: chain, step: 2}
+    - {slug: chain-bento, title: お弁当チェーン, kind: chain, step: 2}
+  カレー:
+    - {slug: food-curry-karasa, title: カレーの辛さ, kind: dish, step: 1}
+    - {slug: food-curry-drink, title: カレーと合わせる飲み物, kind: dish, step: 1}
+    - {slug: food-curry-yokujitsu, title: 2日目カレーの食べ方, kind: dish, step: 1}
+    - {slug: food-curry-kenka, title: 入れるとケンカになるカレーの具, kind: dish, step: 1}
+    - {slug: food-soupcurry, title: スープカレーの具, kind: dish, step: 1}
+    - {slug: food-curry-aibo, title: カレーの相棒（ご飯・ナン・パン…）, kind: dish, step: 1}
+    - {slug: chain-curry, title: カレーチェーン, kind: chain, step: 2}
+  麺・粉もの:
+    - {slug: food-somen-yakumi, title: そうめんの薬味, kind: dish, step: 1}
+    - {slug: food-takoyaki-gu, title: たこ焼きの具, kind: dish, step: 1}
+    - {slug: food-udon-topping, title: うどんのトッピング, kind: dish, step: 1}
+    - {slug: food-gyoza, title: 餃子の種類, kind: dish, step: 1}
+    - {slug: food-gyoza-tare, title: 餃子のタレ, kind: dish, step: 1}
+    - {slug: food-monja, title: もんじゃ焼きの具, kind: dish, step: 1}
+    - {slug: food-reimen, title: 冷たい麺料理, kind: dish, step: 1}
+    - {slug: food-sekai-men, title: 世界の麺料理, kind: dish, step: 1}
+    - {slug: chain-udon, title: うどんチェーン, kind: chain, step: 2}
+    - {slug: chain-gyoza, title: 餃子・中華チェーン, kind: chain, step: 2}
+  パン・朝食:
+    - {slug: food-bagel, title: ベーグルの具, kind: dish, step: 1}
+    - {slug: food-conbini-asa, title: コンビニで買う朝ごはん, kind: dish, step: 1}
+    - {slug: food-nebou-asa, title: 寝坊した日の朝ごはん, kind: dish, step: 1}
+    - {slug: food-shokuji-pan, title: 食事パンの種類, kind: dish, step: 1}
+    - {slug: food-medamayaki, title: 目玉焼きにかけるもの, kind: dish, step: 1}
+    - {slug: food-tamago-ryori, title: 卵料理, kind: dish, step: 1}
+    - {slug: food-asa-drink, title: 朝の一杯, kind: dish, step: 1}
+    - {slug: food-washoku-asa, title: 和朝食のおかず, kind: dish, step: 1}
+    - {slug: food-jam, title: ジャムの種類, kind: dish, step: 1}
+    - {slug: food-panya, title: パン屋さんで必ず買うもの, kind: dish, step: 1}
+    - {slug: shop-pan-atsugi, title: パン屋の名店【厚木】, kind: shop, step: 4}
+  ファストフード・外食:
+    - {slug: food-potato-katachi, title: フライドポテトの形, kind: dish, step: 1}
+    - {slug: food-chicken-bui, title: フライドチキンの部位, kind: dish, step: 1}
+    - {slug: food-foodcourt, title: フードコートで選ぶ料理, kind: dish, step: 1}
+    - {slug: food-izakaya, title: 居酒屋の定番メニュー, kind: dish, step: 1}
+    - {slug: food-kissaten, title: 喫茶店のメニュー, kind: dish, step: 1}
+    - {slug: food-chuka-teiban, title: 町中華の定番メニュー, kind: dish, step: 1}
+    - {slug: food-teishokuya, title: 定食屋のメニュー, kind: dish, step: 1}
+    - {slug: chain-burger, title: ハンバーガーチェーン, kind: chain, step: 2}
+    - {slug: chain-famires, title: ファミレスチェーン, kind: chain, step: 2}
+    - {slug: chain-cafe, title: カフェチェーン, kind: chain, step: 2}
+    - {slug: chain-izakaya, title: 居酒屋チェーン, kind: chain, step: 2}
+    - {slug: chain-saizeriya, title: サイゼリヤのメニュー, kind: chain, step: 2}
+    - {slug: chain-mac, title: マクドナルドのメニュー, kind: chain, step: 2}
+    - {slug: shop-cafe-atsugi, title: カフェ・喫茶店の名店【厚木】, kind: shop, step: 4}
+  コンビニ・スーパー:
+    - {slug: food-conbini-bento, title: コンビニ弁当の種類, kind: dish, step: 1}
+    - {slug: food-regiyoko, title: レジ横でつい買うもの, kind: dish, step: 1}
+    - {slug: food-fuyu-conbini, title: 冬のコンビニで買うもの, kind: dish, step: 1}
+    - {slug: food-shodogai, title: 買う予定がなかったのに買った食べ物, kind: dish, step: 1}
+    - {slug: food-conbini-sweets, title: コンビニスイーツの種類, kind: dish, step: 1}
+    - {slug: food-mikiri, title: 見切り品で嬉しいもの, kind: dish, step: 1}
+    - {slug: food-kanzume, title: 缶詰の種類, kind: dish, step: 1}
+    - {slug: food-retort, title: レトルト食品, kind: dish, step: 1}
+    - {slug: chain-conbini, title: コンビニチェーン, kind: chain, step: 2}
+    - {slug: chain-supermarket, title: スーパーマーケットチェーン, kind: chain, step: 2}
+  お菓子・スナック:
+    - {slug: food-imo-okashi, title: じゃがいも系お菓子, kind: dish, step: 1}
+    - {slug: food-gummy, title: グミの食感, kind: dish, step: 1}
+    - {slug: food-ame, title: 飴の味, kind: dish, step: 1}
+    - {slug: food-ensoku, title: 遠足のおやつ, kind: dish, step: 1}
+    - {slug: food-showa-okashi, title: 昭和のお菓子, kind: dish, step: 1}
+    - {slug: food-kaigai-okashi, title: 海外のお菓子, kind: dish, step: 1}
+    - {slug: food-otsumami, title: おつまみ（乾き物）, kind: dish, step: 1}
+    - {slug: food-nuts, title: ナッツの種類, kind: dish, step: 1}
+    - {slug: food-biscuit, title: ビスケット・クラッカー, kind: dish, step: 1}
+  スイーツ:
+    - {slug: food-ichigo-timing, title: ショートケーキのいちごを食べるタイミング, kind: dish, step: 1}
+    - {slug: food-pudding, title: プリンの硬さ, kind: dish, step: 1}
+    - {slug: food-ice-katachi, title: アイスの形, kind: dish, step: 1}
+    - {slug: food-choux, title: シュークリームの中身, kind: dish, step: 1}
+    - {slug: food-hitokuchi, title: 一口のつもりが全部食べるスイーツ, kind: dish, step: 1}
+    - {slug: food-crepe, title: クレープの具, kind: dish, step: 1}
+    - {slug: food-pancake, title: パンケーキのトッピング, kind: dish, step: 1}
+    - {slug: food-cheesecake, title: チーズケーキの種類, kind: dish, step: 1}
+    - {slug: food-matcha-sweets, title: 抹茶スイーツ, kind: dish, step: 1}
+    - {slug: food-kankoku-sweets, title: 韓国スイーツ, kind: dish, step: 1}
+    - {slug: food-taiyaki, title: たい焼き・今川焼きの中身, kind: dish, step: 1}
+    - {slug: food-softcream, title: ソフトクリームの味, kind: dish, step: 1}
+    - {slug: food-birthday-cake, title: 誕生日ケーキ, kind: dish, step: 1}
+    - {slug: shop-sweets-atsugi, title: ケーキ屋の名店【厚木】, kind: shop, step: 4}
+  飲み物:
+    - {slug: food-gyunyu, title: 牛乳と合う食べ物, kind: dish, step: 1}
+    - {slug: food-shokuji-drink, title: 食事中に飲みたいもの, kind: dish, step: 1}
+    - {slug: food-atsui-hi, title: 暑い日の一杯, kind: dish, step: 1}
+    - {slug: food-fuyu-yoru, title: 冬の夜に飲みたいもの, kind: dish, step: 1}
+    - {slug: food-cafe-drink, title: カフェドリンク, kind: dish, step: 1}
+    - {slug: food-osake, title: お酒の種類, kind: dish, step: 1}
+    - {slug: food-kanpai, title: 最初の一杯, kind: dish, step: 1}
+    - {slug: food-nonal, title: ノンアルドリンク, kind: dish, step: 1}
+    - {slug: food-jihanki, title: 自販機で買うもの, kind: dish, step: 1}
+    - {slug: food-tsukare-drink, title: 疲れたときに飲みたいもの, kind: dish, step: 1}
+  野菜・果物:
+    - {slug: food-ichigo-tabekata, title: いちごの食べ方, kind: dish, step: 1}
+    - {slug: food-ureshii-yasai, title: 料理に入っていると嬉しい野菜, kind: dish, step: 1}
+    - {slug: food-natsu-fruits, title: 夏の果物, kind: dish, step: 1}
+    - {slug: food-fuyu-fruits, title: 冬の果物, kind: dish, step: 1}
+    - {slug: food-kinoko, title: きのこの種類, kind: dish, step: 1}
+    - {slug: food-imo, title: いもの種類, kind: dish, step: 1}
+    - {slug: food-tsukemono, title: 漬物の種類, kind: dish, step: 1}
+    - {slug: food-yakumi, title: 薬味, kind: dish, step: 1}
+    - {slug: food-tofu, title: 豆腐・大豆料理, kind: dish, step: 1}
+  鍋・季節の食べ物:
+    - {slug: food-samui-kitaku, title: 寒い日に帰宅して食べたいもの, kind: dish, step: 1}
+    - {slug: food-christmas, title: クリスマスのごちそう, kind: dish, step: 1}
+    - {slug: food-natsubate, title: 夏バテの日に食べたいもの, kind: dish, step: 1}
+    - {slug: food-halloween, title: ハロウィンのお菓子, kind: dish, step: 1}
+    - {slug: food-gyojishoku, title: 行事食（節分・ひな祭り…）, kind: dish, step: 1}
+    - {slug: food-haru, title: 春に食べたいもの, kind: dish, step: 1}
+    - {slug: food-natsu, title: 夏に食べたいもの, kind: dish, step: 1}
+    - {slug: food-fuyu, title: 冬に食べたいもの, kind: dish, step: 1}
+    - {slug: food-toshikoshi, title: 年末年始に食べたいもの, kind: dish, step: 1}
+    - {slug: food-bbq, title: バーベキューで焼きたいもの, kind: dish, step: 1}
+  食べ方・食のあるある:
+    - {slug: food-saigo-hitokuchi, title: 最後の一口に残すもの, kind: dish, step: 1}
+    - {slug: food-mugen, title: 無限に食べられそうなもの, kind: dish, step: 1}
+    - {slug: food-hitokuchi-morau, title: 一口もらうなら嬉しいもの, kind: dish, step: 1}
+    - {slug: food-atatamenaoshi, title: 温め直すと化ける料理, kind: dish, step: 1}
+    - {slug: food-haitoku, title: 深夜の背徳飯, kind: dish, step: 1}
+    - {slug: food-kyushoku, title: 給食の献立, kind: dish, step: 1}
+    - {slug: food-byoki, title: 風邪のときに食べたいもの, kind: dish, step: 1}
+    - {slug: food-ofukuro, title: 実家の味, kind: dish, step: 1}
+    - {slug: food-ryoko, title: 旅行先で必ず食べるもの, kind: dish, step: 1}
+    - {slug: food-diet, title: ダイエット中でも食べたいもの, kind: dish, step: 1}
+    - {slug: food-momeru, title: 食べ方でもめる料理, kind: dish, step: 1}
+  世界の料理:
+    - {slug: food-kankoku, title: 韓国料理, kind: dish, step: 1}
+    - {slug: food-chuka, title: 中華料理, kind: dish, step: 1}
+    - {slug: food-thai, title: タイ料理, kind: dish, step: 1}
+    - {slug: food-india, title: インド料理, kind: dish, step: 1}
+    - {slug: food-italia, title: イタリア料理, kind: dish, step: 1}
+    - {slug: food-taiwan, title: 台湾グルメ, kind: dish, step: 1}
+    - {slug: food-vietnam, title: ベトナム料理, kind: dish, step: 1}
+    - {slug: food-mexico, title: メキシコ料理, kind: dish, step: 1}
+    - {slug: food-france, title: フランス料理, kind: dish, step: 1}
+    - {slug: food-hawaii, title: ハワイ料理, kind: dish, step: 1}
+    - {slug: food-sekai-asa, title: 世界の朝ごはん, kind: dish, step: 1}
+    - {slug: food-sekai-sweets, title: 世界のスイーツ, kind: dish, step: 1}
+    - {slug: food-sekai-yatai, title: 世界の屋台飯, kind: dish, step: 1}
