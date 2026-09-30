@@ -15,7 +15,7 @@ contact_form: ""
 contact_email: ""
 # 公式SNS（urlが空のものは表示しない）。運営用メール＝tierjpcom@gmail.com（公開はしない）
 sns:
-  - {name: X, url: ""}
+  - {name: X, url: "https://x.com/tierjpcom"}
   - {name: Instagram, url: "https://www.instagram.com/tierjpcom/"}
   - {name: TikTok, url: ""}
   - {name: YouTube, url: "https://www.youtube.com/@Tierjp"}

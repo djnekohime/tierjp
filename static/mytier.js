@@ -239,7 +239,7 @@
       out.querySelector(".dl").href = url;
       out.querySelector(".x").href = "https://x.com/intent/post?text=" +
         encodeURIComponent(`わたしの「${D.title}」できた！AIとちがう所は${diff}個🐈‍⬛\n#ティアる #Tier表\n`) +
-        "&url=" + encodeURIComponent(D.url);
+        "&url=" + encodeURIComponent(D.url) + "&via=tierjpcom";
       btn.disabled = false; btn.textContent = "🖼 画像を作り直す";
       out.hidden = false;
       out.scrollIntoView({ behavior: "smooth", block: "center" });
