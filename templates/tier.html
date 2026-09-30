@@ -37,6 +37,7 @@
     </div>
     {% endfor %}
   </div>
+  <p class="my-cta"><a href="#my-tier">🎮 あなたならどう並べる？ 自分のTier表を作って画像にする ↓</a></p>
 
   {% if t.criteria %}
   <section class="box">
@@ -78,6 +79,37 @@
   {% endif %}
 
   <p class="disclaimer">※ このTier表は、AI（{{ site.ranker }}）が上の評価基準に沿って決めたものです。好みや状況によって順位は変わります。</p>
+
+  <section class="box my-tier" id="my-tier">
+    <h2>🎮 あなたのTier表を作る</h2>
+    <p class="my-help">タイルをタップ → 入れたい段をタップ（パソコンはドラッグでもOK）。できたら画像にしてSNSでシェアしてね。AIとちがう所には <span class="ai-mark">AI:S</span> が付きます。</p>
+    <div class="my-tools">
+      <button type="button" data-act="ai">AIと同じ並びから始める</button>
+      <button type="button" data-act="reset">ぜんぶ戻す</button>
+    </div>
+    <p class="my-pool-h">まだ決めてない</p>
+    <div class="my-pool"></div>
+    <div class="my-board"></div>
+    <p class="my-diff"></p>
+    <button type="button" class="my-make" data-act="make">🖼 画像を作る</button>
+    <div class="my-out" hidden>
+      <img alt="あなたのTier表">
+      <div class="my-share">
+        <button type="button" data-act="share">📤 シェア／保存</button>
+        <a class="dl" download="tierjp-{{ t.slug }}.png">⬇ 画像を保存</a>
+        <a class="x" target="_blank" rel="noopener">𝕏 でポスト</a>
+      </div>
+      <p class="my-help">スマホで保存できないときは、画像を長押し →「写真に保存」。</p>
+    </div>
+    <script type="application/json" id="my-tier-data">{{ {
+      "slug": t.slug, "title": t.title, "url": site.base_url.rstrip('/') ~ t.url,
+      "ranks": RANKS, "labels": t.labels,
+      "items": t.items|map(attribute='short')|list,
+      "emoji": t.items|map(attribute='emoji')|list,
+      "ai": t.items|map(attribute='rank')|list
+    }|tojson }}</script>
+  </section>
+  <script src="/static/mytier.js" defer></script>
 </article>
 
 {% if t.related %}

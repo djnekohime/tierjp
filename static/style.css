@@ -170,3 +170,27 @@ html,body{overflow-x:hidden}
 .hero-search input{min-width:0}
 @media (max-width:640px){.hero-search button{padding:0 16px;flex:none}.site-head nav a{margin-left:12px}}
 .milestone{display:inline-block;margin:10px auto 0;padding:8px 18px;border-radius:999px;background:linear-gradient(135deg,rgba(255,95,184,.85),rgba(255,79,139,.85));color:#fff;font-weight:800;box-shadow:0 0 18px rgba(255,95,184,.55)}
+/* あなたのTier表を作る */
+.my-cta{text-align:center;margin:10px 0 0}
+.my-cta a{display:inline-block;padding:8px 18px;border-radius:999px;border:1px solid var(--pink2);color:var(--pink2);text-decoration:none;font-weight:700;background:rgba(13,11,31,.6)}
+.my-cta a:hover{background:var(--pink2);color:#1a1234}
+.my-tier{scroll-margin-top:70px}
+.my-help{font-size:.88rem;color:var(--muted)}
+.my-tools{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}
+.my-tier button{font:inherit;cursor:pointer}
+.my-tools button,.my-share button,.my-share a{border:1px solid var(--line);background:rgba(255,255,255,.07);color:var(--ink);border-radius:999px;padding:6px 16px;font-size:.88rem;font-weight:700;text-decoration:none}
+.my-tools button:hover,.my-share button:hover,.my-share a:hover{border-color:var(--pink)}
+.my-board{display:flex;flex-direction:column;gap:8px}
+.my-row .tier-items{min-height:84px}
+.my-tile{position:relative;color:inherit;cursor:pointer;touch-action:manipulation}
+.my-tile.picked{border-color:var(--cyan);box-shadow:0 0 0 3px var(--cyan),0 0 18px rgba(127,231,255,.6);transform:scale(1.05)}
+.droppable{outline:2px dashed rgba(127,231,255,.55);outline-offset:-3px;cursor:pointer}
+.my-pool-h{margin:4px 0 6px;font-weight:700;color:var(--pink2)}
+.my-pool{display:flex;flex-wrap:wrap;gap:8px;min-height:90px;padding:10px;border-radius:14px;background:rgba(8,6,20,.42);border:1px solid var(--line);margin-bottom:12px}
+.ai-mark{display:inline-block;font-size:.62rem;font-weight:800;line-height:1.5;padding:0 6px;border-radius:999px;background:var(--cyan);color:#1a1030}
+.my-tile .ai-mark{position:absolute;top:3px;right:3px}
+.my-diff{font-weight:700;color:var(--cyan);min-height:1.2em}
+.my-make{display:block;margin:6px auto 4px;border:0;background:linear-gradient(135deg,var(--pink),var(--S));color:#fff;border-radius:999px;padding:12px 34px;font-size:1.05rem;font-weight:800;box-shadow:0 0 18px rgba(255,95,184,.5)}
+.my-out{text-align:center;margin-top:14px}
+.my-out img{max-width:100%;width:420px;border-radius:14px;border:1px solid var(--line);box-shadow:0 8px 28px rgba(0,0,0,.5)}
+.my-share{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:10px}
