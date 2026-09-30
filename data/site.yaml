@@ -13,3 +13,10 @@ operator: ティアる。運営事務局（管理人）
 # お問い合わせ窓口（どちらかを入れるとお問い合わせページに表示。両方空なら「準備中」）
 contact_form: ""
 contact_email: ""
+# 公式SNS（urlが空のものは表示しない）。運営用メール＝tierjpcom@gmail.com（公開はしない）
+sns:
+  - {name: X, url: ""}
+  - {name: Instagram, url: "https://www.instagram.com/tierjpcom/"}
+  - {name: TikTok, url: ""}
+  - {name: YouTube, url: "https://www.youtube.com/@Tierjp"}
+  - {name: Threads, url: ""}

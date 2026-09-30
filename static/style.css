@@ -160,6 +160,9 @@ h2[id^="g-"]{scroll-margin-top:80px}
 .info-table th{width:9em;color:var(--muted);font-weight:700}
 .foot-links a{margin:0 10px;font-size:.85rem;color:var(--pink2);text-decoration:none}
 .foot-links a:hover{color:#fff}
+.foot-sns{font-size:.85rem}
+.foot-sns a{margin:0 8px;padding:3px 12px;border:1px solid var(--pink2);border-radius:999px;color:var(--pink2);text-decoration:none}
+.foot-sns a:hover{background:var(--pink2);color:#1a1234}
 /* 動画背景の上でも文字が読めるように */
 .page-h,.lead,.crumb,.meta span,.hero p,.count,h2{text-shadow:0 1px 8px rgba(0,0,0,.85),0 0 2px rgba(0,0,0,.6)}
 /* スマホではみ出さないように */
