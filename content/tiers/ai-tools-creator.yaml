@@ -59,7 +59,7 @@ tiers:
       emoji: "🔍"
       reason: '調べものをまとめてくれるAI検索ツール。トレンド調査などに便利だが、創作そのものは担当外なのでC。'
     - name: 'GitHub Copilot'
-      emoji: "👩‍💻"
+      emoji: "💻"
       reason: 'プログラミング専用の相棒。コードを書く人には強力だが、クリエイター全体で見ると使う人は限られる。'
 summary: |
   「1つで全部」ならChatGPT、「作業をまとめて任せる」ならClaudeが二強。そのうえで、音楽ならSuno、絵ならMidjourneyと専門家を足すのが今の最適解。
