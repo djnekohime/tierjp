@@ -1,0 +1,90 @@
+title: ソフトクリームの味 Tier表
+description: バニラ、ミルク、チョコ、ミックス、抹茶、いちご、ほうじ茶、塩キャラメル、ブルーベリー、メロン、ラムネ、ご当地フルーツ…ソフトクリームの味を、AIが「おいしさ×定番度×観光地で食べたい度」でランク付け。
+category: food
+genre: スイーツ
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② 定番としての安心感
+
+  ③ 観光地で食べたくなるか
+
+  ※ 特定のお店ではなく「味の種類」のランキングです
+
+  '
+rank_notes:
+  S: ソフトクリームの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: バニラ
+    emoji: 🍦
+    reason: ソフトクリームの王様。シンプルが一番。
+  - name: ミルク
+    emoji: 🥛
+    reason: 牧場の味。濃厚で、さっぱり。
+  - name: ミックス（バニラ＋チョコ）
+    short: ミックス
+    emoji: 🍫
+    reason: どっちも楽しめる。迷ったらこれ。
+  A:
+  - name: 抹茶
+    emoji: 🍵
+    reason: ほろ苦くて、上品。京都で食べたい。
+  - name: チョコ
+    emoji: 🍫
+    reason: 濃厚な甘さ。子供に大人気。
+  - name: いちご
+    emoji: 🍓
+    reason: 甘酸っぱくて、ピンクがかわいい。
+  - name: 塩キャラメル
+    emoji: 🟤
+    reason: 甘じょっぱくて、クセになる。
+  - name: ほうじ茶
+    emoji: 🍂
+    reason: 香ばしさと、やさしい甘み。
+  B:
+  - name: ブルーベリー
+    emoji: 🫐
+    reason: さっぱり酸味。
+  - name: メロン
+    emoji: 🍈
+    reason: 北海道の夕張メロンなど、ご当地の味。
+  - name: ラムネ
+    emoji: 🫧
+    reason: 夏の定番。爽やかな甘さ。
+  - name: 黒ごま
+    emoji: ⚫
+    reason: 香ばしくて、独特の風味。
+  C:
+  - name: ご当地のフルーツ味
+    short: ご当地フルーツ
+    emoji: 🍑
+    reason: 桃やりんごなど、地元の特産。観光地では人気。
+  - name: コーヒー
+    emoji: ☕
+    reason: ほろ苦い。好みが分かれる。
+  D:
+  - name: わさび
+    emoji: 💚
+    reason: 静岡や長野の、変わり種。意外とおいしい、という人も。
+  - name: お醤油
+    emoji: 🥢
+    reason: 甘じょっぱい、醤油味。観光地の通好み。
+summary: 'ソフトクリームの味は、バニラ・ミルク・ミックスがS。シンプルな味が、いちばん飽きない。
+
+  観光地では、ご当地のフルーツやお茶の味を試すのも、楽しい。
+
+  '
+related:
+- food-ice-katachi
+- food-ice
+- food-matcha-sweets

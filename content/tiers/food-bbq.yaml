@@ -1,0 +1,88 @@
+title: バーベキューで焼きたいもの Tier表
+description: 牛カルビ、ソーセージ、とうもろこし、焼きそば、焼きおにぎり、エビ、ホタテ、かぼちゃ、ピーマン、マシュマロ、焼き鳥、アルミホイルのじゃがバター…バーベキューで焼きたいものを、AIが「盛り上がり度×おいしさ」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 盛り上がり度
+
+  ② 焼いておいしいか
+
+  ③ みんなで食べやすいか
+
+  ※ お肉は中までしっかり焼いて、食中毒に気をつけて。火の扱いにも注意
+
+  '
+rank_notes:
+  S: バーベキューの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 牛カルビ
+    emoji: 🥩
+    reason: 炭火で焼くと、香ばしさが最高。バーベキューの主役。
+  - name: ソーセージ
+    emoji: 🌭
+    reason: パリッと焼けた、ジューシーなウインナー。
+  - name: とうもろこし
+    emoji: 🌽
+    reason: 醤油を塗って焼くと、香ばしくて甘い。
+  A:
+  - name: 焼きそば
+    emoji: 🍝
+    reason: 鉄板で焼くソース味。BBQの定番の締め。
+  - name: エビ
+    emoji: 🦐
+    reason: 殻つきで焼くと、香ばしい。
+  - name: ホタテ
+    emoji: 🐚
+    reason: 貝殻ごと焼いて、バターと醤油で。
+  - name: 焼きおにぎり
+    emoji: 🍙
+    reason: 醤油を塗って、こんがり焼く。
+  - name: 焼き鳥
+    emoji: 🍢
+    reason: 塩でもタレでも。
+  B:
+  - name: かぼちゃ
+    emoji: 🎃
+    reason: 甘くて、ほくほく。
+  - name: ピーマン
+    emoji: 🫑
+    reason: 焼くと甘みが出る。
+  - name: ししとう
+    emoji: 🌿
+    reason: ちょっとピリッとアクセント。
+  - name: アルミホイルのじゃがバター
+    emoji: 🥔
+    reason: ほくほくのじゃがいもに、バター。
+  C:
+  - name: 焼きマシュマロ
+    emoji: ☁️
+    reason: デザートに。とろっと焼けた、あまいマシュマロ。
+  - name: 焼きバナナ
+    emoji: 🍌
+    reason: チョコをのせても。デザート感覚。
+  D:
+  - name: ダッチオーブン料理
+    emoji: 🍲
+    reason: ローストチキンなど。本格的な、キャンプ飯。
+  - name: 燻製
+    emoji: 💨
+    reason: スモークした肉やチーズ。通好み。
+summary: 'バーベキューで焼きたいものは、牛カルビ・ソーセージ・とうもろこしがS。炭火で焼いた香ばしさは、家では出せない味。
+
+  お肉は中までしっかり焼いて、食中毒に気をつけて。火の扱いにも、注意してね。
+
+  '
+related:
+- food-yakiniku-bui
+- food-natsu
+- food-yakitori

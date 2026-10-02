@@ -1,0 +1,88 @@
+title: 風邪のときに食べたいもの Tier表
+description: おかゆ、うどん、雑炊、りんご、バナナ、ヨーグルト、ゼリー、アイス、スープ、卵粥、味噌汁、蜂蜜レモン…風邪のときに食べたいものを、AIが「食べやすさ×ほっとする度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 食欲がなくても食べやすいか
+
+  ② 胃にやさしいか
+
+  ③ ほっとする度
+
+  ※ 体調が悪いときは、無理せず、水分補給と休息を。つらいときは、病院へ
+
+  '
+rank_notes:
+  S: 風邪のときの三大スター
+  D: 元気になってから
+tiers:
+  S:
+  - name: おかゆ
+    emoji: 🥣
+    reason: 胃にやさしい、定番。梅干しをのせても。
+  - name: うどん
+    emoji: 🍜
+    reason: やわらかい麺と、あたたかいつゆ。
+  - name: りんご
+    emoji: 🍎
+    reason: すりおろしても、そのままでも。やさしい甘さ。
+  A:
+  - name: 卵粥
+    emoji: 🥚
+    reason: ふわふわの卵で、栄養もプラス。
+  - name: 雑炊
+    emoji: 🍲
+    reason: だしのきいた、あったかい雑炊。
+  - name: ヨーグルト
+    emoji: 🥄
+    reason: のどごしがよくて、食べやすい。
+  - name: ゼリー
+    emoji: 🍇
+    reason: 食欲がないときにも、つるっと食べられる。
+  - name: 蜂蜜レモン
+    emoji: 🍯
+    reason: のどにやさしい。あったかい飲み物にしても。
+  B:
+  - name: バナナ
+    emoji: 🍌
+    reason: エネルギーになる。やさしい甘さ。
+  - name: スープ
+    emoji: 🥣
+    reason: 具のないものや、野菜スープ。
+  - name: 味噌汁
+    emoji: 🍲
+    reason: あったかくて、ほっとする。
+  - name: アイスクリーム
+    emoji: 🍨
+    reason: のどが痛いときに、ひんやり。
+  C:
+  - name: お粥の缶詰
+    emoji: 🥫
+    reason: 手軽だけど、手作りのほうがやさしい。
+  - name: スポーツドリンク
+    emoji: 💧
+    reason: 水分補給に。
+  D:
+  - name: ネギと生姜のスープ
+    emoji: 🫚
+    reason: 体があたたまる、昔からの知恵。
+  - name: 卵酒
+    emoji: 🍶
+    reason: 昔ながらの風邪の民間療法。お酒は20歳から。
+summary: '風邪のときに食べたいものは、おかゆ・うどん・りんごがS。胃にやさしくて、食べやすいものを、少しずつ。
+
+  体調が悪いときは、水分補給と休息を忘れずに。つらいときは、無理せず、病院へ。
+
+  '
+related:
+- food-zosui
+- food-udon
+- food-tsukare-drink

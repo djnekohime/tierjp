@@ -1,0 +1,88 @@
+title: 年末年始に食べたいもの Tier表
+description: 年越しそば、おせち、お雑煮、お餅、カニ、お寿司、すき焼き、みかん、数の子、黒豆、伊達巻、お屠蘇…年末年始に食べたいものを、AIが「お正月感×おいしさ」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① お正月感
+
+  ② おいしさ
+
+  ③ 家族で楽しめるか
+
+  ※ お餅は、のどに詰まらせないよう、小さく切って、よくかんで
+
+  '
+rank_notes:
+  S: 年末年始の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 年越しそば
+    emoji: 🍜
+    reason: 大みそかの夜の定番。1年の締めくくり。
+  - name: お雑煮
+    emoji: 🎍
+    reason: お正月の朝の定番。地域で味がちがう。
+  - name: おせち
+    emoji: 🍱
+    reason: お正月の、重箱いっぱいの縁起もの。
+  A:
+  - name: お餅
+    emoji: 🍡
+    reason: 焼いても、煮ても。のどに詰まらせないように、小さく切って。
+  - name: カニ
+    emoji: 🦀
+    reason: ごちそうの定番。無言になる。
+  - name: お寿司
+    emoji: 🍣
+    reason: お祝いの日に。
+  - name: すき焼き
+    emoji: 🍲
+    reason: 家族で囲む、ごちそう。
+  - name: みかん
+    emoji: 🍊
+    reason: こたつで、テレビを見ながら。
+  B:
+  - name: 数の子
+    emoji: 🟡
+    reason: 「子孫繁栄」の縁起もの。コリコリの食感。
+  - name: 黒豆
+    emoji: ⚫
+    reason: 「まめに働く」の縁起もの。
+  - name: 伊達巻
+    emoji: 🟨
+    reason: 甘くて、ふわふわ。子供も食べやすい。
+  - name: お汁粉
+    emoji: 🥫
+    reason: お餅の入った、甘いお汁粉。
+  C:
+  - name: お屠蘇
+    emoji: 🍶
+    reason: お正月の、薬酒。お酒は20歳から。
+  - name: 七草粥
+    emoji: 🌿
+    reason: 1月7日の朝。おせちで疲れた胃にやさしい。
+  D:
+  - name: 昆布巻き
+    emoji: 🟫
+    reason: おせちの、通好みの味。
+  - name: 田作り
+    emoji: 🐟
+    reason: 「五穀豊穣」の縁起もの。カリカリ。
+summary: '年末年始に食べたいものは、年越しそば・お雑煮・おせちがS。一年の終わりと始まりを、食べ物で感じる。
+
+  お餅は、のどに詰まらせないよう、小さく切って、よくかんで食べよう。
+
+  '
+related:
+- food-osechi
+- food-gyojishoku
+- food-fuyu

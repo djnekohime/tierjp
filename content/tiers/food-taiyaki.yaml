@@ -1,0 +1,88 @@
+title: たい焼き・今川焼きの中身 Tier表
+description: あんこ、カスタード、チーズ、チョコ、クリームチーズ、白あん、ウインナー、お好み焼き風、さつまいも、栗あん、抹茶あん、ピザ風…たい焼きや今川焼きの中身を、AIが「おいしさ×定番度」でランク付け。
+category: food
+genre: スイーツ
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 皮との相性
+
+  ② おいしさ
+
+  ③ 「また食べたい」と思う度
+
+  ※ 特定のお店ではなく「中身の種類」のランキングです
+
+  '
+rank_notes:
+  S: たい焼きの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: つぶあん
+    emoji: 🫘
+    reason: たい焼きといえば、これ。あつあつの皮と、甘いあんこ。
+  - name: カスタード
+    emoji: 🍮
+    reason: やさしい甘さの、とろっとしたクリーム。
+  - name: こしあん
+    emoji: 🟤
+    reason: なめらかな口あたり。上品な甘さ。
+  A:
+  - name: チーズ
+    emoji: 🧀
+    reason: とろっと溶けて、おやつにも軽食にも。
+  - name: 白あん
+    emoji: ⚪
+    reason: あっさり上品な甘さ。
+  - name: チョコ
+    emoji: 🍫
+    reason: 濃厚で、子供に人気。
+  - name: クリームチーズ
+    emoji: 🧈
+    reason: まろやかで、ちょっとリッチ。
+  - name: さつまいも
+    emoji: 🍠
+    reason: ほくほくで、秋の限定が人気。
+  B:
+  - name: 栗あん
+    emoji: 🌰
+    reason: 秋の味覚。
+  - name: 抹茶あん
+    emoji: 🍵
+    reason: ほろ苦い、和風の味。
+  - name: ウインナー
+    emoji: 🌭
+    reason: おやつではなく、軽食。
+  - name: お好み焼き風
+    emoji: 🥞
+    reason: ソースとキャベツ。軽食の人気者。
+  C:
+  - name: ピザ風
+    emoji: 🍕
+    reason: ピザソースとチーズ。軽食系の変わり種。
+  - name: カレー
+    emoji: 🍛
+    reason: おかずになる、変わり種。
+  D:
+  - name: あんバター
+    emoji: 🧈
+    reason: あんことバターの組み合わせ。通好みの味。
+  - name: 白玉入り
+    emoji: 🍡
+    reason: もちもちの白玉が入った、ぜいたくなたい焼き。
+summary: 'たい焼き・今川焼きの中身は、つぶあん・カスタード・こしあんがS。あつあつの皮に、甘いあんこ。冬の屋台の味。
+
+  チーズやクリームチーズ、お好み焼き風のように、アレンジも増えている。
+
+  '
+related:
+- food-wagashi
+- food-conbini-sweets
+- food-yatai

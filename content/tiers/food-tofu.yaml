@@ -1,0 +1,86 @@
+title: 豆腐・大豆料理 Tier表
+description: 冷奴、麻婆豆腐、湯豆腐、味噌汁の豆腐、揚げ出し豆腐、納豆、厚揚げ、油揚げ、豆乳、おから、きな粉、豆腐ハンバーグ…豆腐・大豆料理を、AIが「ご飯が進む度×ヘルシー度」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ご飯が進む度
+
+  ② ヘルシー・栄養
+
+  ③ 毎日食べても飽きないか
+
+  '
+rank_notes:
+  S: 大豆の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 納豆
+    emoji: 🫘
+    reason: ご飯にのせるだけ。栄養もたっぷり。
+  - name: 冷奴
+    emoji: ⬜
+    reason: 薬味をのせて、醤油をたらすだけ。シンプルでおいしい。
+  - name: 麻婆豆腐
+    emoji: 🌶️
+    reason: ピリ辛で、ご飯がすすむ。中華の定番。
+  A:
+  - name: 味噌汁の豆腐
+    emoji: 🍲
+    reason: 毎日の味噌汁に。やさしい食感。
+  - name: 揚げ出し豆腐
+    emoji: 🍤
+    reason: サクッと揚げた豆腐に、だしのきいたあんかけ。
+  - name: 厚揚げ
+    emoji: 🟫
+    reason: ボリュームがあって、煮物でも焼いても。
+  - name: 湯豆腐
+    emoji: ♨️
+    reason: シンプルな、冬の定番。ポン酢で。
+  - name: 油揚げ
+    emoji: 🦊
+    reason: 味噌汁にも、きつねうどんにも。
+  B:
+  - name: 豆乳
+    emoji: 🥛
+    reason: そのまま飲んでも、鍋やスープにしても。
+  - name: おから
+    emoji: ⚪
+    reason: 煮物にして、ヘルシーなおかずに。
+  - name: 豆腐ハンバーグ
+    emoji: 🍔
+    reason: ヘルシーなのに、ボリューム満点。
+  - name: きな粉
+    emoji: 🟨
+    reason: 餅にも、牛乳にも。香ばしい。
+  C:
+  - name: 高野豆腐
+    emoji: 🟫
+    reason: 味がしみて、おいしい。好みが分かれる。
+  - name: 豆腐のステーキ
+    emoji: 🥩
+    reason: ヘルシー。ダイエット中の人に。
+  D:
+  - name: ゆば
+    emoji: ☁️
+    reason: 豆乳の表面にできる膜。京都の上品な味。
+  - name: 臭豆腐
+    emoji: 💨
+    reason: 台湾の、発酵させた豆腐。強烈なにおいで、通好み。
+summary: '豆腐・大豆料理は、納豆・冷奴・麻婆豆腐がS。毎日食べても飽きない、安くて栄養たっぷりの食材。
+
+  お味噌汁、豆乳、きな粉、油揚げ。大豆からできている食べ物は、日本の食卓に欠かせない。
+
+  '
+related:
+- food-washoku-asa
+- food-ureshii-yasai
+- food-teishoku

@@ -1,0 +1,89 @@
+title: 給食の献立 Tier表
+description: カレーライス、揚げパン、ソフト麺、冷凍みかん、ミルメーク、鯨の竜田揚げ、ご飯と味噌汁、シチュー、わかめご飯、牛乳、焼きそばパン、ミートソース…給食の献立を、AIが「懐かしさ×人気度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 懐かしさ
+
+  ② 当時の人気度
+
+  ③ 今でも食べたくなるか
+
+  ※ 学校や地域、時代によって、給食はちがいます。世代で、思い出が変わります
+
+  '
+rank_notes:
+  S: 給食の三大スター
+  D: 好き嫌いが分かれる
+tiers:
+  S:
+  - name: カレーライス
+    emoji: 🍛
+    reason: 給食の日の、一番人気。おかわりじゃんけんも盛り上がる。
+  - name: 揚げパン
+    emoji: 🥖
+    reason: 砂糖たっぷりの、あまいパン。一番人気のおやつ感覚。
+  - name: ソフト麺（ミートソース）
+    short: ソフト麺
+    emoji: 🍝
+    reason: 給食の、おなじみの麺。やわらかくて、おいしかった。
+  A:
+  - name: 冷凍みかん
+    emoji: 🍊
+    reason: 凍ったみかんを、手のひらで溶かして食べる。
+  - name: シチュー
+    emoji: 🥘
+    reason: パンと一緒に食べる、あったかいシチュー。
+  - name: ミルメーク
+    emoji: 🥛
+    reason: 牛乳に混ぜる粉。コーヒーやココアの味。
+  - name: 鯨の竜田揚げ
+    emoji: 🐋
+    reason: 昭和世代の給食の定番。今ではなかなか食べられない。
+  - name: わかめご飯
+    emoji: 🌊
+    reason: 香りがよくて、おにぎりにもなる。
+  B:
+  - name: 焼きそば
+    emoji: 🍝
+    reason: ソースの香りが、教室中に広がる。
+  - name: ご飯と味噌汁
+    emoji: 🍚
+    reason: 和食の日の給食。
+  - name: ハンバーグ
+    emoji: 🍔
+    reason: 豪華な日の給食。
+  - name: うどん
+    emoji: 🍜
+    reason: あったかいうどん。冬に人気。
+  C:
+  - name: 牛乳
+    emoji: 🥛
+    reason: 毎日の給食に欠かせない。冷たくて、好き嫌いは分かれる。
+  - name: 野菜の煮物
+    emoji: 🥕
+    reason: 子供には、あまり人気がなかった。
+  D:
+  - name: ひじきの煮物
+    emoji: ⚫
+    reason: 栄養たっぷりだけど、子供には不人気。
+  - name: イカの煮物
+    emoji: 🦑
+    reason: 好き嫌いが分かれる。
+summary: '給食の献立は、カレーライス・揚げパン・ソフト麺がS。給食の日の楽しみは、世代を超えて、同じ。
+
+  学校や地域、時代によって、給食はちがう。あなたの給食の思い出は、何ですか？
+
+  '
+related:
+- food-showa-okashi
+- food-ensoku
+- food-teishoku

@@ -1,0 +1,88 @@
+title: 実家の味 Tier表
+description: 卵焼き、肉じゃが、唐揚げ、カレー、ハンバーグ、おにぎり、ポテトサラダ、煮物、手作りの餃子、お赤飯…実家の味として思い出す料理を、AIが「懐かしさ×ほっとする度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 懐かしさ
+
+  ② ほっとする度
+
+  ③ 「また食べたい」と思う度
+
+  ※ ランクは、AIの好みの目安です。あなたの実家の味を、自分のTier表に入れてみてね
+
+  '
+rank_notes:
+  S: 実家の味の三大スター
+  D: うちだけの味
+tiers:
+  S:
+  - name: お味噌汁
+    emoji: 🍲
+    reason: 毎日飲んでいた、お母さんの味噌汁。
+  - name: 卵焼き
+    emoji: 🍳
+    reason: 甘いのか、しょっぱいのか。家によってちがう。
+  - name: 肉じゃが
+    emoji: 🥔
+    reason: ほっとする、家庭料理の代表。
+  A:
+  - name: カレー
+    emoji: 🍛
+    reason: 家ごとに、隠し味がちがう。
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: お母さんの唐揚げは、やっぱり特別。
+  - name: ハンバーグ
+    emoji: 🍔
+    reason: こねるところから、手伝った思い出。
+  - name: おにぎり
+    emoji: 🍙
+    reason: 遠足や運動会の日の、お母さんのおにぎり。
+  - name: ポテトサラダ
+    emoji: 🥔
+    reason: きゅうりとハムが入った、家の味。
+  B:
+  - name: 煮物
+    emoji: 🥘
+    reason: 冬に食べる、じっくり煮込んだ煮物。
+  - name: 手作り餃子
+    emoji: 🥟
+    reason: 家族みんなで包んだ、餃子の思い出。
+  - name: お赤飯
+    emoji: 🍙
+    reason: お祝いの日の、特別なごはん。
+  - name: ちらし寿司
+    emoji: 🌸
+    reason: ひな祭りや、お祝いの日に。
+  C:
+  - name: ラーメン（インスタント）
+    emoji: 🍜
+    reason: お母さんが作ってくれた、袋麺の思い出。
+  - name: お弁当の冷凍食品
+    emoji: 🍱
+    reason: 思い出に残っている、お母さんの工夫。
+  D:
+  - name: うちだけの謎メニュー
+    emoji: ❓
+    reason: 他の家では聞いたことがない、でも実家では定番の料理。
+  - name: おばあちゃんの漬物
+    emoji: 🥒
+    reason: 世代を超えて受け継がれる、特別な味。
+summary: '実家の味は、お味噌汁・卵焼き・肉じゃががS。家ごとにちがう、世界でひとつの味。
+
+  あなたの実家の味は、何ですか？ 思い出す味を、自分のTier表に並べてみてほしい。
+
+  '
+related:
+- food-kyushoku
+- food-teishoku
+- food-atatamenaoshi
