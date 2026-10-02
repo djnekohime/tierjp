@@ -1,0 +1,88 @@
+title: ダイエット中でも食べたいもの Tier表
+description: サラダチキン、ゆで卵、おにぎり、豆腐、納豆、ヨーグルト、焼き鳥、バナナ、ナッツ、味噌汁、刺身、おでん…ダイエット中でも食べたいものを、AIが「満足度×ヘルシー度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 食べたときの満足度
+
+  ② ヘルシーか
+
+  ③ 続けられるか
+
+  ※ ダイエットは、無理せず、バランスよく。体調に不安がある人は、専門家に相談して
+
+  '
+rank_notes:
+  S: ダイエットの三大味方
+  D: ご褒美枠
+tiers:
+  S:
+  - name: ゆで卵
+    emoji: 🥚
+    reason: 手軽にたんぱく質がとれる。おなかもちがいい。
+  - name: 納豆
+    emoji: 🫘
+    reason: 安くて、栄養たっぷり。
+  - name: 豆腐
+    emoji: ⬜
+    reason: ヘルシーで、満足感もある。
+  A:
+  - name: サラダチキン
+    emoji: 🐔
+    reason: たんぱく質たっぷり。コンビニで手軽に買える。
+  - name: 焼き鳥（塩）
+    emoji: 🍢
+    reason: 脂が少なめの部位なら、ダイエット中にも。
+  - name: 味噌汁
+    emoji: 🍲
+    reason: あったかくて、満足感がある。
+  - name: おでん
+    emoji: 🍢
+    reason: 低カロリーで、ほっとする。大根、こんにゃく、卵。
+  - name: ヨーグルト
+    emoji: 🥄
+    reason: 腸にもやさしい。おやつにも。
+  B:
+  - name: 刺身
+    emoji: 🍣
+    reason: 脂の少ない白身や赤身は、ヘルシー。
+  - name: バナナ
+    emoji: 🍌
+    reason: エネルギー源に。朝ごはんにも。
+  - name: ナッツ
+    emoji: 🥜
+    reason: ひとつかみなら、ヘルシーなおやつ。
+  - name: おにぎり
+    emoji: 🍙
+    reason: ご飯は、完全に抜かなくていい。
+  C:
+  - name: ダイエットバー
+    emoji: 🍫
+    reason: 手軽だけど、満足感は物足りない。
+  - name: ゼロカロリー飲料
+    emoji: 🥤
+    reason: のどは潤うけど、おなかは満たされない。
+  D:
+  - name: ご褒美のスイーツ
+    emoji: 🍰
+    reason: がんばった日の、ちょっとしたご褒美。ほどほどに。
+  - name: チートデイのラーメン
+    emoji: 🍜
+    reason: たまには、がまんしない日も大事。
+summary: 'ダイエット中でも食べたいものは、ゆで卵・納豆・豆腐がS。安くて、手軽で、栄養もとれる。
+
+  ダイエットは、無理せず、バランスよく。体調に不安があるときは、専門家に相談してね。
+
+  '
+related:
+- food-tofu
+- food-conbini-asa
+- food-nebou-asa
