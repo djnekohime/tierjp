@@ -1,0 +1,86 @@
+title: 朝の一杯 Tier表
+description: コーヒー、紅茶、緑茶、牛乳、味噌汁、野菜ジュース、白湯、スムージー、カフェオレ、豆乳、ココア、スープ…朝に飲む一杯を、AIが「目が覚める度×おなかにやさしい度」でランク付け。
+category: food
+genre: パン・朝食
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 目が覚める度
+
+  ② おなかや体へのやさしさ
+
+  ③ 毎朝飲み続けられるか
+
+  '
+rank_notes:
+  S: 朝の三大スター
+  D: こだわり派
+tiers:
+  S:
+  - name: コーヒー
+    emoji: ☕
+    reason: 香りで目が覚める。朝の一杯の王様。
+  - name: 味噌汁
+    emoji: 🍲
+    reason: 体があたたまって、おなかにもやさしい。日本の朝の定番。
+  - name: 緑茶
+    emoji: 🍵
+    reason: ほっとする香り。ゆっくり目が覚める。
+  A:
+  - name: 紅茶
+    emoji: 🫖
+    reason: やさしい香りで、ミルクを入れてもおいしい。
+  - name: カフェオレ
+    emoji: 🥛
+    reason: コーヒーが苦手な人にも。まろやかで、おなかにやさしい。
+  - name: 牛乳
+    emoji: 🐄
+    reason: 栄養たっぷり。トーストと一緒に。
+  - name: 白湯
+    emoji: ♨️
+    reason: 寝起きの体をやさしく目覚めさせる。
+  - name: 豆乳
+    emoji: 🫘
+    reason: ヘルシー派の朝の一杯。
+  B:
+  - name: 野菜ジュース
+    emoji: 🥕
+    reason: 野菜不足が気になる朝に。
+  - name: スープ
+    emoji: 🥣
+    reason: 具だくさんのスープで、朝から元気に。
+  - name: ココア
+    emoji: 🍫
+    reason: 甘くてほっとする。寒い朝に。
+  - name: オレンジジュース
+    emoji: 🍊
+    reason: さわやかで、朝にぴったり。
+  C:
+  - name: スムージー
+    emoji: 🥤
+    reason: おしゃれだけど、作るのが面倒。
+  - name: 栄養ドリンク
+    emoji: 🧪
+    reason: 元気は出るけど、朝ごはんの代わりにはならない。
+  D:
+  - name: 青汁
+    emoji: 🌿
+    reason: 健康にいいけど、毎朝続けるには根性がいる。
+  - name: レモン白湯
+    emoji: 🍋
+    reason: さっぱり目が覚める。美容にこだわる人の朝の習慣。
+summary: '朝の一杯は、コーヒー・味噌汁・緑茶がS。コーヒーで目を覚まして、味噌汁でほっとして。
+
+  朝いちばんの白湯は、寝起きの体にやさしい。自分の朝に合う一杯を見つけてほしい。
+
+  '
+related:
+- food-coffee
+- food-ocha
+- food-conbini-asa

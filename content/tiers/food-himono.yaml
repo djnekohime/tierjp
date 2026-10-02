@@ -1,0 +1,89 @@
+title: 干物の種類 Tier表
+description: アジ、ホッケ、サバ、カマス、サンマ、イワシ、ししゃも、金目鯛、鮭、さんま、エイヒレ、フグ…干物の種類を、AIが「ご飯が進む度×朝ごはん感」でランク付け。
+category: food
+genre: 寿司・海鮮
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ご飯が進む度
+
+  ② 焼いたときの香ばしさ
+
+  ③ 朝ごはんの満足感
+
+  ※ 干物は、塩分が多めのものもあります
+
+  '
+rank_notes:
+  S: 干物の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: アジの開き
+    emoji: 🐟
+    reason: 干物の王様。あっさりしていて、ご飯にぴったり。
+  - name: ホッケの開き
+    emoji: 🔥
+    reason: 大きくて、ふっくら。脂がのって、居酒屋の定番でもある。
+  - name: サバの干物
+    emoji: 🐠
+    reason: 脂がのって、うまみが濃い。ご飯が何杯でも食べられる。
+  A:
+  - name: カマス
+    emoji: ✨
+    reason: 上品な白身で、ふっくら。高級な干物の定番。
+  - name: 鮭（塩鮭）
+    emoji: 🍣
+    reason: 朝ごはんの王道。しょっぱくて、ご飯が進む。
+  - name: 金目鯛
+    emoji: 👑
+    reason: 脂がのって、ごちそうの干物。
+  - name: イワシ
+    emoji: 🐟
+    reason: 丸干しもおいしい。小さいけれど、うまみがぎゅっと詰まっている。
+  - name: ししゃも
+    emoji: 🥚
+    reason: 卵をもったメスは特に人気。頭からまるごと食べられる。
+  B:
+  - name: サンマの干物
+    emoji: 🍂
+    reason: 秋の味覚を一年中。脂がのって、ご飯に合う。
+  - name: カレイ
+    emoji: 🐡
+    reason: 上品な白身で、ふっくら。
+  - name: ハタハタ
+    emoji: 🌊
+    reason: 秋田の名物。卵のぶりこが、プチプチ。
+  - name: エボ鯛（イボダイ）
+    short: エボ鯛
+    emoji: 🍥
+    reason: 関東では「えぼ鯛」として親しまれる、淡白な味。
+  C:
+  - name: エイヒレ
+    emoji: 🪽
+    reason: 炙って食べる、おつまみの定番。ご飯のおかずにはならない。
+  - name: 干しエビ
+    emoji: 🦐
+    reason: うまみが濃いけど、ご飯のおかずというより、だしや具材向き。
+  D:
+  - name: くさや
+    emoji: 💨
+    reason: 独特の強烈な香りがある、伊豆諸島の干物。好きな人にはたまらない。
+  - name: フグの干物
+    emoji: 🐡
+    reason: とても高級。お酒のつまみに。
+summary: '干物は、アジの開き・ホッケの開き・サバの干物がS。朝の焼き魚は、日本の朝ごはんの定番。
+
+  干物は、塩分が多いものもあるので、食べすぎには注意。ご飯と味噌汁と一緒にいただこう。
+
+  '
+related:
+- food-sakana-tabekata
+- food-choshoku-shuyaku
+- food-teishoku
