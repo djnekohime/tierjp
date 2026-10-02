@@ -1,0 +1,88 @@
+title: 冬の果物 Tier表
+description: みかん、いちご、りんご、柿、洋梨、キウイ、ぽんかん、デコポン、ゆず、金柑、レモン…冬の果物を、AIが「甘さ×こたつで食べたい度」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 甘さ・おいしさ
+
+  ② こたつで食べたくなるか
+
+  ③ 冬らしさ
+
+  ※ 品種や産地によって、味はちがいます
+
+  '
+rank_notes:
+  S: 冬の果物の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: みかん
+    emoji: 🍊
+    reason: こたつとみかん。皮をむく幸せ。冬の定番。
+  - name: いちご
+    emoji: 🍓
+    reason: 冬から春の、甘酸っぱい味。
+  - name: りんご
+    emoji: 🍎
+    reason: シャキッとして、甘い。皮をむかずに、丸かじりも。
+  A:
+  - name: 柿
+    emoji: 🟠
+    reason: 秋から冬の味。とろっと甘い。
+  - name: デコポン
+    emoji: 🍊
+    reason: みかんより大きくて、甘い。
+  - name: ぽんかん
+    emoji: 🟠
+    reason: 香りがよくて、さっぱり甘い。
+  - name: 洋梨
+    emoji: 🍐
+    reason: とろっとやわらかい、上品な甘さ。
+  - name: キウイ
+    emoji: 🥝
+    reason: ビタミンたっぷり。さっぱり酸っぱい。
+  B:
+  - name: ゆず
+    emoji: 🟡
+    reason: 果肉というより、香りを楽しむ。お風呂にも。
+  - name: 金柑
+    emoji: 🟧
+    reason: 皮ごと食べられる、小さな果物。
+  - name: レモン
+    emoji: 🍋
+    reason: お料理やお茶に。ビタミンC。
+  - name: グレープフルーツ
+    emoji: 🍊
+    reason: ほろ苦くて、さっぱり。
+  C:
+  - name: ネーブルオレンジ
+    emoji: 🍊
+    reason: 甘くてジューシー。ビタミンもたっぷり。
+  - name: バナナ
+    emoji: 🍌
+    reason: 一年中あるけど、冬は特に朝ごはんに。
+  D:
+  - name: いよかん
+    emoji: 🟠
+    reason: 愛媛の名産。上品な甘み。
+  - name: はっさく
+    emoji: 🍊
+    reason: ほろ苦くて、シャキシャキの食感。通好み。
+summary: '冬の果物は、みかん・いちご・りんごがS。こたつでみかんを食べるのは、冬の幸せの代表。
+
+  デコポンやぽんかんのような、あまくて香りのよい柑橘も、冬の楽しみ。
+
+  '
+related:
+- food-fruits
+- food-natsu-fruits
+- food-ichigo-tabekata

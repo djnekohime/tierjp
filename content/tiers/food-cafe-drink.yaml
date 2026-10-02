@@ -1,0 +1,89 @@
+title: カフェドリンク Tier表
+description: カフェラテ、カプチーノ、アイスコーヒー、キャラメルマキアート、抹茶ラテ、ほうじ茶ラテ、フラペチーノ風、紅茶、ココア、オレンジジュース、チャイ、モカ…カフェで頼むドリンクを、AIが「おいしさ×定番度×ほっとする度」でランク付け。
+category: food
+genre: 飲み物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② 毎回頼んでも飽きないか
+
+  ③ カフェで飲む特別感
+
+  ※ 特定のお店や商品ではなく「ドリンクの種類」のランキングです
+
+  '
+rank_notes:
+  S: カフェの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: カフェラテ
+    emoji: ☕
+    reason: ミルクたっぷりで、やさしい味。カフェの定番。
+  - name: アイスコーヒー
+    emoji: 🧊
+    reason: シンプルで、飲みやすい。毎日でも飲める。
+  - name: カプチーノ
+    emoji: 🥛
+    reason: ふわふわのミルクの泡が、おいしい。
+  A:
+  - name: 抹茶ラテ
+    emoji: 🍵
+    reason: ほろ苦くて、まろやか。和風のカフェで人気。
+  - name: キャラメルマキアート
+    emoji: 🟤
+    reason: 甘くて、ほんのり香ばしい。
+  - name: ほうじ茶ラテ
+    emoji: 🍂
+    reason: 香ばしくて、ほっとする。
+  - name: 紅茶
+    emoji: 🫖
+    reason: ゆっくり、香りを楽しむ。
+  - name: ココア
+    emoji: 🍫
+    reason: コーヒーが苦手な人にも。
+  B:
+  - name: モカ
+    emoji: 🍫
+    reason: チョコとコーヒーの組み合わせ。
+  - name: チャイ
+    emoji: 🫚
+    reason: スパイスとミルクティー。体があたたまる。
+  - name: オレンジジュース
+    emoji: 🍊
+    reason: さっぱり、フルーツの甘さ。
+  - name: ミルクティー
+    emoji: 🥛
+    reason: 紅茶とミルクの組み合わせ。
+  C:
+  - name: フラペチーノ風のドリンク
+    short: フラペチーノ風
+    emoji: 🍧
+    reason: 甘くて、デザートみたい。カロリーも高い。
+  - name: タピオカドリンク
+    emoji: 🧋
+    reason: ドリンクというより、おやつ。
+  D:
+  - name: エスプレッソ
+    emoji: ☕
+    reason: 濃厚で、小さなカップに凝縮された味。通好み。
+  - name: アフォガート
+    emoji: 🍨
+    reason: アイスにエスプレッソをかけた、大人のデザート。
+summary: 'カフェドリンクは、カフェラテ・アイスコーヒー・カプチーノがS。カフェの定番は、飽きずに毎回頼める。
+
+  抹茶ラテやほうじ茶ラテのような、和風のドリンクも人気。
+
+  '
+related:
+- food-coffee
+- food-kocha
+- food-asa-drink

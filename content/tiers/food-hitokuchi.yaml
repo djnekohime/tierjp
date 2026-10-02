@@ -1,0 +1,88 @@
+title: 一口のつもりが全部食べるスイーツ Tier表
+description: プリン、シュークリーム、ロールケーキ、ティラミス、チーズケーキ、マカロン、チョコレート、アイス、クッキー、どら焼き、ミルクレープ、わらび餅…「一口だけ」のつもりが、全部食べてしまうスイーツを、AIが「止まらない度」でランク付け。
+category: food
+genre: スイーツ
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 一口でやめられない度
+
+  ② 気づいたらなくなっている度
+
+  ③ 食べたあとの「やっぱり…」度
+
+  ※ ランクは「危険度」の目安です
+
+  '
+rank_notes:
+  S: 危険な三大スイーツ
+  D: 比較的平和
+tiers:
+  S:
+  - name: チョコレート
+    emoji: 🍫
+    reason: ひとかけらのはずが、1枚。気づいたら、箱が空っぽ。
+  - name: ロールケーキ
+    emoji: 🍰
+    reason: ふわふわで軽くて、ひと切れのつもりが、半分。
+  - name: シュークリーム
+    emoji: 🥐
+    reason: ひと口かじると、もう止まらない。
+  A:
+  - name: プリン
+    emoji: 🍮
+    reason: 一口すくうと、もう一口。気づいたら、カップの底。
+  - name: チーズケーキ
+    emoji: 🧀
+    reason: 濃厚だから、ひと切れで十分なはずが…。
+  - name: アイスクリーム
+    emoji: 🍨
+    reason: ひと口が止まらない。気づいたら、カップが空。
+  - name: クッキー
+    emoji: 🍪
+    reason: 1枚のつもりが、5枚。
+  - name: ミルクレープ
+    emoji: 🥞
+    reason: 一層ずつ、はがして食べて、止まらない。
+  B:
+  - name: どら焼き
+    emoji: 🟤
+    reason: ひとつでも、二つ目に手がのびる。
+  - name: ティラミス
+    emoji: ☕
+    reason: コーヒーの香りで、つい。
+  - name: マカロン
+    emoji: 🍬
+    reason: 小さいから、つい。
+  - name: わらび餅
+    emoji: 🟫
+    reason: つるんと、いくらでも。
+  C:
+  - name: 羊羹
+    emoji: 🟤
+    reason: 濃い甘さで、一切れで満足する。
+  - name: ゼリー
+    emoji: 🍇
+    reason: さっぱりしていて、意外と食べすぎない。
+  D:
+  - name: 大福
+    emoji: 🍡
+    reason: ずっしり重いので、1個で満足する。
+  - name: かりんとう
+    emoji: 🍘
+    reason: 噛むのに時間がかかるので、食べすぎにくい。
+summary: '一口のつもりで全部食べてしまうスイーツは、チョコレート・ロールケーキ・シュークリームがS。手が止まらないのは、おいしい証拠。
+
+  食べすぎに気をつけながら、たまには、思いきり楽しもう。
+
+  '
+related:
+- food-conbini-sweets
+- food-mugen
+- food-pudding

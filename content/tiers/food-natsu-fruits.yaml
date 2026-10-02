@@ -1,0 +1,88 @@
+title: 夏の果物 Tier表
+description: スイカ、桃、メロン、ぶどう、マンゴー、パイナップル、さくらんぼ、梨、いちじく、ブルーベリー、すもも…夏の果物を、AIが「甘さ×みずみずしさ×夏らしさ」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 甘さ・おいしさ
+
+  ② みずみずしさ
+
+  ③ 夏らしさ・食べたい度
+
+  ※ 品種や産地によって、味はちがいます
+
+  '
+rank_notes:
+  S: 夏の果物の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: スイカ
+    emoji: 🍉
+    reason: 夏の王様。冷やして、がぶっとかじりつく幸せ。
+  - name: 桃
+    emoji: 🍑
+    reason: やわらかくて、あまくて、ジューシー。香りも最高。
+  - name: メロン
+    emoji: 🍈
+    reason: 上品な甘さと、とろけるような果肉。
+  A:
+  - name: ぶどう
+    emoji: 🍇
+    reason: 皮ごと食べられる種類もあって、ひと粒ずつ楽しい。
+  - name: マンゴー
+    emoji: 🥭
+    reason: 濃厚な甘さ。南国の味。
+  - name: パイナップル
+    emoji: 🍍
+    reason: 甘酸っぱくて、さわやか。
+  - name: さくらんぼ
+    emoji: 🍒
+    reason: 初夏の味。1粒ずつ、つい食べ続けてしまう。
+  - name: 梨
+    emoji: 🍐
+    reason: シャリシャリの食感。みずみずしさNo.1。
+  B:
+  - name: すもも
+    emoji: 🟣
+    reason: 甘酸っぱくて、さっぱり。
+  - name: ブルーベリー
+    emoji: 🫐
+    reason: 小さいけれど、栄養たっぷり。
+  - name: いちじく
+    emoji: 🟤
+    reason: プチプチの食感と、やさしい甘さ。
+  - name: びわ
+    emoji: 🟠
+    reason: 初夏の味。上品で、ほんのり甘い。
+  C:
+  - name: あんず
+    emoji: 🍑
+    reason: 生で食べると酸っぱいので、ジャムやドライに向く。
+  - name: すだち
+    emoji: 🟢
+    reason: 果物というより、薬味。さわやかな香り。
+  D:
+  - name: ドラゴンフルーツ
+    emoji: 🐉
+    reason: 見た目は派手だけど、味はおだやか。通好み。
+  - name: ライチ
+    emoji: 🥚
+    reason: 上品な甘さと香り。皮をむく楽しさも。
+summary: '夏の果物は、スイカ・桃・メロンがS。冷やして食べる、みずみずしい甘さが、夏の暑さを忘れさせてくれる。
+
+  マンゴーやパイナップルのような南国の果物も、夏の楽しみ。
+
+  '
+related:
+- food-fruits
+- food-kakigori
+- food-natsubate

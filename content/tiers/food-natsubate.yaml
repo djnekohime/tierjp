@@ -1,0 +1,89 @@
+title: 夏バテの日に食べたいもの Tier表
+description: そうめん、冷やし中華、うなぎ、スイカ、梅干し、冷奴、豚しゃぶ、ゴーヤチャンプルー、トマト、ヨーグルト、お茶漬け、カレー…夏バテの日に食べたいものを、AIが「食べやすさ×元気が出る度」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 食欲がなくても食べやすいか
+
+  ② 元気が出るか
+
+  ③ 栄養がとれるか
+
+  ※ 本当に体調が悪いときは、無理せず水分補給と休息を
+
+  '
+rank_notes:
+  S: 夏バテの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: そうめん
+    emoji: 🎏
+    reason: つるっとのどごし。暑くて食欲がない日の定番。
+  - name: うなぎ
+    emoji: 🐍
+    reason: 土用の丑の日の定番。スタミナがつく。
+  - name: 冷やし中華
+    emoji: 🥗
+    reason: さっぱり酸っぱいタレで、食欲がわく。
+  A:
+  - name: 冷奴
+    emoji: ⬜
+    reason: 冷たくて、さっぱり。薬味をたっぷり。
+  - name: 豚しゃぶ
+    emoji: 🥗
+    reason: ビタミンB1豊富な豚肉を、さっぱりと。
+  - name: 梅干し
+    emoji: 🔴
+    reason: 酸っぱさで、食欲がわく。
+  - name: スイカ
+    emoji: 🍉
+    reason: 水分補給にぴったり。
+  - name: トマト
+    emoji: 🍅
+    reason: 冷やして、そのままかじっても。
+  B:
+  - name: ゴーヤチャンプルー
+    emoji: 🥒
+    reason: 苦味でさっぱり。沖縄の夏の定番。
+  - name: ヨーグルト
+    emoji: 🥄
+    reason: ひんやり、さっぱり。
+  - name: お茶漬け
+    emoji: 🍵
+    reason: さらさら食べられる。
+  - name: カレー
+    emoji: 🍛
+    reason: スパイスで食欲が出る。
+  C:
+  - name: こってりしたラーメン
+    emoji: 🍜
+    reason: 食欲が戻ってから。夏バテのときは重い。
+  - name: ステーキ
+    emoji: 🥩
+    reason: 元気は出るけど、夏バテのときは重い。
+  D:
+  - name: オクラ・納豆・山芋のネバネバ丼
+    short: ネバネバ丼
+    emoji: 🥣
+    reason: ネバネバ食材で、スタミナがつく。通の夏バテ対策。
+  - name: 冷たい茶がゆ
+    emoji: 🍚
+    reason: 冷やした茶がゆ。胃にやさしい、通好みの1杯。
+summary: '夏バテの日に食べたいものは、そうめん・うなぎ・冷やし中華がS。さっぱり食べられて、栄養もとれるものが強い。
+
+  ほんとうに食欲がないときは、水分と塩分をとって、よく休むのが一番。
+
+  '
+related:
+- food-reimen
+- food-somen-yakumi
+- food-atsui-hi

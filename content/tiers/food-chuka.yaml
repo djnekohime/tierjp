@@ -1,0 +1,88 @@
+title: 中華料理 Tier表
+description: 麻婆豆腐、餃子、酢豚、エビチリ、八宝菜、チャーハン、小籠包、北京ダック、回鍋肉、青椒肉絲、春巻き、焼売…中華料理を、AIが「おいしさ×ご飯が進む度×また食べたい度」でランク付け。
+category: food
+genre: 世界の料理
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② ご飯が進む度
+
+  ③ 「また食べたい」と思う度
+
+  ※ 特定のお店ではなく「料理の種類」のランキングです
+
+  '
+rank_notes:
+  S: 中華料理の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 麻婆豆腐
+    emoji: 🌶️
+    reason: ピリ辛で、ご飯がすすむ。中華料理の王様。
+  - name: 餃子
+    emoji: 🥟
+    reason: パリッと焼けた皮と、ジューシーな餡。
+  - name: チャーハン
+    emoji: 🍚
+    reason: パラパラで、香ばしい。町中華の主役。
+  A:
+  - name: エビチリ
+    emoji: 🦐
+    reason: ぷりぷりのエビと、ピリ辛トマトソース。
+  - name: 酢豚
+    emoji: 🍍
+    reason: 甘酸っぱいあんが、豚肉にからむ。
+  - name: 小籠包
+    emoji: 🥢
+    reason: スープたっぷり。ひと口で幸せ。
+  - name: 回鍋肉
+    emoji: 🥬
+    reason: 味噌の香りと、キャベツの甘み。
+  - name: 春巻き
+    emoji: 🥠
+    reason: パリパリの皮と、とろっとした具。
+  B:
+  - name: 八宝菜
+    emoji: 🥘
+    reason: 野菜と海鮮のあんかけ。ほっとする味。
+  - name: 青椒肉絲
+    emoji: 🫑
+    reason: ピーマンと牛肉の細切り炒め。
+  - name: 焼売
+    emoji: 🟡
+    reason: ほろっとしたお肉の旨み。
+  - name: 天津飯
+    emoji: 🥚
+    reason: ふわふわ卵と、あんかけ。
+  C:
+  - name: 北京ダック
+    emoji: 🦆
+    reason: ぜいたくな味。でも、頻繁には食べない。
+  - name: フカヒレスープ
+    emoji: 🍲
+    reason: 高級だけど、味はやさしい。
+  D:
+  - name: 皮蛋（ピータン）
+    emoji: ⬛
+    reason: 独特の風味。好きな人はたまらない。
+  - name: ツバメの巣
+    emoji: 🪺
+    reason: 高級食材。デザートスープとして。
+summary: '中華料理は、麻婆豆腐・餃子・チャーハンがS。ご飯が進む、日本人にも食べなれた味。
+
+  エビチリや酢豚、小籠包のような、ちょっと特別な料理も、中華の魅力。
+
+  '
+related:
+- food-chuka-teiban
+- food-gyoza
+- food-chahan

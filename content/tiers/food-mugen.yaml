@@ -1,0 +1,88 @@
+title: 無限に食べられそうなもの Tier表
+description: ポテトチップス、唐揚げ、フライドポテト、ポップコーン、枝豆、お寿司、おにぎり、餃子、チョコ、ナッツ、ピスタチオ、柿の種…無限に食べられそうな食べ物を、AIが「手が止まらない度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 手が止まらない度
+
+  ② 気づいたら、なくなっている度
+
+  ③ 食べ終わったあとの「あれ？」度
+
+  ※ 食べすぎには注意。ほどほどに
+
+  '
+rank_notes:
+  S: 無限ループの三大スター
+  D: 意外な無限枠
+tiers:
+  S:
+  - name: ポテトチップス
+    emoji: 🥔
+    reason: ひとつ食べると、もうひとつ。気づいたら、袋が空っぽ。
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: ひとつ食べると、またひとつ。揚げたては特に止まらない。
+  - name: フライドポテト
+    emoji: 🍟
+    reason: 塩気とカリカリ食感。なくなるまで食べてしまう。
+  A:
+  - name: 柿の種
+    emoji: 🌶️
+    reason: ピリ辛とピーナッツの組み合わせ。
+  - name: 枝豆
+    emoji: 🫛
+    reason: ひと粒ずつ、むいて食べる。ビールのおとも。
+  - name: ポップコーン
+    emoji: 🍿
+    reason: 映画館でも、家でも。ひたすら軽い。
+  - name: お寿司（回転寿司）
+    emoji: 🍣
+    reason: 気づいたら、皿が積みあがっている。
+  - name: 餃子
+    emoji: 🥟
+    reason: 1人前6個のつもりが、2人前に。
+  B:
+  - name: おにぎり
+    emoji: 🍙
+    reason: 小さくても、ご飯がぎっしり。
+  - name: ピスタチオ
+    emoji: 💚
+    reason: 殻をむく楽しさで、止まらない。
+  - name: チョコレート
+    emoji: 🍫
+    reason: ひとかけらのつもりが、1枚。
+  - name: ナッツ
+    emoji: 🥜
+    reason: ひとつかみのつもりが…。
+  C:
+  - name: せんべい
+    emoji: 🍘
+    reason: 軽いけれど、意外と満腹になる。
+  - name: ミニドーナツ
+    emoji: 🍩
+    reason: ひと口サイズで、つい。
+  D:
+  - name: きゅうりの浅漬け
+    emoji: 🥒
+    reason: 意外にも、ポリポリと止まらない。
+  - name: ところてん
+    emoji: 🥢
+    reason: つるつると食べられる、ヘルシーな無限枠。
+summary: '無限に食べられそうなものは、ポテトチップス・唐揚げ・フライドポテトがS。塩気、カリカリ、サクサク。手が止まらない食感。
+
+  気づいたらなくなっている、あの感じ。食べすぎには、ほどほどに。
+
+  '
+related:
+- food-potechi
+- food-karaage
+- food-otsumami
