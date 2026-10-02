@@ -1,0 +1,86 @@
+title: 天丼・天ぷらの具 Tier表
+description: エビ、かぼちゃ、ナス、イカ、キス、かき揚げ、しいたけ、ししとう、さつまいも、穴子、れんこん、大葉…天ぷらの具を、AIが「サクサク度×ご飯との相性」でランク付け。
+category: food
+genre: ご飯もの
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① サクサクの衣とのバランス
+
+  ② 天つゆやご飯との相性
+
+  ③ 「これが入っていると嬉しい」度
+
+  '
+rank_notes:
+  S: 天ぷらの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: エビ
+    emoji: 🦐
+    reason: 天ぷらの王様。プリッとした身と、サクサクの衣。
+  - name: かぼちゃ
+    emoji: 🎃
+    reason: ほくほくで甘い。つゆを吸っても、おいしい。
+  - name: ナス
+    emoji: 🍆
+    reason: とろっとジューシー。天つゆを吸って、じゅわっと。
+  A:
+  - name: かき揚げ
+    emoji: 🍤
+    reason: いろんな具が入って、食感も味も楽しい。
+  - name: キス
+    emoji: 🐟
+    reason: 上品な白身魚。ふわっとやさしい味。
+  - name: イカ
+    emoji: 🦑
+    reason: プリッとした食感。大葉と一緒に揚げても。
+  - name: さつまいも
+    emoji: 🍠
+    reason: 甘くてほくほく。デザートのような天ぷら。
+  - name: 穴子
+    emoji: 🐍
+    reason: ふわふわの身に、甘いタレ。天丼にのせると、ごちそう。
+  B:
+  - name: しいたけ
+    emoji: 🍄
+    reason: 肉厚で、うまみがじゅわっと。
+  - name: れんこん
+    emoji: ⚪
+    reason: シャキシャキの食感が楽しい。
+  - name: ししとう
+    emoji: 🫑
+    reason: 小さくて、ピリッとアクセント。
+  - name: 大葉
+    emoji: 🍃
+    reason: さっぱり香りがよくて、油っこさをやわらげる。
+  C:
+  - name: 玉ねぎ
+    emoji: 🧅
+    reason: 甘くてサクサク。かき揚げの主役でもある。
+  - name: ごぼう
+    emoji: 🟫
+    reason: 香りがいいけど、ごぼう嫌いには厳しい。
+  D:
+  - name: 白子
+    emoji: ☁️
+    reason: とろっとクリーミー。冬の通好みの天ぷら。
+  - name: ふきのとう
+    emoji: 🌱
+    reason: 春のほろ苦さ。大人の味。
+summary: '天ぷらの具は、エビ・かぼちゃ・ナスがS。エビのプリプリ、かぼちゃの甘さ、ナスのジューシーさ。
+
+  天丼にするなら、タレのしみたご飯までおいしい。季節の天ぷらも楽しみのひとつ。
+
+  '
+related:
+- food-udon-topping
+- food-soba
+- food-don

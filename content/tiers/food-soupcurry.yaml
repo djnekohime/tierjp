@@ -1,0 +1,88 @@
+title: スープカレーの具 Tier表
+description: 骨付きチキン、ナス、かぼちゃ、ピーマン、じゃがいも、れんこん、ゆで卵、オクラ、ブロッコリー、豚の角煮、ソーセージ…札幌発祥のスープカレーの具を、AIが「スープとの相性×満足度」でランク付け。
+category: food
+genre: カレー
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① スープとの相性
+
+  ② 具の存在感・食べごたえ
+
+  ③ 「これを入れたい」度
+
+  ※ 特定のお店ではなく「具の種類」のランキングです
+
+  '
+rank_notes:
+  S: スープカレーの三大スター
+  D: 通のトッピング
+tiers:
+  S:
+  - name: 骨付きチキン
+    emoji: 🍗
+    reason: ほろっと骨からはずれる、やわらかいお肉。スープカレーの主役。
+  - name: ナス
+    emoji: 🍆
+    reason: スープをたっぷり吸って、じゅわっとジューシー。
+  - name: かぼちゃ
+    emoji: 🎃
+    reason: ほくほくで甘くて、スパイシーなスープによく合う。
+  A:
+  - name: じゃがいも
+    emoji: 🥔
+    reason: ごろっと大きくて、おなかいっぱいになる。
+  - name: ゆで卵
+    emoji: 🥚
+    reason: スープでまろやかに。半熟もおいしい。
+  - name: れんこん
+    emoji: ⚪
+    reason: シャキシャキの食感が楽しい。
+  - name: ピーマン
+    emoji: 🫑
+    reason: 揚げたピーマンは、苦くなくておいしい。
+  - name: 豚の角煮
+    emoji: 🟤
+    reason: とろとろの豚肉で、ぜいたくな一杯に。
+  B:
+  - name: オクラ
+    emoji: 🌿
+    reason: ネバネバとスープの組み合わせ。
+  - name: ブロッコリー
+    emoji: 🥦
+    reason: 彩りがよくて、栄養もとれる。
+  - name: ソーセージ
+    emoji: 🌭
+    reason: 子供も喜ぶ、ジューシーな具。
+  - name: にんじん
+    emoji: 🥕
+    reason: 甘くて、スープになじむ。
+  C:
+  - name: トマト
+    emoji: 🍅
+    reason: 酸味でさっぱり。好みが分かれる。
+  - name: きのこ
+    emoji: 🍄
+    reason: うまみが出て、スープが深くなる。
+  D:
+  - name: チーズ
+    emoji: 🧀
+    reason: こってり、まろやか。スパイスをやわらげる。
+  - name: ほうれん草
+    emoji: 🥬
+    reason: 緑の野菜がほしい日に。
+summary: 'スープカレーの具は、骨付きチキン・ナス・かぼちゃがS。ごろごろ大きな野菜と、骨付きチキンが主役。
+
+  普通のカレーと違って、サラサラのスープなので、野菜の味がよくわかる。
+
+  '
+related:
+- food-curry-gu
+- food-curry-shurui
+- food-curry-kenka
