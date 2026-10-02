@@ -1,0 +1,90 @@
+title: 飴の味 Tier表
+description: いちご、ミルク、はちみつ、レモン、ソーダ、ハッカ、黒糖、キャラメル、のど飴、ぶどう…飴の味を、AIが「なめて幸せ度×懐かしさ」でランク付け。
+category: food
+genre: お菓子・スナック
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① なめて幸せ度（味・香り）
+
+  ② 懐かしさ・みんなが好きな度
+
+  ③ ずっとなめていたくなるか
+
+  ※ 特定の商品ではなく「味の種類」のランキングです
+
+  '
+rank_notes:
+  S: 飴の三大定番
+  D: 大人の味
+tiers:
+  S:
+  - name: いちごミルク
+    emoji: 🍓
+    reason: 甘くてミルキーで、子供のころの味。飴の王様。
+  - name: ミルク
+    emoji: 🥛
+    reason: やさしくて、まろやか。ほっとする味。
+  - name: はちみつ
+    emoji: 🍯
+    reason: のど飴の代表。やさしい甘さで、のどにもよさそう。
+  A:
+  - name: レモン
+    emoji: 🍋
+    reason: すっぱくて、さわやか。口の中がすっきりする。
+  - name: ソーダ
+    emoji: 🫧
+    reason: ぱちぱちはじける、すっきり系。夏にぴったり。
+  - name: キャラメル
+    emoji: 🟤
+    reason: コクのある甘さ。ずっとなめていたくなる。
+  - name: ぶどう
+    emoji: 🍇
+    reason: 濃厚な甘さで、昔ながらの人気の味。
+  - name: 黒糖
+    emoji: 🟫
+    reason: コクがあって、ほっとする素朴な味。
+  B:
+  - name: ハッカ
+    emoji: 🌿
+    reason: スースーする、さっぱりした味。口の中がきれいになる。
+  - name: コーヒー
+    emoji: ☕
+    reason: ほろ苦い大人の飴。
+  - name: りんご
+    emoji: 🍎
+    reason: やさしい甘酸っぱさ。
+  - name: メロン
+    emoji: 🍈
+    reason: 人工的な甘さがクセになる。
+  C:
+  - name: のど飴（ハーブ系）
+    short: ハーブのど飴
+    emoji: 🌱
+    reason: 味は薬っぽいけど、のどの調子が悪いときには助かる。
+  - name: 塩飴
+    emoji: 🧂
+    reason: 夏の熱中症対策に。おいしいというより、必要。
+  D:
+  - name: 梅
+    emoji: 🔴
+    reason: 甘じょっぱくて、酸っぱい。クセになる大人の味。
+  - name: ごぼう茶・黒豆などの変わり種
+    short: 変わり種
+    emoji: 🫘
+    reason: 健康茶風味の飴。好きな人は大好き。
+summary: '飴の味は、いちごミルク・ミルク・はちみつがS。甘くて、やさしくて、子供のころの記憶を思い出す味。
+
+  レモンやソーダのようなさっぱり系、ハッカのようなスーッとする味、塩飴のような実用系まで、飴の世界は広い。
+
+  '
+related:
+- food-dagashi
+- food-otona-okashi
+- food-gummy

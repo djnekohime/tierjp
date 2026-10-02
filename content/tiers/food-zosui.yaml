@@ -1,0 +1,87 @@
+title: 雑炊・おじやの具 Tier表
+description: 卵、ネギ、鮭、梅、かに、キムチ、チーズ、海苔、しらす、きのこ…雑炊やおじやの具を、AIが「ほっとする度×体があたたまる度」でランク付け。
+category: food
+genre: ご飯もの
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ほっとする度
+
+  ② 体があたたまる度
+
+  ③ 食欲がないときでも食べられるか
+
+  '
+rank_notes:
+  S: 迷ったらこの3つ
+  D: ちょっと変わり種
+tiers:
+  S:
+  - name: 卵
+    emoji: 🥚
+    reason: ふわっととじた卵で、やさしい味に。雑炊の王道。
+  - name: ネギ
+    emoji: 🌱
+    reason: 最後に散らすだけで、香りと彩りがぐっと良くなる。
+  - name: 鮭
+    emoji: 🐟
+    reason: ほぐした鮭のうまみが、ごはんにしみわたる。
+  A:
+  - name: 梅干し
+    emoji: 🔴
+    reason: すっぱさで、食欲がないときでもするすると入る。
+  - name: かに
+    emoji: 🦀
+    reason: ぜいたくな味。鍋のあとの雑炊に、かにの味がしみこむ。
+  - name: きのこ
+    emoji: 🍄
+    reason: しいたけ、しめじ、えのき。うまみがスープに出る。
+  - name: しらす
+    emoji: 🤍
+    reason: やさしい塩気で、さっぱり食べられる。
+  B:
+  - name: キムチ
+    emoji: 🌶️
+    reason: ピリ辛で体がぽかぽか。キムチ雑炊は、寒い日に。
+  - name: チーズ
+    emoji: 🧀
+    reason: 洋風のリゾットのように、とろっとまろやかに。
+  - name: 海苔
+    emoji: 🟩
+    reason: ちぎってのせると、磯の香り。
+  - name: 鶏肉
+    emoji: 🍗
+    reason: 鶏のうまみで、しっかり食べごたえのある雑炊に。
+  - name: 生姜
+    emoji: 🫚
+    reason: 体があたたまって、風邪のときにもよさそう。
+  C:
+  - name: ごま油
+    emoji: 🫗
+    reason: 最後にたらすと、香ばしくて中華風に。
+  - name: カレー粉
+    emoji: 🍛
+    reason: カレー風味にアレンジ。気分を変えたい日に。
+  D:
+  - name: 鍋の残りの野菜ぜんぶ
+    short: 鍋の残り野菜
+    emoji: 🥬
+    reason: 白菜、春菊、ニラ。鍋のうまみが出た野菜は、最後の雑炊で一番おいしい。
+  - name: 牡蠣
+    emoji: 🦪
+    reason: うまみが濃くて、冬の贅沢な雑炊。好き嫌いは分かれる。
+summary: '雑炊の具は、卵・ネギ・鮭がS。しめに卵をとじて、ネギをたっぷりのせれば、体の芯からほっとする。
+
+  鍋のあとの雑炊は、鍋のうまみが全部溶けた、最高のごちそう。
+
+  '
+related:
+- food-nabe-shime
+- food-ochazuke
+- food-gohan-otomo

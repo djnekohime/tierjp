@@ -1,0 +1,88 @@
+title: 寝坊した日の朝ごはん Tier表
+description: バナナ、ゼリー飲料、おにぎり、トースト、ヨーグルト、カップの味噌汁、シリアル、プロテインバー、ドーナツ、食べない…寝坊した日の朝ごはんを、AIが「手軽さ×おなかもち」でランク付け。
+category: food
+genre: パン・朝食
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 3分以内に食べられるか
+
+  ② お昼までおなかがもつか
+
+  ③ 朝から元気が出るか
+
+  '
+rank_notes:
+  S: 寝坊の味方
+  D: 最後の手段
+tiers:
+  S:
+  - name: バナナ
+    emoji: 🍌
+    reason: 皮をむくだけ。すぐエネルギーになるから、寝坊した日の最強の味方。
+  - name: おにぎり
+    emoji: 🍙
+    reason: 前の日に握っておけば、歩きながらでも食べられる。
+  - name: トースト
+    emoji: 🍞
+    reason: 焼いている間に着替えられる。ジャムでもバターでも。
+  A:
+  - name: ゼリー飲料
+    emoji: 🥤
+    reason: 飲むだけ。電車の中でもOK。
+  - name: ヨーグルト
+    emoji: 🥄
+    reason: スプーンですくうだけ。おなかにもやさしい。
+  - name: シリアル
+    emoji: 🥣
+    reason: 牛乳をかけるだけ。立ったままでも食べられる。
+  - name: カップの味噌汁
+    emoji: 🍲
+    reason: お湯を入れて2分。体があたたまる。
+  - name: プロテインバー
+    emoji: 🍫
+    reason: かばんに入れておけば、いつでも食べられる。
+  B:
+  - name: ゆで卵
+    emoji: 🥚
+    reason: ゆでおきしておけば、殻をむくだけ。
+  - name: チーズ
+    emoji: 🧀
+    reason: かじるだけ。たんぱく質がとれる。
+  - name: カップスープ
+    emoji: 🥣
+    reason: お湯を注ぐだけ。具だくさんだと満足感も。
+  - name: ドライフルーツとナッツ
+    short: ナッツ
+    emoji: 🥜
+    reason: ひとつかみで、エネルギーがとれる。
+  C:
+  - name: 菓子パン
+    emoji: 🥐
+    reason: 手軽だけど、お昼前におなかが空きがち。
+  - name: ドーナツ
+    emoji: 🍩
+    reason: 甘くて元気は出るけど、あとでお腹がすく。
+  D:
+  - name: コーヒーだけ
+    emoji: ☕
+    reason: 朝ごはんのかわりにコーヒーだけ。目は覚めるけど、お昼前におなかが鳴る。
+  - name: 食べずに家を出る
+    short: 食べない
+    emoji: 🏃
+    reason: とにかく走る。お昼までがんばる、最後の手段。
+summary: '寝坊した日の朝ごはんは、バナナ・おにぎり・トーストがS。バナナは皮をむくだけで、すぐにエネルギーになる。
+
+  おにぎりを前の晩に握っておくと、寝坊しても安心。朝ごはんを抜くより、バナナ1本のほうが、午前中を元気に過ごせる。
+
+  '
+related:
+- food-conbini-asa
+- food-choshoku-shuyaku
+- food-onigiri
