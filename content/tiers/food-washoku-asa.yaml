@@ -1,0 +1,87 @@
+title: 和朝食のおかず Tier表
+description: 焼き鮭、卵焼き、納豆、味噌汁、海苔、漬物、干物、冷奴、ひじき煮、温泉卵、めざし、納豆巻き…和朝食のおかずを、AIが「ご飯が進む度×朝にぴったり度」でランク付け。
+category: food
+genre: パン・朝食
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ご飯が進む度
+
+  ② 朝にぴったりか
+
+  ③ 毎朝食べても飽きないか
+
+  '
+rank_notes:
+  S: 和朝食の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 焼き鮭
+    emoji: 🐟
+    reason: 朝ごはんの王道。塩加減がご飯にぴったり。
+  - name: 卵焼き
+    emoji: 🍳
+    reason: 甘いのも、だし巻きも。朝の定番。
+  - name: 納豆
+    emoji: 🫘
+    reason: ご飯にのせるだけ。体にもいい、朝の味方。
+  A:
+  - name: 味噌汁
+    emoji: 🍲
+    reason: 具だくさんで、朝の体をあたためる。
+  - name: 海苔
+    emoji: 🟩
+    reason: ご飯にのせて、巻いて食べる。定番のおとも。
+  - name: 干物（アジの開き）
+    short: 干物
+    emoji: 🐠
+    reason: 香ばしく焼いて、ご飯と一緒に。
+  - name: 漬物
+    emoji: 🥒
+    reason: さっぱり、ポリポリ。ご飯の箸休め。
+  - name: 温泉卵
+    emoji: ♨️
+    reason: とろっと半熟。ご飯にのせて。
+  B:
+  - name: 冷奴
+    emoji: ⬜
+    reason: さっぱりしていて、夏の朝に。
+  - name: ひじき煮
+    emoji: ⚫
+    reason: 栄養たっぷり。作り置きしておくと便利。
+  - name: 梅干し
+    emoji: 🔴
+    reason: すっぱさで目が覚める。
+  - name: めざし
+    emoji: 🐟
+    reason: 小さいけれど、うまみたっぷり。
+  C:
+  - name: ほうれん草のおひたし
+    emoji: 🥬
+    reason: ヘルシーだけど、朝は準備が面倒。
+  - name: きんぴらごぼう
+    emoji: 🥕
+    reason: 食べごたえあり。朝は少し重い。
+  D:
+  - name: たらこ・明太子
+    emoji: 🌶️
+    reason: ご飯が止まらなくなる。食べすぎ注意。
+  - name: 塩昆布
+    emoji: 🌿
+    reason: ご飯にのせるだけ。簡単な通の朝のお供。
+summary: '和朝食のおかずは、焼き鮭・卵焼き・納豆がS。ご飯・味噌汁・おかず・漬物の組み合わせは、朝の体をやさしく整えてくれる。
+
+  どれも忙しい朝に、準備しやすい。旅館の朝ごはんのように、少しずつ並べると気分があがる。
+
+  '
+related:
+- food-choshoku-shuyaku
+- food-hotel-choshoku
+- food-tkg

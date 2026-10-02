@@ -1,0 +1,86 @@
+title: とんかつにつけるもの Tier表
+description: ソース、塩、からし、おろしポン酢、味噌ダレ、レモン、ケチャップ、わさび、梅肉、ごまダレ、デミグラスソース…とんかつにつけるものを、AIが「とんかつがおいしくなる度×ご飯との相性」でランク付け。
+category: food
+genre: 肉料理
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① とんかつがおいしくなるか
+
+  ② ご飯やキャベツとの相性
+
+  ③ 最後まで飽きずに食べられるか
+
+  '
+rank_notes:
+  S: とんかつの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: とんかつソース
+    emoji: 🟫
+    reason: 甘辛いソースが、サクサクの衣にしみる。王道の組み合わせ。
+  - name: 塩
+    emoji: 🧂
+    reason: いいお肉は、塩だけで。肉の甘みがよくわかる。
+  - name: からし
+    emoji: 🟨
+    reason: ツンとした辛さが、脂のこってりをさっぱりさせる。
+  A:
+  - name: おろしポン酢
+    emoji: 🍊
+    reason: さっぱり食べたいときに。大根おろしと一緒に。
+  - name: 味噌ダレ
+    emoji: 🟤
+    reason: 名古屋の味噌カツ。甘辛い赤味噌が、とんかつに合う。
+  - name: レモン
+    emoji: 🍋
+    reason: しぼると、後味がさわやか。
+  - name: わさび
+    emoji: 💚
+    reason: ヒレカツやロースカツに。上品な辛さ。
+  - name: ごまダレ
+    emoji: ⚪
+    reason: 香ばしくて、キャベツにもよく合う。
+  B:
+  - name: デミグラスソース
+    emoji: 🍷
+    reason: 洋食屋さんのカツレツ風に。ご飯にもパンにも合う。
+  - name: 梅肉
+    emoji: 🔴
+    reason: さっぱり酸っぱい梅で、脂をやわらげる。
+  - name: ケチャップ
+    emoji: 🍅
+    reason: 子供向け。大人もハマる、甘酸っぱい味。
+  - name: カレーソース
+    emoji: 🍛
+    reason: カツカレーのように。ご飯と一緒に。
+  C:
+  - name: マヨネーズ
+    emoji: 🥚
+    reason: こってりが好きな人に。キャベツにもよく合う。
+  - name: 醤油
+    emoji: 🥢
+    reason: 和風な味。ご飯と合わせると、間違いない。
+  D:
+  - name: 柚子胡椒
+    emoji: 🟢
+    reason: ピリッと、柚子の香り。通の食べ方。
+  - name: 何もつけない
+    emoji: ✨
+    reason: 衣と肉のおいしさを、ありのまま味わう。
+summary: 'とんかつにつけるものは、ソース・塩・からしがS。ソースは定番、いいお肉は塩、からしでさっぱり。
+
+  名古屋では赤味噌の味噌ダレ、洋食屋さんではデミグラス。土地やお店で、つけるものも変わる。
+
+  '
+related:
+- food-butaniku
+- food-teishoku
+- food-hamburg-sauce

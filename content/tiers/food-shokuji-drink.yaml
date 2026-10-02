@@ -1,0 +1,88 @@
+title: 食事中に飲みたいもの Tier表
+description: お茶、水、味噌汁、ビール、炭酸水、麦茶、ウーロン茶、ジュース、牛乳、コーラ、ワイン、日本酒…食事中に飲みたいものを、AIが「料理との相性×食事がおいしくなる度」でランク付け。
+category: food
+genre: 飲み物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 料理との相性
+
+  ② 食事がおいしくなる度
+
+  ③ 毎日飲んでも飽きないか
+
+  ※ お酒は、20歳になってから、飲みすぎず楽しく
+
+  '
+rank_notes:
+  S: 食卓の三大スター
+  D: こだわり派
+tiers:
+  S:
+  - name: お茶（緑茶）
+    emoji: 🍵
+    reason: 和食にも洋食にも。口の中をさっぱりさせてくれる。
+  - name: 水
+    emoji: 💧
+    reason: いちばんシンプルで、いちばん間違いがない。
+  - name: 麦茶
+    emoji: 🌾
+    reason: 香ばしくて、家族みんなで飲める。
+  A:
+  - name: ウーロン茶
+    emoji: 🍃
+    reason: 油っこい料理に。さっぱり流してくれる。
+  - name: 炭酸水
+    emoji: 🫧
+    reason: 揚げ物や焼肉に。口の中がシュワッとリセット。
+  - name: 味噌汁
+    emoji: 🍲
+    reason: 飲み物というよりおかず。ご飯と一緒に。
+  - name: ビール
+    emoji: 🍺
+    reason: 唐揚げや餃子に。大人の楽しみ。
+  - name: ほうじ茶
+    emoji: 🍂
+    reason: 香ばしくて、食後もやさしい。
+  B:
+  - name: コーラ
+    emoji: 🥤
+    reason: ハンバーガーやピザに。ファストフードの相棒。
+  - name: ワイン
+    emoji: 🍷
+    reason: 洋食や、チーズに。赤は肉料理、白は魚料理。
+  - name: ジンジャーエール
+    emoji: 🫚
+    reason: お肉料理にもよく合う、ピリッとした炭酸。
+  - name: 烏龍ハイ
+    emoji: 🥃
+    reason: さっぱり、飲みやすい。
+  C:
+  - name: オレンジジュース
+    emoji: 🍊
+    reason: 甘すぎて、食事とは少しずれる。
+  - name: 牛乳
+    emoji: 🥛
+    reason: 給食の思い出。大人の食事には少し合わせにくい。
+  D:
+  - name: 日本酒
+    emoji: 🍶
+    reason: お刺身や煮物に。通好み。
+  - name: ノンアルコールビール
+    emoji: 🍻
+    reason: お酒を飲めない日の、ビール気分。
+summary: '食事中に飲むものは、お茶・水・麦茶がS。料理の味をじゃましない、毎日飲んでも飽きない飲み物。
+
+  揚げ物には炭酸水、焼肉にはビール、洋食にはワインと、料理に合わせるのも楽しい。お酒は20歳になってから。
+
+  '
+related:
+- food-ocha
+- food-tansan
+- food-curry-drink

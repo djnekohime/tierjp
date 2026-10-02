@@ -1,0 +1,89 @@
+title: レトルト食品 Tier表
+description: レトルトカレー、中華丼の素、ハンバーグ、シチュー、おかゆ、牛丼の具、パスタソース、ミートボール、肉じゃが、麻婆豆腐の素、親子丼の具…レトルト食品を、AIが「おいしさ×便利さ×ストックしたい度」でランク付け。
+category: food
+genre: コンビニ・スーパー
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② 便利さ・手軽さ
+
+  ③ ストックしておくと安心か
+
+  ※ 特定の商品ではなく「レトルトの種類」のランキングです
+
+  '
+rank_notes:
+  S: レトルトの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: カレー
+    emoji: 🍛
+    reason: ストックの王様。種類も多くて、いつでもおいしい。
+  - name: 牛丼の具
+    emoji: 🐂
+    reason: 温めてご飯にのせるだけ。忙しい日の味方。
+  - name: パスタソース
+    emoji: 🍝
+    reason: 麺をゆでて、かけるだけ。種類が豊富。
+  A:
+  - name: 麻婆豆腐の素
+    emoji: 🌶️
+    reason: 豆腐を加えるだけで本格的な味に。
+  - name: ハンバーグ
+    emoji: 🍔
+    reason: 湯せんするだけ。お弁当にも便利。
+  - name: シチュー
+    emoji: 🍲
+    reason: ご飯にかけても、パンと一緒にも。
+  - name: 中華丼の素
+    emoji: 🥢
+    reason: 野菜を足して、ごちそうに。
+  - name: 親子丼の具
+    emoji: 🐔
+    reason: 卵をとじるだけ。やさしい味。
+  B:
+  - name: おかゆ
+    emoji: 🥣
+    reason: 体調が悪い日に。やさしい味。
+  - name: ミートボール
+    emoji: 🍖
+    reason: お弁当のおかずにも。
+  - name: 肉じゃが
+    emoji: 🥘
+    reason: ほっとする家庭の味。
+  - name: ビーフシチュー
+    emoji: 🐂
+    reason: ちょっとぜいたくな日に。
+  C:
+  - name: カレーうどんの素
+    emoji: 🍜
+    reason: うどんにかけるだけ。味は濃いめ。
+  - name: お赤飯
+    emoji: 🍙
+    reason: お祝いの気分に。
+  D:
+  - name: ご当地カレー
+    emoji: 🗾
+    reason: 各地のご当地カレー。旅行気分で、通好み。
+  - name: 本格インドカレー
+    short: インドカレー
+    emoji: 🍛
+    reason: スパイスのきいた本格派。専門店の味に近い。
+summary: 'レトルト食品は、カレー・牛丼の具・パスタソースがS。ストックしておくと、忙しい日にも、災害時にも助かる。
+
+  最近のレトルトは、お店に負けないくらい進化している。ご当地カレーを集めるのも楽しい。
+
+  '
+related:
+- food-curry-shurui
+- food-kanzume
+- food-instant-soup

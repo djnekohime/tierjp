@@ -1,0 +1,86 @@
+title: 寒い日に帰宅して食べたいもの Tier表
+description: 鍋、おでん、シチュー、カレー、ラーメン、うどん、味噌汁、グラタン、ホットミルク、お雑煮、焼き芋、おしるこ…寒い日に帰宅して食べたいものを、AIが「あったまる度×ほっとする度」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① あったまる度
+
+  ② ほっとする度
+
+  ③ 帰宅してすぐ食べられるか
+
+  '
+rank_notes:
+  S: 寒い日の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 鍋
+    emoji: 🍲
+    reason: みんなで囲む、あったか料理の王様。締めの雑炊まで楽しみ。
+  - name: シチュー
+    emoji: 🥘
+    reason: クリームシチューの、ふんわりやさしい味。
+  - name: ラーメン
+    emoji: 🍜
+    reason: 寒い日のラーメンは、体の芯からあったまる。
+  A:
+  - name: おでん
+    emoji: 🍢
+    reason: 大根、卵、こんにゃく。だしのしみた味にほっとする。
+  - name: カレー
+    emoji: 🍛
+    reason: スパイスで体がぽかぽか。
+  - name: うどん
+    emoji: 🥢
+    reason: あったかいおうどんと、卵。やさしい味。
+  - name: グラタン
+    emoji: 🧀
+    reason: 熱々で、チーズがとろっと。
+  - name: 味噌汁
+    emoji: 🥣
+    reason: 具だくさんの味噌汁は、これだけでごちそう。
+  B:
+  - name: 焼き芋
+    emoji: 🍠
+    reason: ほくほくで甘い。冬のおやつ。
+  - name: おしるこ
+    emoji: 🥫
+    reason: 甘くて、あったかい。
+  - name: ホットミルク
+    emoji: 🥛
+    reason: 寝る前にも。やさしい甘さ。
+  - name: お雑煮
+    emoji: 🎍
+    reason: お正月の味。お餅が入って、満足感がある。
+  C:
+  - name: ホットココア
+    emoji: 🍫
+    reason: 甘くて、ほっとする。ごはんの代わりにはならない。
+  - name: カップスープ
+    emoji: 🥣
+    reason: 手軽だけど、おなかいっぱいにはならない。
+  D:
+  - name: ぜんざい
+    emoji: 🫘
+    reason: あんこ好きにはたまらない。通好みの冬の味。
+  - name: 甘酒
+    emoji: 🍶
+    reason: 体があたたまる、昔ながらの飲み物。
+summary: '寒い日に帰宅して食べたいものは、鍋・シチュー・ラーメンがS。あったかい湯気が、冷えた体にしみわたる。
+
+  味噌汁やおでんのような、ほっとする和の味も、寒い日の定番。
+
+  '
+related:
+- food-nabe-aji
+- food-oden
+- food-fuyu-conbini
