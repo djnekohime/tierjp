@@ -1,0 +1,86 @@
+title: 行事食（節分・ひな祭り…） Tier表
+description: おせち、お雑煮、七草粥、恵方巻、ちらし寿司、ハマグリのお吸い物、柏餅、ちまき、そうめん（七夕）、月見団子、うなぎ、年越しそば、冬至のかぼちゃ…行事食を、AIが「おいしさ×行事感×また食べたい度」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② 行事の雰囲気を感じられるか
+
+  ③ 毎年食べたくなるか
+
+  '
+rank_notes:
+  S: 行事食の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: おせち
+    emoji: 🍱
+    reason: お正月の定番。重箱いっぱいの縁起物。
+  - name: 年越しそば
+    emoji: 🍜
+    reason: 大みそかの夜に。1年の締めくくり。
+  - name: ちらし寿司
+    emoji: 🌸
+    reason: ひな祭りや、お祝いのとき。見た目も華やか。
+  A:
+  - name: お雑煮
+    emoji: 🎍
+    reason: お正月の朝に。地域によって、味も具もちがう。
+  - name: 恵方巻
+    emoji: 🍣
+    reason: 節分の夜に。黙って丸かぶりする、楽しい習慣。
+  - name: うなぎ
+    emoji: 🐍
+    reason: 土用の丑の日の、夏の定番。
+  - name: 月見団子
+    emoji: 🌕
+    reason: お月見に。ススキと一緒に飾って。
+  - name: 柏餅
+    emoji: 🍃
+    reason: こどもの日の、柏の葉に包まれたお餅。
+  B:
+  - name: 七草粥
+    emoji: 🌿
+    reason: 1月7日の朝。おせちで疲れた胃にやさしい。
+  - name: ハマグリのお吸い物
+    emoji: 🐚
+    reason: ひな祭りの定番。夫婦円満の願いを込めて。
+  - name: 冬至のかぼちゃ
+    emoji: 🎃
+    reason: 冬至に食べると、風邪をひかない、と言われている。
+  - name: ちまき
+    emoji: 🎋
+    reason: こどもの日に。もち米を笹の葉で包んで。
+  C:
+  - name: 七夕のそうめん
+    emoji: 🎏
+    reason: 天の川に見立てて。夏らしい食卓。
+  - name: 節分の豆
+    emoji: 🫘
+    reason: 年の数だけ食べるのは、意外と大変。
+  D:
+  - name: 黒豆
+    emoji: ⚫
+    reason: おせちの黒豆。「まめに働けるように」の縁起物。
+  - name: お彼岸のおはぎ
+    emoji: 🍡
+    reason: 春はぼたもち、秋はおはぎ。通好みの行事食。
+summary: '行事食は、おせち・年越しそば・ちらし寿司がS。行事のたびに、同じ料理を食べるのは、家族の思い出になる。
+
+  恵方巻、うなぎ、月見団子のように、季節ごとの行事を、食べ物で楽しむのも日本らしい。
+
+  '
+related:
+- food-osechi
+- food-christmas
+- food-hanami

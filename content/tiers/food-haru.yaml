@@ -1,0 +1,86 @@
+title: 春に食べたいもの Tier表
+description: 桜餅、たけのこご飯、いちご、菜の花のおひたし、新玉ねぎ、はまぐりのお吸い物、お花見団子、新じゃが、春キャベツ、桜えび、アスパラガス、ふきのとう…春に食べたいものを、AIが「春らしさ×おいしさ」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 春らしさ
+
+  ② おいしさ
+
+  ③ 旬の食材を楽しめるか
+
+  '
+rank_notes:
+  S: 春の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 桜餅
+    emoji: 🌸
+    reason: 桜の葉の香りと、あんこ。春の和菓子の代表。
+  - name: いちご
+    emoji: 🍓
+    reason: 甘酸っぱくて、春の訪れを感じる。
+  - name: たけのこご飯
+    emoji: 🎍
+    reason: シャキシャキのたけのこと、だしのご飯。春の旬。
+  A:
+  - name: 春キャベツ
+    emoji: 🥬
+    reason: やわらかくて、甘い。ロールキャベツにも。
+  - name: 新玉ねぎ
+    emoji: 🧅
+    reason: 辛みが少なくて、サラダでもおいしい。
+  - name: お花見団子
+    emoji: 🍡
+    reason: ピンク、白、緑。お花見のおともに。
+  - name: 菜の花
+    emoji: 🌼
+    reason: ほろ苦くて、春の味。からし和えやおひたしに。
+  - name: アスパラガス
+    emoji: 🥦
+    reason: 春の旬。ゆでて、マヨネーズで。
+  B:
+  - name: 新じゃが
+    emoji: 🥔
+    reason: 皮ごと食べられる。バターしょうゆで。
+  - name: 桜えび
+    emoji: 🦐
+    reason: かき揚げや、ご飯にのせて。静岡の春の味。
+  - name: ハマグリのお吸い物
+    emoji: 🐚
+    reason: ひな祭りの定番。
+  - name: そら豆
+    emoji: 🫛
+    reason: ホクホクの、春の味。
+  C:
+  - name: ふきのとう
+    emoji: 🌱
+    reason: ほろ苦い。天ぷらで食べる、大人の味。
+  - name: つくし
+    emoji: 🌿
+    reason: 卵とじで。春の野の味。
+  D:
+  - name: 山菜の天ぷら
+    emoji: 🍤
+    reason: タラの芽、コシアブラなど。春の通好みの味。
+  - name: ホタルイカ
+    emoji: 🦑
+    reason: 春の富山の味。酢味噌で。
+summary: '春に食べたいものは、桜餅・いちご・たけのこご飯がS。春は、桜の香りや、ほろ苦い山菜など、冬を抜けた体を目覚めさせてくれる食材がたくさん。
+
+  お花見のお団子と一緒に、春を味わおう。
+
+  '
+related:
+- food-hanami
+- food-fuyu-fruits
+- food-gyojishoku

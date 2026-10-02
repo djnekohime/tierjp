@@ -1,0 +1,88 @@
+title: 一口もらうなら嬉しいもの Tier表
+description: 唐揚げ、ポテト、デザート、おにぎり、たこ焼き、ピザ、アイス、ケーキ、お寿司、カレー、ラーメン、ステーキ…誰かの料理から「一口ちょうだい」と言われたとき、もらえたら嬉しいものを、AIが「分け合って嬉しい度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 一口だけでも嬉しいか
+
+  ② 分け合いやすいか
+
+  ③ 「もう一口」と言いたくなるか
+
+  ※ 食べ物は、分け合って楽しく。アレルギーには注意
+
+  '
+rank_notes:
+  S: 一口もらいの三大スター
+  D: 分けにくい
+tiers:
+  S:
+  - name: ポテト
+    emoji: 🍟
+    reason: ちょっともらうと、止まらない。分け合うのに最適。
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: ひとつもらえたら、かなり嬉しい。
+  - name: デザート
+    emoji: 🍰
+    reason: ひと口ずつ、食べ比べするのが楽しい。
+  A:
+  - name: ピザ
+    emoji: 🍕
+    reason: 一切れずつ、分けやすい。
+  - name: アイスクリーム
+    emoji: 🍨
+    reason: ひと口もらうと、幸せ。
+  - name: たこ焼き
+    emoji: 🐙
+    reason: ひとつ、また次、と。
+  - name: ケーキ
+    emoji: 🍰
+    reason: 半分こして、2つの味を楽しむ。
+  - name: お寿司
+    emoji: 🍣
+    reason: ひと貫、もらうと嬉しい。
+  B:
+  - name: おにぎり
+    emoji: 🍙
+    reason: ひとくち分けてもらうと、ほっとする。
+  - name: カレー
+    emoji: 🍛
+    reason: ひと口もらって、味を比べる。
+  - name: パスタ
+    emoji: 🍝
+    reason: フォークでくるくる巻いて、おすそ分け。
+  - name: 餃子
+    emoji: 🥟
+    reason: 1個もらえたら嬉しい。
+  C:
+  - name: ラーメン
+    emoji: 🍜
+    reason: スープがこぼれそうで、分けにくい。
+  - name: ステーキ
+    emoji: 🥩
+    reason: ひと口が小さいと、悲しい。
+  D:
+  - name: スープ
+    emoji: 🥣
+    reason: ひと口でも、ちょっと飲みにくい。
+  - name: 丼もの
+    emoji: 🍚
+    reason: 混ざっているので、分けにくい。
+summary: '一口もらうなら嬉しいものは、ポテト・唐揚げ・デザートがS。分け合うと、おいしさも倍になる。
+
+  一口あげると、一口もらえる。そんな関係が、いちばん幸せ。アレルギーには気をつけて。
+
+  '
+related:
+- food-saigo-hitokuchi
+- food-hitokuchi
+- food-mugen

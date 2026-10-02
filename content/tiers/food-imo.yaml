@@ -1,0 +1,88 @@
+title: いもの種類 Tier表
+description: さつまいも、じゃがいも、里芋、山芋（長芋）、こんにゃくいも、ヤーコン、むかご、タロイモ、安納芋、紫芋、新じゃが…いもの種類を、AIが「おいしさ×使いやすさ×食べごたえ」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① おいしさ
+
+  ② いろんな料理に使えるか
+
+  ③ 食べごたえ・満足感
+
+  ※ 特定の品種だけでなく、「いもの種類」のランキングです
+
+  '
+rank_notes:
+  S: いもの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: じゃがいも
+    emoji: 🥔
+    reason: カレー、肉じゃが、ポテト。何にでも合う、台所の王様。
+  - name: さつまいも
+    emoji: 🍠
+    reason: 焼き芋、天ぷら、スイートポテト。甘くてほくほく。
+  - name: 里芋
+    emoji: 🟤
+    reason: ねっとりした食感。煮ものの定番。
+  A:
+  - name: 長芋（山芋）
+    emoji: ⚪
+    reason: とろろにしても、サクサク焼いても。
+  - name: 安納芋
+    emoji: 🍯
+    reason: とろっと甘い、ねっとり系のさつまいも。
+  - name: 新じゃが
+    emoji: 🌱
+    reason: 皮ごと食べられる、春のじゃがいも。
+  - name: 紫芋
+    emoji: 🟣
+    reason: 色もきれい。お菓子にもよく使われる。
+  - name: 男爵いも
+    emoji: 🥔
+    reason: ほくほく系。コロッケやポテトサラダに。
+  B:
+  - name: メークイン
+    emoji: 🥔
+    reason: しっとり系。煮崩れしにくく、カレーやシチューに。
+  - name: やまといも
+    emoji: ⚪
+    reason: 粘りが強くて、お好み焼きのつなぎに。
+  - name: きくいも
+    emoji: 🟫
+    reason: シャキシャキの食感。ヘルシー。
+  - name: むかご
+    emoji: 🟤
+    reason: 山芋のツルにできる、小さな実。秋の味覚。
+  C:
+  - name: こんにゃくいも
+    emoji: ⬜
+    reason: こんにゃくの原料。そのままでは食べられない。
+  - name: ヤーコン
+    emoji: 🍐
+    reason: シャリシャリの食感。梨のような味。
+  D:
+  - name: タロイモ
+    emoji: 🏝️
+    reason: 南国のいも。ハワイのポイや、ココナッツ料理に。
+  - name: キャッサバ
+    emoji: 🌿
+    reason: タピオカの原料。毒抜きが必要な、通好みのいも。
+summary: 'いもは、じゃがいも・さつまいも・里芋がS。ほくほく、あまい、ねっとり。食べごたえのある、秋の味覚。
+
+  男爵いもとメークインのように、同じじゃがいもでも、料理によって使い分けるのも楽しい。
+
+  '
+related:
+- food-yasai
+- food-potato-katachi
+- food-imo-okashi

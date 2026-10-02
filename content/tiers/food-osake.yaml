@@ -1,0 +1,88 @@
+title: お酒の種類 Tier表
+description: ビール、ハイボール、日本酒、ワイン、焼酎、梅酒、レモンサワー、カクテル、ウイスキー、マッコリ、シャンパン、チューハイ…お酒の種類を、AIが「食事との相性×飲みやすさ×楽しさ」でランク付け。
+category: food
+genre: 飲み物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 食事との相性
+
+  ② 飲みやすさ
+
+  ③ 乾杯したときの楽しさ
+
+  ※ お酒は20歳になってから。飲みすぎず、楽しく。ランクは好みの目安です
+
+  '
+rank_notes:
+  S: お酒の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: ビール
+    emoji: 🍺
+    reason: 乾杯の定番。唐揚げや餃子との相性は最高。
+  - name: ハイボール
+    emoji: 🥃
+    reason: さっぱり、食事に合う。炭酸の爽快感。
+  - name: レモンサワー
+    emoji: 🍋
+    reason: さわやかで、飲みやすい。居酒屋の人気者。
+  A:
+  - name: 日本酒
+    emoji: 🍶
+    reason: お刺身や煮物に。冷でも熱燗でも。
+  - name: ワイン
+    emoji: 🍷
+    reason: 赤は肉料理、白は魚料理。チーズにも合う。
+  - name: 梅酒
+    emoji: 🔴
+    reason: 甘くて、お酒が苦手な人でも飲みやすい。
+  - name: チューハイ
+    emoji: 🍹
+    reason: フルーツ味で、種類が豊富。
+  - name: シャンパン
+    emoji: 🥂
+    reason: お祝いの日に。泡がきれい。
+  B:
+  - name: 焼酎
+    emoji: 🍠
+    reason: 芋、麦、米。お湯割りでも、ロックでも。
+  - name: カクテル
+    emoji: 🍸
+    reason: 見た目もきれい。バーで頼むと特別な気分。
+  - name: ウイスキー
+    emoji: 🥃
+    reason: 香りをゆっくり楽しむ、大人のお酒。
+  - name: マッコリ
+    emoji: 🍚
+    reason: 韓国の、白くてやさしい甘さのお酒。
+  C:
+  - name: ノンアルコールビール
+    emoji: 🍻
+    reason: お酒が飲めない日の、ビール気分。
+  - name: ジン・ウォッカ
+    emoji: 🍸
+    reason: そのまま飲むのは、上級者向け。
+  D:
+  - name: 泡盛
+    emoji: 🏝️
+    reason: 沖縄の伝統のお酒。古酒（クース）は、通好み。
+  - name: ブランデー
+    emoji: 🥃
+    reason: 食後にゆっくり。通好みの香り。
+summary: 'お酒は、ビール・ハイボール・レモンサワーがS。食事に合わせやすくて、飲みやすい。
+
+  お酒は20歳になってから。無理せず、飲みすぎず、楽しく飲もう。
+
+  '
+related:
+- food-izakaya
+- food-shokuji-drink
+- food-otsumami
