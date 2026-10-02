@@ -1,0 +1,88 @@
+title: 居酒屋の定番メニュー Tier表
+description: 唐揚げ、枝豆、焼き鳥、冷奴、だし巻き玉子、ポテトフライ、刺身盛り合わせ、シーザーサラダ、お茶漬け、軟骨唐揚げ、串カツ…居酒屋のとりあえず頼むメニューを、AIが「とりあえず頼む度×お酒との相性」でランク付け。
+category: food
+genre: ファストフード・外食
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① とりあえず頼む度
+
+  ② お酒との相性
+
+  ③ みんなで分けて食べやすいか
+
+  ※ 特定のお店ではなく「メニューの種類」のランキングです
+
+  '
+rank_notes:
+  S: とりあえずの三大スター
+  D: 通の注文
+tiers:
+  S:
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: 居酒屋に来たら、まず唐揚げ。ビールにぴったり。
+  - name: 枝豆
+    emoji: 🫛
+    reason: 「とりあえず、ビールと枝豆」の定番。
+  - name: 焼き鳥
+    emoji: 🍢
+    reason: 塩でもタレでも。盛り合わせで頼めばみんな満足。
+  A:
+  - name: だし巻き玉子
+    emoji: 🥚
+    reason: ふわっと、だしがじゅわっ。大根おろしと一緒に。
+  - name: ポテトフライ
+    emoji: 🍟
+    reason: みんなでつまめる、みんな大好きな味。
+  - name: 冷奴
+    emoji: ⬜
+    reason: さっぱりしていて、お酒の間のひと休み。
+  - name: 刺身盛り合わせ
+    emoji: 🍣
+    reason: ちょっと特別な日に。日本酒との相性が最高。
+  - name: シーザーサラダ
+    emoji: 🥗
+    reason: 野菜もとらなきゃ、の言い訳に。
+  B:
+  - name: 軟骨唐揚げ
+    emoji: 🦴
+    reason: コリコリの食感が、お酒によく合う。
+  - name: 串カツ
+    emoji: 🍢
+    reason: サクサクで、ソースにつけて食べる。
+  - name: ししゃも
+    emoji: 🐟
+    reason: 頭からまるごと食べられる、定番の1品。
+  - name: ぎょうざ
+    emoji: 🥟
+    reason: 居酒屋にもある、ビールのお供。
+  C:
+  - name: お茶漬け
+    emoji: 🍵
+    reason: 最後のしめに。ほっとする味。
+  - name: ポテトサラダ
+    emoji: 🥔
+    reason: 家の味に近い、やさしい居酒屋メニュー。
+  D:
+  - name: 塩辛
+    emoji: 🦑
+    reason: 日本酒好きがほしくなる、通の注文。
+  - name: 板わさ
+    emoji: 🍥
+    reason: かまぼこにわさびをのせただけ。シンプルだけど、お酒がすすむ。
+summary: '居酒屋の定番は、唐揚げ・枝豆・焼き鳥がS。「とりあえずビール」に合う、昔からの定番3つ。
+
+  だし巻き玉子や冷奴のような、ほっとするメニューも、お酒の合間にうれしい。
+
+  '
+related:
+- food-yakitori
+- food-kushikatsu
+- food-karaage
