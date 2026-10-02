@@ -1,0 +1,89 @@
+title: 自販機で買うもの Tier表
+description: 缶コーヒー、お茶、炭酸飲料、スポーツドリンク、ココア、コーンスープ、ミネラルウォーター、ジュース、紅茶、あたたかいお汁粉、エナジードリンク、乳酸菌飲料…自動販売機で買うものを、AIが「つい買っちゃう度×ほっとする度」でランク付け。
+category: food
+genre: 飲み物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① つい買ってしまう度
+
+  ② ほっとする度
+
+  ③ 季節に合っているか
+
+  ※ 特定の商品ではなく「飲み物の種類」のランキングです
+
+  '
+rank_notes:
+  S: 自販機の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 缶コーヒー
+    emoji: ☕
+    reason: あったかいのも、冷たいのも。昔から愛される自販機の定番。
+  - name: お茶
+    emoji: 🍵
+    reason: どんなときも安心の一本。
+  - name: 炭酸飲料
+    emoji: 🥤
+    reason: シュワッとはじける爽快感。
+  A:
+  - name: スポーツドリンク
+    emoji: 💧
+    reason: 運動のあとや、夏の暑い日に。
+  - name: あたたかいココア
+    emoji: 🍫
+    reason: 冬の自販機の人気者。
+  - name: コーンスープ
+    emoji: 🌽
+    reason: 缶の底に残るコーンとの格闘も、楽しみ。
+  - name: ミネラルウォーター
+    emoji: 🏔️
+    reason: 迷ったら、水。
+  - name: 紅茶
+    emoji: 🫖
+    reason: ミルクティーも、ストレートも。
+  B:
+  - name: ジュース
+    emoji: 🍊
+    reason: オレンジジュースや、りんごジュース。
+  - name: 乳酸菌飲料
+    emoji: 🥛
+    reason: 甘酸っぱい、昔ながらの味。
+  - name: おしるこ缶
+    emoji: 🥫
+    reason: 冬の通好みの一本。
+  - name: ブラックコーヒー
+    emoji: ⚫
+    reason: 眠気覚ましに。
+  C:
+  - name: エナジードリンク
+    emoji: ⚡
+    reason: 疲れた日に。ただし、カフェインのとりすぎには注意。
+  - name: 健康茶（ルイボスティーなど）
+    short: 健康茶
+    emoji: 🌿
+    reason: 体によさそうだけど、味は好みが分かれる。
+  D:
+  - name: あたたかいレモンティー
+    emoji: 🍋
+    reason: 冬の自販機の隠れた名品。
+  - name: 謎の変わり種ジュース
+    emoji: ❓
+    reason: ときどき見かける、不思議な味の飲み物。通好み。
+summary: '自販機で買うものは、缶コーヒー・お茶・炭酸飲料がS。夏は冷たい炭酸、冬はあったかいコーヒーやココア。季節ごとに、ほっとする一本がある。
+
+  コーンスープの最後の粒との格闘も、自販機ならでは。
+
+  '
+related:
+- food-asa-drink
+- food-atsui-hi
+- food-fuyu-yoru

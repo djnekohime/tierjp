@@ -1,0 +1,88 @@
+title: 漬物の種類 Tier表
+description: たくあん、白菜漬け、きゅうりの浅漬け、梅干し、キムチ、らっきょう、奈良漬け、野沢菜漬け、福神漬け、柴漬け、ぬか漬け、すぐき漬け…漬物の種類を、AIが「ご飯が進む度×飽きない度」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ご飯が進む度
+
+  ② 食べ飽きないか
+
+  ③ 食卓にあると嬉しいか
+
+  ※ 漬物は塩分が多いので、食べすぎには注意
+
+  '
+rank_notes:
+  S: 漬物の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 梅干し
+    emoji: 🔴
+    reason: ご飯と梅干し。日本のシンプルな最強コンビ。
+  - name: たくあん
+    emoji: 🟡
+    reason: ポリポリの食感と、甘じょっぱい味。
+  - name: きゅうりの浅漬け
+    emoji: 🥒
+    reason: さっぱり、シャキシャキ。夏の食卓の定番。
+  A:
+  - name: 白菜漬け
+    emoji: 🥬
+    reason: 冬の定番。あっさりとやさしい味。
+  - name: キムチ
+    emoji: 🌶️
+    reason: ピリ辛で、ご飯がすすむ。
+  - name: ぬか漬け
+    emoji: 🥕
+    reason: 手間をかけた、発酵の味。
+  - name: 福神漬け
+    emoji: 🟫
+    reason: カレーに欠かせない、甘い漬物。
+  - name: 野沢菜漬け
+    emoji: 🌿
+    reason: 長野の名物。シャキシャキで、ほんのり酸味。
+  B:
+  - name: らっきょう
+    emoji: ⚪
+    reason: カレーのおとも。シャキシャキの甘酢漬け。
+  - name: 柴漬け
+    emoji: 🟣
+    reason: 京都の味。赤しその香りと、なすの食感。
+  - name: 紅しょうが
+    emoji: 🟥
+    reason: 牛丼や焼きそばに欠かせない、赤い漬物。
+  - name: かぶの浅漬け
+    emoji: ⚪
+    reason: さっぱりとした甘み。
+  C:
+  - name: すぐき漬け
+    emoji: 🟤
+    reason: 京都の、酸っぱい漬物。好みが分かれる。
+  - name: 高菜漬け
+    emoji: 🥬
+    reason: 九州の味。ラーメンのトッピングにも。
+  D:
+  - name: 奈良漬け
+    emoji: 🍶
+    reason: 酒粕で漬けた、大人の味。お酒の風味が強い。
+  - name: べったら漬け
+    emoji: 🍬
+    reason: 東京の、甘くてシャキシャキの大根漬け。
+summary: '漬物は、梅干し・たくあん・きゅうりの浅漬けがS。ご飯のおともの定番。シャキシャキ、ポリポリの食感が楽しい。
+
+  漬物は塩分が多めなので、食べすぎには注意。ほどほどに楽しもう。
+
+  '
+related:
+- food-gohan-otomo
+- food-ochazuke
+- food-washoku-asa

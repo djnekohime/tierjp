@@ -1,0 +1,90 @@
+title: 深夜の背徳飯 Tier表
+description: カップ麺、卵かけご飯、ラーメン、チャーハン、おにぎり、バターご飯、お茶漬け、ポテトチップス、唐揚げ、トースト、ピザ、アイス…夜中に食べてしまう背徳のごはんを、AIが「背徳度×おいしさ」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 背徳感の強さ
+
+  ② 食べたあとのおいしさの満足度
+
+  ③ 翌朝の後悔度
+
+  ※ 夜遅くの食事は、体にもよくないとされています。たまのごほうびに
+
+  '
+rank_notes:
+  S: 背徳の三大スター
+  D: 意外とヘルシー
+tiers:
+  S:
+  - name: カップ麺
+    emoji: 🍜
+    reason: 夜中のカップ麺は、いつもの3倍おいしい。
+  - name: ラーメン
+    emoji: 🍥
+    reason: 深夜のラーメンは、最強の背徳。
+  - name: バターご飯（バター醤油ご飯）
+    short: バター醤油ご飯
+    emoji: 🧈
+    reason: 炊きたてご飯に、バターと醤油。たまらない。
+  A:
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: 夜中の揚げ物は、罪の味。
+  - name: チャーハン
+    emoji: 🍚
+    reason: ガッツリ食べたい夜に。
+  - name: ピザ
+    emoji: 🍕
+    reason: デリバリーの誘惑。
+  - name: アイスクリーム
+    emoji: 🍨
+    reason: 夜中のアイスは、特別おいしい。
+  - name: ポテトチップス
+    emoji: 🥔
+    reason: ひと袋が、あっという間に。
+  B:
+  - name: トースト（バター＋砂糖）
+    short: 砂糖バタートースト
+    emoji: 🍞
+    reason: シンプルだけど、背徳。
+  - name: 卵かけご飯
+    emoji: 🥚
+    reason: 手軽で、おいしい。
+  - name: おにぎり
+    emoji: 🍙
+    reason: コンビニで、つい。
+  - name: お茶漬け
+    emoji: 🍵
+    reason: 比較的ヘルシー。
+  C:
+  - name: サラダチキン
+    emoji: 🥗
+    reason: ヘルシーだけど、夜中にはちょっと寂しい。
+  - name: フルーツ
+    emoji: 🍎
+    reason: 背徳感は少ない。
+  D:
+  - name: 白湯
+    emoji: ♨️
+    reason: 背徳感ゼロ。体にやさしい、最後の砦。
+  - name: ヨーグルト
+    emoji: 🥄
+    reason: 夜でも比較的やさしい。
+summary: '深夜の背徳飯は、カップ麺・ラーメン・バターご飯がS。夜中に食べるものは、なぜか、いつもよりおいしい。
+
+  ただし、夜遅くの食事は、体にもあまりよくないと言われている。たまのごほうびとして楽しもう。
+
+  '
+related:
+- food-ramen-shinya
+- food-mugen
+- food-hitokuchi

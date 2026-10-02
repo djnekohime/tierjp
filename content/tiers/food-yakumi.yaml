@@ -1,0 +1,88 @@
+title: 薬味 Tier表
+description: ネギ、生姜、大葉、みょうが、わさび、七味唐辛子、柚子胡椒、ごま、ニンニク、パクチー、大根おろし、かいわれ大根…薬味を、AIが「料理がおいしくなる度×使いやすさ」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 料理がおいしくなるか
+
+  ② いろんな料理に使えるか
+
+  ③ ストックしておくと便利か
+
+  ※ 特定の商品ではなく「薬味の種類」のランキングです
+
+  '
+rank_notes:
+  S: 薬味の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: ネギ
+    emoji: 🌱
+    reason: 麺にも、お味噌汁にも、鍋にも。薬味の王様。
+  - name: 生姜
+    emoji: 🫚
+    reason: ピリッとした香りで、料理を引き締める。
+  - name: 大葉
+    emoji: 🍃
+    reason: さわやかな香りで、さっぱり。
+  A:
+  - name: わさび
+    emoji: 💚
+    reason: お刺身にも、お蕎麦にも。ツンとした辛さ。
+  - name: みょうが
+    emoji: 🌸
+    reason: さわやかな香りで、夏の定番。
+  - name: ごま
+    emoji: ⚪
+    reason: 香ばしくて、どんな料理にも合う。
+  - name: 大根おろし
+    emoji: ⚪
+    reason: さっぱり、消化を助ける。
+  - name: 七味唐辛子
+    emoji: 🌶️
+    reason: うどんにも、焼き鳥にも。
+  B:
+  - name: ニンニク
+    emoji: 🧄
+    reason: パンチのある香り。使いすぎには注意。
+  - name: 柚子胡椒
+    emoji: 🟢
+    reason: ピリッと辛くて、柚子の香り。
+  - name: かいわれ大根
+    emoji: 🌿
+    reason: ピリッとした辛みと、シャキシャキ食感。
+  - name: 山椒
+    emoji: 🌿
+    reason: しびれる香り。うなぎや焼き鳥に。
+  C:
+  - name: パクチー
+    emoji: 🌿
+    reason: 好きな人は大好き、苦手な人はまったくダメ。
+  - name: からし
+    emoji: 🟨
+    reason: おでんや、とんかつに。
+  D:
+  - name: すだち
+    emoji: 🟢
+    reason: しぼるだけで、料理がさわやかに。
+  - name: ミョウガタケ
+    emoji: 🌿
+    reason: みょうがの若い茎。通好みの香り。
+summary: '薬味は、ネギ・生姜・大葉がS。料理にちょっと足すだけで、おいしさが何倍にもなる。
+
+  パクチーのように、好き嫌いがはっきり分かれるものもあるけれど、薬味は日本の食卓の名脇役。
+
+  '
+related:
+- food-somen-yakumi
+- food-sashimi-yakumi
+- food-ramen-topping

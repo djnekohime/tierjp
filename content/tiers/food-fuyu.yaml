@@ -1,0 +1,86 @@
+title: 冬に食べたいもの Tier表
+description: 鍋、おでん、シチュー、ラーメン、焼き芋、みかん、カニ、おしるこ、お雑煮、グラタン、湯豆腐、ふろふき大根…冬に食べたいものを、AIが「あったまる度×冬らしさ」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① あったまる度
+
+  ② 冬らしさ
+
+  ③ おいしさ
+
+  '
+rank_notes:
+  S: 冬の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 鍋
+    emoji: 🍲
+    reason: みんなで囲む、冬の王様。締めの雑炊までセット。
+  - name: おでん
+    emoji: 🍢
+    reason: 大根、卵、こんにゃく。だしのしみた味。
+  - name: みかん
+    emoji: 🍊
+    reason: こたつとみかん。冬の幸せ。
+  A:
+  - name: シチュー
+    emoji: 🥘
+    reason: あったかいクリームシチュー。
+  - name: ラーメン
+    emoji: 🍜
+    reason: 寒い日のラーメンは、格別。
+  - name: 焼き芋
+    emoji: 🍠
+    reason: ほくほくで、甘い。
+  - name: カニ
+    emoji: 🦀
+    reason: 冬の味覚の王様。無言になる。
+  - name: グラタン
+    emoji: 🧀
+    reason: 熱々で、チーズがとろっと。
+  B:
+  - name: お雑煮
+    emoji: 🎍
+    reason: お正月の味。お餅で満腹に。
+  - name: おしるこ
+    emoji: 🥫
+    reason: 甘くて、あったかい。
+  - name: 湯豆腐
+    emoji: ⬜
+    reason: シンプルで、体にやさしい。
+  - name: ふろふき大根
+    emoji: ⚪
+    reason: 味噌がとろり。大根がとろけるやわらかさ。
+  C:
+  - name: ほうとう
+    emoji: 🍜
+    reason: 山梨の郷土料理。野菜たっぷりで、あったまる。
+  - name: ホットドリンク
+    emoji: ☕
+    reason: あったまるけど、食べ物ではない。
+  D:
+  - name: あんこう鍋
+    emoji: 🐟
+    reason: 冬の、茨城や山口の味。通好みの鍋。
+  - name: 牡蠣
+    emoji: 🦪
+    reason: 冬が旬の、濃厚な味。
+summary: '冬に食べたいものは、鍋・おでん・みかんがS。あったかくて、みんなで囲める、冬ならではの食べ物。
+
+  カニや牡蠣のような、冬の味覚も、冬の楽しみ。
+
+  '
+related:
+- food-samui-kitaku
+- food-fuyu-fruits
+- food-fuyu-conbini

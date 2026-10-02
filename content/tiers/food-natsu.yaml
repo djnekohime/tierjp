@@ -1,0 +1,86 @@
+title: 夏に食べたいもの Tier表
+description: そうめん、かき氷、スイカ、冷やし中華、うなぎ、ビアガーデンの枝豆、とうもろこし、アイス、トマト、ゴーヤ、冷奴、夏野菜カレー…夏に食べたいものを、AIが「夏らしさ×おいしさ」でランク付け。
+category: food
+genre: 鍋・季節の食べ物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 夏らしさ
+
+  ② おいしさ
+
+  ③ 暑い日でも食べたくなるか
+
+  '
+rank_notes:
+  S: 夏の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: かき氷
+    emoji: 🍧
+    reason: 夏の風物詩。シャリシャリ、ひんやり。
+  - name: そうめん
+    emoji: 🎏
+    reason: つるつる、のどごし。夏の定番。
+  - name: スイカ
+    emoji: 🍉
+    reason: 冷やして、かぶりつく。夏の王様。
+  A:
+  - name: うなぎ
+    emoji: 🐍
+    reason: 土用の丑の日の、スタミナ料理。
+  - name: 冷やし中華
+    emoji: 🥗
+    reason: 酸っぱいタレと、具だくさん。
+  - name: とうもろこし
+    emoji: 🌽
+    reason: ゆでたて、焼きたて。甘くて、ジューシー。
+  - name: アイスクリーム
+    emoji: 🍨
+    reason: 夏の暑さを忘れさせてくれる。
+  - name: 夏野菜カレー
+    emoji: 🍛
+    reason: ナス、トマト、ズッキーニ。スパイスで食欲アップ。
+  B:
+  - name: 枝豆
+    emoji: 🫛
+    reason: ビールのおとも。夏の夕方の定番。
+  - name: トマト
+    emoji: 🍅
+    reason: 冷やして、そのままかじっても。
+  - name: 冷奴
+    emoji: ⬜
+    reason: 薬味をたっぷり。さっぱり。
+  - name: ゴーヤチャンプルー
+    emoji: 🥒
+    reason: 苦味でさっぱり。沖縄の夏の味。
+  C:
+  - name: 焼きそば（海の家）
+    emoji: 🍝
+    reason: 海の家で食べると、特別においしい。
+  - name: バーベキュー
+    emoji: 🍖
+    reason: 夏のイベントの定番。暑い中、がんばる。
+  D:
+  - name: 冷やし甘酒
+    emoji: 🍶
+    reason: 江戸時代は夏の飲み物だった、通好みの一杯。
+  - name: 水ようかん
+    emoji: 🟤
+    reason: つるんと冷たい、涼やかな和菓子。
+summary: '夏に食べたいものは、かき氷・そうめん・スイカがS。冷たくて、さっぱりして、暑さを忘れさせてくれる。
+
+  うなぎや夏野菜カレーのような、スタミナ系も、夏バテ予防に大活躍。
+
+  '
+related:
+- food-natsu-fruits
+- food-natsubate
+- food-kakigori
