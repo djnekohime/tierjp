@@ -1,0 +1,89 @@
+title: ジャムの種類 Tier表
+description: いちご、ブルーベリー、マーマレード、りんご、あんず、ラズベリー、ママレード、桃、ブドウ、キウイ、オレンジ、ゆず…ジャムの種類を、AIが「パンとの相性×ヨーグルトにも合う度」でランク付け。
+category: food
+genre: パン・朝食
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① トーストとの相性
+
+  ② ヨーグルトやチーズとの相性
+
+  ③ 毎朝食べても飽きないか
+
+  ※ 特定の商品ではなく「ジャムの種類」のランキングです
+
+  '
+rank_notes:
+  S: ジャムの三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: いちごジャム
+    emoji: 🍓
+    reason: ジャムといえばこれ。甘酸っぱくて、パンに合う。
+  - name: ブルーベリージャム
+    emoji: 🫐
+    reason: さっぱり酸味で、ヨーグルトにもよく合う。
+  - name: マーマレード
+    emoji: 🍊
+    reason: ほろ苦い皮が大人の味。紅茶にも合う。
+  A:
+  - name: あんずジャム
+    emoji: 🍑
+    reason: 上品な酸味。お菓子の材料にも。
+  - name: ラズベリージャム
+    emoji: 🍇
+    reason: 酸味が強くて、ケーキにも合う。
+  - name: りんごジャム
+    emoji: 🍎
+    reason: やさしい甘さ。バターと合わせても。
+  - name: 桃ジャム
+    emoji: 🍑
+    reason: とろっと甘い。トーストにも、ヨーグルトにも。
+  - name: ぶどうジャム
+    emoji: 🍇
+    reason: 昔ながらの定番。濃い甘さ。
+  B:
+  - name: オレンジジャム
+    emoji: 🍊
+    reason: さわやかな酸味と甘み。
+  - name: キウイジャム
+    emoji: 🥝
+    reason: さっぱり酸っぱい。種のプチプチが楽しい。
+  - name: ゆずジャム
+    emoji: 🟡
+    reason: 香りが良く、和風の味。
+  - name: いちじくジャム
+    emoji: 🟣
+    reason: プチプチの種と、濃厚な甘さ。チーズと合う。
+  C:
+  - name: パイナップルジャム
+    emoji: 🍍
+    reason: トロピカル。パンより、ヨーグルト向き。
+  - name: バナナジャム
+    emoji: 🍌
+    reason: 甘くて、子供向け。
+  D:
+  - name: ローズジャム
+    emoji: 🌹
+    reason: バラの花びらから作る。香りがとてもいい。
+  - name: 無花果と赤ワインのジャム
+    short: 赤ワインジャム
+    emoji: 🍷
+    reason: 大人のジャム。チーズや肉料理に合う。
+summary: 'ジャムは、いちご・ブルーベリー・マーマレードがS。いちごの甘酸っぱさ、ブルーベリーのさっぱり感、マーマレードのほろ苦さ。
+
+  パンだけでなく、ヨーグルトやチーズ、肉料理に使っても、おいしい。
+
+  '
+related:
+- food-shokupan-nuru
+- food-toast-arrange
+- food-choshoku-shuyaku

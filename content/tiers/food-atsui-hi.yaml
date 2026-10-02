@@ -1,0 +1,89 @@
+title: 暑い日の一杯 Tier表
+description: 麦茶、アイスコーヒー、炭酸水、冷たい緑茶、スポーツドリンク、レモネード、ビール、カルピス風、ジンジャーエール、かき氷ソーダ、フルーツジュース、冷たい牛乳…暑い日に飲みたい飲み物を、AIが「さっぱり度×のどが渇く度」でランク付け。
+category: food
+genre: 飲み物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① さっぱりと、のどがうるおうか
+
+  ② 暑い日に飲んで、生き返るか
+
+  ③ ごくごく飲めるか
+
+  ※ 暑い日は、水分と塩分をしっかり。熱中症に気をつけて
+
+  '
+rank_notes:
+  S: 夏の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 麦茶
+    emoji: 🌾
+    reason: 家で飲む、夏の定番。冷たくて、香ばしい。
+  - name: 炭酸水
+    emoji: 🫧
+    reason: シュワッとはじけて、のどの渇きがすっきり。
+  - name: スポーツドリンク
+    emoji: 🥤
+    reason: 汗をかいたときに。水分と塩分を補給。
+  A:
+  - name: アイスコーヒー
+    emoji: ☕
+    reason: 夏の午後の、ひと休み。
+  - name: 冷たい緑茶
+    emoji: 🍵
+    reason: さっぱりして、のどにやさしい。
+  - name: レモネード
+    emoji: 🍋
+    reason: 酸味で、気分もすっきり。
+  - name: ビール
+    emoji: 🍺
+    reason: 仕事のあとの、キンキンに冷えたビール。
+  - name: ジンジャーエール
+    emoji: 🫚
+    reason: さっぱり辛口の炭酸。
+  B:
+  - name: フルーツジュース
+    emoji: 🍊
+    reason: 甘くて、ビタミンもとれる。
+  - name: カルピス風の乳酸菌飲料
+    short: 乳酸菌飲料
+    emoji: 🥛
+    reason: 甘酸っぱくて、薄めて飲む。子供のころの味。
+  - name: 冷たい牛乳
+    emoji: 🐄
+    reason: お風呂上がりに。
+  - name: アイスティー
+    emoji: 🫖
+    reason: さわやかな香りと、すっきりした味。
+  C:
+  - name: 甘いジュース
+    emoji: 🧃
+    reason: 甘すぎて、あとで余計にのどが渇く。
+  - name: エナジードリンク
+    emoji: ⚡
+    reason: 元気は出るけど、水分補給にはならない。
+  D:
+  - name: 冷やし飴
+    emoji: 🍯
+    reason: 関西の夏の風物詩。生姜の香りが爽やか。
+  - name: 梅ジュース
+    emoji: 🔴
+    reason: 梅の酸っぱさで、夏バテ防止。
+summary: '暑い日の一杯は、麦茶・炭酸水・スポーツドリンクがS。冷たくて、のどが潤って、ごくごく飲める。
+
+  熱中症予防には、水分と塩分の両方が大切。のどが渇く前に、こまめに飲もう。
+
+  '
+related:
+- food-tansan
+- food-ocha
+- food-shokuji-drink

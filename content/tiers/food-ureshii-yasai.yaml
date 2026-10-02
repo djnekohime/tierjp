@@ -1,0 +1,88 @@
+title: 料理に入っていると嬉しい野菜 Tier表
+description: 玉ねぎ、じゃがいも、にんじん、きのこ、ナス、ほうれん草、ピーマン、ブロッコリー、トマト、大根、白菜、ごぼう…料理に入っていると嬉しい野菜を、AIが「おいしさ×嬉しさ」でランク付け。
+category: food
+genre: 野菜・果物
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 入っていると嬉しいか
+
+  ② 料理がおいしくなるか
+
+  ③ 食べごたえがあるか
+
+  ※ 好みで決まるお題です。自分のTier表を作って、AIと比べてみてね
+
+  '
+rank_notes:
+  S: 料理の三大名脇役
+  D: 好みが分かれる
+tiers:
+  S:
+  - name: 玉ねぎ
+    emoji: 🧅
+    reason: 甘くて、どんな料理にも合う。入っていて嫌な人は、ほぼいない。
+  - name: じゃがいも
+    emoji: 🥔
+    reason: ほくほくで、ボリューム満点。カレーにも、煮物にも。
+  - name: きのこ
+    emoji: 🍄
+    reason: うまみがたっぷり。入っているだけで、料理が深くなる。
+  A:
+  - name: にんじん
+    emoji: 🥕
+    reason: 彩りが良くて、甘みもある。
+  - name: 大根
+    emoji: ⚪
+    reason: 煮物でも、おでんでも。味がしみる。
+  - name: 白菜
+    emoji: 🥬
+    reason: 鍋に欠かせない、とろっとした甘さ。
+  - name: ナス
+    emoji: 🍆
+    reason: 味がしみて、とろっとジューシー。
+  - name: トマト
+    emoji: 🍅
+    reason: 酸味とうまみで、料理がおいしくなる。
+  B:
+  - name: ブロッコリー
+    emoji: 🥦
+    reason: 彩りがきれい。栄養もある。
+  - name: ごぼう
+    emoji: 🟫
+    reason: 香りと食感が楽しい。
+  - name: ほうれん草
+    emoji: 🥬
+    reason: 彩りと、栄養。
+  - name: もやし
+    emoji: 🌱
+    reason: シャキシャキで、安くて、どんな料理にも使える。
+  C:
+  - name: ピーマン
+    emoji: 🫑
+    reason: 苦みが苦手な人は多い。入っているとちょっと身構える。
+  - name: セロリ
+    emoji: 🥬
+    reason: 独特の香り。好みがはっきり分かれる。
+  D:
+  - name: ゴーヤ
+    emoji: 🥒
+    reason: 強烈な苦み。好きな人は、これがないと夏が始まらない。
+  - name: パクチー
+    emoji: 🌿
+    reason: 好きな人は大好き、苦手な人は絶対にダメ。
+summary: '料理に入っていると嬉しい野菜は、玉ねぎ・じゃがいも・きのこがS。どんな料理にも合って、うまみや甘みを加えてくれる。
+
+  ピーマンやパクチーのような、好き嫌いがはっきり分かれる野菜もある。
+
+  '
+related:
+- food-yasai
+- food-nigate-yasai
+- food-curry-gu

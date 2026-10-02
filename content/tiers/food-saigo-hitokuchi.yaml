@@ -1,0 +1,89 @@
+title: 最後の一口に残すもの Tier表
+description: 唐揚げ、卵焼き、ハンバーグ、ご飯、エビフライ、お肉、トマト、ケーキのいちご、ポテト、お味噌汁、デザート、好きなおかず…最後の一口に残しておく食べ物を、AIが「楽しみ度×幸せ度」でランク付け。
+category: food
+genre: 食べ方・食のあるある
+tags:
+- グルメ
+published: 2026-10-02
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 「最後にとっておきたい」と思う度
+
+  ② 最後に食べたときの幸せ度
+
+  ③ 取られる心配が少ないか
+
+  ※ ランクは「正解」ではなく、AIの好みの目安です
+
+  '
+rank_notes:
+  S: 最後の一口の三大スター
+  D: 通好み
+tiers:
+  S:
+  - name: 唐揚げ
+    emoji: 🍗
+    reason: 最後に残しておいた1個の唐揚げ。食べ終わりまで、わくわくする。
+  - name: 卵焼き
+    emoji: 🍳
+    reason: お弁当の最後に、卵焼きを食べる。ほっとする味。
+  - name: ハンバーグ
+    emoji: 🍔
+    reason: お肉のうまみを、最後の一口に。
+  A:
+  - name: エビフライ
+    emoji: 🦐
+    reason: ぷりっとした最後の一尾。しっぽまで。
+  - name: お肉
+    emoji: 🥩
+    reason: 一番おいしいお肉を、最後に。
+  - name: ケーキのいちご
+    emoji: 🍓
+    reason: ショートケーキの王様を、最後に。
+  - name: ご飯
+    emoji: 🍚
+    reason: おかずがなくなったら、ご飯に漬物で締める。
+  - name: 好きなおかず
+    emoji: 💖
+    reason: 一番好きなものを、最後に。
+  B:
+  - name: お味噌汁
+    emoji: 🍲
+    reason: 最後にお味噌汁を飲んで、ほっとする。
+  - name: ポテト
+    emoji: 🍟
+    reason: 最後の1本は、ちょっと名残惜しい。
+  - name: デザート
+    emoji: 🍮
+    reason: 最後のごほうび。
+  - name: お漬物
+    emoji: 🥒
+    reason: さっぱりして、口をリセット。
+  C:
+  - name: トマト
+    emoji: 🍅
+    reason: 好き嫌いがあって、最後に回しがち。
+  - name: 嫌いな野菜
+    emoji: 🥦
+    reason: 最後に残して、結局残す。
+  D:
+  - name: おいしいソース
+    emoji: 🟫
+    reason: ご飯やパンでぬぐって、最後まで味わう。
+  - name: 食べない（もったいなくて）
+    short: 食べられない
+    emoji: 🙏
+    reason: あまりにおいしくて、食べられない。そんなときもある。
+summary: '最後の一口に残すものは、唐揚げ・卵焼き・ハンバーグがS。好きなものを最後にとっておくか、最初に食べるか。
+
+  食べ方に、その人の性格が出る。あなたは、最初に食べる派？ 最後に食べる派？
+
+  '
+related:
+- food-ichigo-timing
+- food-sushi-saigo
+- food-sametemo
