@@ -326,6 +326,12 @@ def build(include_drafts: bool) -> None:
     for child in DIST.iterdir():
         shutil.rmtree(child) if child.is_dir() else child.unlink()
     shutil.copytree(STATIC, DIST / "static")
+    # サイトのルートに置くファイル（Search Console の所有権確認ファイルなど）は public/ に入れる
+    pub = ROOT / "public"
+    if pub.exists():
+        for f in pub.iterdir():
+            if f.is_file():
+                shutil.copy2(f, DIST / f.name)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape())
     env.globals.update(site=site, categories=categories, cat_by_slug=cat_by_slug,
