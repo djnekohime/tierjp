@@ -353,6 +353,9 @@ def build(include_drafts: bool) -> None:
         "c": cat_by_slug[t.category]["name"], "g": t.tags,
         "i": [i.name for i in t.items],
     } for t in tiers]
+    # 投票API(workers/vote)が受け付けるTier表の一覧 { slug: 項目数 }
+    (ROOT / "workers" / "vote" / "slugs.json").write_text(
+        json.dumps({t.slug: len(t.items) for t in tiers}, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     (DIST / "search.json").write_text(json.dumps(search, ensure_ascii=False), encoding="utf-8")
 
     # sitemap / robots

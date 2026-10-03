@@ -1,4 +1,5 @@
-// 「あなたのTier表を作る」：並べ替え → 画像にしてシェア。データはこの端末の中だけ（サーバーへは送らない）
+// 「あなたのTier表を作る」：並べ替え → 画像にしてシェア。並びはこの端末の中だけ。
+// 「投票する」を押したときだけ、並び（S〜Dの記号だけ）を投票APIへ送る。名前・コメントは送らない
 (function () {
   const root = document.getElementById("my-tier");
   const dataEl = document.getElementById("my-tier-data");
@@ -256,6 +257,122 @@
       } catch (e) { if (e.name === "AbortError") return; }
     }
     out.querySelector(".dl").click();
+  }
+
+  // ---------------------------------------------------------------- 投票（みんな vs AI）
+  const API = (D.voteApi || "").replace(/\/$/, "");
+  const MIN_VOTERS = 5;   // これ未満だと「みんなの結果」は出さない（ひとりの偏りで決まらないように）
+  const voteBtn = root.querySelector(".my-vote");
+  const voteMsg = root.querySelector(".vote-msg");
+  const resBox = document.getElementById("vote-results");
+
+  function voterId() {
+    try {
+      let v = localStorage.getItem("tierjp:voter");
+      if (!v) {
+        v = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)).replace(/[^A-Za-z0-9-]/g, "");
+        v = v.padEnd(16, "0");
+        localStorage.setItem("tierjp:voter", v);
+      }
+      return v;
+    } catch (e) { return null; }
+  }
+  const votedKey = "voted:" + D.slug;
+  const hasVoted = () => { try { return !!localStorage.getItem(votedKey); } catch (e) { return false; } };
+
+  function median(c) {   // 票の真ん中にあたるランク
+    const total = D.ranks.reduce((a, r) => a + (c[r] || 0), 0);
+    if (!total) return null;
+    let cum = 0;
+    for (const r of D.ranks) { cum += c[r] || 0; if (cum * 2 >= total) return r; }
+    return null;
+  }
+
+  function showResults(res) {
+    if (!resBox || !res) return;
+    resBox.hidden = false;
+    const info = resBox.querySelector(".vote-info");
+    const board = resBox.querySelector(".vote-board");
+    const list = resBox.querySelector(".vote-diff");
+    const head = resBox.querySelector(".vote-diff-h");
+    board.innerHTML = "";
+    list.innerHTML = "";
+    if (res.voters < MIN_VOTERS) {
+      head.hidden = true;
+      info.textContent = `いま ${res.voters}人が投票中。${MIN_VOTERS}人集まると「みんなのTier表」が出るよ！`;
+      return;
+    }
+    head.hidden = false;
+    const crowd = res.counts.map(median);
+    const diffs = [];
+    crowd.forEach((r, i) => { if (r && r !== D.ai[i]) diffs.push(i); });
+    const same = crowd.filter((r, i) => r && r === D.ai[i]).length;
+    info.textContent = `${res.voters}人が投票。AIと同じ ${same}個／ちがう ${diffs.length}個（各項目、票の真ん中のランクで決定）`;
+    D.ranks.forEach(r => {
+      const row = document.createElement("div");
+      row.className = "tier-row";
+      row.innerHTML = `<div class="tier-label r-${r}">${r}<small></small></div><div class="tier-items"></div>`;
+      row.querySelector("small").textContent = D.labels[r] || "";
+      const box = row.querySelector(".tier-items");
+      crowd.forEach((c, i) => {
+        if (c !== r) return;
+        const b = document.createElement("div");
+        b.className = "tile";
+        b.innerHTML = (D.emoji[i] ? '<span class="tile-emoji"></span>' : "") + '<span class="tile-name"></span>';
+        if (D.emoji[i]) b.querySelector(".tile-emoji").textContent = D.emoji[i];
+        b.querySelector(".tile-name").textContent = D.items[i];
+        if (r !== D.ai[i]) {
+          const m = document.createElement("span");
+          m.className = "ai-mark"; m.textContent = "AI:" + D.ai[i];
+          b.appendChild(m);
+        }
+        box.appendChild(b);
+      });
+      if (box.children.length) board.appendChild(row);
+    });
+    const gap = i => Math.abs(D.ranks.indexOf(crowd[i]) - D.ranks.indexOf(D.ai[i]));
+    diffs.sort((a, b) => gap(b) - gap(a));
+    diffs.slice(0, 5).forEach(i => {
+      const li = document.createElement("li");
+      li.textContent = `${D.items[i]}：AI ${D.ai[i]} → みんな ${crowd[i]}`;
+      list.appendChild(li);
+    });
+  }
+
+  async function loadResults() {
+    try {
+      const r = await fetch(`${API}/results?slug=${encodeURIComponent(D.slug)}`);
+      if (r.ok) showResults(await r.json());
+    } catch (e) {}
+  }
+
+  async function vote() {
+    if (!place.some(Boolean)) { voteMsg.textContent = "先にタイルを1つ以上並べてね"; return; }
+    const id = voterId();
+    if (!id) { voteMsg.textContent = "この端末では投票できませんでした（ブラウザの保存が無効かも）"; return; }
+    voteBtn.disabled = true; voteMsg.textContent = "送信中…";
+    try {
+      const r = await fetch(`${API}/vote`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug: D.slug, voter: id, ranks: place }),
+      });
+      if (r.status === 429) { voteMsg.textContent = "投票が続いたので、少し時間をおいてね"; }
+      else if (!r.ok) { voteMsg.textContent = "うまく送れませんでした。あとでもう一度ためしてね"; }
+      else {
+        try { localStorage.setItem(votedKey, "1"); } catch (e) {}
+        voteMsg.textContent = "🗳 投票ありがとう！並びを変えたら、もう一度押すと上書きされるよ";
+        voteBtn.textContent = "🗳 投票を更新する";
+        showResults(await r.json());
+        if (resBox) resBox.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    } catch (e) { voteMsg.textContent = "通信できませんでした。あとでもう一度ためしてね"; }
+    voteBtn.disabled = false;
+  }
+  if (API && voteBtn) {
+    voteBtn.hidden = false;
+    if (hasVoted()) voteBtn.textContent = "🗳 投票を更新する";
+    voteBtn.addEventListener("click", vote);
+    loadResults();
   }
 
   render();

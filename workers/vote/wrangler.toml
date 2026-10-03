@@ -1,0 +1,8 @@
+name = "tierjp-vote"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tierjp-vote"
+database_id = "REPLACE_WITH_D1_ID"   # `wrangler d1 create tierjp-vote` で出るID

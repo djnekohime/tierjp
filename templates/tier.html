@@ -92,6 +92,8 @@
     <div class="my-board"></div>
     <p class="my-diff"></p>
     <button type="button" class="my-make" data-act="make">🖼 画像を作る</button>
+    <button type="button" class="my-vote" hidden>🗳 この並びで投票する</button>
+    <p class="vote-msg"></p>
     <div class="my-out" hidden>
       <img alt="あなたのTier表">
       <div class="my-share">
@@ -106,9 +108,20 @@
       "ranks": RANKS, "labels": t.labels,
       "items": t.items|map(attribute='short')|list,
       "emoji": t.items|map(attribute='emoji')|list,
-      "ai": t.items|map(attribute='rank')|list
+      "ai": t.items|map(attribute='rank')|list,
+      "voteApi": site.vote_api or ""
     }|tojson }}</script>
   </section>
+  {% if site.vote_api %}
+  <section class="box vote-results" id="vote-results" hidden>
+    <h2>🗳 みんなのTier表 vs AI</h2>
+    <p class="vote-info"></p>
+    <div class="vote-board"></div>
+    <p class="vote-diff-h">AIとみんなが、とくにちがった所</p>
+    <ul class="vote-diff"></ul>
+    <p class="my-help">投票は名前もコメントもなし。ランクの記号だけを集計しています（<a href="/privacy/">プライバシー</a>）。</p>
+  </section>
+  {% endif %}
   <script src="/static/mytier.js" defer></script>
 </article>
 
