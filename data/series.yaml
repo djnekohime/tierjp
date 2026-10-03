@@ -2,6 +2,21 @@
 # 追加手順：下に1件足す → python build.py → /series/<slug>/ ができ、トップと各Tier表からリンクされる
 # groups の tiers は content/tiers/ の slug（ファイル名から .yaml を除いたもの）。順番どおりに並ぶ
 series:
+  - slug: pet-bousai
+    name: ペットの防災シリーズ
+    emoji: 🎒
+    lead: 地震や台風などの災害に備えて、ペットと一緒に避難するために知っておきたいことを、AIが本気でS〜Dに決めたシリーズ。避難グッズ、避難先の選択肢、ふだんから慣らしておきたいこと、家の地震対策、犬猫以外のペットの備えまで。避難所のルールは自治体ごとに違うので、お住まいの地域の情報もあわせて確認してね。環境省の「同行避難」の考え方を前提にしています。
+    groups:
+      - name: 避難の備え
+        emoji: 🧳
+        tiers: [pet-bousai-goods, pet-bousai-hinan, pet-bousai-shitsuke]
+      - name: 家の対策
+        emoji: 🏠
+        tiers: [pet-bousai-sumai]
+      - name: 犬猫以外のペット
+        emoji: 🐰
+        tiers: [pet-bousai-shoudoubutsu]
+
   - slug: pet-kisetsu
     name: ペットの暑さ・寒さ対策シリーズ
     emoji: 🌡️
@@ -22,6 +37,9 @@ series:
       - name: メダカ・金魚
         emoji: 🐟
         tiers: [medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
+      - name: 行事・季節イベント
+        emoji: 🎃
+        tiers: [pet-halloween-kiken]
 
   - slug: conbini
     name: コンビニシリーズ
@@ -187,3 +205,9 @@ series:
       - name: 暑さ・寒さ対策
         emoji: 🌡️
         tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-natsu-goods, pet-natsu-kiken, pet-rusuban-ondo, shoudoubutsu-tori-ondo, medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
+      - name: 防災
+        emoji: 🎒
+        tiers: [pet-bousai-goods, pet-bousai-hinan, pet-bousai-shitsuke, pet-bousai-sumai, pet-bousai-shoudoubutsu]
+      - name: 行事・季節イベント
+        emoji: 🎃
+        tiers: [pet-halloween-kiken]

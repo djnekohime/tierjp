@@ -1,0 +1,80 @@
+# ペット×季節の更新カレンダー（毎月1日に「今月の分」を作る）
+# 使い方：python scripts/season.py          … 今月の予定と、作成済みかどうか
+#         python scripts/season.py 4        … 4月の予定
+#         python scripts/season.py next     … 来月の予定（先取りして作る用）
+# slug が content/tiers/ にあれば「済」、無ければ「未」と表示される。作ったら slug はそのまま
+# ネタを足すときは、その月の ideas に1行足す。作ったあとは site.yaml の featured を旬のものに差し替える
+# ※ 動物の健康・法律にかかわる内容は、必ず「獣医さんの助言ではなく目安」と明記し、公的な情報（環境省・厚労省など）で確認してから書く
+months:
+  1:
+    theme: お正月・冬の寒さ・冬太り
+    ideas:
+      - {slug: pet-oshogatsu-kiken, title: お正月にペットが危ないもの（おせち・お餅・お酒）}
+      - {slug: pet-fuyu-futori, title: 冬の運動不足・肥満対策}
+      - {slug: pet-fuyu-goods, title: 犬猫の冬の寒さ対策グッズ}
+  2:
+    theme: バレンタイン・乾燥・猫の日（2/22）
+    ideas:
+      - {slug: pet-valentine-kiken, title: バレンタインにペットが危ないもの（チョコ）}
+      - {slug: neko-no-hi, title: 猫の日（2/22）に猫と楽しみたいこと}
+      - {slug: pet-kanso-taisaku, title: 冬の乾燥・静電気・皮膚トラブル対策}
+  3:
+    theme: 春の換毛・新生活・花粉
+    ideas:
+      - {slug: pet-shinseikatsu, title: ペットと引っ越し・新生活でやること}
+      - {slug: pet-kemoshi-taisaku, title: 換毛期の抜け毛対策グッズ}
+      - {slug: pet-kafun, title: ペットと花粉の季節（アレルギー・拭き取り）}
+  4:
+    theme: 狂犬病予防注射・フィラリア・ノミダニ・お花見
+    ideas:
+      - {slug: inu-yobo-calendar, title: 犬の予防（狂犬病・混合ワクチン・フィラリア・ノミダニ）のやること}
+      - {slug: pet-nomidani-taisaku, title: ノミ・ダニ予防の種類}
+      - {slug: pet-ohanami, title: ペットとお花見で気をつけること}
+  5:
+    theme: GW旅行・紫外線・暑さのはじまり・母の日（ユリ）
+    ideas:
+      - {slug: pet-ryokou-yado, title: ペットとの旅行・預け先の選択肢}
+      - {slug: pet-hahanohi-hana, title: ペットがいる家に危ない花・安全な花}
+      - {slug: pet-natsu-junbi, title: 夏の暑さ対策グッズ（早めの準備）}
+  6:
+    theme: 梅雨・湿気・食中毒・水槽のカビ
+    ideas:
+      - {slug: pet-tsuyu-taisaku, title: 梅雨のペットの皮膚・におい・湿気対策}
+      - {slug: inu-ame-sanpo, title: 雨の日の犬の散歩の工夫}
+      - {slug: pet-shokuchudoku, title: 夏のペットフードの傷み・食中毒対策}
+  7:
+    theme: 暑さ・花火・雷・海川遊び
+    ideas:
+      - {slug: pet-natsu-kiken, title: 夏のペットの熱中症リスク}
+      - {slug: pet-hanabi-kaminari, title: 花火・雷が苦手なペットの対策}
+      - {slug: inu-umi-kawa, title: 犬と海・川遊びの注意}
+  8:
+    theme: 帰省・旅行・台風・防災の準備
+    ideas:
+      - {slug: pet-kisei-azukeru, title: 帰省・旅行中のペットの預け先}
+      - {slug: pet-taifu, title: 台風・水害のときのペットの備え}
+      - {slug: pet-bousai-goods, title: ペットの避難グッズ}
+  9:
+    theme: 防災の日（9/1）・動物愛護週間（9/20〜）・秋の換毛
+    ideas:
+      - {slug: pet-bousai-hinan, title: 災害時のペットの避難先}
+      - {slug: pet-aigo-shukan, title: 動物愛護週間に考えたい「最後まで飼う」こと}
+      - {slug: neko-kemoshi, title: 猫の換毛期のブラッシング}
+  10:
+    theme: ハロウィン・冬支度・食欲の秋
+    ideas:
+      - {slug: pet-halloween-kiken, title: ハロウィンでペットが危ないもの}
+      - {slug: pet-aki-futori, title: 食欲の秋・ペットの肥満対策}
+      - {slug: pet-fuyu-junbi, title: 冬支度チェック（寒さ対策グッズ・危険チェック）}
+  11:
+    theme: 犬の日（11/1）・冬の寒さ・散歩
+    ideas:
+      - {slug: inu-no-hi, title: 犬の日（11/1）に犬としたいこと}
+      - {slug: inu-fuyu-sanpo, title: 冬の犬の散歩の注意点}
+      - {slug: pet-fuyu-kiken, title: 冬にペットが危ないもの}
+  12:
+    theme: クリスマス・年末年始・大掃除
+    ideas:
+      - {slug: pet-xmas-kiken, title: クリスマスにペットが危ないもの}
+      - {slug: pet-osouji-kiken, title: 大掃除の洗剤・薬品とペット}
+      - {slug: pet-nenmatsu-azukeru, title: 年末年始の帰省・ペットの預け先}
