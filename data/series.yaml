@@ -2,6 +2,27 @@
 # 追加手順：下に1件足す → python build.py → /series/<slug>/ ができ、トップと各Tier表からリンクされる
 # groups の tiers は content/tiers/ の slug（ファイル名から .yaml を除いたもの）。順番どおりに並ぶ
 series:
+  - slug: pet-kisetsu
+    name: ペットの暑さ・寒さ対策シリーズ
+    emoji: 🌡️
+    lead: 犬・猫・小動物・鳥・メダカ・金魚の、冬の寒さ対策と夏の暑さ対策をまとめたシリーズ。グッズ選びから、やりがちな失敗、熱中症や低温やけどの危険、留守番の温度管理まで、AIが本気でS〜Dに決めました。危険にかかわるランクは獣医さんの助言ではなく、あくまで目安です。冬が近づく今のうちに、チェックしておいてね。
+    groups:
+      - name: 冬の寒さ対策（犬猫）
+        emoji: ❄️
+        tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo]
+      - name: 夏の暑さ対策（犬猫）
+        emoji: ☀️
+        tiers: [pet-natsu-goods, pet-natsu-kiken]
+      - name: 留守番の温度管理
+        emoji: 🏠
+        tiers: [pet-rusuban-ondo]
+      - name: 小動物・鳥
+        emoji: 🐰
+        tiers: [shoudoubutsu-tori-ondo]
+      - name: メダカ・金魚
+        emoji: 🐟
+        tiers: [medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
+
   - slug: conbini
     name: コンビニシリーズ
     emoji: 🏪
@@ -163,3 +184,6 @@ series:
       - name: 熱帯魚・水槽
         emoji: 🐡
         tiers: [nettai-shurui, nettai-shippai, aquarium-goods]
+      - name: 暑さ・寒さ対策
+        emoji: 🌡️
+        tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-natsu-goods, pet-natsu-kiken, pet-rusuban-ondo, shoudoubutsu-tori-ondo, medaka-kingyo-essetsu, medaka-kingyo-kosetsu]

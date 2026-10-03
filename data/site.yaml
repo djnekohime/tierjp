@@ -5,6 +5,8 @@ base_url: https://tierjp.com
 ranker: AIくろ                  # ランクを決めている担当（AI）
 # トップの「おすすめ」に出すTier（ファイル名）
 featured:
+  - pet-fuyu-goods
+  - pet-fuyu-kiken
   - yattemitai-life
   - neko-omocha
   - kandrama-aruaru
