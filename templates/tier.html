@@ -80,6 +80,7 @@
   {% endif %}
 
   <p class="disclaimer">※ このTier表は、AI（{{ site.ranker }}）が上の評価基準に沿って決めたものです。好みや状況によって順位は変わります。</p>
+  {% if t.items|selectattr('link')|list %}<p class="disclaimer">※ このページには広告（アフィリエイトリンク）が含まれます。リンク先で購入されると、当サイトに紹介料が入ることがあります。ランクは、紹介料の有無にかかわらず、評価基準だけで決めています。</p>{% endif %}
 
   <section class="box my-tier" id="my-tier">
     <h2>🎮 あなたのTier表を作る</h2>
