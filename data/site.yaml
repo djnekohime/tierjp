@@ -14,7 +14,7 @@ operator: ティアる。運営事務局（管理人）
 contact_form: ""
 contact_email: ""
 # 投票API（Cloudflare Worker）のURL。空なら投票ボタンは出ない。デプロイ後に入れる
-vote_api: ""
+vote_api: "https://tierjp-vote.tierjp.workers.dev"
 # 公式SNS（urlが空のものは表示しない）。運営用メール＝tierjpcom@gmail.com（公開はしない）
 sns:
   - {name: X, url: "https://x.com/tierjpcom"}
