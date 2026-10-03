@@ -28,6 +28,7 @@
     {% if t.updated != t.published %}<span>更新 {{ t.updated }}</span>{% endif %}
   </p>
   <p class="tags">{% for g in t.tags %}<a href="{{ tags[g].url }}">#{{ g }}</a>{% endfor %}</p>
+  {% for sr in series_by_tier.get(t.slug, []) %}<p class="series-note">{{ sr.emoji }} <a href="{{ sr.url }}">{{ sr.name }}</a>の1本（全{{ sr.count }}本）→ ほかのTier表も見る</p>{% endfor %}
 
   <div class="tier-board">
     {% for r in t.ranks %}

@@ -18,6 +18,17 @@
   </div>
 </section>
 
+{% if series_list %}
+<section>
+  <h2>📚 シリーズ</h2>
+  <div class="cat-grid">
+  {% for sr in series_list %}
+    <a class="cat" href="{{ sr.url }}"><span>{{ sr.emoji }}</span>{{ sr.name }}<small>{{ sr.count }}本</small></a>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if featured %}
 <section>
   <h2>🔥 おすすめのTier表</h2>

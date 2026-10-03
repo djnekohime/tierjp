@@ -1,0 +1,24 @@
+# シリーズ（特集ページ）。Tier表を「テーマごとの連載」としてまとめる。
+# 追加手順：下に1件足す → python build.py → /series/<slug>/ ができ、トップと各Tier表からリンクされる
+# groups の tiers は content/tiers/ の slug（ファイル名から .yaml を除いたもの）。順番どおりに並ぶ
+series:
+  - slug: conbini
+    name: コンビニシリーズ
+    emoji: 🏪
+    lead: コンビニとスーパーで買えるものを、AIが本気でS〜Dに決めたシリーズ。お弁当・おにぎり・ホットスナックから、レジ横の誘惑、深夜の夜食、スーパーのお惣菜まで。「わかる！」も「それは違う！」も、各ページの一言コメントで教えてね。
+    groups:
+      - name: コンビニという店
+        emoji: 🏪
+        tiers: [chain-conbini]
+      - name: 定番の売り場
+        emoji: 🍱
+        tiers: [food-conbini-bento, food-onigiri, food-hot-snack, food-conbini-sweets, food-conbini-asa]
+      - name: 買い方あるある
+        emoji: 🛒
+        tiers: [food-regiyoko, food-shodogai, food-yashoku, food-fuyu-conbini]
+      - name: 買って帰って温める
+        emoji: 🍜
+        tiers: [food-cupmen, food-oden, food-reitou, food-instant-soup]
+      - name: スーパー・おうちストック
+        emoji: 🛍
+        tiers: [chain-supermarket, food-sozai, food-mikiri, food-kanzume, food-retort]

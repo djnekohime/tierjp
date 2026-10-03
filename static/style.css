@@ -213,3 +213,5 @@ html,body{overflow-x:hidden}
 .cm-row button[disabled]{opacity:.6}
 .cm-trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .cm-msg{font-weight:700;color:var(--cyan);min-height:1.2em;margin:4px 0}
+.series-note{margin:6px 0 12px;font-weight:700}
+.series-note a{color:var(--cyan)}

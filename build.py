@@ -295,6 +295,29 @@ def build(include_drafts: bool) -> None:
     tag_list = sorted(tags.values(), key=lambda e: (-len(e["tiers"]), e["name"]))
 
     by_slug = {t.slug: t for t in tiers}
+
+    # シリーズ（data/series.yaml）：特集ページ用に、slug をTierに解決する
+    series_list: list[dict] = []
+    series_by_tier: dict[str, list[dict]] = {}
+    sp = DATA / "series.yaml"
+    for sr in (load_yaml(sp).get("series") or []) if sp.exists() else []:
+        groups, members = [], []
+        for g in sr.get("groups") or []:
+            ts = []
+            for slug in g.get("tiers") or []:
+                if slug in by_slug:
+                    ts.append(by_slug[slug])
+                else:
+                    warn(f"series {sr['slug']}: Tier表「{slug}」が見つかりません")
+            groups.append({"name": g["name"], "emoji": g.get("emoji", ""), "tiers": ts})
+            members += ts
+        entry = {"slug": sr["slug"], "name": sr["name"], "emoji": sr.get("emoji", "📚"),
+                 "lead": sr.get("lead", ""), "groups": groups, "tiers": members,
+                 "count": len(members), "url": f"/series/{sr['slug']}/"}
+        series_list.append(entry)
+        for t in members:
+            series_by_tier.setdefault(t.slug, []).append(entry)
+
     featured = [by_slug[s] for s in site.get("featured") or [] if s in by_slug]
 
     # 出力
@@ -306,7 +329,8 @@ def build(include_drafts: bool) -> None:
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape())
     env.globals.update(site=site, categories=categories, cat_by_slug=cat_by_slug,
-                       tags=tags, RANKS=RANKS, year=date.today().year)
+                       tags=tags, RANKS=RANKS, year=date.today().year,
+                       series_list=series_list, series_by_tier=series_by_tier)
 
     def render(tpl: str, out: str, **ctx) -> None:
         path = DIST / out
@@ -337,6 +361,9 @@ def build(include_drafts: bool) -> None:
     for e in tags.values():
         render("list.html", f"tag/{e['slug']}/index.html", heading=f"#{e['name']} のTier表",
                lead="", items=e["tiers"], groups=[], canonical=e["url"])
+    for sr in series_list:
+        render("list.html", f"series/{sr['slug']}/index.html", heading=f"{sr['emoji']} {sr['name']}",
+               lead=sr["lead"], items=sr["tiers"], groups=sr["groups"], canonical=sr["url"])
     render("categories.html", "categories/index.html", tag_list=tag_list, canonical="/categories/")
     render("search.html", "search/index.html", canonical="/search/")
     for page in ("about", "privacy", "contact"):   # サイトポリシー系の固定ページ
@@ -361,7 +388,8 @@ def build(include_drafts: bool) -> None:
     # sitemap / robots
     base = site["base_url"].rstrip("/")
     urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + [t.url for t in tiers] \
-        + [c["url"] for c in categories if c["tiers"]] + [e["url"] for e in tags.values()]
+        + [c["url"] for c in categories if c["tiers"]] + [e["url"] for e in tags.values()] \
+        + [sr["url"] for sr in series_list]
     lastmod = {t.url: t.updated.isoformat() for t in tiers}
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
