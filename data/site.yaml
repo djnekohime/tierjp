@@ -6,6 +6,8 @@ ranker: AIくろ                  # ランクを決めている担当（AI）
 # トップの「おすすめ」に出すTier（ファイル名）
 featured:
   - pet-halloween-kiken
+  - pet-fuyu-junbi
+  - pet-aki-futori
   - pet-fuyu-goods
   - pet-fuyu-kiken
   - yattemitai-life
