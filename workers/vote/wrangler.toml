@@ -7,3 +7,10 @@ binding = "DB"
 database_name = "tierjp-vote"
 database_id = "0cf61145-b180-478f-8bec-6a3d34791193"   # `wrangler d1 create tierjp-vote` 縺ｧ蜃ｺ繧紀D
 
+
+# 毎晩21:00（日本時間）に、承認待ちの一言があればメールで知らせる（UTC 12:00）
+[triggers]
+crons = ["0 12 * * *"]
+
+[vars]
+NOTIFY_TO = "tierjpcom@gmail.com"

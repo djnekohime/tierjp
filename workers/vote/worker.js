@@ -36,7 +36,29 @@ async function results(db, slug) {
   return { voters: v.c, counts };
 }
 
+// 毎晩の「承認待ちがあります」メール（Resend）。0件の日は送らない
+async function notifyPending(env) {
+  if (!env.RESEND_API_KEY || !env.NOTIFY_TO) return "no config";
+  const p = await env.DB.prepare("SELECT COUNT(*) AS c FROM comments WHERE status = 'pending'").first();
+  if (!p.c) return "none";
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { "Authorization": `Bearer ${env.RESEND_API_KEY.trim()}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from: "ティアる。 <onboarding@resend.dev>",
+      to: [env.NOTIFY_TO],
+      subject: `【ティアる。】承認待ちの一言が${p.c}件あります`,
+      text: `承認待ちの一言が ${p.c} 件あります。\n\n管理ページ：https://tierjp-vote.tierjp.workers.dev/admin\n\n※毎晩21時に、承認待ちがある日だけ届きます。`,
+    }),
+  });
+  return res.ok ? `sent ${p.c}` : `mail error ${res.status}`;
+}
+
 export default {
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(notifyPending(env).then(r => console.log("notify:", r)));
+  },
+
   async fetch(req, env) {
     const origin = req.headers.get("Origin");
     const cors = {
