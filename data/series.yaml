@@ -112,3 +112,24 @@ series:
       - name: RIZIN 階級別の選手
         emoji: 🥋
         tiers: [rizin-heavy, rizin-light, rizin-feather, rizin-bantam, rizin-fly, rizin-women-superatom]
+
+  - slug: neko
+    name: 猫シリーズ
+    emoji: 🐈
+    lead: 猫のことを、AIが本気でS〜Dに決めたシリーズ。おやつ・グッズ・猫砂・寝る場所といった暮らしの話から、猫の気持ちやしぐさ、毛色、アニメや童話の猫キャラクターまで。猫の健康にかかわるランクは獣医さんの助言ではなく、あくまで目安です。あなたの猫のあるあるは、一言コメントで教えてね。
+    groups:
+      - name: 猫との暮らし
+        emoji: 🏠
+        tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha]
+      - name: 猫の気持ち・しぐさ
+        emoji: 💗
+        tiers: [neko-aruaru-kodo, neko-aijo, neko-nakigoe, neko-nigate]
+      - name: 猫の種類・毛色
+        emoji: 🎨
+        tiers: [neko-shurui-shoshinsha, neko-keiro]
+      - name: 猫が活躍する名作
+        emoji: 📚
+        tiers: [neko-chara]
+      - name: 番外編・小さな生き物
+        emoji: 🐟
+        tiers: [medaka-goods]
