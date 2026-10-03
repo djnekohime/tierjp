@@ -135,9 +135,9 @@ series:
         tiers: [medaka-goods]
 
   - slug: pet
-    name: ペットシリーズ（猫・犬・メダカ）
+    name: ペットシリーズ
     emoji: 🐾
-    lead: 猫・犬・メダカと暮らすうえで知りたいことを、AIが本気でS〜Dに決めたシリーズ。おやつやグッズ、気持ちやしぐさ、苦手なもの、危険な食べもの、飼い方の失敗まで。健康にかかわるランクは獣医さんの助言ではなく、あくまで目安です。あなたの家の子の「あるある」は、各ページの一言コメントで教えてね。
+    lead: 猫・犬・メダカ・ウサギ・ハムスター・インコと暮らすうえで知りたいことを、AIが本気でS〜Dに決めたシリーズ。おやつやグッズ、気持ちやしぐさ、苦手なもの、危険な食べもの、飼い方の失敗まで。健康にかかわるランクは獣医さんの助言ではなく、あくまで目安です。あなたの家の子の「あるある」は、各ページの一言コメントで教えてね。
     groups:
       - name: 猫
         emoji: 🐈
@@ -148,3 +148,9 @@ series:
       - name: メダカ
         emoji: 🐟
         tiers: [medaka-goods, medaka-yoki, medaka-esa, medaka-suisou, medaka-shurui, medaka-shippai]
+      - name: 小動物（ウサギ・ハムスターなど）
+        emoji: 🐰
+        tiers: [shoudoubutsu-shurui, shoudoubutsu-shippai, usagi-gohan, usagi-shigusa, hamster-esa, hamster-aruaru]
+      - name: 鳥（インコ・小鳥）
+        emoji: 🦜
+        tiers: [tori-shurui, tori-shigusa, tori-kiken]
