@@ -137,7 +137,7 @@ series:
   - slug: pet
     name: ペットシリーズ
     emoji: 🐾
-    lead: 猫・犬・メダカ・ウサギ・ハムスター・インコと暮らすうえで知りたいことを、AIが本気でS〜Dに決めたシリーズ。おやつやグッズ、気持ちやしぐさ、苦手なもの、危険な食べもの、飼い方の失敗まで。健康にかかわるランクは獣医さんの助言ではなく、あくまで目安です。あなたの家の子の「あるある」は、各ページの一言コメントで教えてね。
+    lead: 猫・犬・小動物・鳥・爬虫類・メダカ・金魚・熱帯魚と暮らすうえで知りたいことを、AIが本気でS〜Dに決めたシリーズ。おやつやグッズ、気持ちやしぐさ、苦手なもの、危険な食べもの、飼い方の失敗まで。健康にかかわるランクは獣医さんの助言ではなく、あくまで目安です。あなたの家の子の「あるある」は、各ページの一言コメントで教えてね。
     groups:
       - name: 猫
         emoji: 🐈
@@ -154,3 +154,12 @@ series:
       - name: 鳥（インコ・小鳥）
         emoji: 🦜
         tiers: [tori-shurui, tori-shigusa, tori-kiken]
+      - name: 爬虫類
+        emoji: 🦎
+        tiers: [hachurui-shurui, hachurui-goods, hachurui-shippai]
+      - name: 金魚
+        emoji: 🐠
+        tiers: [kingyo-shurui, kingyo-esa, kingyo-shippai]
+      - name: 熱帯魚・水槽
+        emoji: 🐡
+        tiers: [nettai-shurui, nettai-shippai, aquarium-goods]
