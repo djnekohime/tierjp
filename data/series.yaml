@@ -22,3 +22,93 @@ series:
       - name: スーパー・おうちストック
         emoji: 🛍
         tiers: [chain-supermarket, food-sozai, food-mikiri, food-kanzume, food-retort]
+
+  - slug: sekai-ryori
+    name: 世界の料理シリーズ
+    emoji: 🌏
+    lead: 世界の料理を、AIが本気でS〜Dに決めたシリーズ。国ごとの定番料理から、世界の朝ごはん・屋台飯・スイーツの食べくらべまで。行ったことがある国、食べたことがある料理は、一言コメントで教えてね。
+    groups:
+      - name: アジアの料理
+        emoji: 🥢
+        tiers: [food-chuka, food-kankoku, food-taiwan, food-thai, food-vietnam, food-india]
+      - name: ヨーロッパ・アメリカ・ハワイ
+        emoji: 🍝
+        tiers: [food-italia, food-france, food-mexico, food-hawaii]
+      - name: 世界の食べくらべ
+        emoji: 🌍
+        tiers: [food-sekai-asa, food-sekai-yatai, food-sekai-sweets]
+
+  - slug: kandrama
+    name: 韓ドラシリーズ
+    emoji: 📺
+    lead: 韓国ドラマを、AIが本気でS〜Dに決めたシリーズ。年代別・ジャンル別のおすすめから、人気俳優の出演作、「あるある」シーン、ドラマに出てくる韓国グルメまで。あなたの沼ドラマは何？ 一言コメントで教えてね。
+    groups:
+      - name: 年代別
+        emoji: 📅
+        tiers: [kandrama-2000s, kandrama-2010s, kandrama-2020s]
+      - name: ジャンル別
+        emoji: 🎬
+        tiers: [kandrama-romcom, kandrama-junai, kandrama-suspense, kandrama-human, kandrama-fantasy, kandrama-jidaigeki]
+      - name: 人気俳優の出演作
+        emoji: 🌟
+        tiers: [actor-hyunbin, actor-gongyoo, actor-songjoongki, actor-parkseojoon, actor-iu]
+      - name: あるある・グルメ・勉強
+        emoji: 🍚
+        tiers: [kandrama-aruaru, kandrama-gourmet, food-kankoku, kankokugo-benkyou]
+
+  - slug: bts
+    name: BTSシリーズ
+    emoji: 💜
+    lead: BTSの曲を、AIが愛をこめてTier表に。最新アルバム『ARIRANG』から、バラード・ダンス・ラップ、メンバーのソロ曲まで。全部の曲にそれぞれの良さがあるので、ランクは「殿堂入り・名曲・大好き」のような愛のある呼び方にしています。あなたの1曲は？ 一言コメントで教えてね。
+    groups:
+      - name: 最新アルバム
+        emoji: 💿
+        tiers: [bts-arirang]
+      - name: 曲の種類別
+        emoji: 🎵
+        tiers: [bts-songs, bts-dance, bts-rap, bts-ballad]
+      - name: メンバーのソロ
+        emoji: 🎤
+        tiers: [bts-solo]
+
+  - slug: sumitai-machi
+    name: 住みたい街シリーズ
+    emoji: 🏡
+    lead: 住んでみたい街を、AIが基準を決めてS〜Dに並べたシリーズ。一人暮らし・子育て・移住といったテーマ別と、北海道から沖縄までの地方別。ランクは「住みやすさの目安」で、好みや暮らし方で変わります。あなたの住んでいる街は何ランク？ 一言コメントで教えてね。
+    groups:
+      - name: テーマ別
+        emoji: 🎯
+        tiers: [machi-hitorigurashi, machi-kosodate, machi-iju]
+      - name: 地方別
+        emoji: 🗾
+        tiers: [sumitai-machi-hokkaido, sumitai-machi-tohoku, sumitai-machi-kanto, sumitai-machi-hokuriku-koshinetsu, sumitai-machi-tokai, sumitai-machi-kansai, sumitai-machi-chugoku-shikoku, sumitai-machi-kyushu, sumitai-machi-okinawa]
+
+  - slug: ramen
+    name: ラーメンシリーズ
+    emoji: 🍜
+    lead: ラーメンを、AIが本気でS〜Dに決めたシリーズ。北海道から九州までの地域別の名店、味・麺の太さと硬さ・トッピング・スープといった好みの話、つけ麺や袋麺まで。ランクは味の良し悪しではなく、歴史・影響力・知名度の目安です（AIは食べていません）。あなたの推しの一杯は？ 一言コメントで教えてね。
+    groups:
+      - name: 地域別の名店（北から南へ）
+        emoji: 🗾
+        tiers: [shop-ramen-hokkaido, shop-ramen-miso-sapporo, shop-ramen-tohoku, shop-ramen-tokyo, shop-ramen-shoyu-tokyo, shop-ramen-kanagawa, shop-ramen-saitama, shop-ramen-chiba, shop-ramen-hokuriku, shop-ramen-nagoya, shop-ramen-aichi, shop-ramen-osaka, shop-ramen-kansai, shop-ramen-chugoku, shop-ramen-shikoku, shop-ramen-hakata, shop-tonkotsu-kyushu, shop-ramen-kyushu]
+      - name: 味・麺・スープ・トッピング
+        emoji: 🥢
+        tiers: [food-ramen-aji, food-ramen-futosa, food-ramen-katasa, food-ramen-soup-nomu, food-ramen-topping, food-chashu]
+      - name: つけ麺・まぜそば・袋麺
+        emoji: 🍥
+        tiers: [food-tsukemen, food-mazesoba, food-fukuromen]
+      - name: ご当地・チェーン・深夜
+        emoji: 🌙
+        tiers: [food-ramen-gotochi, chain-ramen, chain-iekei, food-ramen-shinya]
+
+  - slug: kakutougi
+    name: 格闘技シリーズ
+    emoji: 🥊
+    lead: 格闘技を、AIがルールを決めてS〜Dに並べたシリーズ。団体・ジャンル別の見どころと、RIZINの階級別の選手Tier表。ランクは強さの断定ではなく、実績・知名度・注目度などの目安です。あなたの推し選手は？ 一言コメントで教えてね。
+    groups:
+      - name: 団体・ジャンル
+        emoji: 🏟
+        tiers: [kakutougi-dantai-1ji, kakutougi-dantai-2ji, kakutougi-genre, kakutougi-betsuwaku]
+      - name: RIZIN 階級別の選手
+        emoji: 🥋
+        tiers: [rizin-heavy, rizin-light, rizin-feather, rizin-bantam, rizin-fly, rizin-women-superatom]
