@@ -121,8 +121,24 @@
     <ul class="vote-diff"></ul>
     <p class="my-help">投票は名前もコメントもなし。ランクの記号だけを集計しています（<a href="/privacy/">プライバシー</a>）。</p>
   </section>
+  <section class="box comments" id="comments" data-api="{{ site.vote_api }}" data-slug="{{ t.slug }}">
+    <h2>💬 みんなの一言</h2>
+    <ul class="cm-list"></ul>
+    <p class="cm-empty" hidden>まだ一言はありません。最初の一言をどうぞ！</p>
+    <form class="cm-form" autocomplete="off">
+      <label for="cm-body">このTier表に一言（40字まで・名前は書かないでね）</label>
+      <div class="cm-row">
+        <input id="cm-body" name="body" maxlength="40" placeholder="例：Sに入れたいのはこれ！">
+        <input class="cm-trap" name="website" tabindex="-1" aria-hidden="true">
+        <button type="submit">送る</button>
+      </div>
+      <p class="cm-msg"></p>
+    </form>
+    <p class="my-help">一言は管理人が確認してから表示します（URL・連絡先・悪口はのせられません）。<a href="/privacy/">プライバシー</a></p>
+  </section>
   {% endif %}
   <script src="/static/mytier.js" defer></script>
+  {% if site.vote_api %}<script src="/static/comments.js" defer></script>{% endif %}
 </article>
 
 {% if t.related %}

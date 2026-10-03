@@ -13,3 +13,13 @@ CREATE TABLE IF NOT EXISTS rate (
   n   INTEGER NOT NULL,
   win INTEGER NOT NULL
 );
+-- 一言コメント：承認制。status = pending（承認待ち）/ ok（公開）/ no（非公開）
+CREATE TABLE IF NOT EXISTS comments (
+  id      INTEGER PRIMARY KEY AUTOINCREMENT,
+  slug    TEXT NOT NULL,
+  body    TEXT NOT NULL,
+  status  TEXT NOT NULL DEFAULT 'pending',
+  flag    TEXT,                -- 自動チェックで引っかかった理由（管理画面に表示）
+  created INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS comments_slug_status ON comments (slug, status, created);

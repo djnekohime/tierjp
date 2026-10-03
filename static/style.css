@@ -203,3 +203,13 @@ html,body{overflow-x:hidden}
 .vote-results .tile .ai-mark{position:absolute;top:3px;right:3px}
 .vote-diff-h{font-weight:800;margin:14px 0 4px}
 .vote-diff{margin:0;padding-left:1.2em}
+.comments .cm-list{list-style:none;margin:0 0 8px;padding:0}
+.comments .cm-list li{background:rgba(255,255,255,.06);border-left:3px solid var(--cyan);border-radius:6px;padding:8px 12px;margin:6px 0;word-break:break-all}
+.cm-empty{opacity:.8}
+.cm-form label{display:block;font-weight:700;margin-bottom:4px}
+.cm-row{display:flex;gap:8px}
+.cm-row input[name=body]{flex:1;min-width:0;font-size:1rem;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.35);color:inherit}
+.cm-row button{border:2px solid var(--cyan);background:rgba(127,231,255,.1);color:var(--cyan);border-radius:999px;padding:8px 20px;font-weight:800;font-size:1rem}
+.cm-row button[disabled]{opacity:.6}
+.cm-trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.cm-msg{font-weight:700;color:var(--cyan);min-height:1.2em;margin:4px 0}
