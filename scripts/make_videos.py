@@ -9,7 +9,8 @@ Tier表の「発表アニメ」縦動画（リール・TikTok・ショート用�
 
 動き：タイトルが出る → D → C → B → A → S の順に1段ずつフェードで登場（最後にSが決まる）。
 約9秒・1080x1920・無音の音声トラック付き（音はアプリで流行りの曲を付ける）。
-出力：sns/video/<slug>.mp4（gitに入れない）
+出力：sns/video/<slug>.mp4（作業用の置き場。gitに入れない）
+※ さくらが見る場所へは scripts/export_sns.py で、分かる名前に整理して出す（避難所/ティアる/SNS素材）。
 要：ffmpeg（PATHに無ければ WinGet の場所を探す）
 """
 from __future__ import annotations
