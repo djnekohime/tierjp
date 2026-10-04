@@ -3,8 +3,9 @@
 {% block main %}
 <h1 class="page-h">カテゴリー</h1>
 <div class="cat-grid">
-{% for c in categories %}<a class="cat {{ '' if c.tiers else 'empty' }}" href="{{ c.url }}"><span>{{ c.emoji }}</span>{{ c.name }}<small>{{ c.tiers|length if c.tiers else '準備中' }}</small></a>{% endfor %}
+{% for c in main_cats %}<a class="cat" href="{{ c.url }}"><span>{{ c.emoji }}</span>{{ c.name }}<small>{{ c.tiers|length }}</small></a>{% endfor %}
 </div>
+{% if minor_cats %}<p class="more-cats">ほかのカテゴリー：{% for c in minor_cats %}<a href="{{ c.url }}">{{ c.emoji }} {{ c.name }}（{{ c.tiers|length }}）</a>{% endfor %}</p>{% endif %}
 <h2>タグ</h2>
 <div class="tag-cloud">{% for e in tag_list %}<a href="{{ e.url }}">#{{ e.name }} <small>{{ e.tiers|length }}</small></a>{% endfor %}</div>
 {% endblock %}

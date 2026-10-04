@@ -285,6 +285,10 @@ def build(include_drafts: bool) -> None:
     for c in categories:
         c["tiers"] = [t for t in tiers if t.category == c["slug"]]
         c["url"] = f"/c/{c['slug']}/"
+    # 中身が0本のカテゴリーは出さない（「準備中」を放置しない）。3本未満は「ほかのカテゴリー」に小さく並べる
+    shown_cats = [c for c in categories if c["tiers"]]
+    main_cats = [c for c in shown_cats if len(c["tiers"]) >= 3]
+    minor_cats = [c for c in shown_cats if len(c["tiers"]) < 3]
     tags: dict[str, dict] = {}
     for t in tiers:
         for tg in t.tags:
@@ -334,7 +338,7 @@ def build(include_drafts: bool) -> None:
                 shutil.copy2(f, DIST / f.name)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape())
-    env.globals.update(site=site, categories=categories, cat_by_slug=cat_by_slug,
+    env.globals.update(site=site, categories=shown_cats, main_cats=main_cats, minor_cats=minor_cats, cat_by_slug=cat_by_slug,
                        tags=tags, RANKS=RANKS, year=date.today().year,
                        series_list=series_list, series_by_tier=series_by_tier)
 
@@ -349,7 +353,7 @@ def build(include_drafts: bool) -> None:
         og = f"/og/{t.slug}.png" if (STATIC.parent / "og" / f"{t.slug}.png").exists() else ""
         render("tier.html", f"tier/{t.slug}/index.html", t=t,
                cat=cat_by_slug[t.category], og=t.eyecatch or og, canonical=t.url)
-    for c in categories:
+    for c in shown_cats:
         # ジャンルがあるカテゴリーは、ジャンルごとにまとめて表示（categories.yaml の genres の順）
         groups = []
         if c.get("genres"):
