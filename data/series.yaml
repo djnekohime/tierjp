@@ -214,3 +214,45 @@ series:
       - name: 行事・季節イベント
         emoji: 🎃
         tiers: [pet-halloween-kiken]
+
+  - slug: showa
+    name: 昭和シリーズ
+    emoji: 📻
+    lead: 昭和の名曲・アニメ・ドラマ・懐かしのアイテムを、AIが本気でS〜Dに決めたシリーズ。「あの頃、夢中だった」を思い出しながら、あなたのSも教えてね。歌詞やセリフは載せていません。ランクは知名度や語り継がれ度の目安で、思い出や好みで変わります。
+    groups:
+      - name: 昭和の音楽
+        emoji: 🎵
+        tiers: [music-showa-kayo]
+      - name: 昭和のアニメ・ドラマ
+        emoji: 📺
+        tiers: [showa-anime, showa-drama]
+      - name: 昭和の懐かしアイテム
+        emoji: 🧸
+        tiers: [showa-retro-items]
+
+  - slug: music-seisaku
+    name: 音楽づくりシリーズ
+    emoji: 🎧
+    lead: 音楽をはじめたい人、曲を作ってみたい人のための、楽器・音楽制作ソフト（DAW）・機材・作業用BGMを、AIが本気でS〜Dに決めたシリーズ。ソフトの価格や機能は変わるので、選ぶ前に公式サイトで最新情報を確認してね。
+    groups:
+      - name: 楽器をはじめる
+        emoji: 🎸
+        tiers: [music-gakki]
+      - name: 曲を作る（ソフトと機材）
+        emoji: 💻
+        tiers: [music-daw, music-kizai]
+      - name: 作業しながら聴く
+        emoji: ☕
+        tiers: [music-sagyouyou-bgm]
+
+  - slug: eiga
+    name: 映画・名作シリーズ
+    emoji: 🎬
+    lead: スタジオジブリ、ピクサー、韓国映画の名作を、AIが本気でS〜Dに決めたシリーズ。ストーリーの結末は書いていません。好みで順位は大きく変わるので、あなたのSは何か、一言コメントで教えてね。
+    groups:
+      - name: アニメ映画
+        emoji: 🎞️
+        tiers: [ghibli-eiga, pixar-eiga]
+      - name: 韓国映画
+        emoji: 🎥
+        tiers: [kankoku-eiga]

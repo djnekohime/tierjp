@@ -1,0 +1,92 @@
+title: 音楽制作ソフト（DAW）の選び方 Tier表
+description: GarageBand、Logic Pro、Cubase、FL Studio、Ableton Live、Studio One、Reaper…音楽制作ソフト（DAW）を「初心者の始めやすさ・費用・情報の多さ」でS〜Dにランク付け。
+category: music
+tags: [音楽制作, 初心者, DAW]
+published: 2026-10-05
+labels:
+  S: まずここから
+  A: かなり始めやすい
+  B: 目的が合えば
+  C: 慣れてから
+  D: 通好み・用途限定
+criteria: |
+  ① 初心者の始めやすさ（操作・画面・導入の手間）
+  ② 費用（無料〜買い切り・サブスク）
+  ③ 情報の多さ（解説動画・本・質問できる場所）
+  ④ 作りたい音楽に合うか（ビート・歌もの・録音・ライブ）
+  ※ ソフトの価格・機能・対応OSは、バージョンアップや販売方法の変更で変わります。選ぶ前に、必ず公式サイトで最新情報を確認してください。ここに書いたのは、一般的に知られている特徴です
+rank_notes:
+  S: 迷ったらここ
+  D: 用途がはっきりしている人向け
+tiers:
+  S:
+    - name: GarageBand（Mac・iPhone・iPad）
+      short: GarageBand
+      emoji: "🍎"
+      reason: Apple製品に入っていて、無料で使える。画面がわかりやすく、まず「曲ができる楽しさ」を味わうのにぴったり。物足りなくなったら、上位のLogic Proに作品を引き継げる。
+    - name: BandLab（ブラウザ・スマホ）
+      short: BandLab
+      emoji: "🌐"
+      reason: ブラウザやスマホアプリで、無料で始められる。パソコンに何もインストールしなくても、まず触ってみられる。本格的な制作には、機能が足りなくなる場面もある。
+  A:
+    - name: Logic Pro（Mac）
+      short: Logic Pro
+      emoji: "🎹"
+      reason: Mac専用で、音源やエフェクトがたっぷり入っている。GarageBandの延長で使いやすく、本格的な制作もできる。Windowsでは使えない。
+    - name: Cubase（Windows・Mac）
+      short: Cubase
+      emoji: "🎼"
+      reason: 日本でも使っている人が多く、解説本や動画が豊富。バージョンが複数あるので、初心者は入門向けのものから選ぶと始めやすい。
+    - name: FL Studio（Windows・Mac）
+      short: FL Studio
+      emoji: "🥁"
+      reason: ビート作りやループ作りが得意で、ヒップホップや電子音楽の制作者に人気。画面の独特な使い方に、慣れが必要。
+    - name: Studio One（Windows・Mac）
+      short: Studio One
+      emoji: "🥇"
+      reason: ドラッグ＆ドロップを中心にした、わかりやすい操作が特徴。作曲から仕上げまで、ひとつのソフトで完結しやすい。
+  B:
+    - name: Ableton Live（Windows・Mac）
+      short: Ableton Live
+      emoji: "🔊"
+      reason: ループを組み合わせて曲を作る使い方や、ライブパフォーマンスに強い。独特の画面なので、慣れるまで少し戸惑う。
+    - name: Reaper（Windows・Mac）
+      short: Reaper
+      emoji: "🌿"
+      reason: 軽くて自由度が高く、価格も比較的手頃。最初から音源が豊富に入っているタイプではないので、自分で環境を整える手間がある。
+    - name: Cakewalk（Windows）
+      short: Cakewalk
+      emoji: "🔔"
+      reason: Windows向けのDAWで、無料で配布されてきた経緯がある。提供の状況は変わることがあるので、使う前に公式で確認したい。
+    - name: Cubasis（iPad）
+      short: Cubasis
+      emoji: "📱"
+      reason: iPadで本格的な制作をしたい人向け。画面が小さい分、細かい編集は慣れが必要。
+    - name: Reason
+      short: Reason
+      emoji: "🔌"
+      reason: 仮想のラックに機材を並べていくような、独特の制作スタイル。音作りが好きな人に人気。
+  C:
+    - name: Bitwig Studio
+      short: Bitwig
+      emoji: "🧪"
+      reason: 音作りやモジュラー的な使い方が得意で、こだわりの強い人向け。最初の1本としては、情報が少なめ。
+    - name: Digital Performer（Mac）
+      short: Digital Performer
+      emoji: "🎬"
+      reason: 古くから音楽・映像の制作現場で使われてきた。初心者向けの情報は多くない。
+    - name: Mixcraft
+      emoji: "🧩"
+      reason: 初心者向けの機能がそろったDAW。国内の情報は、主要なDAWほど多くない。
+  D:
+    - name: Pro Tools
+      emoji: "🏢"
+      reason: レコーディングスタジオで広く使われてきた定番。録音・ミックスの現場を目指す人向けで、個人の趣味の最初の1本としては、費用と習得の負担が大きい。
+    - name: Ardour・LMMSなどのオープンソースDAW
+      short: オープンソースDAW
+      emoji: "🔓"
+      reason: 無料で使えるが、操作や情報の面で、独学のハードルが上がる。ソフトの仕組みが好きな人向け。
+summary: |
+  迷ったら、無料の「GarageBand」（Apple製品）か「BandLab」から。作りたい曲の方向が決まったら、歌もの・録音ならCubaseやLogic Pro、ビート作りならFL Studio、ループやライブならAbleton Liveというように選ぶと失敗しにくい。
+  最初から高いソフトを買うより、まず無料で触って、「何がしたいか」を見つけるのが近道。価格や機能は変わるので、最終的には、必ず公式サイトで確認しよう。
+related: [music-kizai, music-gakki, music-sagyouyou-bgm]

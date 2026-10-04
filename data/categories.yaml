@@ -5,8 +5,8 @@ categories:
   - {slug: bts, name: BTS, emoji: "💜", description: BTS（防弾少年団）の曲やメンバーまわりのTier表。}
   - {slug: yattemitai, name: やってみたい, emoji: "🎯", description: 人生で一度はやってみたいことを、ワクワク度でランク付け。}
   - {slug: animals, name: 猫・動物, emoji: "🐈", description: 猫・犬・小さな生き物まわりのTier表。}
-  - {slug: entame, name: エンタメ, emoji: "🎬", description: 韓国ドラマ・映画・芸能など。}
-  - {slug: music, name: 音楽, emoji: "🎵", description: 曲・アーティスト・音楽制作まわり。}
+  - {slug: entame, name: エンタメ, emoji: "🎬", description: 映画・アニメ・ドラマ・昭和の名作など。}
+  - {slug: music, name: 音楽, emoji: "🎵", description: 昭和の名曲から、楽器・音楽制作ソフト・作業用BGMまで。}
   - {slug: ai, name: AI, emoji: "🤖", description: 画像・動画・音楽・文章のAIツールを、AI自身がランク付け。}
   - {slug: manabi, name: 学び・資格, emoji: "📚", description: 英語・韓国語・資格の勉強法。}
   - {slug: money, name: お金, emoji: "💰", description: 節約・固定費・お金の知識。}
