@@ -27,7 +27,7 @@ series:
         tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-fuyu-junbi, pet-fuyu-futori, pet-kanso-taisaku]
       - name: 夏の暑さ対策（犬猫）
         emoji: ☀️
-        tiers: [pet-natsu-goods, pet-natsu-kiken]
+        tiers: [pet-natsu-goods, pet-natsu-kiken, pet-natsu-junbi]
       - name: 留守番の温度管理
         emoji: 🏠
         tiers: [pet-rusuban-ondo]
@@ -39,7 +39,7 @@ series:
         tiers: [medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken]
+        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken, pet-hahanohi-hana, pet-ryokou-yado]
       - name: 食欲の秋・肥満対策
         emoji: 🍂
         tiers: [pet-aki-futori]
@@ -216,7 +216,7 @@ series:
         tiers: [pet-bousai-goods, pet-bousai-hinan, pet-bousai-shitsuke, pet-bousai-sumai, pet-bousai-shoudoubutsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken]
+        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken, pet-hahanohi-hana, pet-ryokou-yado]
 
   - slug: showa
     name: 昭和シリーズ
