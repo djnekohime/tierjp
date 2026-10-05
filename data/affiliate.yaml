@@ -8,10 +8,10 @@
 # 方式：見に来た人のブラウザが、楽天APIから直接商品を取って表示する（static/aff.js）。商品情報はリポジトリにも
 # サーバーにも保存しない（楽天ウェブサービス規約 第10条(9)対応）。アプリは「ウェブアプリケーション」型で、
 # 許可ドメイン tierjp.com からのアクセスだけが通る。下の3つは公開されて問題ない値（ドメイン制限つき）。
-enabled: false
-app_id: ""
-access_key: ""
-affiliate_id: ""
+enabled: true
+app_id: "e07850ce-c45e-4615-83d0-a823e7db4192"
+access_key: "pk_iVK6Kq5Ne96wrqtBsUauEcgvlDoKk2EWap1KfxfXP4v"
+affiliate_id: "583db1b1.fe96d922.583db1b2.51f2a792"
 max_per_page: 4
 min_review_average: 4.2
 min_review_count: 30
@@ -34,7 +34,7 @@ targets:
     queries: [犬 防寒 服, ペット用 ホットカーペット, 猫 ドーム ベッド 冬, ペット ヒーター 安全]
   pet-bousai-goods:
     heading: ペットの防災グッズの候補（楽天市場）
-    queries: [ペット キャリーバッグ 避難, ペット 非常食 防災, 猫 折りたたみ ケージ, ペット 迷子札]
+    queries: [ペット キャリーバッグ 避難, ペットフード 防災 長期保存, 猫 折りたたみ ケージ, ペット 迷子札]
   shumi-diy-dogu:
     heading: DIY道具の候補（楽天市場）
     queries: [電動ドライバー 初心者, 工具セット 家庭用, 保護メガネ 作業, 水平器]

@@ -42,16 +42,20 @@
     if (!m.length) return "";
     return typeof m[0] === "string" ? m[0] : (m[0].imageUrl || "");
   }
-  function pick(items, shops) {
+  function clean(n) {
+    return n.replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／|★[^★\s]*★?/g, " ").replace(/\s+/g, " ").trim().slice(0, 48);
+  }
+  function pick(items, shops, core) {
     var best = null;
     items.forEach(function (it) {
       it = it.Item || it;
       var name = it.itemName || "";
       if (ng.some(function (w) { return name.indexOf(w) >= 0; })) return;
+      if (name.indexOf(core) < 0) return;  // 検索語の先頭（いちばん大事な言葉）が商品名に入っているものだけ
       var avg = +it.reviewAverage || 0, cnt = +it.reviewCount || 0;
       if (avg < minAvg || cnt < minCount) return;
       if (!it.affiliateUrl || !firstImage(it) || shops[it.shopName]) return;
-      if (!best || cnt > best.count) best = { name: name.slice(0, 48), url: it.affiliateUrl, image: firstImage(it), shop: it.shopName || "", avg: avg, count: cnt };
+      if (!best || cnt > best.count) best = { name: clean(name), url: it.affiliateUrl, image: firstImage(it), shop: it.shopName || "", avg: avg, count: cnt };
     });
     return best;
   }
@@ -67,7 +71,7 @@
       "&hits=30&imageFlag=1&availability=1&format=json";
     fetch(u).then(function (r) { return r.ok ? r.json() : { Items: [] }; }).catch(function () { return { Items: [] }; })
       .then(function (j) {
-        var b = pick(j.Items || [], shops);
+        var b = pick(j.Items || [], shops, queries[i].split(" ")[0]);
         if (b) { picks.push(b); shops[b.shop] = 1; }
         setTimeout(function () { next(i + 1); }, 1100);
       });
