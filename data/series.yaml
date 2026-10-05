@@ -24,7 +24,7 @@ series:
     groups:
       - name: 冬の寒さ対策（犬猫）
         emoji: ❄️
-        tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-fuyu-junbi]
+        tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-fuyu-junbi, pet-fuyu-futori, pet-kanso-taisaku]
       - name: 夏の暑さ対策（犬猫）
         emoji: ☀️
         tiers: [pet-natsu-goods, pet-natsu-kiken]
@@ -39,7 +39,7 @@ series:
         tiers: [medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken]
+        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken]
       - name: 食欲の秋・肥満対策
         emoji: 🍂
         tiers: [pet-aki-futori]
@@ -162,7 +162,7 @@ series:
     groups:
       - name: 猫との暮らし
         emoji: 🏠
-        tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha]
+        tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha, neko-no-hi]
       - name: 猫の気持ち・しぐさ
         emoji: 💗
         tiers: [neko-aruaru-kodo, neko-aijo, neko-nakigoe, neko-nigate]
@@ -213,7 +213,7 @@ series:
         tiers: [pet-bousai-goods, pet-bousai-hinan, pet-bousai-shitsuke, pet-bousai-sumai, pet-bousai-shoudoubutsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken]
+        tiers: [pet-halloween-kiken, pet-xmas-kiken, pet-osouji-kiken, pet-nenmatsu-azukeru, pet-oshogatsu-kiken, pet-valentine-kiken]
 
   - slug: showa
     name: 昭和シリーズ
