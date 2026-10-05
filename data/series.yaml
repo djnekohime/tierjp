@@ -43,6 +43,9 @@ series:
       - name: 食欲の秋・肥満対策
         emoji: 🍂
         tiers: [pet-aki-futori]
+      - name: 梅雨・夏のごはん
+        emoji: ☔
+        tiers: [pet-tsuyu-taisaku, pet-shokuchudoku]
       - name: 春の換毛・花粉・新生活
         emoji: 🌸
         tiers: [pet-kemoshi-taisaku, pet-kafun, pet-shinseikatsu, pet-nomidani-taisaku, pet-ohanami]
@@ -189,7 +192,7 @@ series:
         tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha, neko-aruaru-kodo, neko-aijo, neko-nakigoe, neko-nigate, neko-shurui-shoshinsha, neko-keiro, neko-chara]
       - name: 犬
         emoji: 🐕
-        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara, inu-shitsuke, inu-byouin-sign, inu-no-hi, inu-yobo-calendar]
+        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara, inu-shitsuke, inu-byouin-sign, inu-no-hi, inu-yobo-calendar, inu-ame-sanpo]
       - name: メダカ
         emoji: 🐟
         tiers: [medaka-goods, medaka-yoki, medaka-esa, medaka-suisou, medaka-shurui, medaka-shippai]
