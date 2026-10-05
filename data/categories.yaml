@@ -10,6 +10,7 @@ categories:
   - {slug: ai, name: AI, emoji: "🤖", description: 画像・動画・音楽・文章のAIツールを、AI自身がランク付け。}
   - {slug: manabi, name: 学び・資格, emoji: "📚", description: 英語・韓国語・資格の勉強法。}
   - {slug: money, name: お金, emoji: "💰", description: 節約・固定費・お金の知識。}
+  - {slug: shumi, name: 趣味・ホビー, emoji: "🎨", description: 趣味の始め方・続け方・育てる・習い事。新しい楽しみを見つけたい人のTier表。}
   - {slug: kurashi, name: 暮らし, emoji: "🏠", description: 家電・道具・生活の知恵。}
   - {slug: sns, name: SNS・発信, emoji: "📱", description: YouTube・Instagram・TikTokなど発信まわり。}
   - {slug: travel, name: 旅行・世界, emoji: "✈️", description: 世界の国・行ってみたい場所。}

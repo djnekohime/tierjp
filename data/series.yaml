@@ -305,6 +305,18 @@ series:
         emoji: 🎨
         tiers: [ai-tools-creator, ai-gazou-chui]
 
+  - slug: shumi-hajime
+    name: 趣味はじめシリーズ
+    emoji: 🎨
+    lead: 新しい趣味を始めたい人のために、始めやすさ、室内で楽しめるもの、育てやすい植物、大人の習い事、読書を続けるコツを、AIが本気でS〜Dに決めたシリーズ。初期費用・手間・続けやすさを基準にしています。体力やケガのリスクがある趣味は、無理をせず、専門家や経験者の案内も参考にしてね。
+    groups:
+      - name: 趣味を選ぶ
+        emoji: 🧭
+        tiers: [shumi-hajimeyasui, shumi-shitsunai]
+      - name: 育てる・読む・習う
+        emoji: 🌱
+        tiers: [shumi-gardening-shoshinsha, shumi-dokusho-hajimekata, shumi-naraigoto]
+
   - slug: tabi
     name: 旅行シリーズ
     emoji: ✈️
