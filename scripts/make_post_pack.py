@@ -34,6 +34,23 @@ SOUND_RULES = [
 BASE_TAGS = ["#ティアる", "#Tier表", "#ランキング"]
 
 
+def sync_dir() -> Path:
+    """スマホに同期されるフォルダ。Googleドライブ（デスクトップ版）があればそちら、無ければOneDrive。"""
+    for g in Path("G:/").glob("*/ティアる投稿") if Path("G:/").exists() else []:
+        return g
+    for letter in "GHIJ":
+        root = Path(f"{letter}:/")
+        if root.exists():
+            for sub in ("マイドライブ", "My Drive"):
+                if (root / sub).exists():
+                    p = root / sub / "ティアる投稿"
+                    p.mkdir(exist_ok=True)
+                    return p
+    p = Path(r"C:\Users\himic\OneDrive\ティアる投稿")
+    p.mkdir(exist_ok=True)
+    return p
+
+
 def load_tiers() -> list[dict]:
     out = []
     for f in TIERS.glob("*.yaml"):
@@ -101,12 +118,21 @@ def main() -> None:
     print(f"✅ {f}（{len(imgs)}枚）")
     # iPhone（OneDriveアプリ）から使えるように、画像とパックを OneDrive にもコピー
     import shutil
-    od = Path(r"C:\Users\himic\OneDrive\ティアる投稿") / day
+    from PIL import Image
+    base = sync_dir()
+    od = base / day
     od.mkdir(parents=True, exist_ok=True)
-    for img in imgs:
-        shutil.copy2(img, od / img.name)
+    for img in imgs:  # スマホ用にJPGへ（容量を約1/10に）
+        Image.open(img).convert("RGB").save(od / (img.stem.replace(" レトロTier表", "") + ".jpg"), quality=90)
     shutil.copy2(f, od / "00_投稿パック.md")
-    print(f"✅ OneDriveへコピー → {od}")
+    # 7日より古い日付フォルダは消す（同期フォルダの容量を増やさない。元画像は output に残っている）
+    for d in base.iterdir():
+        try:
+            if d.is_dir() and (date.today() - date.fromisoformat(d.name)).days > 7:
+                shutil.rmtree(d)
+        except ValueError:
+            pass
+    print(f"✅ スマホ用フォルダへコピー（JPG・7日分だけ保持）→ {od}")
 
 
 if __name__ == "__main__":
