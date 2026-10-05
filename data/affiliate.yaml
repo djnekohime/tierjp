@@ -15,7 +15,7 @@ affiliate_id: "583db1b1.fe96d922.583db1b2.51f2a792"
 max_per_page: 4
 min_review_average: 4.2
 min_review_count: 30
-ng_words: [医薬品, 処方, 治療, 動物用医薬品, 予防薬, サプリ, 中古, 訳あり, ギフト券, アダルト, 大人用, 激安福袋]
+ng_words: [生体, 稚魚, 獣医師監修, 医薬品, 処方, 治療, 動物用医薬品, 予防薬, サプリ, 中古, 訳あり, ギフト券, アダルト, 大人用, 激安福袋]
 targets:
   bousai-bichiku:
     heading: 備蓄の候補（楽天市場）
@@ -41,3 +41,9 @@ targets:
   shumi-camp-shoshinsha:
     heading: キャンプ道具の候補（楽天市場）
     queries: [ソロテント 初心者, 寝袋 冬用 コンパクト, キャンプ マット インフレータブル, LEDランタン キャンプ]
+  neko-omocha:
+    heading: 猫のおもちゃの候補（楽天市場）
+    queries: [猫じゃらし, 猫 トンネル, 猫 おもちゃ 電動, 猫 けりぐるみ]
+  medaka-goods:
+    heading: メダカ飼育グッズの候補（楽天市場）
+    queries: [メダカ 水草, カルキ抜き, メダカ エサ, メダカ 飼育セット 水槽]
