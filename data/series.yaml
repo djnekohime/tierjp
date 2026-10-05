@@ -340,3 +340,15 @@ series:
       - name: つくる
         emoji: 🧵
         tiers: [yattemitai-tezukuri]
+
+  - slug: kurashi-bousai
+    name: 防災・冬支度シリーズ
+    emoji: 🧯
+    lead: 家庭の備蓄、停電・断水への備え、冬の暖房と防寒を、AIが本気でS〜Dに決めたシリーズ。備蓄の量などは政府広報の目安をもとにしています。お住まいの自治体の情報もあわせて確認してね。
+    groups:
+      - name: 備える
+        emoji: 🎒
+        tiers: [bousai-bichiku, bousai-teiden]
+      - name: 冬をこす
+        emoji: 🧣
+        tiers: [kurashi-fuyu-bokan]
