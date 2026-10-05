@@ -256,3 +256,33 @@ series:
       - name: 韓国映画
         emoji: 🎥
         tiers: [kankoku-eiga]
+
+  - slug: okane
+    name: お金シリーズ
+    emoji: 💰
+    lead: 家計管理、食費の節約、ふるさと納税、詐欺の手口、お金の守り方・増やし方の入口まで、お金のことをAIが本気でS〜Dに決めたシリーズ。投資の助言や、特定の商品のおすすめではありません。制度や数字は変わるので、公式サイトでも確認してね。
+    groups:
+      - name: 家計のきほん
+        emoji: 📒
+        tiers: [okane-kakeibo, koteihi-minaoshi, okane-shokuhi]
+      - name: 賢く使う
+        emoji: 🎁
+        tiers: [okane-furusato]
+      - name: 守る・増やす
+        emoji: 🛡️
+        tiers: [okane-fund-iriguchi, okane-sagi]
+
+  - slug: manabi
+    name: 学びシリーズ（英語・韓国語・勉強法）
+    emoji: 📚
+    lead: 英語と韓国語の学び方、旅行で使えるフレーズ、勉強を続けるコツ、暗記の方法を、AIが本気でS〜Dに決めたシリーズ。大人の学び直しにも。向き不向きには個人差があるので、自分に合う方法を見つけてね。
+    groups:
+      - name: 英語
+        emoji: 🔤
+        tiers: [eigo-gakushu-hoho, eigo-ryoko-phrase, eiken3-benkyou]
+      - name: 韓国語
+        emoji: 🗣️
+        tiers: [hangul-phrase, kankokugo-benkyou]
+      - name: 勉強のコツ
+        emoji: 🧠
+        tiers: [benkyo-tsuzukekata, anki-hoho]

@@ -1,0 +1,109 @@
+title: 海外旅行で使える英語フレーズ Tier表
+description: Excuse me、Thank you、How much is this?、Where is the restroom?、Check, please…海外旅行で役立つ英語フレーズを「使う頻度・困ったときの頼りになる度」でS〜Dにランク付け。
+category: manabi
+tags: [英語, 旅行, 初心者]
+published: 2026-10-05
+labels:
+  S: 最初に覚える
+  A: 毎日使う
+  B: 場面別に便利
+  C: 余裕があれば
+  D: 万が一のとき
+criteria: |
+  ① 使う頻度（旅行中に何度も使うか）
+  ② 覚えやすさ（短い・発音しやすい）
+  ③ 困ったときの頼りになる度
+  ※ 実際の旅行では、ジェスチャーや翻訳アプリも一緒に使うと、より伝わります。国や地域によって、表現が違う場合もあります
+rank_notes:
+  S: まずこの数個
+  D: 万が一に備えて
+tiers:
+  S:
+    - name: Excuse me.
+      short: すみません
+      emoji: "🙋"
+      reason: 声をかける、道を空けてもらう、店員を呼ぶ、いろいろな場面で使える万能の言葉。
+    - name: Thank you.
+      short: ありがとう
+      emoji: "🙏"
+      reason: 旅行中、いちばん使う言葉のひとつ。笑顔で言うだけで、印象がぐっと良くなる。
+    - name: Sorry.
+      short: ごめんなさい
+      emoji: "🙇"
+      reason: ぶつかったとき、聞き返すときなどに。軽い謝罪として、使いやすい。
+  A:
+    - name: How much is this?
+      short: いくらですか
+      emoji: "💰"
+      reason: 買い物で、必ず使う。指で指しながら言えば、伝わりやすい。
+    - name: Where is the restroom?
+      short: トイレはどこですか
+      emoji: "🚻"
+      reason: 旅行では、必ず必要になる。「restroom」のほかに、「toilet」も通じる地域が多い。
+    - name: Can I have ~, please?
+      short: ~をください
+      emoji: "🍽️"
+      reason: 注文やお願いに、そのまま使える。「~」の部分に、欲しいものを入れるだけ。
+    - name: Check, please.
+      short: お会計をお願いします
+      emoji: "🧾"
+      reason: レストランで、会計をお願いするときに。短くて、通じる。
+    - name: I don't understand.
+      short: わかりません
+      emoji: "❓"
+      reason: 分からないときは、はっきり伝えるのが大切。ゆっくり言ってもらえる。
+  B:
+    - name: Could you say that again, please?
+      short: もう一度言ってください
+      emoji: "🔁"
+      reason: 聞き取れなかったときに。「Pardon?」と短く言うのも、使いやすい。
+    - name: Could you speak more slowly, please?
+      short: ゆっくり話してください
+      emoji: "🐢"
+      reason: 早口で、聞き取れないときに。笑顔で言えば、親切に対応してもらえる。
+    - name: Do you accept credit cards?
+      short: カードは使えますか
+      emoji: "💳"
+      reason: 支払い方法の、確認に。国やお店で、使える決済が違う。
+    - name: How do I get to ~?
+      short: ~への行き方は
+      emoji: "🗺️"
+      reason: 道や、交通機関を聞くときに。地図アプリと、併用すると、確実。
+    - name: I have a reservation.
+      short: 予約があります
+      emoji: "📅"
+      reason: ホテルやレストランで。名前と、一緒に伝える。
+    - name: I'd like to ~.
+      short: ~をしたいです
+      emoji: "🙌"
+      reason: 丁寧に希望を伝える、便利な型。「I'd like to check in.」など。
+  C:
+    - name: Is there Wi-Fi?
+      short: Wi-Fiはありますか
+      emoji: "📶"
+      reason: ホテルやカフェで、パスワードを聞くときに。
+    - name: Could you take a picture of us?
+      short: 写真を撮ってもらえますか
+      emoji: "📸"
+      reason: 観光地で、旅の思い出を残すときに。
+    - name: Is this seat taken?
+      short: この席は空いていますか
+      emoji: "💺"
+      reason: 相席や、カフェでの席の確認に。
+    - name: Can I get a refund?
+      short: 返金できますか
+      emoji: "💱"
+      reason: 買い物で、トラブルがあったときに。
+  D:
+    - name: Help!
+      short: 助けて！
+      emoji: "🆘"
+      reason: 緊急のとき、大きな声で。周りの人に、助けを求める言葉。
+    - name: I lost my passport.
+      short: パスポートをなくしました
+      emoji: "🛂"
+      reason: 万が一のときに、警察や大使館で、状況を伝える。事前に、連絡先を調べておくと安心。
+summary: |
+  Sは、「Excuse me.」「Thank you.」「Sorry.」の3つ。この3つがあれば、旅行中のほとんどの場面を、乗りきれる。
+  完璧な文でなくても、単語と笑顔、ジェスチャーで、案外通じる。翻訳アプリも上手に使いながら、まずは「ひとこと」から、挑戦してみよう。
+related: [eigo-gakushu-hoho, eiken3-benkyou, hangul-phrase]
