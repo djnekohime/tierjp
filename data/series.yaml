@@ -286,3 +286,57 @@ series:
       - name: 勉強のコツ
         emoji: 🧠
         tiers: [benkyo-tsuzukekata, anki-hoho]
+
+  - slug: ai-katsuyo
+    name: AI活用シリーズ
+    emoji: 🤖
+    lead: AIに任せていいこと・いけないこと、質問のコツ、答えの確認方法、AIで作った作品を使うときの注意を、AIが本気でS〜Dに決めたシリーズ。AIは、たまに自信満々に間違える優秀な助手。上手に、安全に使うためのまとめです。
+    groups:
+      - name: 使い方の基本
+        emoji: 🧭
+        tiers: [ai-nani-makaseru, ai-shitsumon-kotsu, ai-fact-check]
+      - name: 作品づくり
+        emoji: 🎨
+        tiers: [ai-tools-creator, ai-gazou-chui]
+
+  - slug: tabi
+    name: 旅行シリーズ
+    emoji: ✈️
+    lead: 初めての海外旅行から、持ち物、宿、移動手段、トラブル対策まで。旅の準備を、AIが本気でS〜Dに決めたシリーズ。行き先や時期で変わるので、外務省の海外安全情報など、公式の情報もあわせて確認してね。
+    groups:
+      - name: 準備する
+        emoji: 🧳
+        tiers: [kaigai-hajimete, travel-kaigai-mochimono]
+      - name: 宿と移動
+        emoji: 🏨
+        tiers: [travel-yado-type, travel-idou]
+      - name: 困ったときの備え
+        emoji: 🛡️
+        tiers: [travel-trouble-taisaku]
+
+  - slug: sns-hasshin
+    name: SNS発信シリーズ
+    emoji: 📱
+    lead: SNSをはじめる人、続けたい人のための、ネタ・プロフィール・安全対策・続けやすさを、AIが本気でS〜Dに決めたシリーズ。伸びるかどうかは保証できませんが、「続けられる形」を見つけるヒントに。
+    groups:
+      - name: はじめる・整える
+        emoji: 🌱
+        tiers: [sns-profile, sns-short-neta]
+      - name: 続ける・守る
+        emoji: 🛡️
+        tiers: [sns-tsuzukeyasusa, sns-chuui]
+
+  - slug: yattemitai
+    name: やってみたいシリーズ
+    emoji: 🎯
+    lead: 人生で一度はやってみたいこと、ひとりでやってみたいこと、お金をかけずにできる週末の楽しみ、手作り体験を、AIが本気でS〜Dに決めたシリーズ。あなたの「やってみたい」の、はじめの一歩に。
+    groups:
+      - name: 人生で一度は
+        emoji: 🌟
+        tiers: [yattemitai-life]
+      - name: ひとりで・週末に
+        emoji: ☀️
+        tiers: [yattemitai-hitori, yattemitai-shumatsu]
+      - name: つくる
+        emoji: 🧵
+        tiers: [yattemitai-tezukuri]
