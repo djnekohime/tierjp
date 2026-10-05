@@ -43,6 +43,9 @@ series:
       - name: 食欲の秋・肥満対策
         emoji: 🍂
         tiers: [pet-aki-futori]
+      - name: 春の換毛・花粉・新生活
+        emoji: 🌸
+        tiers: [pet-kemoshi-taisaku, pet-kafun, pet-shinseikatsu]
 
   - slug: conbini
     name: コンビニシリーズ
