@@ -186,7 +186,7 @@ series:
         tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha, neko-aruaru-kodo, neko-aijo, neko-nakigoe, neko-nigate, neko-shurui-shoshinsha, neko-keiro, neko-chara]
       - name: 犬
         emoji: 🐕
-        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara]
+        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara, inu-shitsuke, inu-byouin-sign, inu-no-hi]
       - name: メダカ
         emoji: 🐟
         tiers: [medaka-goods, medaka-yoki, medaka-esa, medaka-suisou, medaka-shurui, medaka-shippai]
