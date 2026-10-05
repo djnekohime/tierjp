@@ -316,6 +316,12 @@ series:
       - name: 育てる・読む・習う
         emoji: 🌱
         tiers: [shumi-gardening-shoshinsha, shumi-dokusho-hajimekata, shumi-naraigoto]
+      - name: つくる・撮る・遊ぶ
+        emoji: 📸
+        tiers: [shumi-smartphone-shashin, shumi-handmade-shurui, shumi-diy-dogu, shumi-boardgame-shurui]
+      - name: 外で楽しむ
+        emoji: ⛺
+        tiers: [shumi-camp-shoshinsha]
 
   - slug: tabi
     name: 旅行シリーズ
