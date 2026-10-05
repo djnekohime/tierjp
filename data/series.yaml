@@ -39,7 +39,7 @@ series:
         tiers: [medaka-kingyo-essetsu, medaka-kingyo-kosetsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken]
+        tiers: [pet-halloween-kiken, pet-oshogatsu-kiken]
       - name: 食欲の秋・肥満対策
         emoji: 🍂
         tiers: [pet-aki-futori]
@@ -213,7 +213,7 @@ series:
         tiers: [pet-bousai-goods, pet-bousai-hinan, pet-bousai-shitsuke, pet-bousai-sumai, pet-bousai-shoudoubutsu]
       - name: 行事・季節イベント
         emoji: 🎃
-        tiers: [pet-halloween-kiken]
+        tiers: [pet-halloween-kiken, pet-oshogatsu-kiken]
 
   - slug: showa
     name: 昭和シリーズ
@@ -352,3 +352,6 @@ series:
       - name: 冬をこす
         emoji: 🧣
         tiers: [kurashi-fuyu-bokan]
+      - name: 年末年始
+        emoji: 🎍
+        tiers: [kurashi-osouji-basho, kurashi-nenmatsu-yaru]
