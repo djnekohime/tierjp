@@ -27,7 +27,7 @@ series:
         tiers: [pet-fuyu-goods, pet-fuyu-kiken, inu-fuyu-sanpo, pet-fuyu-junbi, pet-fuyu-futori, pet-kanso-taisaku]
       - name: 夏の暑さ対策（犬猫）
         emoji: ☀️
-        tiers: [pet-natsu-goods, pet-natsu-kiken, pet-natsu-junbi]
+        tiers: [pet-natsu-goods, pet-natsu-kiken, pet-natsu-junbi, pet-hanabi-kaminari, inu-umi-kawa]
       - name: 留守番の温度管理
         emoji: 🏠
         tiers: [pet-rusuban-ondo]
@@ -192,7 +192,7 @@ series:
         tiers: [neko-goods, neko-toilet-suna, neko-nerubasho, neko-oyatsu, neko-omocha, neko-aruaru-kodo, neko-aijo, neko-nakigoe, neko-nigate, neko-shurui-shoshinsha, neko-keiro, neko-chara]
       - name: 犬
         emoji: 🐕
-        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara, inu-shitsuke, inu-byouin-sign, inu-no-hi, inu-yobo-calendar, inu-ame-sanpo]
+        tiers: [inu-goods, inu-oyatsu, inu-kiken, inu-sanpo, inu-aruaru, inu-aijo, inu-nakigoe, inu-nigate, inu-shurui, inu-chara, inu-shitsuke, inu-byouin-sign, inu-no-hi, inu-yobo-calendar, inu-ame-sanpo, inu-umi-kawa]
       - name: メダカ
         emoji: 🐟
         tiers: [medaka-goods, medaka-yoki, medaka-esa, medaka-suisou, medaka-shurui, medaka-shippai]
