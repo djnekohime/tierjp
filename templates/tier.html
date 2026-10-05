@@ -79,24 +79,18 @@
   </section>
   {% endif %}
 
-  {% if aff and aff.picks %}
-  <section class="box aff-box">
+  {% if aff %}
+  <section class="box aff-box" id="aff-box" hidden
+           data-app-id="{{ aff_conf.app_id }}" data-access-key="{{ aff_conf.access_key }}" data-affiliate-id="{{ aff_conf.affiliate_id }}"
+           data-queries="{{ aff.queries|tojson|forceescape }}" data-max="{{ aff_conf.max_per_page }}"
+           data-min-avg="{{ aff_conf.min_review_average }}" data-min-count="{{ aff_conf.min_review_count }}"
+           data-ng="{{ aff_conf.ng_words|tojson|forceescape }}">
     <h2>🛒 {{ aff.heading }}</h2>
     <p class="aff-pr">【PR】この枠には広告（アフィリエイトリンク）が含まれます。購入されると当サイトに紹介料が入ることがあります。ランクは、紹介料とは関係なく、評価基準だけで決めています。</p>
-    <ul class="aff-list">
-      {% for p in aff.picks %}
-      <li>
-        <a href="{{ p.url }}" rel="sponsored noopener" target="_blank"><img src="{{ p.image }}" alt="" width="128" height="128" loading="lazy"></a>
-        <div>
-          <a class="aff-name" href="{{ p.url }}" rel="sponsored noopener" target="_blank">{{ p.name }}</a>
-          <p class="aff-meta">{{ p.shop }}｜レビュー ★{{ p.review_average }}（{{ p.review_count }}件）</p>
-          <a class="link-btn" href="{{ p.url }}" rel="sponsored noopener" target="_blank">楽天市場で見る →</a>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <p class="aff-note">※ 価格・在庫は変わります。商品ページで確認してね。レビューの数字は選んだ時点のものです。</p>
+    <ul class="aff-list"></ul>
+    <p class="aff-note">※ 価格・在庫は変わります。商品ページで確認してね。レビューの数字は表示した時点のものです。商品情報の提供：楽天ウェブサービス</p>
   </section>
+  <script src="/static/aff.js" defer></script>
   {% endif %}
 
   {% if codex %}
