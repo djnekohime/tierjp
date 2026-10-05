@@ -351,7 +351,11 @@ def build(include_drafts: bool) -> None:
            latest=tiers[:12], tag_list=tag_list[:30], canonical="/")
     for t in tiers:
         og = f"/og/{t.slug}.png" if (STATIC.parent / "og" / f"{t.slug}.png").exists() else ""
-        render("tier.html", f"tier/{t.slug}/index.html", t=t,
+        # コーディクスの完成画像（scripts/import_codex.py）があるページだけ、そちらに差し替える
+        codex = f"/codex/{t.slug}.webp" if (ROOT / "codex" / f"{t.slug}.webp").exists() else ""
+        if (ROOT / "og_codex" / f"{t.slug}.jpg").exists():
+            og = f"/og_codex/{t.slug}.jpg"
+        render("tier.html", f"tier/{t.slug}/index.html", t=t, codex=codex,
                cat=cat_by_slug[t.category], og=t.eyecatch or og, canonical=t.url)
     for c in shown_cats:
         # ジャンルがあるカテゴリーは、ジャンルごとにまとめて表示（categories.yaml の genres の順）
@@ -383,6 +387,9 @@ def build(include_drafts: bool) -> None:
     # 画像（scripts/make_images.py が作ったもの）
     if (ROOT / "og").exists():
         shutil.copytree(ROOT / "og", DIST / "og")
+    for d in ("codex", "og_codex"):
+        if (ROOT / d).exists():
+            shutil.copytree(ROOT / d, DIST / d)
 
     # 検索用データ（ページ側のJSで読む）
     search = [{

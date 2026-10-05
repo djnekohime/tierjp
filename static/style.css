@@ -217,3 +217,6 @@ html,body{overflow-x:hidden}
 .series-note a{color:var(--cyan)}
 .more-cats{margin:10px 0 0;font-size:.95rem}
 .more-cats a{display:inline-block;margin:4px 10px 4px 0;color:var(--cyan)}
+
+.codex-box{text-align:center}
+.codex-img{max-width:min(100%,420px);height:auto;border-radius:12px;box-shadow:0 0 22px rgba(255,95,184,.25)}

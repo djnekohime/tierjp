@@ -27,3 +27,7 @@ python build.py --serve         # ビルドして http://localhost:8010/ で確�
 
 ## 関連Tier
 `related:` に書いた分＋同じカテゴリー・共通タグから自動で最大6件。
+
+## コーディクスの完成画像を取り込む
+`python scripts/import_codex.py` → `codex/<slug>.webp`（ページに載せる）と `og_codex/<slug>.jpg`（シェア用・上のタイトル部分を切り出し）ができる。
+その後 `python build.py`。画像があるページだけ自動で差し替わる。元データは `HIMEKA避難所/ティアる/production/completed.json`（slug・status=complete）。
