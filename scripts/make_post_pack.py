@@ -73,8 +73,9 @@ def s_items(t: dict, n: int = 3) -> list[str]:
 def main() -> None:
     day = sys.argv[1] if len(sys.argv) > 1 else date.today().isoformat()
     src = WORK / "output" / day / "完成画像"
-    if not src.exists():
-        sys.exit(f"画像フォルダが見つかりません: {src}")
+    if not src.exists() or not list(src.glob("*.png")):
+        print(f"まだ画像がありません（{src}）。コーディクスの完成後にもう一度。")
+        return
     tiers = load_tiers()
     imgs = sorted(src.glob("*.png"))
     lines = [f"# 投稿パック {day}（{len(imgs)}枚）", "",
@@ -98,6 +99,14 @@ def main() -> None:
     f = out / f"{day}.md"
     f.write_text("\n".join(lines), encoding="utf-8")
     print(f"✅ {f}（{len(imgs)}枚）")
+    # iPhone（OneDriveアプリ）から使えるように、画像とパックを OneDrive にもコピー
+    import shutil
+    od = Path(r"C:\Users\himic\OneDrive\ティアる投稿") / day
+    od.mkdir(parents=True, exist_ok=True)
+    for img in imgs:
+        shutil.copy2(img, od / img.name)
+    shutil.copy2(f, od / "00_投稿パック.md")
+    print(f"✅ OneDriveへコピー → {od}")
 
 
 if __name__ == "__main__":
