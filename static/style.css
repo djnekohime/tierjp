@@ -220,3 +220,10 @@ html,body{overflow-x:hidden}
 
 .codex-box{text-align:center}
 .codex-img{max-width:min(100%,420px);height:auto;border-radius:12px;box-shadow:0 0 22px rgba(255,95,184,.25)}
+
+.aff-box .aff-pr{font-size:.82rem;opacity:.85}
+.aff-list{list-style:none;padding:0;margin:10px 0;display:grid;gap:12px}
+.aff-list li{display:flex;gap:12px;align-items:center;border:1px solid var(--pink);border-radius:12px;padding:10px}
+.aff-list img{width:96px;height:96px;object-fit:contain;border-radius:8px;background:#fff;flex:none}
+.aff-name{font-weight:700}
+.aff-meta,.aff-note{font-size:.8rem;opacity:.8;margin:4px 0}

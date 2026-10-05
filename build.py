@@ -349,13 +349,17 @@ def build(include_drafts: bool) -> None:
 
     render("index.html", "index.html", tiers=tiers, featured=featured,
            latest=tiers[:12], tag_list=tag_list[:30], canonical="/")
+    # アフィリエイトの「おすすめ商品」カード（data/affiliate.yaml が enabled のときだけ。scripts/affiliate_pick.py が作る）
+    aff_conf = yaml.safe_load((ROOT / "data" / "affiliate.yaml").read_text(encoding="utf-8")) if (ROOT / "data" / "affiliate.yaml").exists() else {}
+    aff_path = ROOT / "data" / "affiliate_picks.json"
+    aff_picks = json.loads(aff_path.read_text(encoding="utf-8")) if aff_conf.get("enabled") and aff_path.exists() else {}
     for t in tiers:
         og = f"/og/{t.slug}.png" if (STATIC.parent / "og" / f"{t.slug}.png").exists() else ""
         # コーディクスの完成画像（scripts/import_codex.py）があるページだけ、そちらに差し替える
         codex = f"/codex/{t.slug}.webp" if (ROOT / "codex" / f"{t.slug}.webp").exists() else ""
         if (ROOT / "og_codex" / f"{t.slug}.jpg").exists():
             og = f"/og_codex/{t.slug}.jpg"
-        render("tier.html", f"tier/{t.slug}/index.html", t=t, codex=codex,
+        render("tier.html", f"tier/{t.slug}/index.html", t=t, codex=codex, aff=aff_picks.get(t.slug),
                cat=cat_by_slug[t.category], og=t.eyecatch or og, canonical=t.url)
     for c in shown_cats:
         # ジャンルがあるカテゴリーは、ジャンルごとにまとめて表示（categories.yaml の genres の順）

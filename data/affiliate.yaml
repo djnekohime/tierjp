@@ -1,0 +1,37 @@
+# ティアる。のアフィリエイト（楽天）設定。scripts/affiliate_pick.py が読む。
+# enabled を true にして picks を作ると、下の targets のページに「おすすめ商品」カードが出る。
+# 守るルール（役員会＝CBO/CPO/CAO）：
+#  - 事実だけ（レビュー平均・件数）。「効く」「治る」などの効能・言い切りは書かない
+#  - 価格は載せない（変わるので）。「使ってみた」と書かない（使っていないので）
+#  - 医薬品・予防薬・サプリ・アダルト・中古・ギフト券は出さない（NG語で除外）
+#  - 1ページ最大4点。広告表記【PR】を必ずカードの上に出す
+enabled: false
+max_per_page: 4
+min_review_average: 4.2
+min_review_count: 30
+ng_words: [医薬品, 処方, 治療, 動物用医薬品, 予防薬, サプリ, 中古, 訳あり, ギフト券, アダルト, 大人用, 激安福袋]
+targets:
+  bousai-bichiku:
+    heading: 備蓄の候補（楽天市場）
+    queries: [非常食 セット 長期保存, 保存水 5年, 防災セット 1人用, 簡易トイレ 防災]
+  bousai-teiden:
+    heading: 停電・断水の備えの候補（楽天市場）
+    queries: [LEDランタン 防災, 手回し充電 ラジオ, モバイルバッテリー 大容量, ポータブル電源 小型]
+  kurashi-fuyu-bokan:
+    heading: 冬の防寒の候補（楽天市場）
+    queries: [電気毛布, 湯たんぽ, あったか ブランケット, 窓 断熱シート]
+  kurashi-osouji-basho:
+    heading: 大掃除の道具の候補（楽天市場）
+    queries: [マイクロファイバークロス 掃除, ゴム手袋 掃除, 換気扇 掃除 洗剤, 窓掃除 スクイジー]
+  pet-fuyu-goods:
+    heading: 冬のペットグッズの候補（楽天市場）
+    queries: [犬 防寒 服, ペット用 ホットカーペット, 猫 ドーム ベッド 冬, ペット ヒーター 安全]
+  pet-bousai-goods:
+    heading: ペットの防災グッズの候補（楽天市場）
+    queries: [ペット キャリーバッグ 避難, ペット 非常食 防災, 猫 折りたたみ ケージ, ペット 迷子札]
+  shumi-diy-dogu:
+    heading: DIY道具の候補（楽天市場）
+    queries: [電動ドライバー 初心者, 工具セット 家庭用, 保護メガネ 作業, 水平器]
+  shumi-camp-shoshinsha:
+    heading: キャンプ道具の候補（楽天市場）
+    queries: [ソロテント 初心者, 寝袋 冬用 コンパクト, キャンプ マット インフレータブル, LEDランタン キャンプ]
