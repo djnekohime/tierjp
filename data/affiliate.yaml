@@ -506,3 +506,27 @@ targets:
   inu-no-hi:
     heading: 犬の日のグッズの候補（楽天市場）
     queries: [犬 おもちゃ, 犬 おやつ, 犬 ベッド, 犬 リード]
+  neko-esa-shurui:
+    heading: 猫のごはんの候補（楽天市場）
+    queries: [キャットフード 総合栄養食, 猫 ウェットフード 総合栄養食, 猫 ドライフード 国産, 子猫 フード]
+  inu-esa-shurui:
+    heading: 犬のごはんの候補（楽天市場）
+    queries: [ドッグフード 総合栄養食, 犬 ウェットフード, ドッグフード 小型犬, ドッグフード シニア]
+  kingyo-goods:
+    heading: 金魚の飼育グッズの候補（楽天市場）
+    queries: [金魚 水槽 セット, 水槽 フィルター, カルキ抜き 水槽, エアーポンプ 水槽]
+  medaka-hanshoku:
+    heading: メダカの繁殖グッズの候補（楽天市場）
+    queries: [メダカ 産卵床, メダカ 稚魚 エサ, メダカ 産卵 ホテイアオイ, メダカ 飼育 容器]
+  inu-natsu-sanpo:
+    heading: 夏の散歩グッズの候補（楽天市場）
+    queries: [犬 クール バンダナ, 犬 ポータブル 水飲み, 犬 冷感 ウェア, 犬 靴 肉球]
+  inu-dental-care:
+    heading: デンタルケアグッズの候補（楽天市場）
+    queries: [犬 歯ブラシ, 犬 歯磨きシート, 犬 デンタルガム, 犬 歯みがき ジェル]
+  hamster-kiken:
+    heading: ハムスター用品の候補（楽天市場）
+    queries: [ハムスター フード, ハムスター 床材, ハムスター ケージ, ハムスター 回し車]
+  usagi-kiken:
+    heading: うさぎ用品の候補（楽天市場）
+    queries: [うさぎ 牧草, うさぎ ペレット, うさぎ ケージ, うさぎ 給水器]
