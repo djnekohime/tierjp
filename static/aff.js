@@ -44,7 +44,7 @@
   }
   function clean(n) {
     return n.replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／|★[^★\s]*★?/g, " ")
-      .replace(/(限定|最大|全品|クーポン)?\s*\d+(\.\d+)?\s*[%％]\s*(OFF|オフ|off|引き|還元)?|\d+円(OFF|オフ|引き)?|ポイント\s*\d+\s*倍|P\s*\d+\s*倍|送料(無料|込み?)|あす楽|即納|半額|セール|SALE|クーポン(利用|配布|あり)?|[「『]?楽天(市場)?\s*\d*\s*(位|冠)[」』]?|\d+\s*冠|ランキング\d*位?(入賞)?|お買い得|期間限定|数量限定/g, " ")
+      .replace(/(限定|最大|全品|クーポン)?\s*\d+(\.\d+)?\s*[%％]\s*(OFF|オフ|off|引き|還元)?|\d+円(OFF|オフ|引き)?|ポイント\s*\d+\s*倍|P\s*\d+\s*倍|送料(無料|込み?)|ゆうパケット(便)?|ネコポス|メール便|宅配便|あす楽|即納|半額|セール|SALE|クーポン(利用|配布|あり)?|[「『]?楽天(市場)?\s*\d*\s*(位|冠)[」』]?|\d+\s*冠|ランキング\d*位?(入賞)?|お買い得|期間限定|数量限定/g, " ")
       .replace(/\s+/g, " ").trim().slice(0, 48);
   }
   function pick(items, shops, core) {
@@ -66,7 +66,7 @@
   (function next(i) {
     if (i >= queries.length || picks.length >= max) {
       try { localStorage.setItem(CACHE_KEY, JSON.stringify({ t: Date.now(), p: picks })); } catch (e) {}
-      render(picks); return;
+      return;
     }
     var u = EP + "?applicationId=" + encodeURIComponent(d.appId) + "&accessKey=" + encodeURIComponent(d.accessKey) +
       "&affiliateId=" + encodeURIComponent(d.affiliateId) + "&keyword=" + encodeURIComponent(queries[i]) +
@@ -74,7 +74,7 @@
     fetch(u).then(function (r) { return r.ok ? r.json() : { Items: [] }; }).catch(function () { return { Items: [] }; })
       .then(function (j) {
         var b = pick(j.Items || [], shops, queries[i].split(" ")[0]);
-        if (b) { picks.push(b); shops[b.shop] = 1; }
+        if (b) { picks.push(b); shops[b.shop] = 1; render([b]); }  // 見つかった順に表示
         setTimeout(function () { next(i + 1); }, 1100);
       });
   })(0);
