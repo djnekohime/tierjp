@@ -43,7 +43,9 @@
     return typeof m[0] === "string" ? m[0] : (m[0].imageUrl || "");
   }
   function clean(n) {
-    return n.replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／|★[^★\s]*★?/g, " ").replace(/\s+/g, " ").trim().slice(0, 48);
+    return n.replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／|★[^★\s]*★?/g, " ")
+      .replace(/(限定|最大|全品|クーポン)?\s*\d+(\.\d+)?\s*[%％]\s*(OFF|オフ|off|引き|還元)?|\d+円(OFF|オフ|引き)?|ポイント\s*\d+\s*倍|P\s*\d+\s*倍|送料(無料|込み?)|あす楽|即納|半額|セール|SALE|クーポン(利用|配布|あり)?|ランキング\d*位?(入賞)?|お買い得|期間限定|数量限定/g, " ")
+      .replace(/\s+/g, " ").trim().slice(0, 48);
   }
   function pick(items, shops, core) {
     var best = null;

@@ -47,3 +47,186 @@ targets:
   medaka-goods:
     heading: メダカ飼育グッズの候補（楽天市場）
     queries: [メダカ 水草, カルキ抜き, メダカ エサ, メダカ 飼育セット 水槽]
+  neko-goods:
+    heading: 猫グッズの候補（楽天市場）
+    queries: [猫 爪とぎ, 猫 キャットタワー, 猫 自動給水器, 猫 トイレ 本体]
+  inu-goods:
+    heading: 犬グッズの候補（楽天市場）
+    queries: [犬 リード, 犬 ハーネス, 犬 おもちゃ, 犬 ベッド]
+  neko-toilet-suna:
+    heading: 猫砂・トイレの候補（楽天市場）
+    queries: [猫砂 おから, 猫砂 鉱物, 猫 トイレ 本体, 猫砂 システムトイレ]
+  neko-kemoshi:
+    heading: ブラッシング道具の候補（楽天市場）
+    queries: [猫 ブラシ, スリッカーブラシ 猫, ペット コーム, ペット 毛取り ローラー]
+  pet-kemoshi-taisaku:
+    heading: 抜け毛対策グッズの候補（楽天市場）
+    queries: [ペット 毛取り クリーナー, ペット 掃除機, 犬 ブラシ 抜け毛, ペット 粘着クリーナー]
+  neko-oyatsu:
+    heading: 猫のおやつの候補（楽天市場）
+    queries: [猫 おやつ 国産, 猫 ガム, 猫 ウェットフード 缶詰, 猫 おやつ 無添加]
+  inu-oyatsu:
+    heading: 犬のおやつの候補（楽天市場）
+    queries: [犬 おやつ 国産, 犬 ガム, 犬 ささみ ジャーキー, 犬 おやつ 無添加]
+  neko-nerubasho:
+    heading: 猫の寝床の候補（楽天市場）
+    queries: [猫 ベッド, 猫 ハンモック, 猫 ドーム ベッド, 猫 クッション]
+  inu-sanpo:
+    heading: 犬の散歩グッズの候補（楽天市場）
+    queries: [犬 リード 散歩, 犬 ウンチ袋, 犬 散歩 バッグ, 犬 ハーネス 小型犬]
+  inu-ame-sanpo:
+    heading: 雨の日の散歩グッズの候補（楽天市場）
+    queries: [犬 レインコート, 犬 靴 散歩, ペット 足拭き タオル, 犬 ポンチョ 雨]
+  inu-fuyu-sanpo:
+    heading: 冬の散歩グッズの候補（楽天市場）
+    queries: [犬 防寒 服, 犬 ブーツ, 犬 反射 ライト 散歩, 犬 ダウン 服]
+  pet-natsu-goods:
+    heading: 夏のペットグッズの候補（楽天市場）
+    queries: [ペット 冷感 マット, 犬 クール バンダナ, ペット 冷却 ジェル, 猫 自動給水器]
+  pet-natsu-junbi:
+    heading: 夏のペットグッズの候補（楽天市場）
+    queries: [ペット 冷感 マット, 犬 クール バンダナ, ペット 温度計, 猫 自動給水器]
+  pet-fuyu-junbi:
+    heading: 冬のペットグッズの候補（楽天市場）
+    queries: [犬 防寒 服, ペット ホットカーペット, 猫 ドーム ベッド, ペット ヒーター 安全]
+  pet-rusuban-ondo:
+    heading: 留守番の見守りグッズの候補（楽天市場）
+    queries: [ペット 温度計, ペット 見守りカメラ, 猫 自動給餌器, ペット 自動給水器]
+  pet-bousai-hinan:
+    heading: 避難用ペットグッズの候補（楽天市場）
+    queries: [ペット キャリーバッグ, ペット クレート 折りたたみ, ペット 防災 セット, ペット 迷子札]
+  pet-hanabi-kaminari:
+    heading: 落ち着ける寝床の候補（楽天市場）
+    queries: [猫 ドーム ベッド, 犬 ベッド ドーム, ペット ブランケット, ペット ハウス 隠れ家]
+  pet-ryokou-yado:
+    heading: ペットとの旅行グッズの候補（楽天市場）
+    queries: [犬 ドライブ ボックス, ペット キャリーバッグ, ペット 旅行 トラベル, 犬 ペットシーツ 車]
+  hamster-esa:
+    heading: ハムスターのごはんの候補（楽天市場）
+    queries: [ハムスター フード, ハムスター おやつ, ハムスター ペレット, 小動物 おやつ]
+  shoudoubutsu-tori-ondo:
+    heading: 小動物・鳥の保温グッズの候補（楽天市場）
+    queries: [小動物 ヒーター, 鳥かご 保温, ハムスター 保温, ペット 温湿度計]
+  hachurui-goods:
+    heading: 爬虫類グッズの候補（楽天市場）
+    queries: [爬虫類 ケージ, 爬虫類 ヒーター, 爬虫類 シェルター, 爬虫類 温度計]
+  aquarium-goods:
+    heading: 熱帯魚の水槽グッズの候補（楽天市場）
+    queries: [水槽 セット, 水槽 フィルター, 水槽 ヒーター, 水草 肥料]
+  medaka-suisou:
+    heading: メダカの水槽・水草の候補（楽天市場）
+    queries: [メダカ 水草, メダカ 水槽, メダカ ビオトープ, 水槽 LED ライト]
+  medaka-yoki:
+    heading: メダカの飼育容器の候補（楽天市場）
+    queries: [メダカ 飼育 容器, 睡蓮鉢 メダカ, メダカ 水槽 セット, 発泡スチロール 水槽]
+  medaka-esa:
+    heading: メダカのエサの候補（楽天市場）
+    queries: [メダカ エサ, メダカ 稚魚 エサ, 金魚 エサ 浮上, メダカ 餌 高タンパク]
+  medaka-kingyo-essetsu:
+    heading: 冬越し対策グッズの候補（楽天市場）
+    queries: [水槽 ヒーター, 水槽 温度計, メダカ 冬 ヒーター, ビオトープ カバー]
+  medaka-kingyo-kosetsu:
+    heading: 夏越し対策グッズの候補（楽天市場）
+    queries: [水槽 ファン, 水槽 クーラー, 水槽 日よけ, 水槽 温度計 デジタル]
+  kingyo-esa:
+    heading: 金魚のエサ・用品の候補（楽天市場）
+    queries: [金魚 エサ, 金魚 水槽 セット, 金魚 フィルター, 金魚 カルキ抜き]
+  usagi-gohan:
+    heading: うさぎの食事グッズの候補（楽天市場）
+    queries: [うさぎ 牧草, うさぎ ペレット, うさぎ おやつ, うさぎ 給水器]
+  kurashi-nenmatsu-yaru:
+    heading: 年末の準備グッズの候補（楽天市場）
+    queries: [大掃除 洗剤, 掃除 道具 セット, 収納 ボックス, 年賀状 プリント]
+  shumi-boardgame-shurui:
+    heading: ボードゲームの候補（楽天市場）
+    queries: [ボードゲーム 家族, カードゲーム 大人数, ボードゲーム 2人用, トランプ]
+  shumi-gardening-shoshinsha:
+    heading: ガーデニング道具の候補（楽天市場）
+    queries: [ガーデニング 道具 セット, プランター 野菜, 培養土 野菜, 園芸 手袋]
+  shumi-handmade-shurui:
+    heading: ハンドメイドキットの候補（楽天市場）
+    queries: [ハンドメイド キット, 編み物 キット, レジン セット, 刺繍 キット]
+  shumi-hajimeyasui:
+    heading: 趣味の始めやすい道具の候補（楽天市場）
+    queries: [水彩 絵の具, 大人 塗り絵, ジグソーパズル, ダイヤモンドアート キット]
+  shumi-naraigoto:
+    heading: 習い事の始めやすい道具の候補（楽天市場）
+    queries: [ペン字 練習, 書道 セット, 色鉛筆 水彩, ウクレレ 初心者]
+  shumi-shitsunai:
+    heading: 雨の日の室内あそびの候補（楽天市場）
+    queries: [ジグソーパズル, 大人 塗り絵, ダイヤモンドアート キット, ヨガマット]
+  shumi-dokusho-hajimekata:
+    heading: 読書グッズの候補（楽天市場）
+    queries: [ブックカバー, 読書灯, 本棚, しおり]
+  shumi-smartphone-shashin:
+    heading: スマホ撮影グッズの候補（楽天市場）
+    queries: [スマホ 三脚, スマホ ジンバル, スマホ レンズ, リングライト]
+  sns-short-neta:
+    heading: ショート動画の撮影グッズの候補（楽天市場）
+    queries: [スマホ 三脚, リングライト, ピンマイク スマホ, スマホ ジンバル]
+  music-daw:
+    heading: 音楽制作の機材の候補（楽天市場）
+    queries: [オーディオインターフェース, MIDI キーボード, モニターヘッドホン, マイク USB]
+  music-gakki:
+    heading: 楽器の候補（楽天市場）
+    queries: [ウクレレ 初心者, キーボード 61鍵, カホン, ハーモニカ]
+  music-kizai:
+    heading: 音楽制作の機材の候補（楽天市場）
+    queries: [コンデンサーマイク, モニタースピーカー, ポップガード, ヘッドホン 密閉型]
+  travel-kaigai-mochimono:
+    heading: 海外旅行の持ち物の候補（楽天市場）
+    queries: [スーツケース 機内持ち込み, 変換プラグ, パスポートケース, 圧縮袋 旅行]
+  kaigai-hajimete:
+    heading: 初めての海外旅行の持ち物の候補（楽天市場）
+    queries: [スーツケース, 旅行 ポーチ, ネックピロー, 変換プラグ]
+  eiken3-benkyou:
+    heading: 英検3級の教材の候補（楽天市場）
+    queries: [英検3級 問題集, 英検3級 単語, 英検3級 過去問, 英検3級 面接]
+  kankokugo-benkyou:
+    heading: 韓国語の教材の候補（楽天市場）
+    queries: [韓国語 テキスト, ハングル 練習 ノート, 韓国語 単語帳, TOPIK 問題集]
+  hangul-phrase:
+    heading: 韓国語の教材の候補（楽天市場）
+    queries: [韓国語 フレーズ, ハングル 練習 ノート, 韓国語 単語帳, 韓国語 会話]
+  eigo-gakushu-hoho:
+    heading: 英語学習の教材の候補（楽天市場）
+    queries: [英語 参考書, 英単語 帳, 英会話 テキスト, 中学英語 やり直し]
+  benkyo-tsuzukekata:
+    heading: 勉強グッズの候補（楽天市場）
+    queries: [学習 タイマー, 勉強 ノート, ふせん, 参考書 スタンド]
+  anki-hoho:
+    heading: 暗記グッズの候補（楽天市場）
+    queries: [単語カード, 暗記 マーカー, 赤シート, 単語帳 リング]
+  okane-kakeibo:
+    heading: 家計簿グッズの候補（楽天市場）
+    queries: [家計簿, 家計簿 ノート, レシート ファイル, 袋分け 封筒]
+  food-furikake:
+    heading: ふりかけの候補（楽天市場）
+    queries: [ふりかけ 詰め合わせ, ふりかけ 国産, ふりかけ 大容量, のりたま]
+  food-retort:
+    heading: レトルト食品の候補（楽天市場）
+    queries: [レトルト 詰め合わせ, レトルト カレー, レトルト 惣菜, レトルト 丼]
+  food-cupmen:
+    heading: カップ麺の候補（楽天市場）
+    queries: [カップ麺 詰め合わせ, カップ麺 箱, カップ焼きそば, カップ うどん]
+  food-instant-soup:
+    heading: インスタントスープの候補（楽天市場）
+    queries: [スープ 詰め合わせ, スープ インスタント, 春雨 スープ, スープ フリーズドライ]
+  food-kocha:
+    heading: 紅茶の候補（楽天市場）
+    queries: [紅茶 ティーバッグ, ダージリン, アールグレイ, 紅茶 茶葉]
+  food-coffee:
+    heading: コーヒーの候補（楽天市場）
+    queries: [コーヒー 豆, ドリップバッグ コーヒー, コーヒーミル, コーヒー ドリッパー]
+  food-ocha:
+    heading: お茶の候補（楽天市場）
+    queries: [緑茶 茶葉, 煎茶, ほうじ茶, 水出し 茶 ティーバッグ]
+  food-jam:
+    heading: ジャムの候補（楽天市場）
+    queries: [ジャム 国産, ジャム 詰め合わせ, いちごジャム, ブルーベリー ジャム]
+  food-nuts:
+    heading: ナッツの候補（楽天市場）
+    queries: [ミックスナッツ 無塩, アーモンド 素焼き, くるみ, ナッツ 小分け]
+  food-osechi:
+    heading: おせちの候補（楽天市場）
+    queries: [おせち 一人用, おせち 三段, おせち 冷凍, おせち 和風]
