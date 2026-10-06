@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/static/style.css">
 {% block head %}{% endblock %}
+{% if site.adsense and site.adsense.client %}<meta name="google-adsense-account" content="{{ site.adsense.client }}">{% endif %}
 {% if site.adsense and site.adsense.enabled and site.adsense.slot %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.client }}" crossorigin="anonymous"></script>{% endif %}
 </head>
 <body>
