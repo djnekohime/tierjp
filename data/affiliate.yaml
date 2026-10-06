@@ -545,6 +545,18 @@ targets:
   food-sushi-neta:
     heading: お寿司の候補（楽天市場）
     queries: [寿司 取り寄せ, 寿司 冷凍, 海鮮丼 セット, 手巻き寿司 セット]
+  travel-hikoki-seat:
+    heading: 飛行機で快適に過ごす商品の候補（楽天市場）
+    queries: [ネックピロー, アイマスク 旅行, 圧縮 ソックス 着圧, エアー クッション 旅行]
+  travel-kaigai-money:
+    heading: 海外での貴重品まわりの商品の候補（楽天市場）
+    queries: [パスポートケース, 貴重品入れ 首下げ, スキミング防止 ケース, 旅行 財布]
+  travel-kaigai-keitai:
+    heading: 海外でのスマホまわりの商品の候補（楽天市場）
+    queries: [モバイルバッテリー 軽量, 変換プラグ, スマホ 防水ケース, ケーブル 充電 旅行]
+  travel-kaigai-bouhan:
+    heading: 防犯グッズの候補（楽天市場）
+    queries: [防犯 ショルダーバッグ 旅行, セキュリティポーチ, ワイヤーロック 荷物, スキミング防止]
 
 # ---- 入口ページ（トップ・カテゴリー一覧）に出す商品カード ----
 home:
