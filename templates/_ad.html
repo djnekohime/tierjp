@@ -1,0 +1,8 @@
+{# 手動配置のAdSense（小さめ・ページの邪魔にならない場所だけ）。site.yaml の adsense.enabled が true で slot が入っているときだけ出る #}
+{% if site.adsense and site.adsense.enabled and site.adsense.slot %}
+<aside class="ad-slot" aria-label="広告">
+  <span class="ad-label">広告</span>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ site.adsense.client }}" data-ad-slot="{{ site.adsense.slot }}" data-ad-format="horizontal" data-full-width-responsive="false"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</aside>
+{% endif %}

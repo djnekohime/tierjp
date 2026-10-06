@@ -227,3 +227,7 @@ html,body{overflow-x:hidden}
 .aff-list img{width:96px;height:96px;object-fit:contain;border-radius:8px;background:#fff;flex:none}
 .aff-name{font-weight:700}
 .aff-meta,.aff-note{font-size:.8rem;opacity:.8;margin:4px 0}
+
+/* AdSense（手動・小さめ） */
+.ad-slot{margin:1.8rem 0;text-align:center}
+.ad-slot .ad-label{display:block;font-size:.68rem;opacity:.55;margin-bottom:.25rem;letter-spacing:.1em}

@@ -27,3 +27,10 @@ sns:
   - {name: TikTok, url: ""}
   - {name: YouTube, url: "https://www.youtube.com/@Tierjp"}
   - {name: Threads, url: ""}
+
+# AdSense（手動配置・小さめ）。広告ユニットを作ったら slot に数字のIDを入れて enabled: true にする。
+# 自動広告は使わない（AdSenseのダッシュボード側でも tierjp.com の自動広告はOFFにしておくこと）
+adsense:
+  enabled: false
+  client: ca-pub-3297384186089990
+  slot: ""
