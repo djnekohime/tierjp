@@ -347,11 +347,12 @@ def build(include_drafts: bool) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(tpl).render(**ctx), encoding="utf-8")
 
-    render("index.html", "index.html", tiers=tiers, featured=featured,
-           latest=tiers[:12], tag_list=tag_list[:30], canonical="/")
     # アフィリエイトの「おすすめ商品」カード（data/affiliate.yaml が enabled で鍵が入っているときだけ。static/aff.js が表示する）
     aff_conf = yaml.safe_load((ROOT / "data" / "affiliate.yaml").read_text(encoding="utf-8")) if (ROOT / "data" / "affiliate.yaml").exists() else {}
     aff_on = bool(aff_conf.get("enabled") and aff_conf.get("app_id") and aff_conf.get("access_key") and aff_conf.get("affiliate_id"))
+    render("index.html", "index.html", tiers=tiers, featured=featured,
+           latest=tiers[:12], tag_list=tag_list[:30], canonical="/",
+           aff=(aff_conf.get("home") if aff_on else None), aff_conf=aff_conf)
     for t in tiers:
         og = f"/og/{t.slug}.png" if (STATIC.parent / "og" / f"{t.slug}.png").exists() else ""
         # コーディクスの完成画像（scripts/import_codex.py）があるページだけ、そちらに差し替える
@@ -374,7 +375,8 @@ def build(include_drafts: bool) -> None:
                 if t.genre and t.genre not in known:
                     warn(f"{t.slug}: ジャンル「{t.genre}」が categories.yaml の {c['slug']} にありません")
         render("list.html", f"c/{c['slug']}/index.html", heading=f"{c['emoji']} {c['name']}のTier表",
-               lead=c.get("description", ""), items=c["tiers"], groups=groups, canonical=c["url"])
+               lead=c.get("description", ""), items=c["tiers"], groups=groups, canonical=c["url"],
+               aff=((aff_conf.get("categories") or {}).get(c["slug"]) if aff_on else None), aff_conf=aff_conf)
     for e in tags.values():
         render("list.html", f"tag/{e['slug']}/index.html", heading=f"#{e['name']} のTier表",
                lead="", items=e["tiers"], groups=[], canonical=e["url"])

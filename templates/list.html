@@ -5,6 +5,7 @@
 <nav class="crumb"><a href="/">トップ</a> › {{ heading }}</nav>
 <h1 class="page-h">{{ heading }}</h1>
 {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+{% set aff_ranknote = false %}{% include "_aff_box.html" %}
 {% if groups %}
 <nav class="genre-nav">{% for g in groups %}<a href="#g-{{ g.name }}" class="{{ '' if g.tiers else 'empty' }}">{{ g.emoji }} {{ g.name }} <small>{{ g.tiers|length if g.tiers else '準備中' }}</small></a>{% endfor %}</nav>
 {% for g in groups %}{% if g.tiers %}

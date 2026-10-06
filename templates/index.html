@@ -19,6 +19,8 @@
   {% if minor_cats %}<p class="more-cats">ほかのカテゴリー：{% for c in minor_cats %}<a href="{{ c.url }}">{{ c.emoji }} {{ c.name }}（{{ c.tiers|length }}）</a>{% endfor %}</p>{% endif %}
 </section>
 
+{% set aff_ranknote = false %}{% include "_aff_box.html" %}
+
 {% if series_list %}
 <section>
   <h2>📚 シリーズ</h2>
