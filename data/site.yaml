@@ -31,6 +31,7 @@ sns:
 # AdSense（手動配置・小さめ）。広告ユニットを作ったら slot に数字のIDを入れて enabled: true にする。
 # 自動広告は使わない（AdSenseのダッシュボード側でも tierjp.com の自動広告はOFFにしておくこと）
 adsense:
+  loader: true      # AdSenseの読み込みコード（全ページのhead）。2026-10-07 さくらが貼ったコードを設置
   enabled: false
   client: ca-pub-3297384186089990
   slot: ""
