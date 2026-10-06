@@ -230,3 +230,279 @@ targets:
   food-osechi:
     heading: おせちの候補（楽天市場）
     queries: [おせち 一人用, おせち 三段, おせち 冷凍, おせち 和風]
+  shop-ramen-hokkaido:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 北海道, ラーメン 札幌 味噌, ラーメン 旭川 醤油, ラーメン 函館 塩]
+  shop-ramen-tohoku:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 東北, ラーメン 喜多方, ラーメン 山形 辛味噌, ラーメン 仙台 味噌]
+  shop-ramen-tokyo:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 東京, ラーメン 東京 醤油, ラーメン つけ麺 東京, ラーメン 背脂]
+  shop-ramen-kanagawa:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 横浜 家系, ラーメン 家系, ラーメン 神奈川, ラーメン サンマーメン]
+  shop-ramen-chiba:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 千葉, ラーメン 竹岡式, ラーメン 千葉 味噌, ラーメン 房総]
+  shop-ramen-saitama:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 埼玉, ラーメン 埼玉 醤油, ラーメン 行田, ラーメン ご当地]
+  shop-ramen-nagoya:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 名古屋, ラーメン 台湾ラーメン, ラーメン 名古屋 味噌煮込み, ラーメン ご当地]
+  shop-ramen-aichi:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 愛知, ラーメン 台湾ラーメン, ラーメン 味噌 愛知, ラーメン ご当地]
+  shop-ramen-osaka:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 大阪, ラーメン 大阪 醤油, ラーメン つけ麺, ラーメン ご当地]
+  shop-ramen-kansai:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 関西, ラーメン 京都 ラーメン, ラーメン 和歌山, ラーメン ご当地]
+  shop-ramen-hakata:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 博多, ラーメン 博多 豚骨, ラーメン 久留米, ラーメン 長浜]
+  shop-ramen-kyushu:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 九州, ラーメン 熊本, ラーメン 鹿児島, ラーメン ご当地]
+  shop-ramen-hokuriku:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 北陸, ラーメン 富山ブラック, ラーメン 新潟 背脂, ラーメン ご当地]
+  shop-ramen-chugoku:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 広島, ラーメン 尾道, ラーメン 岡山, ラーメン ご当地]
+  shop-ramen-shikoku:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 四国, ラーメン 徳島, ラーメン 高知, ラーメン ご当地]
+  shop-ramen-miso-sapporo:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 札幌 味噌, ラーメン 味噌, ラーメン 北海道 味噌, ラーメン ご当地]
+  shop-ramen-shoyu-tokyo:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 東京 醤油, ラーメン 醤油, ラーメン つけ麺, ラーメン ご当地]
+  shop-tonkotsu-kyushu:
+    heading: お取り寄せ豚骨ラーメンの候補（楽天市場）
+    queries: [ラーメン 豚骨, ラーメン 博多, ラーメン 久留米, ラーメン 熊本]
+  food-ramen-aji:
+    heading: お取り寄せラーメンの候補（楽天市場）
+    queries: [ラーメン 醤油, ラーメン 味噌, ラーメン 塩, ラーメン 豚骨]
+  food-ramen-gotochi:
+    heading: ご当地ラーメンの候補（楽天市場）
+    queries: [ラーメン 取り寄せ, ラーメン ご当地, ラーメン 札幌, ラーメン 博多]
+  food-ramen-shinya:
+    heading: 夜食ラーメンの候補（楽天市場）
+    queries: [ラーメン 袋麺, ラーメン 乾麺, ラーメン 即席, ラーメン 詰め合わせ]
+  food-ramen-soup-nomu:
+    heading: ラーメンの候補（楽天市場）
+    queries: [ラーメン 豚骨, ラーメン 塩, ラーメン 醤油, ラーメン 取り寄せ]
+  food-ramen-topping:
+    heading: ラーメンのトッピングの候補（楽天市場）
+    queries: [メンマ, チャーシュー, 煮卵, ラーメン トッピング]
+  food-ramen-futosa:
+    heading: ラーメンの候補（楽天市場）
+    queries: [ラーメン 太麺, ラーメン 細麺, ラーメン 取り寄せ, つけ麺 セット]
+  food-ramen-katasa:
+    heading: ラーメンの候補（楽天市場）
+    queries: [ラーメン 生麺, ラーメン 取り寄せ, ラーメン 乾麺, つけ麺 セット]
+  food-tsukemen:
+    heading: つけ麺の候補（楽天市場）
+    queries: [つけ麺 セット, つけ麺 取り寄せ, つけ麺 太麺, つけ麺 冷凍]
+  food-chashu:
+    heading: チャーシューの候補（楽天市場）
+    queries: [チャーシュー, 焼豚, 煮豚, チャーシュー 国産]
+  food-gyoza:
+    heading: 餃子の候補（楽天市場）
+    queries: [餃子 冷凍, 餃子 取り寄せ, 餃子 国産, 餃子 大量]
+  food-gyoza-tare:
+    heading: 餃子のたれの候補（楽天市場）
+    queries: [餃子 たれ, ラー油, 餃子 ぽん酢, 黒酢]
+  food-tonkatsu-tsukeru:
+    heading: とんかつのソースの候補（楽天市場）
+    queries: [とんかつ ソース, ソース 国産, おろしポン酢, とんかつ 冷凍]
+  food-hamburg-sauce:
+    heading: ハンバーグソースの候補（楽天市場）
+    queries: [ハンバーグ ソース, デミグラスソース, ハンバーグ 冷凍, ハンバーグ レトルト]
+  food-omurice-sauce:
+    heading: オムライスのソースの候補（楽天市場）
+    queries: [デミグラスソース, オムライス ケチャップ, ケチャップ 国産, オムライス ソース]
+  food-curry-shurui:
+    heading: カレーの候補（楽天市場）
+    queries: [カレー ルウ, カレー スパイス, カレー レトルト, スープカレー]
+  food-curry-topping:
+    heading: カレーの候補（楽天市場）
+    queries: [カレー ルウ, カレー スパイス, 福神漬け, カレー レトルト]
+  food-udon:
+    heading: うどんの候補（楽天市場）
+    queries: [うどん 讃岐, うどん 冷凍, うどん 乾麺, うどん 稲庭]
+  food-udon-topping:
+    heading: うどんの候補（楽天市場）
+    queries: [うどん つゆ, うどん 冷凍, 七味, 天かす]
+  food-soba:
+    heading: そばの候補（楽天市場）
+    queries: [そば 乾麺, そば 信州, 蕎麦 十割, そば つゆ]
+  food-toshikoshi:
+    heading: 年越しそばの候補（楽天市場）
+    queries: [年越しそば, そば 乾麺, そば 生麺, 年越し そば セット]
+  food-somen-yakumi:
+    heading: そうめんの候補（楽天市場）
+    queries: [そうめん, そうめん 手延べ, そうめん つゆ, そうめん 薬味]
+  food-pasta-aji:
+    heading: パスタの候補（楽天市場）
+    queries: [パスタ 乾麺, パスタ ソース, パスタ 生麺, パスタ ミートソース]
+  food-ochazuke:
+    heading: お茶漬けの候補（楽天市場）
+    queries: [お茶漬け, お茶漬け 詰め合わせ, 茶漬け 鯛, お茶漬け のり]
+  food-tkg:
+    heading: 卵かけごはんの候補（楽天市場）
+    queries: [卵かけご飯 醤油, 醤油 たまごかけ, 卵かけご飯, だし醤油]
+  food-gohan-otomo:
+    heading: ごはんのお供の候補（楽天市場）
+    queries: [ごはんのお供, 佃煮, 明太子, ふりかけ]
+  food-tsukemono:
+    heading: 漬物の候補（楽天市場）
+    queries: [漬物, たくあん, 白菜漬, 漬物 詰め合わせ]
+  food-kanzume:
+    heading: 缶詰の候補（楽天市場）
+    queries: [缶詰 詰め合わせ, 缶詰 鯖, 缶詰 焼き鳥, 缶詰 おつまみ]
+  food-nabe-aji:
+    heading: 鍋の味の候補（楽天市場）
+    queries: [鍋つゆ, 鍋の素, キムチ鍋, 鍋 つゆ 詰め合わせ]
+  food-nabe-shime:
+    heading: 鍋のしめの候補（楽天市場）
+    queries: [雑炊, うどん 鍋, ラーメン 鍋, 鍋 しめ]
+  food-oden:
+    heading: おでんの候補（楽天市場）
+    queries: [おでん, おでん 具材, おでん 詰め合わせ, おでんの素]
+  food-takikomi:
+    heading: 炊き込みごはんの候補（楽天市場）
+    queries: [炊き込みご飯の素, 炊き込み ご飯, 炊き込み 国産, 混ぜご飯の素]
+  food-mazegohan:
+    heading: 混ぜごはんの候補（楽天市場）
+    queries: [混ぜご飯の素, 炊き込み ご飯, ふりかけ, 五目ご飯の素]
+  food-senbei:
+    heading: せんべいの候補（楽天市場）
+    queries: [せんべい, 煎餅 詰め合わせ, あられ, せんべい 国産]
+  food-biscuit:
+    heading: ビスケット・クラッカーの候補（楽天市場）
+    queries: [ビスケット, クラッカー, ビスケット 詰め合わせ, サブレ]
+  food-cookie:
+    heading: クッキーの候補（楽天市場）
+    queries: [クッキー, クッキー 詰め合わせ, クッキー 国産, クッキー 缶]
+  food-potechi:
+    heading: ポテトチップスの候補（楽天市場）
+    queries: [ポテトチップス, ポテチ, ポテトチップス 詰め合わせ, ポテトチップス 大容量]
+  food-gummy:
+    heading: グミの候補（楽天市場）
+    queries: [グミ, グミ 詰め合わせ, グミ 大容量, ハリボー]
+  food-dagashi:
+    heading: 駄菓子の候補（楽天市場）
+    queries: [駄菓子, 駄菓子 詰め合わせ, 駄菓子 セット, 駄菓子 大量]
+  food-wagashi:
+    heading: 和菓子の候補（楽天市場）
+    queries: [和菓子, 大福, どら焼き, 羊羹]
+  food-kaigai-okashi:
+    heading: 海外のお菓子の候補（楽天市場）
+    queries: [海外 お菓子, アメリカ お菓子, 韓国 お菓子, お菓子 詰め合わせ 海外]
+  food-kankoku-sweets:
+    heading: 韓国スイーツの候補（楽天市場）
+    queries: [韓国 お菓子, 韓国 スイーツ, 韓国 ハニーバター, 韓国 お菓子 詰め合わせ]
+  food-kankoku:
+    heading: 韓国料理の候補（楽天市場）
+    queries: [韓国 食品, キムチ, トッポキ, 韓国 のり]
+  food-dressing:
+    heading: ドレッシングの候補（楽天市場）
+    queries: [ドレッシング, ドレッシング 国産, ドレッシング 詰め合わせ, ごまドレッシング]
+  food-pudding:
+    heading: プリンの候補（楽天市場）
+    queries: [プリン, プリン 取り寄せ, プリン 詰め合わせ, なめらか プリン]
+  food-matcha-sweets:
+    heading: 抹茶スイーツの候補（楽天市場）
+    queries: [抹茶 お菓子, 抹茶 スイーツ, 抹茶 パウダー, 抹茶 ラテ]
+  food-halloween:
+    heading: ハロウィンのお菓子の候補（楽天市場）
+    queries: [ハロウィン お菓子, ハロウィン 詰め合わせ, ハロウィン ラッピング, ハロウィン クッキー]
+  food-christmas:
+    heading: クリスマスのごちそうの候補（楽天市場）
+    queries: [クリスマス ケーキ, クリスマス チキン, クリスマス お菓子, クリスマス オードブル]
+  food-reitou:
+    heading: 冷凍食品の候補（楽天市場）
+    queries: [冷凍 食品 詰め合わせ, 冷凍 惣菜, 冷凍 おかず, 冷凍 弁当]
+  food-kakigori:
+    heading: かき氷シロップの候補（楽天市場）
+    queries: [かき氷 シロップ, かき氷機, かき氷 氷, かき氷 シロップ 国産]
+  food-juice:
+    heading: ジュースの候補（楽天市場）
+    queries: [ジュース 詰め合わせ, 果汁 100% ジュース, オレンジジュース, りんごジュース]
+  food-tansan:
+    heading: 炭酸水の候補（楽天市場）
+    queries: [炭酸水, 炭酸水 強炭酸, 炭酸水 ケース, 炭酸水 レモン]
+  showa-retro-items:
+    heading: 昭和レトロ雑貨の候補（楽天市場）
+    queries: [昭和 レトロ 雑貨, レトロ 雑貨, 昭和 レトロ 食器, レトロ 琺瑯]
+  machi-hitorigurashi:
+    heading: 一人暮らしの道具の候補（楽天市場）
+    queries: [一人暮らし 家電, 電気ケトル, 炊飯器 3合, 収納 ボックス]
+  ghibli-eiga:
+    heading: ジブリ関連の候補（楽天市場）
+    queries: [ジブリ DVD, ジブリ ブルーレイ, ジブリ 絵本, ジブリ 公式]
+  pixar-eiga:
+    heading: ピクサー関連の候補（楽天市場）
+    queries: [ピクサー DVD, ピクサー ブルーレイ, ピクサー 絵本, トイ・ストーリー]
+  kandrama-romcom:
+    heading: 韓国ドラマの関連商品の候補（楽天市場）
+    queries: [韓国ドラマ DVD, 韓国ドラマ 公式ガイドブック, 韓国ドラマ OST, 韓国ドラマ ブルーレイ]
+  kandrama-fantasy:
+    heading: 韓国ドラマの関連商品の候補（楽天市場）
+    queries: [韓国ドラマ DVD, 韓国ドラマ 公式ガイドブック, 韓国ドラマ OST, 韓国ドラマ ブルーレイ]
+  kandrama-junai:
+    heading: 韓国ドラマの関連商品の候補（楽天市場）
+    queries: [韓国ドラマ DVD, 韓国ドラマ 公式ガイドブック, 韓国ドラマ OST, 韓国ドラマ ブルーレイ]
+  kandrama-suspense:
+    heading: 韓国ドラマの関連商品の候補（楽天市場）
+    queries: [韓国ドラマ DVD, 韓国ドラマ 公式ガイドブック, 韓国ドラマ OST, 韓国ドラマ ブルーレイ]
+  kandrama-gourmet:
+    heading: 韓国ドラマに出る食べ物の候補（楽天市場）
+    queries: [韓国 食品, キムチ, トッポキ, 韓国 お菓子]
+  yattemitai-tezukuri:
+    heading: 手作りの道具の候補（楽天市場）
+    queries: [手作り キット, ハンドメイド キット, 編み物 キット, レジン セット]
+  music-showa-kayo:
+    heading: 昭和歌謡の関連商品の候補（楽天市場）
+    queries: [昭和 歌謡 CD, 昭和 歌謡 ベスト, 昭和 歌謡 レコード, 昭和 歌謡 本]
+  travel-trouble-taisaku:
+    heading: 旅行の備えグッズの候補（楽天市場）
+    queries: [旅行 ポーチ, モバイルバッテリー 軽量, 変換プラグ, 旅行 防犯 バッグ]
+  okane-furusato:
+    heading: ふるさと納税の関連グッズの候補（楽天市場）
+    queries: [ふるさと納税 本, 家計簿, ワンストップ 申請 封筒, ふるさと納税 ガイド]
+  inu-shitsuke:
+    heading: しつけグッズの候補（楽天市場）
+    queries: [犬 トイレシート, 犬 しつけ, 犬 クレート, 犬 トレーニング おやつ]
+  inu-umi-kawa:
+    heading: 水遊びグッズの候補（楽天市場）
+    queries: [犬 ライフジャケット, 犬 水遊び, 犬 浮き輪, ペット タオル 吸水]
+  pet-ohanami:
+    heading: お出かけグッズの候補（楽天市場）
+    queries: [ペット レジャーシート, ペット カート, 犬 リード 軽量, ペット 水飲み 携帯]
+  pet-kanso-taisaku:
+    heading: 乾燥対策グッズの候補（楽天市場）
+    queries: [加湿器 ペット, ペット 保湿, 犬 ブラシ, 猫 ブラシ]
+  pet-tsuyu-taisaku:
+    heading: 梅雨のペット対策グッズの候補（楽天市場）
+    queries: [ペット 除湿, ペット ブラシ, ペット 足拭き, ペット 消臭 スプレー]
+  pet-aki-futori:
+    heading: ペットの体重管理グッズの候補（楽天市場）
+    queries: [ペット 体重計, 犬 フード 低カロリー, 猫 フード 体重管理, 犬 知育 おもちゃ]
+  pet-fuyu-futori:
+    heading: ペットの体重管理グッズの候補（楽天市場）
+    queries: [ペット 体重計, 犬 フード 低カロリー, 猫 フード 体重管理, 犬 知育 おもちゃ]
+  neko-shurui-shoshinsha:
+    heading: 猫を迎える準備グッズの候補（楽天市場）
+    queries: [猫 トイレ 本体, 猫 キャリーケース, 猫 爪とぎ, 猫 食器]
+  neko-no-hi:
+    heading: 猫の日のグッズの候補（楽天市場）
+    queries: [猫 おもちゃ, 猫 おやつ, 猫 ベッド, 猫 爪とぎ]
+  inu-no-hi:
+    heading: 犬の日のグッズの候補（楽天市場）
+    queries: [犬 おもちゃ, 犬 おやつ, 犬 ベッド, 犬 リード]
