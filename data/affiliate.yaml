@@ -530,6 +530,21 @@ targets:
   usagi-kiken:
     heading: うさぎ用品の候補（楽天市場）
     queries: [うさぎ 牧草, うさぎ ペレット, うさぎ ケージ, うさぎ 給水器]
+  food-ice:
+    heading: アイスの候補（楽天市場）
+    queries: [アイス 詰め合わせ, アイスクリーム 取り寄せ, アイス ギフト, アイス カップ]
+  food-yakiniku-tare:
+    heading: 焼肉のたれの候補（楽天市場）
+    queries: [焼肉 たれ, 焼肉のたれ 国産, 焼肉 タレ 詰め合わせ, 塩だれ]
+  food-yakiniku-bui:
+    heading: 焼肉用のお肉の候補（楽天市場）
+    queries: [焼肉 セット, 焼肉 取り寄せ, 牛肉 焼肉 国産, 豚肉 焼肉]
+  food-yakiniku-side:
+    heading: 焼肉のサイドメニューの候補（楽天市場）
+    queries: [キムチ, ナムル, 石焼ビビンバ, 冷麺]
+  food-sushi-neta:
+    heading: お寿司の候補（楽天市場）
+    queries: [寿司 取り寄せ, 寿司 冷凍, 海鮮丼 セット, 手巻き寿司 セット]
 
 # ---- 入口ページ（トップ・カテゴリー一覧）に出す商品カード ----
 home:
