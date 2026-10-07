@@ -1,0 +1,81 @@
+title: 汁物の種類 Tier表
+description: 味噌汁、豚汁、すまし汁、コーンスープ、けんちん汁…汁物の種類を、AIが「ほっとする度×満足感×手軽さ」でS〜Dにランク付け。
+category: food
+genre: ご飯もの
+tags:
+- グルメ
+published: '2026-10-07'
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 食べたときのほっとする度
+
+  ② 満足感（おかずになるか）
+
+  ③ 手軽さ
+
+  ※ 地域や家庭で定番が違います'
+rank_notes:
+  S: 迷ったらこれ
+  D: 通好み・変わり種
+tiers:
+  S:
+  - name: 味噌汁
+    emoji: 🥣
+    reason: 毎日の定番。具を変えると、飽きずに続けられる。
+  - name: 豚汁
+    emoji: 🐖
+    reason: 具だくさんで、1杯で満足。体が温まる。
+  A:
+  - name: すまし汁・お吸い物
+    emoji: 🍵
+    reason: だしの香りがやさしい。魚や、おもてなしの料理に。
+  - name: けんちん汁
+    emoji: 🥕
+    reason: 根菜がたっぷり。あっさり系の具だくさん。
+  - name: かきたま汁
+    emoji: 🥚
+    reason: ふわふわ卵と、とろみ。やさしい味。
+  - name: コーンスープ
+    emoji: 🌽
+    reason: 甘くてまろやか。子どもにも人気。
+  B:
+  - name: 粕汁
+    emoji: 🍶
+    reason: 酒粕のコクがあって、体があたたまる汁。冬の定番。
+  - name: ミネストローネ
+    emoji: 🍅
+    reason: 野菜がたっぷりの洋風スープ。栄養も満足感も。
+  - name: わかめスープ
+    emoji: 🌿
+    reason: さっぱり系で、中華や韓国料理によく合う。
+  - name: クラムチャウダー
+    emoji: 🥛
+    reason: クリーミーで濃厚。パンとの相性が抜群。
+  C:
+  - name: ポトフ
+    emoji: 🥔
+    reason: ごろごろ野菜のやさしい味。
+  - name: 石狩汁・かす汁などの郷土汁
+    emoji: 🐟
+    reason: 地域の味わい。作り方を覚えると、レパートリーに。
+  - name: 中華スープ（卵スープ）
+    emoji: 🥚
+    reason: さっぱりとして、中華のお供に。
+  D:
+  - name: 冷や汁
+    emoji: 🧊
+    reason: 夏の郷土料理。冬には、あまり食べない。
+  - name: カップスープ（お湯を注ぐだけ）
+    emoji: ☕
+    reason: 手軽さは最高。栄養面は、具が少なめなことも。
+summary: '汁物は、食卓の主役にも名脇役にもなる。S級の「味噌汁」と「豚汁」は、具だくさんにすれば、1杯でおかずにもなる。
+
+  寒い日は、体が温まる汁物があると、食欲も出やすい。インスタントや、フリーズドライを常備しておくと便利。'
+related:
+- food-misoshiru-gu
+- food-instant-soup
+- food-nabe-aji

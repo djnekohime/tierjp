@@ -575,6 +575,24 @@ targets:
   bousai-mochidashi:
     heading: 防災グッズの候補（楽天市場）
     queries: [非常用持ち出し袋, 携帯トイレ 防災, 手回し 充電 ラジオ, ヘッドライト 防災]
+  neko-otenire:
+    heading: 猫のお手入れグッズの候補（楽天市場）
+    queries: [猫 ブラシ, 猫 爪切り, 猫 歯みがき, ペット コーム]
+  inu-shampoo-kotsu:
+    heading: 犬のお風呂グッズの候補（楽天市場）
+    queries: [犬 シャンプー, ペット ドライヤー, ペット タオル 吸水, 犬 ブラシ]
+  kurashi-fuyu-kekkaku:
+    heading: 結露・湿気対策の商品の候補（楽天市場）
+    queries: [結露防止シート, 除湿機, 結露 吸水テープ, 除湿剤]
+  travel-kokunai-mochimono:
+    heading: 旅行の持ち物の商品の候補（楽天市場）
+    queries: [旅行 ポーチ, モバイルバッテリー 軽量, 折りたたみ傘 軽量, エコバッグ 折りたたみ]
+  manabi-eigo-listening:
+    heading: 英語学習の教材の候補（楽天市場）
+    queries: [英語 リスニング 問題集, シャドーイング 本, 英検3級 リスニング, 英語 リスニング CD]
+  manabi-kankokugo-tango:
+    heading: 韓国語の教材の候補（楽天市場）
+    queries: [韓国語 単語帳, ハングル 練習 ノート, 韓国語 テキスト 初心者, TOPIK 単語]
 
 # ---- 入口ページ（トップ・カテゴリー一覧）に出す商品カード ----
 home:
