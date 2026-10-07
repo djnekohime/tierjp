@@ -1,0 +1,72 @@
+title: 停電への備え Tier表
+description: ライト、モバイルバッテリー、ラジオ、カセットコンロ、冷蔵庫の対策…停電への備えを、AIが「安全×役立つ度×用意しやすさ」でS〜Dにランク付け。
+category: kurashi
+tags:
+- 防災
+- 初心者
+published: '2026-10-07'
+labels:
+  S: 必須
+  A: あると安心
+  B: あると便利
+  C: 好みで
+  D: なくても大丈夫（注意）
+criteria: '① 停電時の安全・生活への影響
+
+  ② 役立つ度
+
+  ③ 用意しやすさ
+
+  ※ 暖房器具・調理器具の使用は、換気と火の元に十分注意してください'
+rank_notes:
+  S: 必須
+  D: なくても大丈夫（注意）
+tiers:
+  S:
+  - name: ライト・ランタン（LED）
+    emoji: 🔦
+    reason: ろうそくより安全。家族の人数分あると安心。
+  - name: モバイルバッテリー（満充電）
+    emoji: 🔋
+    reason: スマホは、情報と連絡の命綱。
+  A:
+  - name: 予備の電池
+    emoji: 🔋
+    reason: ライトやラジオ用。種類をそろえておく。
+  - name: ラジオ（電池式・手回し式）
+    emoji: 📻
+    reason: 停電時の情報源。
+  - name: カセットコンロとボンベ
+    emoji: 🔥
+    reason: 温かいものが食べられる。換気に注意して使う。
+  - name: 飲料水・保存のきく食べ物
+    emoji: 🥫
+    reason: 断水もセットで起こりやすい。
+  - name: 防寒具・毛布（冬）
+    emoji: 🧣
+    reason: 暖房が使えないときの備え。
+  B:
+  - name: 冷蔵庫に保冷剤・氷をストック
+    emoji: 🧊
+    reason: 開け閉めを減らして、冷気を保つ。
+  - name: ポータブル電源
+    emoji: 🔌
+    reason: 高価だが、いざというとき頼りになる。
+  - name: 懐中電灯を、決まった場所に置いておく
+    emoji: 📍
+    reason: 暗闇でも、すぐ手が届くように。
+  C:
+  - name: ソーラー式の充電器
+    emoji: ☀️
+    reason: 天気しだい。補助として。
+  D:
+  - name: ろうそくを、そのまま燃やして使う
+    emoji: 🚫
+    reason: 火災の危険。使うなら安全な容器と、目を離さないこと。
+summary: '停電で困るのは、「明かり」「連絡手段」「食事」「寒さ・暑さ」の4つ。S級は、まず明かりと連絡手段。
+
+  冷蔵庫は、開け閉めを減らして冷気を逃さないのが基本。2〜3日の備えを目安に考えたい。'
+related:
+- kurashi-bosai-mochidashi
+- kurashi-fuyu-setsuden
+- pet-bosai-bichiku

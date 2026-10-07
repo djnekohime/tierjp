@@ -1,0 +1,76 @@
+title: 資格の勉強を続けるコツ Tier表
+description: 毎日少しだけ、時間を決める、過去問、勉強仲間、ごほうび…資格の勉強を続けるコツを、AIが「続けやすさ×効果×無理のなさ」でS〜Dにランク付け。
+category: manabi
+tags:
+- 学び
+- 資格
+- 初心者
+published: '2026-10-07'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 続けやすさ
+
+  ② 合格への効果
+
+  ③ 無理のなさ
+
+  ※ 試験の種類・自分の生活で、合うやり方は変わります'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 毎日、15分だけでも続ける
+    emoji: ⏱️
+    reason: ゼロの日を作らないことが、習慣になる。
+  - name: 勉強する時間と場所を決める
+    emoji: 📍
+    reason: 「いつやるか」で迷わない。
+  - name: 過去問を、早めに解いてみる
+    emoji: 📝
+    reason: 試験の形式と、自分の弱点が分かる。
+  A:
+  - name: 試験日から逆算して、計画を立てる
+    emoji: 📆
+    reason: 1日にやる量が見える。
+  - name: 間違えた問題だけ、ノートにまとめる
+    emoji: 📒
+    reason: 弱点だけを復習できる。
+  - name: 通勤・家事の合間に、スマホで復習
+    emoji: 📱
+    reason: スキマ時間の積み重ね。
+  - name: 寝る前に、その日の内容を見返す
+    emoji: 🌙
+    reason: 記憶の定着に役立つ。
+  B:
+  - name: 勉強仲間・SNSで進捗を共有
+    emoji: 🤝
+    reason: 励みになる。
+  - name: 小さな目標ごとに、ごほうびを決める
+    emoji: 🎁
+    reason: 楽しみがあると続く。
+  - name: アプリで、学習時間を記録する
+    emoji: 📊
+    reason: 積み上がりが見える。
+  C:
+  - name: 参考書を、何冊も買い足す
+    emoji: 📚
+    reason: 1冊を繰り返すほうが効果的なことが多い。
+  D:
+  - name: 完璧に理解するまで、先に進まない
+    emoji: ⚠️
+    reason: 進まなくなる。まず全体を一周する。
+  - name: 休日にまとめて、長時間やろうとする
+    emoji: 🚫
+    reason: 平日がゼロになりやすい。
+summary: '勉強が続かない原因は、意志の弱さではなく、「やり方が大きすぎる」こと。S級は、「毎日少し」「時間と場所を決める」。
+
+  試験日から逆算して、1日にやる量を決めておくと、迷わず進められる。'
+related:
+- manabi-note-torikata
+- manabi-eigo-listening
+- money-kakeibo-tsuzuke
