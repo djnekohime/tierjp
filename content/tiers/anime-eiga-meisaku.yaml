@@ -1,0 +1,84 @@
+title: 日本のアニメ映画（ジブリ以外）Tier表
+description: 君の名は。、サマーウォーズ、この世界の片隅に、時をかける少女…日本のアニメ映画の名作を、AIが「物語×映像×余韻」でS〜Dにランク付け。
+category: entame
+tags:
+- 映画
+- 名作
+published: '2026-10-09'
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① 物語の魅力
+
+  ② 映像・音楽の力
+
+  ③ 見たあとの余韻
+
+  ※ 好みで大きく変わるジャンル。あくまでAIの主観です'
+rank_notes:
+  S: 殿堂入り
+  D: 通好み
+tiers:
+  S:
+  - name: 君の名は。
+    emoji: ☄️
+    reason: 映像の美しさと、物語の仕掛け。音楽とともに、何度も見たくなる。
+  - name: サマーウォーズ
+    emoji: 🎆
+    reason: 家族のにぎやかさと、ネットの世界を描く。夏に見たくなる。
+  - name: 時をかける少女（2006）
+    emoji: 🕰️
+    reason: 青春のまぶしさと切なさ。見終わったあとの爽やかさが残る。
+  - name: この世界の片隅に
+    emoji: 🍚
+    reason: 日常のぬくもりと、戦時下の暮らし。静かで、深く心に残る。
+  A:
+  - name: 天気の子
+    emoji: 🌧️
+    reason: 雨の描写が美しい。少年少女の選択が胸に響く。
+  - name: すずめの戸締まり
+    emoji: 🚪
+    reason: 旅と成長の物語。映像と音楽に引き込まれる。
+  - name: 竜とそばかすの姫
+    emoji: 🐉
+    reason: 仮想世界の映像と音楽が圧倒的。
+  - name: 聲の形
+    emoji: 👂
+    reason: 重いテーマを丁寧に描く。見るには心の準備を。
+  - name: THE FIRST SLAM DUNK
+    emoji: 🏀
+    reason: 試合の緊張感と迫力。原作を知らなくても楽しめると言われる。
+  - name: 劇場版 鬼滅の刃 無限列車編
+    emoji: 🚂
+    reason: 圧倒的な戦闘シーンと、心に残る物語。
+  B:
+  - name: 秒速5センチメートル
+    emoji: 🌸
+    reason: 距離と時間の切なさ。静かな余韻。
+  - name: ONE PIECE FILM RED
+    emoji: 🎤
+    reason: 歌と冒険。ファンには嬉しい作り。
+  - name: ドラえもん のび太の恐竜
+    emoji: 🦕
+    reason: 子供のころから親しまれてきた冒険物語。
+  - name: クレヨンしんちゃん 嵐を呼ぶ モーレツ！オトナ帝国の逆襲
+    emoji: 🌆
+    reason: 大人が泣くと言われる名作。ノスタルジーが魅力。
+  C:
+  - name: パプリカ
+    emoji: 🌀
+    reason: 夢の世界の映像表現が独特。好みが分かれる。
+  D:
+  - name: AKIRA
+    emoji: 🏍️
+    reason: 映像の衝撃と世界観。ほかにない作品で、通好み。
+summary: 'ジブリ以外にも、日本のアニメ映画には名作がたくさん。S級は、映像・物語・音楽がそろって、見たあとに語りたくなる作品。
+
+  D級は評価が低いのではなく、好みが分かれたり、通の人が愛したりする作品という意味。'
+related:
+- ghibli-eiga
+- pixar-eiga
+- showa-anime

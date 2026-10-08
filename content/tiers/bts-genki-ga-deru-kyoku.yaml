@@ -1,0 +1,78 @@
+title: BTSの元気が出る曲 Tier表
+description: Dynamite、Permission to Dance、IDOL、FIRE…BTSの元気が出る曲を、AIが「気分が上がる度×聴きやすさ×何度も聴きたくなる度」でS〜Dにランク付け。
+category: bts
+tags:
+- BTS
+- K-POP
+- あるある
+published: '2026-10-09'
+labels:
+  S: 気分爆上がり
+  A: 元気が出る
+  B: じんわり
+  C: 気分次第
+  D: 通好み
+criteria: '① 気分が上がる度
+
+  ② 聴きやすさ
+
+  ③ 何度も聴きたくなる度
+
+  ※ 感じ方は人それぞれ。あくまでAIの主観です'
+rank_notes:
+  S: 気分爆上がり
+  D: 通好み
+tiers:
+  S:
+  - name: Dynamite
+    emoji: 🧨
+    reason: 明るく楽しい曲調。朝に聴くと、元気が出る。
+  - name: Butter
+    emoji: 🧈
+    reason: 軽やかなノリで、気持ちが弾む。
+  - name: Permission to Dance
+    emoji: 🕺
+    reason: 前向きなメッセージ。気持ちを明るくしたいときに。
+  A:
+  - name: IDOL
+    emoji: 🪘
+    reason: エネルギッシュで、気合が入る。
+  - name: FIRE
+    emoji: 🔥
+    reason: 勢いのあるサウンド。やる気を出したいときに。
+  - name: Boy With Luv
+    emoji: 💘
+    reason: ポップで楽しい。気持ちが華やぐ。
+  - name: DNA
+    emoji: 🧬
+    reason: 明るく、キャッチー。
+  - name: Run
+    emoji: 🏃
+    reason: 熱いエネルギー。前に進みたいときに。
+  B:
+  - name: Spring Day
+    emoji: 🌸
+    reason: 切ないが、聴いたあとに前を向ける。
+  - name: Life Goes On
+    emoji: 🌱
+    reason: やさしく励ましてくれる。疲れた日に。
+  - name: Mikrokosmos
+    emoji: ✨
+    reason: やさしく包みこむ曲。星空を見上げたくなる。
+  - name: Epiphany
+    emoji: 💡
+    reason: 穏やかに自分を受け止めたい日に。
+  C:
+  - name: Fake Love
+    emoji: 🎭
+    reason: 激しく切ない。気分によって、聴きたい日が違う。
+  D:
+  - name: Black Swan
+    emoji: 🦢
+    reason: 重厚で、深い世界観。元気を出したいときよりは、じっくり聴きたい日に。
+summary: '朝や、気合を入れたいとき、疲れたときに聴きたい、BTSの元気ソング。S級は、イントロから気分が上がり、体が自然に動き出す曲。
+
+  じんわり元気になる曲も、気持ちに寄り添ってくれる大切な存在。気分に合わせて選ぶのがおすすめ。'
+related:
+- bts-hajimete-no-kyoku
+- bts-dance

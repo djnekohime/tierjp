@@ -1,0 +1,78 @@
+title: BTSをカラオケで歌いたい曲 Tier表
+description: Dynamite、Butter、Spring Day、Boy With Luv…カラオケで歌いたいBTSの曲を、AIが「歌いやすさ×盛り上がり×挑戦しがい」でS〜Dにランク付け。
+category: bts
+tags:
+- BTS
+- K-POP
+- 初心者
+published: '2026-10-09'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 歌いやすさ
+
+  ② 盛り上がり
+
+  ③ 挑戦しがい
+
+  ※ 歌いやすさは、声の高さや歌い慣れによって変わります'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: Dynamite
+    emoji: 🧨
+    reason: 英語詞で、メロディーも覚えやすい。BTS入門に最適。
+  - name: Butter
+    emoji: 🧈
+    reason: 英語詞でノリがよく、盛り上がる。
+  A:
+  - name: Permission to Dance
+    emoji: 🕺
+    reason: 明るく、みんなで歌いやすい。
+  - name: Boy With Luv
+    emoji: 💘
+    reason: ポップで楽しい。ラップ部分は難しいが、盛り上がる。
+  - name: Spring Day
+    emoji: 🌸
+    reason: メロディーが美しく、しっとり歌える。
+  - name: Life Goes On
+    emoji: 🌱
+    reason: ゆったりしたテンポ。落ち着いて歌える。
+  B:
+  - name: DNA
+    emoji: 🧬
+    reason: キャッチーだが、テンポが速め。
+  - name: IDOL
+    emoji: 🪘
+    reason: 盛り上がるが、掛け声が多く覚えるのが大変。
+  - name: Mikrokosmos
+    emoji: ✨
+    reason: やさしい曲調。高音に注意。
+  C:
+  - name: Fake Love
+    emoji: 🎭
+    reason: 感情の起伏が大きく、歌いこなすのが難しい。
+  - name: FIRE
+    emoji: 🔥
+    reason: 速さと勢いがあり、息が続きにくい。
+  - name: Run
+    emoji: 🏃
+    reason: テンポが速く、ラップ寄り。
+  D:
+  - name: Black Swan
+    emoji: 🦢
+    reason: 表現力が必要で、雰囲気を出すのが難しい。
+  - name: N.O
+    emoji: 🎤
+    reason: 勢いと早口のラップが多く、難易度は高め。
+summary: 'BTSの曲は、ラップのパートが多く、テンポも速めのものが多いので、カラオケでは意外と歌いごたえがある。S級は、メロディーがはっきりしていて、初めてでも歌いやすい曲。
+
+  韓国語に慣れていないなら、歌詞のカナ表記や、英語詞の曲から始めると楽。'
+related:
+- bts-hajimete-no-kyoku
+- music-karaoke-senkyoku

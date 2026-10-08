@@ -1,0 +1,75 @@
+title: BTSの夜に聴きたい曲 Tier表
+description: Spring Day、Life Goes On、Mikrokosmos、Epiphany…夜に静かに聴きたいBTSの曲を、AIが「落ち着く度×歌詞とメロディーの余韻×聴きやすさ」でS〜Dにランク付け。
+category: bts
+tags:
+- BTS
+- K-POP
+- バラード
+published: '2026-10-09'
+labels:
+  S: 夜の定番
+  A: しっとり
+  B: じんわり
+  C: 気分次第
+  D: ちょっと重め
+criteria: '① 夜に聴いて落ち着く度
+
+  ② 余韻・世界観
+
+  ③ 聴きやすさ
+
+  ※ 感じ方は人それぞれ。あくまでAIの主観です'
+rank_notes:
+  S: 夜の定番
+  D: ちょっと重め
+tiers:
+  S:
+  - name: Spring Day
+    emoji: 🌸
+    reason: 切ない余韻が、夜の静けさによく合う。長く愛されている曲。
+  - name: Life Goes On
+    emoji: 🌱
+    reason: やさしく、そっと寄り添ってくれる。1日の終わりに。
+  - name: Mikrokosmos
+    emoji: ✨
+    reason: 星空を見ているような気持ちになる。静かな夜に。
+  A:
+  - name: Epiphany
+    emoji: 💡
+    reason: 穏やかで、自分と向き合える。
+  - name: Magic Shop
+    emoji: 🔮
+    reason: ファンへのメッセージが込められた、あたたかい曲。
+  - name: Euphoria
+    emoji: 🌈
+    reason: やわらかく、前向きな気持ちになる。
+  - name: Blue & Grey
+    emoji: 🩶
+    reason: 静かな悲しみを描く。沈んだ気分のときに。
+  B:
+  - name: Singularity
+    emoji: 🕰️
+    reason: 大人っぽくて、雰囲気のある曲。
+  - name: Telepathy
+    emoji: 📡
+    reason: 穏やかで、ふんわりした雰囲気。
+  - name: Stay
+    emoji: 🌃
+    reason: 静かで雰囲気がある。
+  - name: Take Two
+    emoji: 🎞️
+    reason: ファンへの感謝が込められた、あたたかい曲。
+  C:
+  - name: Yet To Come
+    emoji: 🌄
+    reason: 前向きでやさしい。夜の終わりに。
+  D:
+  - name: Black Swan
+    emoji: 🦢
+    reason: 重厚で、深く考えさせる曲。心に余裕のある夜に。
+summary: '1日の終わりに、静かに聴きたいBTSの曲。S級は、メロディーがやさしく、聴いていると気持ちが落ち着く曲。
+
+  バラードは、歌詞の意味を調べながら聴くと、また違った味わいがある。'
+related:
+- bts-ballad
+- bts-songs
