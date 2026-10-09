@@ -13,6 +13,6 @@ git add codex og_codex
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) { L '新しい画像なし'; exit 0 }
 git commit -q -m 'Codex完成画像を追加（自動取り込み）' -m 'Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>' 2>&1 | ForEach-Object { L $_ }
-git pull --rebase -q 2>&1 | ForEach-Object { L $_ }
+git pull --rebase --autostash -q 2>&1 | ForEach-Object { L $_ }
 git push 2>&1 | ForEach-Object { L $_ }
 L '公開しました'
