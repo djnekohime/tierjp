@@ -33,10 +33,16 @@ tiers:
   - name: ユーコープ（生協）
     emoji: 🤝
     reason: 横浜市に本部を置く生協。神奈川・静岡・山梨を活動地域とする。
+  - name: ひまわり市場
+    emoji: 🌻
+    reason: 北杜市に本拠を置く。こだわりの品揃えと、社長自身のマイクパフォーマンスなど、独創的な経営で知られる。
   B:
   - name: Aコープ（JA南アルプス市）
     emoji: 🌾
     reason: 南アルプス市を管轄するJA南アルプス市が運営する店舗。
+  - name: アマノパークス
+    emoji: 🍎
+    reason: 甲斐市に本社を置くアマノが運営する食品スーパー。看板は「FOOD FACTORY PAX AMANO」。
   C:
   - name: ラ・ムー（西源）
     emoji: 🛒
