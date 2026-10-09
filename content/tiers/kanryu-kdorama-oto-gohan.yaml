@@ -1,0 +1,77 @@
+title: 韓国ドラマのおともにしたい食べ物・飲み物 Tier表
+description: チキン、トッポギ、おせんべい、あたたかいお茶…韓国ドラマを見るときのおともを、AIが「ドラマ気分が上がる度×手軽さ×食べやすさ」でS〜Dにランク付け。
+category: kanryu
+tags:
+- 韓国ドラマ
+- グルメ
+- あるある
+published: '2026-10-09'
+labels:
+  S: 殿堂入り
+  A: 大好き
+  B: 好き
+  C: 気分次第
+  D: 通好み
+criteria: '① ドラマ気分が上がる度
+
+  ② 手軽さ
+
+  ③ 画面を見ながら食べやすいか'
+rank_notes:
+  S: 殿堂入り
+  D: 通好み
+tiers:
+  S:
+  - name: あたたかいお茶（ゆず茶・麦茶など）
+    emoji: 🍵
+    reason: ほっとする。長時間見るときも安心。
+  - name: 韓国のり・おせんべい
+    emoji: 🍘
+    reason: 手軽で、手が汚れにくい。
+  A:
+  - name: チキン（フライドチキン・ヤンニョムチキン）
+    emoji: 🍗
+    reason: ドラマの定番の食べもの。手が汚れるので、ウェットティッシュを。
+  - name: トッポギ
+    emoji: 🍢
+    reason: もちもちして、満足感がある。
+  - name: キンパ（韓国風のり巻き）
+    emoji: 🍙
+    reason: 食べやすい。
+  - name: インスタントラーメン（韓国ラーメン）
+    emoji: 🍜
+    reason: ドラマでもよく見る。夜は食べ過ぎに注意。
+  B:
+  - name: ホットク・韓国のお菓子
+    emoji: 🥞
+    reason: 甘いものが欲しいときに。
+  - name: フルーツ（みかん・いちごなど）
+    emoji: 🍊
+    reason: さっぱりして、体にもやさしい。
+  - name: チーズ・ナッツ
+    emoji: 🧀
+    reason: 軽くつまめる。
+  - name: 甘酒・シッケ（韓国の伝統的な甘い飲み物）
+    emoji: 🥤
+    reason: ほんのり甘く、くつろげる。
+  C:
+  - name: おつまみ系・お酒
+    emoji: 🍺
+    reason: 飲みすぎ・翌日に注意。
+  - name: 揚げ物ばかり
+    emoji: 🍟
+    reason: おいしいが、胃が重くなる。
+  D:
+  - name: 画面が見られなくなる、汚れやすい食べ物
+    emoji: ⚠️
+    reason: ドラマに集中できない。
+  - name: 夜遅くに、ラーメン・チキンを毎日
+    emoji: 🌙
+    reason: 食べ過ぎ・体への負担に注意。
+summary: '韓国ドラマは、食べながら見るのが楽しい。S級は、画面を見ながらでも食べやすく、ドラマの雰囲気が出るおとも。
+
+  食べ過ぎ・飲み過ぎには気をつけて、体調と相談しながら。'
+related:
+- kandrama-gourmet
+- kanryu-kdorama-hajimekata
+- entame-ichiki-mi-kotsu

@@ -1,0 +1,80 @@
+title: 一人旅の始め方 Tier表
+description: 近場の日帰り、宿の選び方、計画の立て方、荷物の量…一人旅の始め方を、AIが「始めやすさ×安全性×楽しさ」でS〜Dにランク付け。
+category: travel
+tags:
+- 旅行
+- 初心者
+- 安全性
+published: '2026-10-09'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 始めやすさ
+
+  ② 安全性
+
+  ③ 楽しさ'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 近場の日帰りから始める
+    emoji: 🚃
+    reason: 失敗しても、すぐ帰れる。
+  - name: 行き先・日程を、家族や友人に伝えておく
+    emoji: 📩
+    reason: 万が一のときに安心。
+  A:
+  - name: 宿は、口コミ・立地・安全性を重視して選ぶ
+    emoji: 🏨
+    reason: 駅近・明るい通りの宿が安心。
+  - name: 行きたい場所を、1〜2か所に絞る
+    emoji: 🗺️
+    reason: 詰め込みすぎず、余裕を持つ。
+  - name: 荷物は、なるべく軽くする
+    emoji: 🎒
+    reason: 移動が楽になる。
+  - name: スマホのバッテリー・モバイルバッテリーを用意
+    emoji: 🔋
+    reason: 地図・連絡に必須。
+  B:
+  - name: 一人でも入りやすい、カフェ・食事処を調べる
+    emoji: 🍽️
+    reason: 食事の不安が減る。
+  - name: 現金と、キャッシュレスを両方用意
+    emoji: 💴
+    reason: 場所によって使えない場合も。
+  - name: 写真は、自撮り棒・三脚を使う
+    emoji: 📸
+    reason: 一人でも記念に残せる。
+  - name: ツアーや、日帰りバスツアーを利用する
+    emoji: 🚌
+    reason: 交通や食事の手配が楽。
+  C:
+  - name: いきなり海外・遠方に行く
+    emoji: ✈️
+    reason: 慣れてからのほうが安心。
+  - name: 夜遅くまで出歩く
+    emoji: 🌙
+    reason: 安全面を考えて、早めに宿へ。
+  D:
+  - name: 貴重品を、持ち歩きすぎる
+    emoji: 👛
+    reason: 盗難・紛失のリスク。
+  - name: 見知らぬ人の誘いに、ついていく
+    emoji: 🚨
+    reason: トラブルのもと。
+  - name: 予定を何も決めずに出かける
+    emoji: ❓
+    reason: 遅い時間に宿が取れないことも。
+summary: '一人旅は、自分のペースで行ける、自由な旅。S級は、まず近場の日帰りで、一人旅の感覚をつかむこと。
+
+  家族や友人に、行き先・日程を伝えておく、夜道を避けるなど、安全面の準備も忘れずに。'
+related:
+- yattemitai-ichinichi-tabi
+- travel-yado-type
+- travel-kokunai-mochimono

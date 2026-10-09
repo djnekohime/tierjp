@@ -1,0 +1,75 @@
+title: おうちカフェの楽しみ方 Tier表
+description: お気に入りのカップ、手作りおやつ、BGM、窓際の席…おうちカフェを楽しむ工夫を、AIが「気分が上がる度×手軽さ×続けやすさ」でS〜Dにランク付け。
+category: shumi
+tags:
+- 初心者
+- あるある
+published: '2026-10-09'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 気分が上がる度
+
+  ② 手軽さ
+
+  ③ 続けやすさ'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: お気に入りのカップで飲み物をいれる
+    emoji: ☕
+    reason: 器が変わると、気分が上がる。
+  - name: 飲み物を、ゆっくり味わう時間をとる
+    emoji: 🕰️
+    reason: それだけで特別な時間になる。
+  A:
+  - name: BGMや雨の音を流す
+    emoji: 🎶
+    reason: カフェの雰囲気が出る。
+  - name: 窓際や、お気に入りの席を決める
+    emoji: 🪟
+    reason: くつろぎの場所ができる。
+  - name: 手作りのおやつ・市販のお菓子をお皿に盛る
+    emoji: 🍪
+    reason: 盛るだけで、気分が変わる。
+  - name: 季節の飲み物（ホットココア・ほうじ茶ラテなど）
+    emoji: 🍂
+    reason: 季節を感じられる。
+  B:
+  - name: テーブルに、花や小物を飾る
+    emoji: 🌼
+    reason: 雰囲気づくりに。お金をかけすぎない。
+  - name: 読書・ノート・手紙を書く時間にする
+    emoji: 📖
+    reason: おうちカフェの定番。
+  - name: スマホはしまっておく
+    emoji: 📵
+    reason: ゆっくりできる。
+  - name: コーヒー・紅茶の道具をそろえる
+    emoji: 🫖
+    reason: こだわると楽しい。まず今ある道具で。
+  C:
+  - name: 友だちを招いてカフェ会
+    emoji: 👭
+    reason: 盛り上がる。準備が大変なことも。
+  - name: 写真映えを意識しすぎる
+    emoji: 📸
+    reason: 疲れてしまうことも。
+  D:
+  - name: 道具をいきなり高額でそろえる
+    emoji: 💸
+    reason: 続かなかったときの負担が大きい。
+  - name: カフェイン・糖分のとりすぎ
+    emoji: ⚠️
+    reason: 体調に合わせて、量は控えめに。
+summary: 'おうちカフェは、お金をかけずに、気分転換ができる贅沢。S級は、お気に入りの器で、ゆっくり飲み物を味わうこと。
+
+  お店のように整えなくても、BGMと、温かい飲み物と、好きな席があれば十分。'
+related:
+- shumi-ouchi-jikan
+- shumi-shitsunai

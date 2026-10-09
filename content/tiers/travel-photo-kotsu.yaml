@@ -1,0 +1,76 @@
+title: 旅の写真をきれいに撮るコツ Tier表
+description: 朝夕の光、構図、人の少ない時間、スマホの設定…旅の写真をきれいに撮るコツを、AIが「効果×手軽さ×続けやすさ」でS〜Dにランク付け。
+category: travel
+tags:
+- 旅行
+- 初心者
+published: '2026-10-09'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 写真がよくなる効果
+
+  ② 手軽さ
+
+  ③ 続けやすさ'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 朝や夕方の、柔らかい光で撮る
+    emoji: 🌅
+    reason: 昼間よりも、雰囲気のある写真になる。
+  - name: レンズを拭く（スマホ）
+    emoji: 🧼
+    reason: 意外と汚れている。これだけで、きれいになる。
+  A:
+  - name: 人の少ない時間・場所を選ぶ
+    emoji: 🕰️
+    reason: 朝の早い時間は、空いていることが多い。
+  - name: 水平・垂直をまっすぐにする
+    emoji: 📐
+    reason: グリッド線を使うと簡単。
+  - name: 被写体を、画面の1
+    short: 3の位置に置く
+    emoji: 🖼️
+    reason: バランスのよい構図になる。
+  - name: 同じ場所で、縦と横の両方を撮る
+    emoji: 📱
+    reason: 使い道が広がる。
+  B:
+  - name: 人物を入れて、スケール感を出す
+    emoji: 🧍
+    reason: 旅の雰囲気が伝わる。他の人の写り込みに注意。
+  - name: 食べ物は、窓際など自然光で撮る
+    emoji: 🍽️
+    reason: おいしそうに撮れる。
+  - name: ズームより、近づいて撮る
+    emoji: 📸
+    reason: 画質が保たれる。
+  - name: 撮った写真を、その日のうちに選ぶ
+    emoji: 🗂️
+    reason: 整理が楽。
+  C:
+  - name: 画像加工アプリで、仕上げる
+    emoji: 🎨
+    reason: 雰囲気が出るが、やりすぎに注意。
+  - name: 三脚や自撮り棒を使う
+    emoji: 📷
+    reason: 一人旅や集合写真に便利。
+  D:
+  - name: 撮ることに夢中で、旅を楽しめない
+    emoji: 😵
+    reason: 目で見て楽しむことも大切。
+  - name: 他人や、撮影禁止の場所を撮る
+    emoji: 🚫
+    reason: マナー・ルールを守る。
+summary: '旅の写真は、特別なカメラがなくても、光と構図を意識するだけで、ぐっと良くなる。S級は、朝や夕方の柔らかい光を使うこと。
+
+  撮ることに夢中になりすぎて、旅そのものを楽しめなくなるのは本末転倒。ほどほどが一番。'
+related:
+- shumi-smartphone-shashin
+- yattemitai-ichinichi-tabi

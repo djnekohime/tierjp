@@ -1,0 +1,76 @@
+title: お土産の選び方 Tier表
+description: 日持ち、配りやすさ、ご当地感、値段…お土産の選び方を、AIが「喜ばれる度×配りやすさ×失敗しにくさ」でS〜Dにランク付け。
+category: travel
+tags:
+- 旅行
+- 初心者
+- あるある
+published: '2026-10-09'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 喜ばれる度
+
+  ② 配りやすさ・持ち運びやすさ
+
+  ③ 失敗しにくさ'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 個包装で、日持ちするお菓子
+    emoji: 🍪
+    reason: 配りやすく、渡す相手を選ばない。
+  - name: ご当地の定番・名物（地元の人がおすすめするもの）
+    emoji: 🏯
+    reason: ご当地感があり、話のきっかけにも。
+  A:
+  - name: 相手の好み（甘い・辛い・お酒など）に合わせる
+    emoji: 🎁
+    reason: 喜ばれる確率が上がる。
+  - name: 賞味期限・保存方法を確認
+    emoji: 📅
+    reason: 傷みやすいものは、旅の後半に買う。
+  - name: アレルギーの確認
+    emoji: ⚠️
+    reason: 食物アレルギーのある人には注意。
+  - name: 持ち運びやすい大きさ・重さ
+    emoji: 🎒
+    reason: 荷物が増えすぎない。
+  B:
+  - name: 地元の食材・調味料
+    emoji: 🍯
+    reason: 料理好きに喜ばれる。重さに注意。
+  - name: 雑貨・文房具・タオルなど、日用品
+    emoji: 🧴
+    reason: ずっと使える。
+  - name: 自分へのお土産は、思い出になるものを選ぶ
+    emoji: 💝
+    reason: 買いすぎに注意。
+  - name: 限定品・季節限定
+    emoji: 🌸
+    reason: 特別感がある。
+  C:
+  - name: 大きくて、重いもの
+    emoji: 📦
+    reason: 持ち帰りが大変。宅配便で送る手も。
+  - name: 人によって好みが分かれるもの（強い香り・変わった味）
+    emoji: 🌶️
+    reason: 相手を選ぶ。
+  D:
+  - name: 賞味期限が短いものを、旅の初日に買う
+    emoji: ⏳
+    reason: 帰るまでに傷むことも。
+  - name: 空港や駅で、急いで選ぶ
+    emoji: 🏃
+    reason: 慌てて失敗しやすい。事前に調べておく。
+summary: 'お土産選びのコツは、「相手の顔を思い浮かべて」選ぶこと。S級は、個包装で日持ちするお菓子など、迷ったときの定番。
+
+  食品は、アレルギーや賞味期限の確認も忘れずに。'
+related:
+- travel-kokunai-mochimono
+- yattemitai-ichinichi-tabi
