@@ -24,7 +24,7 @@ rank_notes:
   D: 避けたい
 tiers:
   S:
-  - name: 1〜2話ごとに立ち上がって休憩
+  - name: 1話か2話ごとに立ち上がって休憩
     emoji: 🚶
     reason: 血行も目も楽になる。
   - name: 水分をとる
