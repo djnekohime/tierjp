@@ -1,0 +1,117 @@
+title: 東大合格者数が多い公立高校 Tier表（2026年）
+description: 日比谷、横浜翠嵐、湘南、浦和、旭丘、小石川、千葉、岡崎…2026年の東京大学合格者数が多い公立高校（都立・県立・府立）を、人数でS〜Dにランク付け。
+category: koukou
+tags:
+- 勉強法
+published: '2026-10-09'
+labels:
+  S: 40人以上
+  A: 20人台〜30人台
+  B: 10人台
+  C: 5人から9人
+  D: 3人から4人
+criteria: '① 2026年の東京大学合格者数（人数の多さ）
+
+  ② 公立（都道府県・市立）の高校だけを対象
+
+  ※ 2026年3月時点の速報値（大学通信・サンデー毎日・AERAの3社共同調査などの公表値）です。集計元や時点で1〜2人の差が出ます。合格者数は学年の人数にも左右され、学校の良し悪しや、入学後の伸びを表すものではありません'
+rank_notes:
+  S: 40人以上
+  D: 3人から4人
+tiers:
+  S:
+  - name: 日比谷
+    emoji: 🏛️
+    reason: 東京・都立。67人。公立の全国1位。
+  - name: 横浜翠嵐
+    emoji: 🌪️
+    reason: 神奈川・県立。43人。
+  A:
+  - name: 湘南
+    emoji: 🌊
+    reason: 神奈川・県立。39人。
+  - name: 浦和
+    emoji: 🏫
+    reason: 埼玉・県立。32人。
+  - name: 旭丘
+    emoji: ☀️
+    reason: 愛知・県立。29人。
+  - name: 小石川中等教育
+    emoji: 🏛️
+    reason: 東京・都立。28人。
+  - name: 千葉
+    emoji: 🏫
+    reason: 千葉・県立。26人。
+  - name: 岡崎
+    emoji: 🏯
+    reason: 愛知・県立。24人。
+  - name: 西
+    emoji: 🏛️
+    reason: 東京・都立。23人。
+  - name: 熊本
+    emoji: 🏯
+    reason: 熊本・県立。23人。
+  - name: 船橋
+    emoji: 🏫
+    reason: 千葉・県立。22人。
+  B:
+  - name: 水戸第一
+    emoji: 🏫
+    reason: 茨城・県立。19人。
+  - name: 土浦第一
+    emoji: 🏫
+    reason: 茨城・県立。18人。
+  - name: 天王寺
+    emoji: 🏯
+    reason: 大阪・府立。17人。
+  - name: 国立
+    emoji: 🏫
+    reason: 東京・都立。17人。
+  - name: 北野
+    emoji: 🏯
+    reason: 大阪・府立。16人。
+  - name: 戸山
+    emoji: 🏛️
+    reason: 東京・都立。15人。
+  - name: 大宮
+    emoji: 🏫
+    reason: 埼玉・県立。11人。
+  - name: 高松
+    emoji: 🏫
+    reason: 香川・県立。10人。
+  C:
+  - name: 武蔵（都立）
+    emoji: 🏛️
+    reason: 東京・都立。9人。
+  - name: 川越
+    emoji: 🏫
+    reason: 埼玉・県立。9人。
+  - name: 宇都宮
+    emoji: 🏫
+    reason: 栃木・県立。9人。
+  - name: 新潟
+    emoji: ❄️
+    reason: 新潟・県立。8人。
+  - name: 静岡
+    emoji: 🍵
+    reason: 静岡・県立。7人。
+  - name: 藤島
+    emoji: 🦀
+    reason: 福井・県立。6人。
+  - name: 秋田
+    emoji: 🎋
+    reason: 秋田・県立。5人。
+  D:
+  - name: 立川
+    emoji: 🏛️
+    reason: 東京・都立。4人。
+  - name: 前橋
+    emoji: 🏫
+    reason: 群馬・県立。4人。
+  - name: 長野
+    emoji: 🏔️
+    reason: 長野・県立。3人。
+summary: '公立高校の東大合格者数は、日比谷（東京）、横浜翠嵐・湘南（神奈川）が、全国でも突出している。続いて、埼玉の浦和、愛知の旭丘・岡崎、東京の小石川など。
+
+  地方では、県を代表する県立トップ校（水戸第一・熊本・新潟・静岡・秋田・長野など）が、毎年コンスタントに合格者を出している。'
+related: []

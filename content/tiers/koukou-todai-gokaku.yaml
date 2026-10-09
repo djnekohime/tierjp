@@ -1,0 +1,172 @@
+title: 東大合格者数が多い高校 Tier表（2026年）
+description: 開成、灘、聖光学院、筑波大附属駒場、渋谷教育学園幕張、麻布、西大和学園、日比谷、桜蔭…2026年の東京大学合格者数が多い高校を、人数でS〜Dに分けてランク付け。
+category: koukou
+tags:
+- 勉強法
+published: '2026-10-09'
+labels:
+  S: 60人以上
+  A: 30人台〜50人台
+  B: 20人台
+  C: 10人台後半
+  D: 10人台前半
+criteria: '① 2026年の東京大学合格者数（人数の多さ）
+
+  ※ 2026年3月時点の速報値（大学通信・サンデー毎日・AERAの3社共同調査などの公表値）です。集計元や時点で1〜2人の差が出ます。合格者数は学年の人数にも左右され、学校の良し悪しや、入学後の伸びを表すものではありません'
+rank_notes:
+  S: 60人以上
+  D: 10人から14人
+tiers:
+  S:
+  - name: 開成
+    emoji: 🥇
+    reason: 東京・私立。197人で1位（前年比+47）。45年連続で、全国1位。
+  - name: 灘
+    emoji: 🥈
+    reason: 兵庫・私立。95人で2位。西日本の最難関として知られる。
+  - name: 聖光学院
+    emoji: 🏫
+    reason: 神奈川・私立。93人で3位。
+  - name: 筑波大附属駒場
+    emoji: 🎓
+    reason: 東京・国立。89人で4位（前年は117人）。
+  - name: 渋谷教育学園幕張
+    emoji: 🌸
+    reason: 千葉・私立。82人で5位。
+  - name: 麻布
+    emoji: 🏫
+    reason: 東京・私立。77人で6位。
+  - name: 西大和学園
+    emoji: 🌿
+    reason: 奈良・私立。75人で7位。
+  - name: 日比谷
+    emoji: 🏛️
+    reason: 東京・都立。67人で、公立の1位。
+  - name: 桜蔭
+    emoji: 🌺
+    reason: 東京・私立（女子校）。62人で、女子校の1位。
+  A:
+  - name: 栄光学園
+    emoji: ⛪
+    reason: 神奈川・私立。47人。
+  - name: 海城
+    emoji: 🏫
+    reason: 東京・私立。46人。
+  - name: 久留米大附設
+    emoji: 🌾
+    reason: 福岡・私立。45人。
+  - name: 横浜翠嵐
+    emoji: 🌪️
+    reason: 神奈川・県立。43人。公立の上位。
+  - name: 駒場東邦
+    emoji: 🏫
+    reason: 東京・私立。40人。
+  - name: 湘南
+    emoji: 🌊
+    reason: 神奈川・県立。39人。
+  - name: 浅野
+    emoji: 🏫
+    reason: 神奈川・私立。39人。
+  - name: 早稲田
+    emoji: 🏫
+    reason: 東京・私立。38人。
+  - name: 渋谷教育学園渋谷
+    emoji: 🌸
+    reason: 東京・私立。37人。
+  - name: 筑波大附属
+    emoji: 🎓
+    reason: 東京・国立。34人。
+  - name: 東海
+    emoji: 🏫
+    reason: 愛知・私立。33人。
+  - name: 甲陽学院
+    emoji: 🏫
+    reason: 兵庫・私立。33人。
+  B:
+  - name: 浦和
+    emoji: 🏫
+    reason: 埼玉・県立。32人。
+  - name: 旭丘
+    emoji: ☀️
+    reason: 愛知・県立。29人。
+  - name: ラ・サール
+    emoji: 🌴
+    reason: 鹿児島・私立。29人。
+  - name: 小石川中等教育
+    emoji: 🏛️
+    reason: 東京・都立。28人。
+  - name: 洗足学園
+    emoji: 🎶
+    reason: 神奈川・私立。27人。
+  - name: 千葉
+    emoji: 🏫
+    reason: 千葉・県立。26人。
+  - name: 武蔵
+    emoji: 🏫
+    reason: 東京・私立。26人。
+  - name: 岡崎
+    emoji: 🏯
+    reason: 愛知・県立。24人。
+  - name: 市川
+    emoji: 🏫
+    reason: 千葉・私立。23人。
+  - name: 西
+    emoji: 🏛️
+    reason: 東京・都立。23人。
+  - name: 熊本
+    emoji: 🏯
+    reason: 熊本・県立。23人。
+  - name: 船橋
+    emoji: 🏫
+    reason: 千葉・県立。22人。
+  - name: 洛南
+    emoji: ⛩️
+    reason: 京都・私立。21人。
+  C:
+  - name: 水戸第一
+    emoji: 🏫
+    reason: 茨城・県立。19人。
+  - name: 土浦第一
+    emoji: 🏫
+    reason: 茨城・県立。18人。
+  - name: 天王寺
+    emoji: 🏯
+    reason: 大阪・府立。17人。
+  - name: 国立
+    emoji: 🏫
+    reason: 東京・都立。17人。
+  - name: 北野
+    emoji: 🏯
+    reason: 大阪・府立。16人。
+  - name: 戸山
+    emoji: 🏛️
+    reason: 東京・都立。15人。
+  - name: 修道
+    emoji: 🏫
+    reason: 広島・私立。15人。
+  D:
+  - name: 女子学院
+    emoji: 🌷
+    reason: 東京・私立（女子校）。14人。
+  - name: 桐朋
+    emoji: 🏫
+    reason: 東京・私立。14人。
+  - name: 豊島岡女子学園
+    emoji: 🌷
+    reason: 東京・私立（女子校）。13人。
+  - name: 巣鴨
+    emoji: 🏫
+    reason: 東京・私立。13人。
+  - name: 大宮
+    emoji: 🏫
+    reason: 埼玉・県立。11人。
+  - name: 本郷
+    emoji: 🏫
+    reason: 東京・私立。10人。
+  - name: 高松
+    emoji: 🏫
+    reason: 香川・県立。10人。
+summary: '東大合格者数は、毎年3月に速報が出て、ニュースやSNSでも話題になる。2026年は、開成が197人で、45年連続の1位とされた。
+
+  このランクは、AIの好みではなく、合格者数の多さで機械的に分けたもの。学年の人数や入試の形で変わるので、数字は「目安」として、見てほしい。'
+related: []

@@ -1,0 +1,178 @@
+title: 神奈川県の高校 偏差値Tier表（2026年度）
+description: 慶應義塾、横浜翠嵐、湘南、聖光学院、栄光学園、柏陽、厚木、川和…神奈川県の高校50校を、偏差値の目安でS〜Dにランク付け。
+category: koukou
+tags:
+- 勉強法
+published: '2026-10-09'
+labels:
+  S: 72以上
+  A: 68から71
+  B: 65から68
+  C: 62から65
+  D: 62前後
+criteria: '① 民間の高校偏差値サイト（オンライン塾比較ステーションなど）の、2026年度の公開値の目安（上位50校）
+
+  ※ 偏差値はサイトによって1〜2のずれがあり、学科・コースごとにも違います。範囲で書かれている学校は、範囲の目安です。偏差値は学力の一面にすぎず、学校の良し悪しや、あなたに合うかどうかを示すものではありません。受験の判断は、学校の公式情報や、塾・先生にご相談ください'
+rank_notes:
+  S: 72以上
+  D: 62前後
+tiers:
+  S:
+  - name: 慶應義塾湘南藤沢
+    emoji: 🖋️
+    reason: 私立。偏差値の目安は75。
+  - name: 慶應義塾
+    emoji: 🖋️
+    reason: 私立。偏差値の目安は75。
+  - name: 横浜翠嵐
+    emoji: 🌪️
+    reason: 公立。偏差値の目安は74。
+  - name: 湘南
+    emoji: 🌊
+    reason: 公立。偏差値の目安は73。
+  - name: 聖光学院
+    emoji: 🏫
+    reason: 私立。偏差値の目安は73。
+  - name: 栄光学園
+    emoji: ⛪
+    reason: 私立。偏差値の目安は72。
+  A:
+  - name: 柏陽
+    emoji: 🌳
+    reason: 公立。偏差値の目安は71。
+  - name: 横浜緑ケ丘
+    emoji: 🌿
+    reason: 公立。偏差値の目安は70。
+  - name: サレジオ学院
+    emoji: 🏫
+    reason: 私立。偏差値の目安は69から70。
+  - name: 山手学院
+    emoji: 🏫
+    reason: 私立。偏差値の目安は65から70。
+  - name: 厚木
+    emoji: 🏫
+    reason: 公立。偏差値の目安は69。
+  - name: 法政大学第二
+    emoji: 🏫
+    reason: 私立。偏差値の目安は69。
+  - name: 浅野
+    emoji: 🏫
+    reason: 私立。偏差値の目安は69。
+  - name: フェリス女学院
+    emoji: 🌷
+    reason: 私立。偏差値の目安は68。
+  - name: 川和
+    emoji: 🏫
+    reason: 公立。偏差値の目安は68。
+  - name: 桐光学園
+    emoji: 🏫
+    reason: 私立。偏差値の目安は68。
+  B:
+  - name: 法政大学国際
+    emoji: 🌐
+    reason: 私立。偏差値の目安は67から68。
+  - name: 洗足学園
+    emoji: 🎶
+    reason: 私立。偏差値の目安は67から68。
+  - name: 桐蔭学園
+    emoji: 🏫
+    reason: 私立。偏差値の目安は64から68。
+  - name: 多摩
+    emoji: 🏫
+    reason: 公立。偏差値の目安は67。
+  - name: 横浜サイエンスフロンティア
+    emoji: 🔬
+    reason: 公立（横浜市立）。偏差値の目安は67。
+  - name: 相模原
+    emoji: 🏫
+    reason: 公立。偏差値の目安は67。
+  - name: 鎌倉学園
+    emoji: ⛩️
+    reason: 私立。偏差値の目安は67。
+  - name: 中央大学附属横浜
+    emoji: 🏫
+    reason: 私立。偏差値の目安は66。
+  - name: 光陵
+    emoji: 🏫
+    reason: 公立。偏差値の目安は66。
+  - name: 小田原
+    emoji: 🏯
+    reason: 公立。偏差値の目安は66。
+  - name: 希望ケ丘
+    emoji: 🏫
+    reason: 公立。偏差値の目安は66。
+  - name: 横須賀
+    emoji: ⚓
+    reason: 公立。偏差値の目安は66。
+  - name: 日本大学
+    emoji: 🏫
+    reason: 私立。偏差値の目安は65から66。
+  - name: 大和
+    emoji: 🏫
+    reason: 公立。偏差値の目安は65。
+  C:
+  - name: 日本女子大学附属
+    emoji: 🌷
+    reason: 私立。偏差値の目安は65。
+  - name: 横浜平沼
+    emoji: 🏫
+    reason: 公立。偏差値の目安は65。
+  - name: 鎌倉
+    emoji: ⛩️
+    reason: 公立。偏差値の目安は65。
+  - name: 横浜共立学園
+    emoji: 🌷
+    reason: 私立。偏差値の目安は60から65。
+  - name: 神奈川総合
+    emoji: 🏫
+    reason: 公立。偏差値の目安は60から65。
+  - name: 茅ケ崎北陵
+    emoji: 🏫
+    reason: 公立。偏差値の目安は64。
+  - name: 神奈川大学附属
+    emoji: 🏫
+    reason: 私立。偏差値の目安は63から64。
+  - name: 逗子開成
+    emoji: 🌊
+    reason: 私立。偏差値の目安は62から64。
+  - name: 青山学院横浜英和
+    emoji: 🏫
+    reason: 私立。偏差値の目安は62から64。
+  - name: 横浜隼人
+    emoji: 🏫
+    reason: 私立。偏差値の目安は57から64。
+  D:
+  - name: 平塚江南
+    emoji: 🏫
+    reason: 公立。偏差値の目安は63。
+  - name: 横浜国際
+    emoji: 🌐
+    reason: 公立。偏差値の目安は63。
+  - name: 横浜市立金沢
+    emoji: 🏫
+    reason: 公立。偏差値の目安は63。
+  - name: 追浜
+    emoji: 🏫
+    reason: 公立。偏差値の目安は63。
+  - name: 桐蔭学園中等教育学校
+    emoji: 🏫
+    reason: 私立。後期課程。偏差値の目安は58から63。
+  - name: 市ヶ尾
+    emoji: 🏫
+    reason: 公立。偏差値の目安は62。
+  - name: 日本大学藤沢
+    emoji: 🏫
+    reason: 私立。偏差値の目安は62。
+  - name: 横浜市立南
+    emoji: 🏫
+    reason: 公立。偏差値の目安は62。
+  - name: 湘南白百合学園
+    emoji: 🌷
+    reason: 私立。偏差値の目安は55から62。
+  - name: 麻布大学附属
+    emoji: 🏫
+    reason: 私立。偏差値の目安は52から62。
+summary: '神奈川県は、私立の慶應義塾、聖光学院、栄光学園、公立の横浜翠嵐、湘南が、県内の最上位として知られる。公立では、柏陽、横浜緑ケ丘、厚木、川和などが続く。
+
+  このランクは、AIの好みではなく、公開されている偏差値の目安で分けたもの。毎年変わるので、最新の情報を確認してほしい。'
+related: []
