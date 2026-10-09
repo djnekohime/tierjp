@@ -169,9 +169,44 @@ C|ファインズたけだ（SMAT）|🏪|佐賀県のスーパー「ファイ�
 }
 
 
+# ---- イオン系・セブン&アイ系など、複数の県にまたがるチェーンの追加 ----
+_AEON = "A|イオン（イオンリテール）|🌳|千葉市の幕張新都心に本社を置く。東北を除く本州と四国で、総合スーパー（GMS）とスーパー（SM）の「イオン」「イオンスタイル」などを展開するイオングループの企業。"
+_MARUETSU = "A|マルエツ|🏪|豊島区に本社を置き、東京・神奈川・埼玉・千葉などの首都圏を中心に展開するイオングループのスーパー。"
+_INAGEYA = "B|いなげや|🌿|立川市に本社を置き、関東地方南部を中心に展開する大手スーパー。イオン傘下のU.S.M.Hグループ。"
+_YORK = "A|ヨーク（ヨークマート・ヨークフーズ）|🌟|イトーヨーカ堂が展開するスーパー。店舗の屋号は「ヨークマート」「ヨークフーズ」「ヨークプライス」など。セブン&アイ系。"
+_IY = "A|イトーヨーカドー|🛍️|品川区に本社を置くイトーヨーカ堂が運営する総合スーパー。食品から衣料・生活用品まで扱う。セブン&アイ系。"
+_FOODSTYLE = "B|イオンフードスタイル|🌳|江東区に本社を置き、関東でイオングループのスーパーなどを展開する企業。旧「ピーコックストア」「マックスバリュ」などを運営。"
+_MAIBASU = "A|まいばすけっと|🛒|イオングループが首都圏と北海道で展開する、都市型の小型食品スーパー。"
+_KASUMI = "A|カスミ|🛒|茨城県つくば市に本社を置き、関東地方で「カスミ」などの屋号でスーパーを展開。U.S.M.Hグループ。"
+_YAOKO = "B|ヤオコー|🍅|埼玉県川越市に本社を置き、関東で食品スーパー「ヤオコー」を展開する。2025年3月末で195店舗。"
+_TRIAL = "A|トライアル|🌙|福岡市東区に本社を置き、スーパーセンターやディスカウントストアを運営するトライアルカンパニー。九州各県に店舗がある。"
+ADD3 = {}
+for _s in "ibaraki tochigi gunma saitama tokyo kanagawa niigata toyama ishikawa fukui yamanashi nagano gifu shizuoka aichi mie shiga kyoto osaka hyogo nara wakayama tottori shimane okayama hiroshima yamaguchi tokushima kagawa ehime kochi".split():
+    ADD3[_s] = _AEON
+
+
+def _add3(slugs, line):
+    for _s in slugs.split():
+        ADD3[_s] = (ADD3.get(_s, "") + "\n" + line).strip()
+
+
+_add3("kanagawa saitama chiba ibaraki tochigi", _MARUETSU)
+_add3("kanagawa saitama chiba", _INAGEYA)
+_add3("tokyo kanagawa saitama chiba", _YORK)
+_add3("kanagawa saitama chiba", _IY)
+_add3("kanagawa saitama chiba", _FOODSTYLE)
+_add3("tokyo kanagawa saitama hokkaido", _MAIBASU)
+_add3("saitama chiba tokyo", _KASUMI)
+_add3("tokyo kanagawa ibaraki", _YAOKO)
+_add3("saga kumamoto oita nagasaki miyazaki kagoshima", _TRIAL)
+_add3("kyoto nara", "A|ダイエー|🏬|近畿地方で、総合スーパーとスーパー「フードスタイル」などを展開するイオングループの企業。")
+_add3("yamaguchi", "A|イオン九州|🌳|福岡市東区に本社を置き、沖縄を除く九州と山口でイオン、イオンスタイル、マックスバリュ、ザ・ビッグなどを展開するイオングループの企業。")
+_add3("fukushima", "A|イオン東北|🌳|東北地区で、イオン、イオンスタイル、マックスバリュなどを展開するイオングループの企業。")
+
+
 def main():
     merged = {}
-    for dct in (ADD, ADD2):
+    for dct in (ADD, ADD2, ADD3):
         for k, v in dct.items():
             merged[k] = (merged.get(k, "") + "\n" + v).strip()
     for slug, text in merged.items():
