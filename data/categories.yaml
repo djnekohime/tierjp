@@ -35,4 +35,5 @@ categories:
       - {name: 鍋・季節の食べ物, emoji: "🍲"}
       - {name: 食べ方・食のあるある, emoji: "🥢"}
       - {name: 世界の料理, emoji: "🌏"}
+  - {slug: depart, name: 百貨店, emoji: "🏬", description: 日本全国の百貨店（デパート）を、地域ごとにランク付け。三越伊勢丹・髙島屋・大丸松坂屋・阪急阪神・近鉄から、各県の地場百貨店まで。}
   - {slug: kakutougi, name: 格闘技, emoji: "🥊", description: RIZIN・UFC・MMAなど。}
