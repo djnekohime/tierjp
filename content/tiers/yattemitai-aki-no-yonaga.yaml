@@ -1,0 +1,87 @@
+title: 秋の夜長にやってみたいこと Tier表
+description: 読書、手紙、星空、温かい飲み物、日記…秋の夜長にやってみたいことを、AIが「ほっとする度×手軽さ×続けやすさ」でS〜Dにランク付け。
+category: yattemitai
+tags:
+- 秋
+- おうち時間
+published: '2026-10-12'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① ほっとする度
+
+  ② 手軽さ
+
+  ③ 眠りを邪魔しないか
+
+  ※ 夜更かしにならないよう、無理のない範囲で'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 温かい飲み物を用意して、ほっとひと息
+    emoji: 🍵
+    reason: 体も心も温まる。いちばん手軽。
+  - name: 読書をする
+    emoji: 📚
+    reason: 静かな夜にぴったり。ページが進む。
+  - name: 日記や今日の出来事を、ゆっくり書く
+    emoji: ✍️
+    reason: 頭の中が整理されて、眠りにつきやすい。
+  A:
+  - name: 好きな音楽を聴きながら過ごす
+    emoji: 🎵
+    reason: 音量は控えめに。気分が落ち着く。
+  - name: 夜空や月を眺める
+    emoji: 🌕
+    reason: 秋は空気が澄んでいて、星や月がきれい。
+  - name: アロマやキャンドルで部屋を整える
+    emoji: 🕯️
+    reason: 香りで気持ちが切り替わる。火の取り扱いに注意。
+  - name: 懐かしい映画やドラマをゆっくり観る
+    emoji: 🎬
+    reason: のんびり過ごせる。
+  - name: 手紙やはがきを書く
+    emoji: 💌
+    reason: 大切な人に気持ちを伝えられる。
+  B:
+  - name: 編み物・手芸をする
+    emoji: 🧶
+    reason: 手を動かすと、心が落ち着く。
+  - name: 旬の食べ物（栗・さつまいも・梨）を楽しむ
+    emoji: 🌰
+    reason: 季節を味わえる。夜遅くの食べすぎには注意。
+  - name: 写真を整理する
+    emoji: 🖼️
+    reason: 懐かしい気持ちになる。
+  - name: お風呂にゆっくりつかる
+    emoji: 🛁
+    reason: 眠りが深くなりやすい。
+  - name: 明日の予定を、軽く準備する
+    emoji: 📋
+    reason: 朝が楽になる。
+  C:
+  - name: 長時間の動画視聴
+    emoji: 📱
+    reason: 楽しいが、夜更かしの原因に。
+  - name: 夜中の食べ歩き・夜食
+    emoji: 🍜
+    reason: おいしいが、食べすぎ注意。
+  D:
+  - name: 夜更かしして朝がつらくなる
+    emoji: 😴
+    reason: 翌日の体調に響く。
+  - name: 寝る直前までスマホを見る
+    emoji: 🚫
+    reason: 眠りの質が下がる。
+summary: '秋の夜長は、「静かに、ゆっくり」が合う季節。S級は、温かい飲み物と一緒に好きなことをする時間。
+
+  スマホやパソコンの画面を長く見続けると、眠りの妨げになる。寝る1時間前には、画面を離すのがおすすめ。'
+related:
+- yattemitai-ame-no-hi
+- kurashi-nedoko-shukan
+- shumi-ouchi-jikan
