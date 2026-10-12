@@ -1,0 +1,90 @@
+title: 休日のおうち時間 ごろごろの質を上げるコツ Tier表
+description: 好きな音、毛布、おやつ、スマホを置く、短いお出かけ…休日のごろごろの質を上げるコツを、AIが「休まる度×手軽さ×罪悪感の少なさ」でS〜Dにランク付け。
+category: entame
+tags:
+- おうち時間
+- 休日
+published: '2026-10-12'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 休まる度
+
+  ② 手軽さ
+
+  ③ 罪悪感の少なさ
+
+  ※ 休んでも疲れが取れない・気分の落ち込みが続くときは、無理せず医療機関に相談してください'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 「今日は休む日」と、最初に決める
+    emoji: 🛋️
+    reason: 罪悪感が減って、気持ちよく休める。
+  - name: 好きな音楽や好きな動画を流す
+    emoji: 🎵
+    reason: 気分が整う。
+  - name: 温かい飲み物とおやつを用意する
+    emoji: 🍪
+    reason: ほっとする時間に。
+  A:
+  - name: 毛布やクッションで、心地よい場所をつくる
+    emoji: 🧸
+    reason: 休まる環境を整える。
+  - name: 昼寝をする（30分以内）
+    emoji: 😴
+    reason: すっきり回復。夜の睡眠への影響に注意。
+  - name: ペットや好きなものと過ごす
+    emoji: 🐾
+    reason: 癒やされる。
+  - name: 短い散歩やベランダで、外の空気を吸う
+    emoji: 🌤️
+    reason: 気分が切り替わる。
+  - name: 好きな作品を、のんびり観る
+    emoji: 🎬
+    reason: ごろごろの定番。
+  B:
+  - name: 日記や好きなことを、少しだけ書く
+    emoji: ✍️
+    reason: 頭がすっきりする。
+  - name: 小さな片づけを1つだけする
+    emoji: 🧹
+    reason: 達成感がある。やりすぎない。
+  - name: 読みかけの本を、少しだけ読む
+    emoji: 📚
+    reason: 気持ちが落ち着く。
+  - name: お風呂に、いつもより長めに入る
+    emoji: 🛁
+    reason: 体がゆるむ。
+  - name: 翌日の準備を、軽くだけしておく
+    emoji: 📋
+    reason: 気持ちが楽になる。
+  C:
+  - name: 1日中、寝て過ごす
+    emoji: 😪
+    reason: 体は休まるが、気分が重くなることも。
+  - name: 予定を入れすぎて、休めない
+    emoji: 📅
+    reason: 休日が休日でなくなる。
+  D:
+  - name: スマホを見続けて、気づけば夕方
+    emoji: 📱
+    reason: 休んだ気がしない。
+  - name: 休んでいる自分を責める
+    emoji: 😣
+    reason: 回復の妨げになる。
+  - name: 食事を抜いて、ごろごろし続ける
+    emoji: ⚠️
+    reason: 体調を崩しやすい。
+summary: '休日のごろごろは、「ただサボっている」ではなく、立派な回復時間。S級は、好きなことだけして、心から休むこと。
+
+  罪悪感をなくすコツは、「今日は休む日」と最初に決めること。'
+related:
+- shumi-ouchi-jikan
+- kurashi-nedoko-shukan
+- yattemitai-aki-no-yonaga

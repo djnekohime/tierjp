@@ -1,0 +1,89 @@
+title: 韓国ドラマで泣いたあとの回復法 Tier表
+description: 冷やす、水を飲む、目を休める、次はコメディを観る…韓国ドラマで泣いたあとの回復法を、AIが「回復する度×手軽さ×翌日に響かないか」でS〜Dにランク付け。
+category: kanryu
+tags:
+- 韓ドラ
+- あるある
+published: '2026-10-12'
+labels:
+  S: ぜひ実践
+  A: おすすめ
+  B: 余裕があれば
+  C: ときと場合で
+  D: 避けたい
+criteria: '① 回復する度
+
+  ② 手軽さ
+
+  ③ 翌日に響かないか
+
+  ※ 目の違和感や体調の不調が続くときは、無理せず専門家に相談してください'
+rank_notes:
+  S: ぜひ実践
+  D: 避けたい
+tiers:
+  S:
+  - name: 水やお茶を飲む
+    emoji: 🍵
+    reason: 泣くと水分が出ていく。まずひと息。
+  - name: 目を冷やす（冷たいタオル・保冷材）
+    emoji: 🧊
+    reason: 腫れ・熱をやわらげる。タオルで包んで。
+  - name: ティッシュを替えて、顔を洗う
+    emoji: 🧻
+    reason: すっきり気持ちが切り替わる。
+  A:
+  - name: ゆっくり深呼吸する
+    emoji: 🌬️
+    reason: 気持ちが落ち着く。
+  - name: 次は軽めのコメディやラブコメを観る
+    emoji: 😆
+    reason: 泣いたあとの気分転換に最適。
+  - name: 余韻を日記やメモに書く
+    emoji: ✍️
+    reason: 気持ちを整理できる。
+  - name: 好きな曲（OST）を聴く
+    emoji: 🎵
+    reason: 余韻にひたれる。
+  - name: 温かい飲み物とおやつ
+    emoji: 🍫
+    reason: ほっとして、心が落ち着く。
+  B:
+  - name: 感想を友だちと話す
+    emoji: 💬
+    reason: 共感してもらえるとうれしい。
+  - name: 散歩して外の空気を吸う
+    emoji: 🚶
+    reason: 体を動かすと気分が変わる。
+  - name: ぬいぐるみやペットをなでる
+    emoji: 🐈
+    reason: ほっとする。ペットが近くにいるなら特に。
+  - name: お風呂にゆっくりつかる
+    emoji: 🛁
+    reason: 体も気持ちもゆるむ。
+  - name: 好きなシーンを、もう一度観る
+    emoji: 🔁
+    reason: 余韻が長く続く。
+  C:
+  - name: 一気に次の重い作品へ
+    emoji: 🌀
+    reason: 泣き疲れて翌日にひびく。
+  - name: 夜中に感想を長く書き続ける
+    emoji: 🌙
+    reason: 眠れなくなる。
+  D:
+  - name: 目をこすり続ける
+    emoji: 🙅
+    reason: 目を傷める。冷やして休ませる。
+  - name: 寝る直前まで観て、そのまま寝る
+    emoji: ⚠️
+    reason: 頭が冴えて眠れなくなることも。
+  - name: 寝不足のまま、次の日の予定を詰め込む
+    emoji: 😴
+    reason: 体力が持たない。
+summary: '泣いたあとは、目も気持ちも疲れている。S級は、水を飲む、目を冷やす、少し休む。
+
+  気持ちの切り替えには、軽いコメディやラブコメへ。ただし、続けて重い作品を観ると、翌日がつらくなる。'
+related:
+- kandrama-aruaru
+- kanryu-kdorama-hajimekata
