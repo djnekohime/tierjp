@@ -4,6 +4,7 @@
 {% block og %}<meta property="og:type" content="article">
 {% if og %}<meta property="og:image" content="{{ site.base_url.rstrip('/') }}{{ og }}">{% endif %}{% endblock %}
 {% block head %}
+{% if t.noindex %}<meta name="robots" content="noindex,follow">{% endif %}
 <script type="application/ld+json">
 {{ {
   "@context": "https://schema.org",

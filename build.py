@@ -55,6 +55,9 @@ PORT = 8010
 warnings: list[str] = []
 
 
+THIN_CHARS = 600   # これ未満の厚みのTier表は noindex＋サイトマップから除外
+
+
 def warn(msg: str) -> None:
     warnings.append(msg)
 
@@ -128,6 +131,16 @@ class Tier:
     draft: bool
     related: list["Tier"] = field(default_factory=list)
     genre: str = ""                    # カテゴリーの中のジャンル（例：食べ物 > ラーメン）
+    index_override: bool | None = None  # YAMLの index: true/false で noindex 判定を上書き
+
+    @property
+    def noindex(self) -> bool:
+        """中身が薄いページは検索対象から外す（2026-10-22 AdSense不承認「有用性の低いコンテンツ」対策）。
+        理由＋総評の合計がTHIN_CHARS未満が対象。厚くしたら自動で戻る。YAMLに index: true で強制的に載せられる"""
+        if self.index_override is not None:
+            return not self.index_override
+        body = sum(len(i.reason or "") for r in self.rows.values() for i in r) + len(self.summary)
+        return body < THIN_CHARS
 
     @property
     def ranks(self) -> list[str]:
@@ -209,6 +222,7 @@ def parse_tier(path: Path) -> Tier | None:
         eyecatch=d.get("eyecatch") or "",
         draft=bool(d.get("draft")),
         genre=str(d.get("genre") or ""),
+        index_override=d.get("index"),
     )
 
     # 薄いページ対策のチェック
@@ -409,7 +423,7 @@ def build(include_drafts: bool) -> None:
 
     # sitemap / robots
     base = site["base_url"].rstrip("/")
-    urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + [t.url for t in tiers] \
+    urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + [t.url for t in tiers if not t.noindex] \
         + [c["url"] for c in categories if c["tiers"]] + [e["url"] for e in tags.values()] \
         + [sr["url"] for sr in series_list]
     lastmod = {t.url: t.updated.isoformat() for t in tiers}
