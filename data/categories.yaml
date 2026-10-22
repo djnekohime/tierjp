@@ -7,7 +7,7 @@ categories:
   - {slug: animals, name: 猫・動物, emoji: "🐈", description: 猫・犬・小さな生き物まわりのTier表。}
   - {slug: entame, name: エンタメ, emoji: "🎬", description: 映画・アニメ・ドラマ・昭和の名作など。}
   - {slug: music, name: 音楽, emoji: "🎵", description: 昭和の名曲から、楽器・音楽制作ソフト・作業用BGMまで。}
-  - {slug: ai, name: AI, emoji: "🤖", description: 画像・動画・音楽・文章のAIツールを、AI自身がランク付け。}
+  - {slug: ai, name: AI, emoji: "🤖", description: 画像・動画・音楽・文章のAIツールを、ゾーマがランク付け。}
   - {slug: manabi, name: 学び・資格, emoji: "📚", description: 英語・韓国語・資格の勉強法。}
   - {slug: money, name: お金, emoji: "💰", description: 節約・固定費・お金の知識。}
   - {slug: shumi, name: 趣味・ホビー, emoji: "🎨", description: 趣味の始め方・続け方・育てる・習い事。新しい楽しみを見つけたい人のTier表。}

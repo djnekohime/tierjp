@@ -35,7 +35,7 @@
     if (place[i] && place[i] !== D.ai[i]) {
       const m = document.createElement("span");
       m.className = "ai-mark";
-      m.textContent = "AI:" + D.ai[i];
+      m.textContent = "ゾ:" + D.ai[i];
       b.appendChild(m);
     }
     return b;
@@ -61,7 +61,7 @@
 
     const done = place.filter(Boolean).length;
     const diff = place.filter((p, i) => p && p !== D.ai[i]).length;
-    diffEl.textContent = done ? `並べた数 ${done}/${N}　AIとちがう所 ${diff}個` : "";
+    diffEl.textContent = done ? `並べた数 ${done}/${N}　ゾーマとちがう所 ${diff}個` : "";
   }
 
   function moveTo(i, r) {
@@ -138,7 +138,7 @@
     const btn = root.querySelector(".my-make");
     if (btn.disabled) return;
     btn.disabled = true; btn.textContent = "⏳ 作成中…";
-    try { await document.fonts.load(`800 40px "M PLUS Rounded 1c"`, D.title + D.items.join("") + "わたしのTier表AIとちがう所個ティアる。"); } catch (e) {}
+    try { await document.fonts.load(`800 40px "M PLUS Rounded 1c"`, D.title + D.items.join("") + "わたしのTier表ゾーマとちがう所個ティアる。"); } catch (e) {}
 
     const W = 1080, PAD = 40, LABEL = 130, TW = 142, TH = 142, GAP = 12;
     const perLine = Math.floor((W - PAD * 2 - LABEL - GAP) / (TW + GAP));
@@ -179,7 +179,7 @@
     ctx.fillText("Tier表", W / 2, 240);
     const diff = place.filter((p, i) => p && p !== D.ai[i]).length;
     ctx.fillStyle = "#7fe7ff"; ctx.font = `800 32px ${FONT}`;
-    ctx.fillText(diff ? `AIとちがう所 ${diff}個` : "AIと完全一致！", W / 2, 298);
+    ctx.fillText(diff ? `ゾーマとちがう所 ${diff}個` : "ゾーマと完全一致！", W / 2, 298);
 
     // 表
     let y = TOP;
@@ -221,7 +221,7 @@
         if (D.ai[i] !== r) {   // AIとちがう項目に小さな印
           ctx.font = `800 17px ${FONT}`;
           rrect(ctx, x + TW - 58, ty + 6, 52, 24, 12); ctx.fillStyle = "rgba(127,231,255,.9)"; ctx.fill();
-          ctx.fillStyle = "#1a1030"; ctx.fillText("AI:" + D.ai[i], x + TW - 32, ty + 19);
+          ctx.fillStyle = "#1a1030"; ctx.fillText("ゾ:" + D.ai[i], x + TW - 32, ty + 19);
         }
       });
       y += h + 12;
@@ -231,7 +231,7 @@
     ctx.fillStyle = "#fff"; ctx.font = `800 44px ${FONT}`;
     ctx.fillText("ティアる。  tierjp.com", W / 2, H - 120);
     ctx.fillStyle = "#b9acd9"; ctx.font = `800 28px ${FONT}`;
-    ctx.fillText("AIの答えと理由はサイトで →", W / 2, H - 66);
+    ctx.fillText("ゾーマの答えと理由はサイトで →", W / 2, H - 66);
 
     c.toBlob(b => {
       blob = b;
@@ -239,7 +239,7 @@
       out.querySelector("img").src = url;
       out.querySelector(".dl").href = url;
       out.querySelector(".x").href = "https://x.com/intent/post?text=" +
-        encodeURIComponent(`わたしの「${D.title}」できた！AIとちがう所は${diff}個🐈‍⬛\n#ティアる #Tier表\n`) +
+        encodeURIComponent(`わたしの「${D.title}」できた！ゾーマとちがう所は${diff}個🐈‍⬛\n#ティアる #Tier表\n`) +
         "&url=" + encodeURIComponent(D.url) + "&via=tierjpcom";
       btn.disabled = false; btn.textContent = "🖼 画像を作り直す";
       out.hidden = false;
@@ -259,7 +259,7 @@
     out.querySelector(".dl").click();
   }
 
-  // ---------------------------------------------------------------- 投票（みんな vs AI）
+  // ---------------------------------------------------------------- 投票（みんな vs ゾーマ）
   const API = (D.voteApi || "").replace(/\/$/, "");
   const MIN_VOTERS = 5;   // これ未満だと「みんなの結果」は出さない（ひとりの偏りで決まらないように）
   const voteBtn = root.querySelector(".my-vote");
@@ -307,7 +307,7 @@
     const diffs = [];
     crowd.forEach((r, i) => { if (r && r !== D.ai[i]) diffs.push(i); });
     const same = crowd.filter((r, i) => r && r === D.ai[i]).length;
-    info.textContent = `${res.voters}人が投票。AIと同じ ${same}個／ちがう ${diffs.length}個（各項目、票の真ん中のランクで決定）`;
+    info.textContent = `${res.voters}人が投票。ゾーマと同じ ${same}個／ちがう ${diffs.length}個（各項目、票の真ん中のランクで決定）`;
     D.ranks.forEach(r => {
       const row = document.createElement("div");
       row.className = "tier-row";
@@ -323,7 +323,7 @@
         b.querySelector(".tile-name").textContent = D.items[i];
         if (r !== D.ai[i]) {
           const m = document.createElement("span");
-          m.className = "ai-mark"; m.textContent = "AI:" + D.ai[i];
+          m.className = "ai-mark"; m.textContent = "ゾ:" + D.ai[i];
           b.appendChild(m);
         }
         box.appendChild(b);
@@ -334,7 +334,7 @@
     diffs.sort((a, b) => gap(b) - gap(a));
     diffs.slice(0, 5).forEach(i => {
       const li = document.createElement("li");
-      li.textContent = `${D.items[i]}：AI ${D.ai[i]} → みんな ${crowd[i]}`;
+      li.textContent = `${D.items[i]}：ゾーマ ${D.ai[i]} → みんな ${crowd[i]}`;
       list.appendChild(li);
     });
   }

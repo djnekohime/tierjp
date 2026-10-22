@@ -231,7 +231,7 @@ def make(slug: str, data: dict) -> None:
     # 縦長 1080x1920（リール・TikTok・ショート）上下はアプリUIで隠れるので中央寄せ
     img = night_bg(1080, 1920, slug + "v")
     d = ImageDraw.Draw(img)
-    d.text((540, 230), "AIが本気で決めた", font=font(42), fill=PINK2, anchor="mm")
+    d.text((540, 230), "ゾーマが本気で決めた", font=font(42), fill=PINK2, anchor="mm")
     ty = 290
     for ln, f in split_title(d, title, 960, 80):
         neon_text(img, (540, ty + f.size / 2), ln, f)

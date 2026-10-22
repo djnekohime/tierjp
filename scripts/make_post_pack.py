@@ -95,6 +95,7 @@ def main() -> None:
         return
     tiers = load_tiers()
     imgs = sorted(src.glob("*.png"))
+    pairs = []  # (画像Path, キャプション, 曲, URL)
     lines = [f"# 投稿パック {day}（{len(imgs)}枚）", "",
              "やること：①アプリで曲を選ぶ（下の「曲」）②画像を選ぶ ③キャプションを貼る ④投稿。リンクは**プロフィールのリンク**（tierjp.com）。",
              "TikTok＝画像（写真モード）に曲、Instagram＝リールまたは画像に曲。投稿文には楽天のリンクは貼らない（押せない・PR表記が必要なため）。", ""]
@@ -107,8 +108,9 @@ def main() -> None:
         title = t["title"].replace(" Tier表", "")
         top = "・".join(f"「{x}」" for x in s_items(t))
         tags = BASE_TAGS + [f"#{x}" for x in t.get("tags", [])[:3]]
-        cap = (f"【{title}】Tier表\nAIが決めたSランクは、{top}。\nあなたのSランクは？ コメントで教えてね👇\n"
+        cap = (f"【{title}】Tier表\nゾーマが決めたSランクは、{top}。\nあなたのSランクは？ コメントで教えてね👇\n"
                f"全部のランクと理由は、プロフのリンクから（tierjp.com）\n" + " ".join(tags))
+        pairs.append((p, cap, sound, f"https://tierjp.com/tier/{t['slug']}/"))
         lines += [f"## {title}", f"- 画像：`{p}`", f"- ページ：https://tierjp.com/tier/{t['slug']}/",
                   f"- 曲：**{sound}**（アプリのライブラリから選ぶ）", "", "```", cap, "```", ""]
     out = WORK / "投稿パック"
@@ -116,6 +118,16 @@ def main() -> None:
     f = out / f"{day}.md"
     f.write_text("\n".join(lines), encoding="utf-8")
     print(f"✅ {f}（{len(imgs)}枚）")
+    # 画像と説明文を「同じ名前の組」で保存（01_題名.jpg + 01_題名.txt）
+    from PIL import Image as _I
+    sets = out / f"{day}_画像と説明文セット"
+    sets.mkdir(exist_ok=True)
+    for i, (img, cap, sound, url) in enumerate(pairs, 1):
+        stem = f"{i:02d}_" + img.stem.replace(" レトロTier表", "")
+        _I.open(img).convert("RGB").save(sets / f"{stem}.jpg", quality=92)
+        body = "\n".join([cap, "", "---", f"曲：{sound}", f"ページ：{url}", ""])
+        (sets / f"{stem}.txt").write_text(body, encoding="utf-8")
+    print(f"✅ 画像＋説明文のセット {len(pairs)}組 → {sets}")
     # iPhone（OneDriveアプリ）から使えるように、画像とパックを OneDrive にもコピー
     import shutil
     from PIL import Image

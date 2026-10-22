@@ -105,7 +105,7 @@ def build_states(slug: str, data: dict):
         show = set(order[:k])
         img = mi.night_bg(1080, 1920, slug + "v")
         d = ImageDraw.Draw(img)
-        d.text((540, 230), "AIが本気で決めた", font=mi.font(42), fill=mi.PINK2, anchor="mm")
+        d.text((540, 230), "ゾーマが本気で決めた", font=mi.font(42), fill=mi.PINK2, anchor="mm")
         ty = 290
         for ln, f in mi.split_title(d, title, 960, 80):
             mi.neon_text(img, (540, ty + f.size / 2), ln, f)
