@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}コラム｜{{ site.name }}{% endblock %}
+{% block desc %}犬猫15匹とメダカと暮らす管理人の、飼育の失敗談と、そこから調べたことをまとめたコラム。{% endblock %}
+{% block main %}
+<nav class="crumb"><a href="/">トップ</a> › コラム</nav>
+<h1 class="page-h">コラム</h1>
+<p class="lead">犬猫あわせて15匹とメダカと暮らす管理人の、失敗談と、そこから調べたこと。Tier表を作るときの「実感」の元ネタです。</p>
+<div class="policy">
+{% for c in columns %}
+<h2><a href="{{ c.url }}">{{ c.title }}</a></h2>
+<p class="small">{{ c.published.isoformat() }}</p>
+<p>{{ c.description }}</p>
+{% endfor %}
+</div>
+{% endblock %}

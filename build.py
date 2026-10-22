@@ -35,6 +35,7 @@ from datetime import date
 from functools import partial
 from pathlib import Path
 
+import markdown as _md
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -295,6 +296,24 @@ def build(include_drafts: bool) -> None:
     tiers.sort(key=lambda t: (t.published, t.slug), reverse=True)
     attach_related(tiers)
 
+    # コラム（content/columns/*.md：先頭に --- で囲んだYAML。本文はMarkdown）
+    columns: list[dict] = []
+    for p in sorted((ROOT / "content" / "columns").glob("*.md")) if (ROOT / "content" / "columns").exists() else []:
+        raw = p.read_text(encoding="utf-8")
+        _, fm, body = raw.split("---", 2)
+        meta = yaml.safe_load(fm)
+        if meta.get("draft"):
+            continue
+        known = {t.slug for t in tiers}
+        for slug in meta.get("related") or []:
+            if slug not in known:
+                warn(f"column {p.stem}: 関連Tier表「{slug}」が見つかりません")
+        columns.append({"slug": p.stem, "url": f"/column/{p.stem}/", "title": meta["title"], "description": meta["description"],
+                        "published": to_date(meta["published"]), "updated": to_date(meta.get("updated")) or to_date(meta["published"]),
+                        "html": _md.markdown(body.strip(), extensions=["extra"]), "sources": meta.get("sources") or [],
+                        "related": [t for t in tiers if t.slug in (meta.get("related") or [])]})
+    columns.sort(key=lambda c: (c["published"], c["slug"]), reverse=True)
+
     # カテゴリー・タグの集計
     for c in categories:
         c["tiers"] = [t for t in tiers if t.category == c["slug"]]
@@ -354,7 +373,7 @@ def build(include_drafts: bool) -> None:
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape())
     env.globals.update(site=site, categories=shown_cats, main_cats=main_cats, minor_cats=minor_cats, cat_by_slug=cat_by_slug,
                        tags=tags, RANKS=RANKS, year=date.today().year,
-                       series_list=series_list, series_by_tier=series_by_tier)
+                       series_list=series_list, series_by_tier=series_by_tier, columns=columns)
 
     def render(tpl: str, out: str, **ctx) -> None:
         path = DIST / out
@@ -397,6 +416,10 @@ def build(include_drafts: bool) -> None:
     for sr in series_list:
         render("list.html", f"series/{sr['slug']}/index.html", heading=f"{sr['emoji']} {sr['name']}",
                lead=sr["lead"], items=sr["tiers"], groups=sr["groups"], canonical=sr["url"])
+    if columns:
+        render("column_index.html", "column/index.html", canonical="/column/")
+        for cl in columns:
+            render("column.html", f"column/{cl['slug']}/index.html", cl=cl, canonical=cl["url"])
     render("categories.html", "categories/index.html", tag_list=tag_list, canonical="/categories/")
     render("search.html", "search/index.html", canonical="/search/")
     for page in ("about", "privacy", "contact"):   # サイトポリシー系の固定ページ
@@ -423,10 +446,11 @@ def build(include_drafts: bool) -> None:
 
     # sitemap / robots
     base = site["base_url"].rstrip("/")
-    urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + [t.url for t in tiers if not t.noindex] \
+    urls = ["/", "/categories/", "/about/", "/privacy/", "/contact/"] + (["/column/"] + [c["url"] for c in columns] if columns else []) + [t.url for t in tiers if not t.noindex] \
         + [c["url"] for c in categories if c["tiers"]] + [e["url"] for e in tags.values()] \
         + [sr["url"] for sr in series_list]
     lastmod = {t.url: t.updated.isoformat() for t in tiers}
+    lastmod.update({c['url']: c['updated'].isoformat() for c in columns})
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:

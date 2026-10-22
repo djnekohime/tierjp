@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}{{ cl.title }}｜{{ site.name }}{% endblock %}
+{% block desc %}{{ cl.description }}{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{{ {"@context":"https://schema.org","@type":"Article","headline":cl.title,"description":cl.description,
+    "datePublished":cl.published.isoformat(),"dateModified":cl.updated.isoformat(),
+    "author":{"@type":"Person","name":"ティアる。管理人"},
+    "publisher":{"@type":"Organization","name":site.name},
+    "mainEntityOfPage":site.base_url.rstrip('/') ~ cl.url} | tojson }}
+</script>
+{% endblock %}
+{% block main %}
+<nav class="crumb"><a href="/">トップ</a> › <a href="/column/">コラム</a> › {{ cl.title }}</nav>
+<article class="policy column">
+<h1 class="page-h">{{ cl.title }}</h1>
+<p class="small">{{ cl.published.isoformat() }} ・ 書いた人：管理人</p>
+{{ cl.html | safe }}
+{% if cl.sources %}
+<h2>参考にした情報</h2>
+<ul>{% for s in cl.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</li>{% endfor %}</ul>
+{% endif %}
+{% if cl.related %}
+<h2>関連するTier表</h2>
+<ul>{% for t in cl.related %}<li><a href="{{ t.url }}">{{ t.title }}</a></li>{% endfor %}</ul>
+{% endif %}
+<p class="small">※ これは管理人の飼育の記録で、獣医師や専門家の助言ではありません。迷ったら、かかりつけの動物病院や専門店に相談してください。</p>
+</article>
+{% endblock %}
