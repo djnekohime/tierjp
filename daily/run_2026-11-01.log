@@ -1,0 +1,20 @@
+﻿git : From https://github.com/djnekohime/tierjp
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:4 文字:1
++ git pull --rebase 2>&1 | Out-File $log -Encoding utf8
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (From https://gi...nekohime/tierjp:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ * [new branch]      draft/2026-11 -> origin/draft/2026-11
+Already up to date.
+莉頑律縺ｶ繧薙・Tier陦ｨ10譛ｬ繧剃ｽ懊▲縺ｦ蜈ｬ髢九＠縺ｾ縺励◆縲Ｑush貂医∩・・ommit `2aa624b`・峨〒縲∵兜逾ｨ逕ｨWorker縺ｮ蜀阪ョ繝励Ο繧､・・wrangler deploy`・峨ｂ謌仙粥縺励※縺・∪縺吶・
+**10譛ｬ**・亥推17縲・9鬆・岼縲∝・鬆・岼縺ｫ逅・罰縺ｨ邨ｵ譁・ｭ励∫ｷ剰ｩ・00蟄苓ｶ・ｼ・- `music-bamen-erabi`・夐浹讌ｽ繧定・縺丞ｴ髱｢蛻･繝ｻ蜷医≧繧ｸ繝｣繝ｳ繝ｫ
+- `entame-aki-yonaga-genre`・夂ｧ九・螟憺聞縺ｫ隕九◆縺・丐逕ｻ繧ｸ繝｣繝ｳ繝ｫ
+- `manabi-asakatsu`・壽悃豢ｻ縺ｮ蜍牙ｼｷ縲∫ｶ壹￠繧九さ繝・- `money-bonus-tsukaimichi`・壼・縺ｮ繝懊・繝翫せ縺ｮ菴ｿ縺・％
+- `sns-nenmatsu-neta`・壼ｹｴ譛ｫ蟷ｴ蟋九・SNS謚慕ｨｿ繝阪ち
+- `shumi-hoshizora-hajime`・夂ｧ句・縺ｮ譏溽ｩｺ隕ｳ蟇溘∝ｧ九ａ譁ｹ
+- `travel-fuyu-kokunai-type`・壼・縺ｮ蝗ｽ蜀・羅陦後・陦後″蜈医ち繧､繝・- `pet-shashin-kotsu`・壹・繝・ヨ縺ｮ縺九ｏ縺・＞蜀咏悄繧呈聴繧九さ繝・- `kurashi-gomi-kotsu`・壹ざ繝溷・縺励ｒ繝ｩ繧ｯ縺ｫ縺吶ｋ蟾･螟ｫ
+- `ai-sakuhin-seiri`・哂I縺ｧ菴懊▲縺溽判蜒上・譁・ｫ縺ｮ菫晏ｭ倥→謨ｴ逅・｡・
+**豌励▼縺・*
+- 11/1蛻・・10譛ｬ縺ｯ縲∵焔蜍輔〒菴懊▲縺溘ｂ縺ｮ縺悟・縺ｫ蜈ｬ髢区ｸ医∩縺ｧ縺励◆・・ommit `82125bf`・峨ゆｻ雁屓縺ｯ縺薙・2蝗樒岼縺ｫ蠖薙◆繧九・縺ｧ縲・㍾隍・＠縺ｪ縺・ｈ縺・挨繧ｸ繝｣繝ｳ繝ｫ縺ｧ驕ｸ縺ｳ縲～scripts/batch_20261101_daily2.py` 縺ｨ縺励※菫晏ｭ倥＠縺ｾ縺励◆縲・- 螳溷惠縺ｮ莠ｺ繝ｻ蝠・刀縺ｯ謇ｱ繧上↑縺・♀鬘後↓縺励◆縺ｮ縺ｧ縲仝eb讀懃ｴ｢縺ｯ縺励※縺・∪縺帙ｓ縲よｵ∵弌鄒､縺ｯ譌･莉倥ｒ譖ｸ縺九★縲∵怙譁ｰ諠・ｱ縺ｮ遒ｺ隱阪ｒ菫・☆譖ｸ縺肴婿縺ｫ縺励∪縺励◆縲・- 邱剰ｩ輔・譛蛻・00蟄怜床縺ｧ縲√≠縺ｨ縺九ｉ霑ｽ險倥＠縺ｦ600蟄苓ｶ・↓縺励∪縺励◆縲ゅ％縺ｮ霑ｽ險倥・`.yaml`縺ｫ縺縺大・繧後◆縺ｮ縺ｧ縲√ヰ繝・メ繧ｹ繧ｯ繝ｪ繝励ヨ繧貞・螳溯｡後☆繧九→蜈・・遏ｭ縺・ｷ剰ｩ輔↓謌ｻ繧翫∪縺吶・- 繝薙Ν繝峨・謌仙粥縺励∪縺励◆縲りｭｦ蜻翫・譌｢蟄倥・sp-邉ｻ縺ｪ縺ｩ縺ｮ鬆・岼謨ｰ荳崎ｶｳ縺ｧ縲∽ｻ雁屓縺ｮ10譛ｬ縺ｫ縺ｯ蜃ｺ縺ｦ縺・∪縺帙ｓ縲・- 遖∵ｭ｢隱橸ｼ医後＆縺上ｉ縲阪悟ｹｴ驥代阪碁囿螳ｳ縲搾ｼ峨・10譛ｬ縺ｨ繧ょ性縺ｾ繧後※縺・∪縺帙ｓ縲・WJ邨ｵ譁・ｭ励・菴ｿ縺｣縺ｦ縺・∪縺帙ｓ縲・- `daily/run_2026-11-01.log`縺ｯ譛ｪ繧ｳ繝溘ャ繝医・縺ｾ縺ｾ谿九＠縺ｦ縺ゅｊ縺ｾ縺吶・
+譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ縺ｮ蜈磯ｭ縺ｫ繧りｿｽ險俶ｸ医∩縺ｧ縺吶・
