@@ -6,3 +6,18 @@
     + FullyQualifiedErrorId : NativeCommandError
  
 error: Please commit or stash them.
+claude.exe : Warning: this sign-in ends between 2026-11-16 and 2026-11-19 (in 6 days at the earliest). Renewing it does
+ not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:6 文字:1
++ & C:\Users\himic\.local\bin\claude.exe -p $p --permission-mode accept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: this s...nattended jobs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+莉頑律縺ｮ10譛ｬ繧剃ｽ懊▲縺ｦ縲√ン繝ｫ繝峨＠縺ｦ縲｝ush縺ｾ縺ｧ邨ゅｏ繧翫∪縺励◆・・ommit `cb753af`・峨・
+**菴懊▲縺・0譛ｬ**
+- 縺翫°繧・・繧｢繝ｬ繝ｳ繧ｸ・・food-okayu-arrange`・・- 邇・未繝ｻ髱ｴ縺ｾ繧上ｊ縺ｮ謨ｴ逅・｡難ｼ・kurashi-genkan-seiri`・・- 讌ｽ蝎ｨ縺ｮ邱ｴ鄙偵ｒ邯壹￠繧九さ繝・ｼ・music-gakki-renshu-tsuzukeru`・・- 蜍牙ｼｷ縺ｮ險倬鹸繝ｻ隕九∴繧句喧・・manabi-gakushu-log`・・- 蟷ｴ譛ｫ縺ｮ蜃ｺ雋ｻ繧呈椛縺医ｋ蟾･螟ｫ・・money-nenmatsu-shuppi`・・- SNS謚慕ｨｿ蜑阪・繝√ぉ繝・け鬆・岼・・sns-toukoumae-check`・・- 迪ｫ縺ｮ隕句ｮ医ｊ繧ｫ繝｡繝ｩ縺ｮ鄂ｮ縺肴婿繝ｻ菴ｿ縺・婿・・neko-mimamori-camera`・・- 譌・｡後・闕ｷ騾繧翫・繝代ャ繧ｭ繝ｳ繧ｰ縺ｮ繧ｳ繝・ｼ・travel-nimotsu-packing`・・- AI縺ｧ繝｡繝ｼ繝ｫ縺ｮ荳区嶌縺阪ｒ菴懊ｋ繧ｳ繝・ｼ・ai-mail-shitagaki`・・- 閾ｪ蛻・∈縺ｮ縺碑､堤ｾ趣ｼ・yattemitai-jibun-gohoubi`・・
+縺ｩ繧後ｂ18縲・9鬆・岼縺ｧ縲∝・鬆・岼縺ｫ逅・罰縺ｨ emoji 縺後≠繧翫∪縺吶らｷ剰ｩ輔・600蟄嶺ｻ･荳翫〒縺吶ょｮ溯｡悟燕縺ｫ縲・5鬆・岼莉･荳翫・邱剰ｩ・00蟄嶺ｻ･荳翫・related 縺ｮ螳溷惠繝ｻ遖∵ｭ｢隱橸ｼ医＆縺上ｉ繝ｻ蟷ｴ驥代・髫懷ｮｳ・峨↑縺励√ｒ繧ｹ繧ｯ繝ｪ繝励ヨ蛛ｴ縺ｧ閾ｪ蜍墓､懈渊縺励∪縺励◆縲よ里蟄倥・縺企｡後→縺ｮ驥崎､・ｂ遒ｺ隱肴ｸ医∩縺ｧ縺吶・
+**豕ｨ諢冗せ**
+- **Web讀懃ｴ｢縺ｯ縺励※縺・∪縺帙ｓ縲・* 螳溷惠縺ｮ莠ｺ繝ｻ蝠・刀繝ｻ豕募ｾ九ｒ謇ｱ繧上↑縺・ｱ守畑縺企｡後↓縺励◆縺溘ａ縺ｧ縺吶ょ▼蠎ｷ繝ｻ螳牙・邉ｻ・医♀縺九ｆ繝ｻ讌ｽ蝎ｨ縺ｮ逞帙∩繝ｻ迪ｫ繧ｫ繝｡繝ｩ・峨・縲悟ｰる摩螳ｶ縺ｮ蜉ｩ險縺ｧ縺ｯ縺ｪ縺冗岼螳峨阪ｒ譏手ｨ倥＠縺ｾ縺励◆縲・- **謚慕･ｨ縺ｸ縺ｮ蜿肴丐縺ｯ豁｢縺ｾ縺｣縺ｦ縺・∪縺吶・* Worker縺ｯ蜀阪ョ繝励Ο繧､縺励※縺・∪縺帙ｓ縲よ悽逡ｪ繝・・繝ｭ繧､縺ｯ閾ｪ蜍募ｮ溯｡後′豁｢繧√ｉ繧後ｋ縺溘ａ縲∵眠縺励＞10譛ｬ縺ｮ謚慕･ｨ繧貞渚譏縺吶ｋ縺ｫ縺ｯ縲√＆縺上ｉ縺・`! cd tier-site/workers/vote && npx wrangler deploy` 繧貞ｮ溯｡後＠縺ｦ縺上□縺輔＞・・ode 縺ｮ PATH 縺悟ｿ・ｦ√〒縺呻ｼ峨・- **繝薙Ν繝芽ｭｦ蜻翫・譌｢蟄伜・縺縺代〒縺吶・* 莉雁屓縺ｮ10譛ｬ縺ｫ隴ｦ蜻翫・縺ゅｊ縺ｾ縺帙ｓ縲・- **繝ｭ繧ｰ縺ｫ關ｽ縺ｨ縺礼ｩｴ繧呈嶌縺阪∪縺励◆縲・* bash 縺ｮ heredoc 縺ｧ譌･譛ｬ隱槭ｒ貂｡縺吶→譁・ｭ怜喧縺代☆繧九・縺ｧ縲∵律譛ｬ隱槭・ Edit/Write 繝・・繝ｫ縺ｧ譖ｸ縺上％縺ｨ縲√ｒ譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ縺ｫ險倬鹸縺励∪縺励◆縲・
+譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ・・HIMEKA驕ｿ髮｣謇\繝・ぅ繧｢繧欺譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ.md`・峨・蜈磯ｭ縺ｫ縲∽ｻ頑律蛻・ｒ霑ｽ險俶ｸ医∩縺ｧ縺吶・
