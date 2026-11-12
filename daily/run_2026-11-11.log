@@ -6,3 +6,17 @@
     + FullyQualifiedErrorId : NativeCommandError
  
 error: Please commit or stash them.
+claude.exe : Warning: this sign-in ends between 2026-11-16 and 2026-11-19 (in 5 days at the earliest). Renewing it does
+ not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:6 文字:1
++ & C:\Users\himic\.local\bin\claude.exe -p $p --permission-mode accept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: this s...nattended jobs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+莉頑律(11/11)蛻・・Tier陦ｨ10譛ｬ繧剃ｽ懊▲縺ｦ縲√ン繝ｫ繝峨＠縺ｦ縲｝ush縺ｾ縺ｧ縺励◆縲ゅ◆縺縺玲兜逾ｨ逕ｨWorker縺ｮ蜀阪ョ繝励Ο繧､縺ｯ縺励※縺・↑縺・・縺ｧ縲∵眠縺励＞10譛ｬ縺ｯ縺ｾ縺謚慕･ｨ縺ｧ縺阪↑縺・・
+- **菴懊▲縺・0譛ｬ**・亥推18縲・0鬆・岼縲∝・鬆・岼縺ｫ逅・罰縺ｨemoji縲∫ｷ剰ｩ・00蟄苓ｶ・ｼ・  - food-stick-gashi-aji・医せ繝・ぅ繝・け迥ｶ縺ｮ縺願藷蟄舌・蜻ｳ縲・1/11縺ｫ縺｡縺ｪ繧薙〒蝠・刀蜷阪・驕ｿ縺代◆・・  - food-tonjiru-gu・郁ｱ壽ｱ√・蜈ｷ・・  - kurashi-nenmatsu-rusu-bohan・亥ｹｴ譛ｫ蟷ｴ蟋九・逡吝ｮ井ｸｭ縺ｮ髦ｲ迥ｯ・・  - shumi-shitsunai-suiko・亥ｮ､蜀・〒閧ｲ縺ｦ繧矩㍽闖懶ｼ・  - manabi-yaruki-denai-hi・亥級蠑ｷ縺ｮ繧・ｋ豌励′蜃ｺ縺ｪ縺・律・・  - sns-live-haishin-junbi・医Λ繧､繝夜・菫｡縺ｮ貅門ｙ・・  - neko-mizu-nomu-kotsu・育賢縺ｫ豌ｴ繧帝｣ｲ繧薙〒繧ゅｉ縺・ｷ･螟ｫ・・  - music-hikigatari-hajime・亥ｼｾ縺崎ｪ槭ｊ縺ｮ蟋九ａ譁ｹ・・  - travel-fuyu-yukiguni-tabi・亥・縺ｮ髮ｪ蝗ｽ譌・ｼ・  - ai-kaimono-sodan・・I縺ｫ雋ｷ縺・黄縺ｮ逶ｸ隲・ｒ縺吶ｋ繧ｳ繝・ｼ・- **轤ｹ讀・*
+  - 菴懈・蜑阪↓縲・5鬆・岼莉･荳翫・邱剰ｩ・00蟄嶺ｻ･荳翫・髢｢騾｣slug縺ｮ螳溷惠繝ｻ譌｢蟄・lug縺ｨ縺ｮ驥崎､・・遖∵ｭ｢隱橸ｼ医後＆縺上ｉ縲阪悟ｹｴ驥代阪碁囿螳ｳ縲搾ｼ峨・ZWJ邨ｵ譁・ｭ励ｒ閾ｪ蜍墓､懈渊縺励◆縲・  - 邱剰ｩ輔・蛻晉ｨｿ縺瑚ｶｳ繧翫★縲∬ｿｽ險倥＠縺ｦ騾壹＠縺溘る未騾｣slug繧・莉ｶ縲∝ｮ溷惠縺吶ｋ繧ゅ・縺ｫ逶ｴ縺励◆縲・  - 繝薙Ν繝峨・騾壹▲縺溘ょ・縺ｦ縺・ｋ隴ｦ蜻翫・譌｢蟄倥・陦ｨ縺ｮ繧ゅ・縺ｨ縲√ち繧ｰ縺ｮ繧ｹ繝ｩ繝・げ譛ｪ逋ｻ骭ｲ・亥・髢九↓謾ｯ髫懊↑縺暦ｼ峨□縺代〒縲∵眠10譛ｬ縺ｮ隴ｦ蜻翫・縺ｪ縺・・  - 螳溷惠縺ｮ莠ｺ繝ｻ蝠・刀繝ｻ菴懷刀繧帝∩縺代◆豎守畑縺ｮ縺企｡後↓縺励◆縺ｮ縺ｧ縲仝eb讀懃ｴ｢縺ｯ縺励※縺・↑縺・・  - 蛛･蠎ｷ繝ｻ螳牙・邉ｻ縺ｮ陦ｨ縺ｯ縲悟ｰる摩螳ｶ縺ｮ蜉ｩ險縺ｧ縺ｯ縺ｪ縺冗岼螳峨阪ｒ譏手ｨ倥＠縺溘・- **蜈ｬ髢・*・喞ommit 縺ｯ a95d29d 縺ｧ縲～main` 縺ｯ `origin/main` 縺ｨ蜷梧悄縺励※縺・ｋ縲・- **險倬鹸**・啻譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ.md` 縺ｮ蜈磯ｭ縺ｫ霑ｽ險倥＠縺溘・
+豌励↓縺ｪ繧狗せ縺・縺､谿九▲縺ｦ縺・ｋ縲・
+- **Worker縺ｮ蜀阪ョ繝励Ο繧､**・夊・蜍輔〒縺ｯ豁｢繧√ｉ繧後ｋ謇ｱ縺・↑縺ｮ縺ｧ縲～! cd tier-site/workers/vote && npx wrangler deploy`・・ode 繧・PATH 縺ｫ騾壹☆・峨ｒ謇句虚縺ｧ螳溯｡後☆繧句ｿ・ｦ√′縺ゅｋ縲・- **`daily/run_2026-11-11.log`**・壼ｮ溯｡御ｸｭ縺ｮ繝ｭ繧ｰ縺ｧ縲｝ush蠕後ｂ譛ｪ繧ｳ繝溘ャ繝医・蟾ｮ蛻・→縺励※谿九▲縺ｦ縺・ｋ縲・1/7縺ｫ蛻・°縺｣縺・`git pull --rebase` 螟ｱ謨励・蜴溷屏縺ｨ蜷後§縺ｪ縺ｮ縺ｧ縲∫ｿ梧律縺ｮ閾ｪ蜍募ｮ溯｡後′縺ｾ縺滓ｭ｢縺ｾ繧区＄繧後′縺ゅｋ縲Ａrun_daily.ps1` 蛛ｴ縺ｧ縲｝ull蜑阪↓繝ｭ繧ｰ繧偵さ繝溘ャ繝医☆繧九° `.gitignore` 縺ｫ蜈･繧後ｋ蟇ｾ蜃ｦ縺瑚ｦ√ｋ縲・
+縺､縺・〒縺ｫ縲》ravel-fuyu-yukiguni-tabi 縺ｯ譌｢蟄倥・ travel-fuyu-bokan-mochimono 縺ｨ縺企｡後′霑代＞縲る妛驕薙・螳牙・繝ｻ菴呵｣輔・縺ゅｋ陦檎ｨ九↓邨槭▲縺ｦ蟾ｮ蛻･蛹悶＠縺溘′縲∵ｰ励↓縺ｪ繧九ｈ縺・↑繧芽ｦ狗峩縺吶・
