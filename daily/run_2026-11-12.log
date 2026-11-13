@@ -6,3 +6,28 @@
     + FullyQualifiedErrorId : NativeCommandError
  
 error: Please commit or stash them.
+claude.exe : Warning: this sign-in ends between 2026-11-16 and 2026-11-19 (in 4 days at the earliest). Renewing it does
+ not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:6 文字:1
++ & C:\Users\himic\.local\bin\claude.exe -p $p --permission-mode accept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: this s...nattended jobs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+莉頑律縺ｶ繧薙・Tier陦ｨ10譛ｬ繧剃ｽ懊▲縺ｦ縲～git push` 縺ｾ縺ｧ邨ゅｏ縺｣縺滂ｼ・ommit `427f0bd`・峨よ兜逾ｨ逕ｨWorker縺ｮ蜀阪ョ繝励Ο繧､縺ｯ縺励※縺・↑縺・・縺ｧ縲∵眠縺励＞10譛ｬ縺ｫ縺ｯ縺ｾ縺謚慕･ｨ縺ｧ縺阪↑縺・・
+| 繧ｫ繝・ざ繝ｪ繝ｼ | slug | 縺企｡・|
+|---|---|---|
+| 鬟溘∋迚ｩ | `food-hotsand-gu` | 繝帙ャ繝医し繝ｳ繝峨・蜈ｷ |
+| 證ｮ繧峨＠ | `kurashi-fuyu-kutsu-teire` | 蜀ｬ縺ｮ髱ｴ繝ｻ繝悶・繝・・縺頑焔蜈･繧・|
+| 雜｣蜻ｳ | `shumi-candle-aroma-yoru` | 繧ｭ繝｣繝ｳ繝峨Ν繝ｻ繧｢繝ｭ繝槭・縺ゅｋ螟懊・驕弱＃縺玲婿 |
+| 蟄ｦ縺ｳ | `manabi-tsukue-kankyo` | 蜍牙ｼｷ繝ｻ菴懈･ｭ縺後・縺九←繧区惻縺ｾ繧上ｊ |
+| 縺企≡ | `money-point-coupon-kigen` | 繝昴う繝ｳ繝医・繧ｯ繝ｼ繝昴Φ縺ｮ譛滄剞蛻・ｌ繧帝亟縺仙ｷ･螟ｫ |
+| 迪ｫ繝ｻ蜍慕黄 | `neko-madobe-hinatabokko` | 迪ｫ縺ｮ遯楢ｾｺ繝ｻ譌･蜷代⊂縺｣縺薙・螳牙・縺ｪ菴懊ｊ譁ｹ |
+| 髻ｳ讌ｽ | `music-yoru-renshu-souon` | 螟懊↓讌ｽ蝎ｨ繧堤ｷｴ鄙偵☆繧九→縺阪・髻ｳ縺ｮ蟾･螟ｫ |
+| 譌・｡・| `travel-hotel-rensen-kaiteki` | 繝帙ユ繝ｫ騾｣豕翫ｒ蠢ｫ驕ｩ縺ｫ縺吶ｋ繧ｰ繝・ぜ繝ｻ蟾･螟ｫ |
+| AI | `ai-yarukoto-list-seiri` | AI縺ｫ繧・ｋ縺薙→繝ｪ繧ｹ繝医ｒ謨ｴ逅・＠縺ｦ繧ゅｉ縺・さ繝・|
+| 繧ｨ繝ｳ繧ｿ繝｡ | `entame-hitori-eigakan-tanoshimi` | 縺ｲ縺ｨ繧翫〒譏逕ｻ鬢ｨ縺ｫ陦後￥讌ｽ縺励∩譁ｹ |
+
+- **蜩∬ｳｪ**: 蜷・｡ｨ縺ｯ鬆・岼縺・0縲・1蛟九〒縲∝・鬆・岼縺ｫ逅・罰縺ｨ emoji 繧剃ｻ倥￠縺溘らｷ剰ｩ輔・600蟄励ｒ雜・∴縺ｦ縺・ｋ縲・- **閾ｪ蜍墓､懈渊**: 繧ｹ繧ｯ繝ｪ繝励ヨ縺ｫ讀懈渊繧貞・繧後※縺ゅｋ縲る・岼謨ｰ縲∫ｷ剰ｩ輔・蟄玲焚縲〉elated 縺ｮ slug 縺悟ｮ溷惠縺吶ｋ縺九∫ｦ∵ｭ｢隱槭・蝗ｽ譌励・ZWJ邨ｵ譁・ｭ励《lug 縺ｮ驥崎､・ｒ隕九ｋ縲・- **繝薙Ν繝・*: `make_images.py` 縺ｨ `build.py` 縺ｯ繧ｨ繝ｩ繝ｼ縺ｪ縺励〒騾壹▲縺溘ょ・縺溯ｭｦ蜻翫・縲∵里蟄倥・蜿､縺・｡ｨ・磯・岼縺悟ｰ代↑縺・ｂ縺ｮ・峨→繧ｿ繧ｰ譛ｪ逋ｻ骭ｲ縺縺代□縺｣縺溘・- **縺企｡後・驕ｸ縺ｳ譁ｹ**: 螳溷惠縺ｮ莠ｺ繝ｻ蝠・刀繝ｻ菴懷刀繧帝∩縺代◆荳闊ｬ逧・↑縺企｡後↓縺励◆縺ｮ縺ｧ縲仝eb讀懃ｴ｢縺ｯ縺励※縺・↑縺・・- **螳牙・邉ｻ縺ｮ豕ｨ諢乗嶌縺・*: 繧ｭ繝｣繝ｳ繝峨Ν繝ｻ髱ｴ繝ｻ迪ｫ縺ｮ遯楢ｾｺ繝ｻ蜍牙ｼｷ譛ｺ繝ｻ騾｣豕翫・縲√悟ｰる摩螳ｶ縺ｮ蜉ｩ險縺ｧ縺ｯ縺ｪ縺冗岼螳峨阪→譏手ｨ倥＠縺溘・- **譌･谺｡繝ｭ繧ｰ**: `譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ.md` 縺ｮ蜈磯ｭ縺ｫ霑ｽ險倥＠縺溘・
+**Worker蜀阪ョ繝励Ο繧､**: 縺薙ｌ縺ｾ縺ｧ縺ｮ險倬鹸縺ｧ閾ｪ蜍募ｮ溯｡後□縺ｨ豁｢繧√ｉ繧後※縺・ｋ縲よ兜逾ｨ繧貞渚譏縺吶ｋ縺ｫ縺ｯ縲√＆縺上ｉ縺・`! cd tier-site/workers/vote && npx wrangler deploy` 繧貞ｮ溯｡後☆繧句ｿ・ｦ√′縺ゅｋ縲Ｏode 縺・PATH 縺ｫ辟｡縺・・縺ｧ縲∝・縺ｫ `export PATH=/c/Users/himic/tools/node:$PATH` 繧りｦ√ｋ縲・
+**譛ｪ繧ｳ繝溘ャ繝医・繝ｭ繧ｰ**: `daily/run_2026-11-12.log` 縺ｯ螳溯｡御ｸｭ縺ｮ繝ｭ繧ｰ縺ｪ縺ｮ縺ｧ縲∵悴繧ｳ繝溘ャ繝医・縺ｾ縺ｾ谿九▲縺ｦ縺・ｋ縲・
