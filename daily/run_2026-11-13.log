@@ -6,3 +6,26 @@
     + FullyQualifiedErrorId : NativeCommandError
  
 error: Please commit or stash them.
+claude.exe : Warning: this sign-in ends between 2026-11-16 and 2026-11-19 (in 3 days at the earliest). Renewing it does
+ not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:6 文字:1
++ & C:\Users\himic\.local\bin\claude.exe -p $p --permission-mode accept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: this s...nattended jobs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Tier陦ｨ10譛ｬ繧剃ｽ懊▲縺ｦ縲√ン繝ｫ繝峨＠縺ｦ縲｝ush 縺ｾ縺ｧ邨ゅｏ縺｣縺溘Ｄommit 縺ｯ `802b70f` 縺ｧ縲；itHub Actions 縺悟・髢九＠縺ｦ縺上ｌ繧九ゅ∪縺莉頑律縺ｮ譌･險倥・譖ｸ縺・※縺ｪ縺・ｈ縲・
+| 繧ｫ繝・ざ繝ｪ繝ｼ | slug | 鬆・岼謨ｰ |
+|---|---|---|
+| 鬟溘∋迚ｩ | food-ichiju-sansai-fukusai・・1/13縺ｯ荳豎∽ｸ芽除縺ｮ譌･・・| 21 |
+| 證ｮ繧峨＠ | kurashi-fuyu-asa-okiru | 19 |
+| 雜｣蜻ｳ | shumi-dry-flower-oshibana | 18 |
+| 蟄ｦ縺ｳ | manabi-fukushu-timing | 19 |
+| 迪ｫ繝ｻ蜍慕黄 | neko-tsume-kiri-kotsu | 20 |
+| 髻捺ｵ・| kanryu-oshi-goods-hokan | 19 |
+| 譌・｡・| travel-yakou-bus-kaiteki | 20 |
+| AI | ai-eigo-tensaku-kotsu | 20 |
+| SNS | sns-short-bgm-erabi | 19 |
+| 繧・▲縺ｦ縺ｿ縺溘＞ | yattemitai-friday13-engi・井ｻ頑律縺ｯ13譌･縺ｮ驥第屆譌･・・| 20 |
+
+- **蜩∬ｳｪ繝√ぉ繝・け**: 蜈ｨ陦ｨ縺ｧ縲・5鬆・岼莉･荳翫∝・鬆・岼縺ｫ逅・罰縺ｨ邨ｵ譁・ｭ励∫ｷ剰ｩ・00蟄嶺ｻ･荳翫ｒ遒ｺ隱阪＠縺溘らｦ∵ｭ｢隱槭・蝗ｽ譌礼ｵｵ譁・ｭ励・ZWJ邨ｵ譁・ｭ励・related 縺ｮ螳溷惠繧ゅ√ヰ繝・メ蜀・・閾ｪ蜍墓､懈渊繧帝壹▲縺ｦ縺・ｋ縲・- **Web讀懃ｴ｢**: 螳溷惠縺ｮ莠ｺ繝ｻ菴懷刀繝ｻ蝠・刀縺ｯ驕ｿ縺代◆豎守畑縺企｡後↓縺励◆縺ｮ縺ｧ縲∵､懃ｴ｢縺ｯ縺励※縺・↑縺・・- **螳牙・邉ｻ縺ｮ陦ｨ**: 迪ｫ縺ｮ辷ｪ蛻・ｊ縲∝､懆｡後ヰ繧ｹ縲∝・縺ｮ譛昴・縲悟ｰる摩螳ｶ縺ｮ蜉ｩ險縺ｧ縺ｯ縺ｪ縺冗岼螳峨阪ｒ譏手ｨ倥＠縺溘・GM縺ｮ陦ｨ縺ｯ縲∵怙譁ｰ縺ｮ隕冗ｴ・｢ｺ隱阪ｒ菫・☆譖ｸ縺肴婿縺ｫ縺励◆縲・- **譌･谺｡繝ｭ繧ｰ**: `譌･谺｡譖ｴ譁ｰ繝ｭ繧ｰ.md` 縺ｮ蜈磯ｭ縺ｫ霑ｽ險倥＠縺溘・- **繝薙Ν繝・*: build.py 縺ｯ繧ｨ繝ｩ繝ｼ縺ｪ縺励ょ・縺ｦ縺・◆隴ｦ蜻翫・縲荊ags.yaml 縺ｫ繧ｹ繝ｩ繝・げ縺後↑縺・ち繧ｰ縲阪〒縲∵眠隕・0譛ｬ縺ｮ slug 繧貞性繧陦後・蜃ｺ縺ｦ縺・↑縺・・- **Worker 縺ｯ譛ｪ蜀阪ョ繝励Ο繧､**: 譁ｰ縺励＞10譛ｬ縺ｫ謚慕･ｨ繧剃ｻ倥￠繧九↓縺ｯ縲√＆縺上ｉ縺・`! cd tier-site/workers/vote && npx wrangler deploy` 繧貞ｮ溯｡後☆繧句ｿ・ｦ√′縺ゅｋ縲８orker 縺ｮ繝・・繝ｭ繧､縺ｯ閾ｪ蜍募ｮ溯｡後′豁｢繧√ｉ繧後ｋ縺溘ａ縲］ode 縺ｮ PATH 繧りｦ√ｋ縲・- **git pull 縺ｫ螟ｱ謨・*: `daily/run_2026-11-13.log` 縺悟ｮ溯｡御ｸｭ縺ｧ螟画峩縺輔ｌ縺溘∪縺ｾ縺ｪ縺ｮ縺ｧ縲～git pull --rebase` 縺ｯ螟ｱ謨励＠縺溘Ｑush 縺ｫ縺ｯ蠖ｱ髻ｿ縺励※縺・↑縺・・
