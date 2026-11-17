@@ -6,3 +6,27 @@
     + FullyQualifiedErrorId : NativeCommandError
  
 error: Please commit or stash them.
+claude.exe : Warning: this sign-in ends between 2026-11-16 and 2026-11-19 (in 2 days at the earliest). Renewing it does
+ not move those dates. Run claude auth login before then, or use claude setup-token for unattended jobs.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:6 文字:1
++ & C:\Users\himic\.local\bin\claude.exe -p $p --permission-mode accept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: this s...nattended jobs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+莉頑律縺ｮ10譛ｬ繧剃ｽ懊▲縺ｦ縲√ン繝ｫ繝峨＠縺ｦ縲｝ush 縺ｾ縺ｧ邨ゅｏ縺｣縺滂ｼ・ommit `d572c33`・峨ゅ◆縺縺励∵眠縺励＞10譛ｬ縺ｫ謚慕･ｨ繧剃ｻ倥￠繧九↓縺ｯ縲仝orker 縺ｮ蜀阪ョ繝励Ο繧､縺悟ｿ・ｦ√〒縲√％繧後・譛ｪ螳滓命縲・
+菴懊▲縺・0譛ｬ縺ｯ縲√＞縺壹ｌ繧・5鬆・岼莉･荳奇ｼ・7縲・9鬆・岼・峨〒縲∝・鬆・岼縺ｫ逅・罰縺ｨ邨ｵ譁・ｭ励′縺ゅｊ縲∫ｷ剰ｩ輔・600蟄嶺ｻ･荳翫・
+| 繧ｫ繝・ざ繝ｪ繝ｼ | slug | 縺企｡・|
+|---|---|---|
+| 繧ｨ繝ｳ繧ｿ繝｡ | entame-game-genre-hajime | 繧ｲ繝ｼ繝縺ｮ繧ｸ繝｣繝ｳ繝ｫ 蛻晏ｿ・・・蟋九ａ繧・☆縺・|
+| 髻ｳ讌ｽ | music-live-mochimono | 繝ｩ繧､繝悶・繧ｳ繝ｳ繧ｵ繝ｼ繝医・謖√■迚ｩ |
+| 縺企≡ | money-kaimono-furikaeri | 雋ｷ縺・黄縺ｮ謖ｯ繧願ｿ斐ｊ |
+| 譌・｡・| travel-keikaku-tatekata | 譌・｡後・險育判縺ｮ遶九※譁ｹ |
+| AI | ai-tabi-keikaku | AI縺ｧ譌・｡後・險育判繧堤ｫ九※繧九さ繝・|
+| SNS | sns-icon-header-tsukurikata | SNS縺ｮ繧｢繧､繧ｳ繝ｳ繝ｻ繝倥ャ繝繝ｼ逕ｻ蜒上・菴懊ｊ譁ｹ |
+| 蟄ｦ縺ｳ | manabi-shiken-toujitsu | 隧ｦ鬨灘ｽ捺律縺ｮ譛昴・驕弱＃縺玲婿繝ｻ謖√■迚ｩ |
+| 雜｣蜻ｳ | shumi-shishu-hajime | 蛻ｺ郢阪ｒ蟋九ａ繧九→縺阪・驕灘・繝ｻ繧ｹ繝・ャ繝・|
+| 繧・▲縺ｦ縺ｿ縺溘＞ | yattemitai-kinrokansha-negirai | 蜍､蜉ｴ諢溯ｬ昴・譌･(11/23)縺ｫ閾ｪ蛻・ｒ縺ｭ縺弱ｉ縺・％縺ｨ |
+| 髻捺ｵ・| kanryu-jimaku-fukikae | 髻灘嵜繝峨Λ繝槭・蟄怜ｹ輔・蜷ｹ縺肴崛縺医・讌ｽ縺励∩譁ｹ |
+
+- **縺企｡後・驕ｸ縺ｳ譁ｹ:** 譌｢蟄倥・邏・00譛ｬ縺ｨ驥崎､・＠縺ｪ縺・ｂ縺ｮ繧帝∈縺ｳ縲∬｡ｨ縺ｮ譛ｬ謨ｰ縺悟ｰ代↑縺・き繝・ざ繝ｪ繝ｼ繧貞━蜈医＠縺溘・- **Web讀懃ｴ｢:** 螳溷惠縺ｮ莠ｺ繝ｻ菴懷刀繝ｻ蝠・刀繝ｻ豕募ｾ九ｒ謇ｱ繧上↑縺・♀鬘後↓縺励◆縺ｮ縺ｧ縲∵､懃ｴ｢縺ｯ縺励※縺・↑縺・・- **螳牙・邉ｻ縺ｮ豕ｨ諢乗嶌縺・** 繝ｩ繧､繝悶・謖√■迚ｩ縺ｯ縲悟・蠑乗｡亥・繧堤｢ｺ隱阪阪、I譌・ｨ育判縺ｯ縲悟・蠑上〒陬丞叙繧翫・蛟倶ｺｺ諠・ｱ縺ｯ蜈･蜉帙＠縺ｪ縺・阪ｒ蜈･繧後◆縲ゅご繝ｼ繝縺ｯ莨第・縺ｮ豕ｨ諢上∝共蜉ｴ諢溯ｬ昴・譌･縺ｯ縲後▽繧峨＆縺檎ｶ壹￥縺ｨ縺阪・逶ｸ隲・ｪ灘哨縺ｸ縲阪ｒ蜈･繧後◆縲・- **閾ｪ蟾ｱ轤ｹ讀・** 邱剰ｩ輔′譛蛻・30縲・00蟄励〒雜ｳ繧翫↑縺九▲縺溘◆繧√∬ｿｽ險倥＠縺ｦ600蟄嶺ｻ･荳翫↓縺励◆縲Ｓelated 縺ｮ螳溷惠縺励↑縺・莉ｶ繧ら峩縺励◆縲らｦ∵ｭ｢隱槭∝嵜譌励・ZWJ邨ｵ譁・ｭ励〉elated 縺ｮ螳溷惠縺ｯ縲√メ繧ｧ繝・け縺励※蝠城｡後↑縺励・- **繝薙Ν繝・** build.py 縺ｯ繧ｨ繝ｩ繝ｼ縺ｪ縺励ょ・縺溯ｭｦ蜻翫・譌｢蟄倥・陦ｨ縺ｮ鬆・岼謨ｰ荳崎ｶｳ縺ｨ繧ｿ繧ｰ譛ｪ逋ｻ骭ｲ縺ｮ繧ゅ・縺ｧ縲∽ｻ雁屓縺ｮ10譛ｬ縺ｫ縺ｯ蜃ｺ縺ｦ縺・↑縺・・- **譌･谺｡繝ｭ繧ｰ:** 縲梧律谺｡譖ｴ譁ｰ繝ｭ繧ｰ.md縲阪・蜈磯ｭ縺ｫ霑ｽ險倥＠縺溘・- **Worker蜀阪ョ繝励Ο繧､:** 閾ｪ蜍募ｮ溯｡後・譛ｬ逡ｪ繝・・繝ｭ繧､謇ｱ縺・〒豁｢繧√ｉ繧後ｋ縺溘ａ縲√＆縺上ｉ縺悟ｮ溯｡後☆繧句ｿ・ｦ√′縺ゅｋ縲Ａslugs.json` 縺ｯ譖ｴ譁ｰ貂医∩縺ｧ縲∵焔鬆・・ `export PATH=/c/Users/himic/tools/node:$PATH` 繧帝壹＠縺ｦ縺九ｉ縲～! cd tier-site/workers/vote && npx wrangler deploy`縲・- **譛ｪ繧ｳ繝溘ャ繝医・蟾ｮ蛻・** `daily/run_2026-11-14.log` 縺ｯ螳溯｡御ｸｭ縺ｮ繝ｭ繧ｰ縺ｪ縺ｮ縺ｧ縲√◎縺ｮ縺ｾ縺ｾ谿九＠縺ｦ縺ゅｋ縲・
