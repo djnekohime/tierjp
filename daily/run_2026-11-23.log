@@ -1,0 +1,8 @@
+﻿git : error: cannot pull with rebase: You have unstaged changes.
+発生場所 C:\Users\himic\tier-site\daily\run_daily.ps1:4 文字:1
++ git pull --rebase 2>&1 | Out-File $log -Encoding utf8
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: cannot p...staged changes.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+error: Please commit or stash them.
